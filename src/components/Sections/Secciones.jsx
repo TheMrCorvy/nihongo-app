@@ -289,7 +289,7 @@ export default function Secciones() {
 								className="fas fa-3x fa-pencil-ruler"
 								style={{
 									position: "absolute",
-									top: 10,
+									top: 20,
 									right: 10,
 									opacity: 0.7,
 								}}
@@ -327,7 +327,7 @@ export default function Secciones() {
 								className="fas fa-3x fa-pencil-alt"
 								style={{
 									position: "absolute",
-									top: 10,
+									top: 20,
 									right: 10,
 									opacity: 0.7,
 								}}
