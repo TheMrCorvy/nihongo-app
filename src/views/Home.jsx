@@ -72,6 +72,17 @@ class Home extends React.Component {
 									<h3 className="title text-center col-lg-12">
 										Consejos de Uso
 									</h3>
+									<h5>
+										¿Cómo salir del modo Pantalla Completa?
+									</h5>
+									<p className="col-lg-12 text-center">
+										Para salir de la App, o visualizar
+										temporalmente la barra de notificaciones
+										y/o los botones de navegación, lo que
+										debes hacer es, con un dedo, deslizar
+										desde el borde inferior de la pantalla
+										hacia arriba.
+									</p>
 									<h5>Lecturas</h5>
 									<p className="col-lg-12 text-center">
 										Dentro de toda la aplicación podrás
