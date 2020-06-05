@@ -1,7 +1,6 @@
 {
 	"short_name": "Nihongo App",
 	"name": "Nihongo App",
-	"lang": "es-AR",
 	"icons": [
 		{
 			"src": "icono-circulo512.png",
@@ -17,15 +16,5 @@
 	"start_url": "/",
 	"display": "minimal-ui",
 	"theme_color": "#000000",
-	"background_color": "#f2f2f2",
-	"related_applications": [
-		{
-			"platform": "web"
-		},
-		{
-			"platform": "play",
-			"url": "https://play.google.com/store/apps/details?id=com.google.samples.apps.iosched"
-		}
-	],
-	"description": "Respalda tus conocimientos del idioma Japonés con ésta App"
+	"background_color": "#f2f2f2"
 }
