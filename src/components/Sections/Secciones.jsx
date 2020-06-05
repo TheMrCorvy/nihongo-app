@@ -82,7 +82,7 @@ export default function Secciones() {
 			</Col>
 			<Col md="6">
 				<Link
-					to="/kanji"
+					to="/kanji/1"
 					onClick={() => {
 						scrollTop();
 					}}

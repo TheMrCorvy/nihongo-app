@@ -75,7 +75,7 @@ function MainNavbar() {
 					>
 						<Nav navbar>
 							<NavItem>
-								<NavLink to="/" tag={Link}>
+								<NavLink href="https://play.google.com/store/apps/details?id=com.google.samples.apps.iosched">
 									<h5 className="text-capitalize">
 										Valorar App en Google Play
 									</h5>

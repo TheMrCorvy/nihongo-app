@@ -10,7 +10,7 @@ export default function GrupoSustantivos(props) {
 			<h4 className="text-center">
 				El japonés no tiene ni género gramatical, ni número ni
 				artículos. Los sustantivos se dividen únicamente según su
-				origen, y no varian ni se conjugan como los verbos o adjetivos.
+				origen, y no varían ni se conjugan como los verbos o adjetivos.
 			</h4>
 			<Col md="4">
 				<Card

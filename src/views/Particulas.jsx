@@ -6,7 +6,8 @@ class Particulas extends React.Component {
 	componentDidMount() {
 		document.body.classList.add("landing-page");
 		document.body.classList.add("sidebar-collapse");
-		document.body.style.background = "#f2f2f2";
+		document.body.style.background = "#000";
+		document.body.style.borderRadius = "20px 20px 0 0";
 		document.documentElement.classList.remove("nav-open");
 	}
 
@@ -27,7 +28,13 @@ class Particulas extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Container className="mb-5">
+				<Container
+					className="wrapper mb-5"
+					style={{
+						background: "#f2f2f2",
+						borderRadius: "20px 20px 0 0",
+					}}
+				>
 					<h1 className="text-center title h3">
 						Guía para Partículas
 					</h1>

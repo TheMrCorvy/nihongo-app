@@ -27,7 +27,7 @@ class Creditos extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<div className="wrap mb-5">
+				<div className="wrapper mb-5">
 					<Parallax BackgroundImage={BgImage} />
 
 					<div className="bg-light container-fluid">

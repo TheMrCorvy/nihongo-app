@@ -22,6 +22,7 @@ import Grupos from "views/Grupos";
 import Tiempos from "views/Tiempos";
 import FormasKei from "views/FormasKei";
 import Transicion from "views/Transicion";
+import Kanji from "views/Kanji";
 
 import * as ServiceWorker from "./serviceWorker";
 
@@ -90,6 +91,11 @@ ReactDOM.render(
 					exact
 					path="/transicion/:recurso"
 					component={Transicion}
+				/>
+				<Route
+					exact
+					path="/kanji/1"
+					render={(props) => <Kanji {...props} />}
 				/>
 			</Switch>
 		</Switch>

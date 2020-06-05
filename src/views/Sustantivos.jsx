@@ -13,20 +13,39 @@ class Sustantivos extends React.Component {
 	componentDidMount() {
 		document.body.classList.add("landing-page");
 		document.body.classList.add("sidebar-collapse");
-		document.body.style.background = "#f2f2f2";
 		document.documentElement.classList.remove("nav-open");
+		document.body.style.background = "#000";
+		document.body.style.borderRadius = "20px 20px 0 0";
 	}
 
 	componentWillUnmount() {
 		document.body.classList.remove("landing-page");
 		document.body.classList.remove("sidebar-collapse");
 		document.body.style.background = "#fff";
+		document.body.style.borderRadius = "0";
 	}
 
 	render() {
 		return (
 			<React.Fragment>
-				<div className="wraper">
+				<div
+					className="wrapper"
+					style={{
+						background: "#f2f2f2",
+						borderRadius: "20px 20px 0 0",
+					}}
+				>
+					<i
+						className="fas fa-arrow-circle-left fa-3x"
+						style={{
+							position: "absolute",
+							top: 5,
+							left: 5,
+							zIndex: 40,
+							color: "#1171ef",
+						}}
+						onClick={this.props.history.goBack}
+					></i>
 					<Container className="mb-5">
 						<h1 className="text-center title h3">
 							Vocabulario: Sustantivos
