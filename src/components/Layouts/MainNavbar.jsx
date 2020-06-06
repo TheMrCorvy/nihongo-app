@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// reactstrap components
+import { Link, useHistory } from "react-router-dom";
+
 import {
 	Collapse,
 	NavbarBrand,
@@ -17,6 +17,8 @@ function scrollTop() {
 
 function MainNavbar() {
 	const [collapseOpen, setCollapseOpen] = React.useState(false);
+
+	const history = useHistory();
 
 	return (
 		<React.Fragment>
@@ -41,6 +43,9 @@ function MainNavbar() {
 					<div className="navbar-translate text-center">
 						<NavbarBrand>
 							<i className="fas fa-2x fa-search"></i>
+						</NavbarBrand>
+						<NavbarBrand onClick={() => history.goBack()}>
+							<i className="fas fa-2x fa-chevron-left"></i>
 						</NavbarBrand>
 
 						<NavbarBrand

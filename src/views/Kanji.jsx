@@ -4,10 +4,7 @@ import { Row, Col, Card, CardBody } from "reactstrap";
 export default class Kanji extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			// alturaUno: "100%",
-			// alturaDos: "100%",
-		};
+		this.state = {};
 	}
 
 	componentDidMount() {
@@ -16,13 +13,6 @@ export default class Kanji extends React.Component {
 		document.documentElement.classList.remove("nav-open");
 		document.body.style.background = "#000";
 		document.body.style.borderRadius = "20px 20px 0 0";
-
-		// if (window.innerWidth < 768) {
-		// 	this.setState({
-		// 		alturaUno: "25%",
-		// 		alturaDos: "75%",
-		// 	});
-		// }
 	}
 
 	componentWillUnmount() {
@@ -40,127 +30,21 @@ export default class Kanji extends React.Component {
 					style={{
 						background: "#f2f2f2",
 						borderRadius: "20px 20px 0 0",
+						minHeight: "100vh",
 					}}
 				>
-					<Row
-						className="justify-content-center"
-						style={{ minHeight: "100vh" }}
-					>
-						<Col md="6" className="pl-0">
-							<i
-								className="fas fa-arrow-circle-left fa-3x"
-								style={{
-									position: "absolute",
-									top: 15,
-									left: 15,
-									zIndex: 40,
-									color: "#1171ef",
-								}}
-								onClick={this.props.history.goBack}
-							></i>
-							<h1 className="text-center title h3 mb-2">
-								Leyendo: 愛
-							</h1>
-							{/* <h3 className="text-right title h3 mb-2 text-success pt-0 mb-0">
-								Cantidad de Trazos: 9
-							</h3>
-							<h3 className="text-center title h3 mb-2 text-primary pt-0 mb-0">
-								Grupo del verbo: 2
-							</h3>
-							<h3 className="text-center title h3 mb-2 text-warning pt-0 mb-0">
-								Tipo del Ajetivo: な形ようし
-							</h3>
-							<h6 className="text-left title h6 mb-2 text-info pt-3 mb-0 text-capitalize">
-								Viendo <u>10</u> Kanjis de <u>9</u> trazos
-							</h6> */}
-							<Row
-								className="flex-column"
-								style={{
-									position: "relative",
-								}}
-							>
-								<Card
-									className="mb-3 bg-white card-plain"
-									style={{
-										width: "40%",
-										height: "94%",
-										position: "absolute",
-										top: 0,
-										right: "2.5%",
-										borderRadius: "15px",
-									}}
-								>
-									<CardBody className="justify-content-center text-center">
-										Mostrando un Total de{" "}
-										<strong>10</strong> kanjis de{" "}
-										<strong>9</strong> trazos
-									</CardBody>
-								</Card>
-								<Card
-									className="text-white pl-4 mb-3 card-plain"
-									style={{
-										background: "#035AF7",
-										borderRadius: "0 50px 50px 0",
-										maxWidth: "50%",
-									}}
-								>
-									<CardBody className="py-3">
-										Cantidad de Trazos: 9
-									</CardBody>
-								</Card>
-								<Card
-									className="text-white bg-primary mb-3 pl-4 card-plain"
-									style={{
-										borderRadius: "0 50px 50px 0",
-										maxWidth: "45%",
-									}}
-								>
-									<CardBody className="py-3">
-										Grupo del verbo: 2
-									</CardBody>
-								</Card>
-								<Card
-									className="text-white bg-success mb-3 pl-4 card-plain"
-									style={{
-										borderRadius: "0 50px 50px 0",
-										maxWidth: "55%",
-									}}
-								>
-									<CardBody className="py-3">
-										Tipo del Ajetivo: な形ようし
-									</CardBody>
-								</Card>
-							</Row>
-						</Col>
-						<Col className="justify-content-center d-flex" md="6">
+					<Row className="justify-content-center mb-5">
+						<Col md="6">
 							<Card
 								style={{
 									height: "87%",
-									borderRadius: "25px",
-									background: "#035AF7",
+									borderRadius: "20px",
+									background: "#1171ef",
 									overflow: "hidden",
 								}}
 								className="mt-3 card-plain"
 							>
 								<CardBody>
-									<i
-										className="fas fa-sort-down fa-3x text-white"
-										style={{
-											transform: "rotate(90deg)",
-											position: "absolute",
-											left: "20px",
-											top: "45%",
-										}}
-									></i>
-									<i
-										className="fas fa-sort-down fa-3x text-white"
-										style={{
-											transform: "rotate(-90deg)",
-											position: "absolute",
-											right: "20px",
-											top: "45%",
-										}}
-									></i>
 									<h1
 										className="text-white text-center title mb-0"
 										style={{
@@ -224,6 +108,67 @@ export default class Kanji extends React.Component {
 											consectetur adipisicing elit.
 										</p>
 									</div>
+								</CardBody>
+							</Card>
+						</Col>
+						<Col md="6">
+							<Card
+								className="card-plain bg-white mt-3"
+								style={{
+									borderRadius: "20px",
+								}}
+							>
+								<CardBody>
+									<h3 className="title pt-0 mb-0 text-center text-info">
+										Más Info
+									</h3>
+									<ul>
+										<li>
+											<p className="title">
+												Verbo:{" "}
+												<span className="text-success">
+													Grupo 3
+												</span>
+											</p>
+										</li>
+										<li>
+											<p className="title">
+												Adjetivo:{" "}
+												<span className="text-primary">
+													な形ようし
+												</span>
+											</p>
+										</li>
+										<li>
+											<p className="title">
+												Kanjis / hiraganas / Katakanas
+												parecidos:
+											</p>
+											<ul className="row justify-content-around pr-5">
+												<li className="mr-4">
+													<p>kanji</p>
+												</li>
+												<li className="mr-4">
+													<p>kanji</p>
+												</li>
+												<li className="mr-4">
+													<p>kanji</p>
+												</li>
+												<li className="mr-4">
+													<p>kanji</p>
+												</li>
+												<li className="mr-4">
+													<p>kanji</p>
+												</li>
+												<li className="mr-4">
+													<p>kanji</p>
+												</li>
+												<li className="mr-4">
+													<p>kanji</p>
+												</li>
+											</ul>
+										</li>
+									</ul>
 								</CardBody>
 							</Card>
 						</Col>

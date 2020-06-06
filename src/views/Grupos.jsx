@@ -43,17 +43,6 @@ export default class Grupos extends React.Component {
 						borderRadius: "20px 20px 0 0",
 					}}
 				>
-					<i
-						className="fas fa-arrow-circle-left fa-3x"
-						style={{
-							position: "absolute",
-							top: "7.5rem",
-							left: 15,
-							zIndex: 40,
-							color: "#1171ef",
-						}}
-						onClick={this.props.history.goBack}
-					></i>
 					<h1 className="text-center title h3">Grupos y Tipos</h1>
 					<Row className="justify-content-around">
 						<Col
