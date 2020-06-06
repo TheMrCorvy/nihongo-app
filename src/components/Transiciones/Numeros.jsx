@@ -9,7 +9,7 @@ export default function Numeros(props) {
 			<Row className="justify-content-around">
 				<Col md="6">
 					<Link
-						to="/transicion/fechas-numeros"
+						to="/numeros"
 						onClick={() => {
 							props.scrollTop();
 						}}
@@ -71,7 +71,7 @@ export default function Numeros(props) {
 				</Col>
 				<Col md="6">
 					<Link
-						to="/transicion/fechas-numeros"
+						to="/dias-mes"
 						onClick={() => {
 							props.scrollTop();
 						}}
@@ -102,7 +102,7 @@ export default function Numeros(props) {
 				</Col>
 				<Col md="6">
 					<Link
-						to="/transicion/fechas-numeros"
+						to="/dias-semana"
 						onClick={() => {
 							props.scrollTop();
 						}}

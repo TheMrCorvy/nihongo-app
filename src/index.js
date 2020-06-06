@@ -25,6 +25,9 @@ import Transicion from "views/Transicion";
 import Kanji from "views/Kanji";
 
 import * as ServiceWorker from "./serviceWorker";
+import Numeros from "views/Numeros y Fechas/Numeros";
+import DiasSemana from "views/Numeros y Fechas/DiasSemana";
+import DiasMes from "views/Numeros y Fechas/DiasMes";
 
 ReactDOM.render(
 	<BrowserRouter>
@@ -96,6 +99,21 @@ ReactDOM.render(
 					exact
 					path="/kanji/1"
 					render={(props) => <Kanji {...props} />}
+				/>
+				<Route
+					exact
+					path="/numeros"
+					render={(props) => <Numeros {...props} />}
+				/>
+				<Route
+					exact
+					path="/dias-semana"
+					render={(props) => <DiasSemana {...props} />}
+				/>
+				<Route
+					exact
+					path="/dias-mes"
+					render={(props) => <DiasMes {...props} />}
 				/>
 			</Switch>
 		</Switch>
