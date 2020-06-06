@@ -281,7 +281,7 @@ export default class DiasMes extends React.Component {
 														<span className="text-warning">
 															ここ
 														</span>
-														の{" "}
+														の
 														<span className="text-success">
 															か
 														</span>
@@ -623,7 +623,12 @@ export default class DiasMes extends React.Component {
 											</thead>
 											<tbody>
 												<tr>
-													<th scope="row">1</th>
+													<th
+														scope="row"
+														classname="pl-2"
+													>
+														1
+													</th>
 													<td>一日</td>
 													<td className="text-right">
 														ついたち
