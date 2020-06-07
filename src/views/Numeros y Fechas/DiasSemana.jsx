@@ -113,7 +113,7 @@ export default class DiasSemana extends React.Component {
 									<CardBody className="text-center text-info px-2 row justify-content-around">
 										<strong>Viernes</strong>
 										<strong>金曜日</strong>
-										<strong>きんよび</strong>
+										<strong>きんようび</strong>
 										<strong>kinyoubi</strong>
 									</CardBody>
 								</Card>
@@ -141,6 +141,44 @@ export default class DiasSemana extends React.Component {
 										<strong>日曜日</strong>
 										<strong>にちようび</strong>
 										<strong>nichiyoubi</strong>
+									</CardBody>
+								</Card>
+							</Col>
+							<Col md="12">
+								<Card
+									className="card-plain"
+									style={{
+										borderRadius: ".5rem",
+										background:
+											"linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+									}}
+								>
+									<CardBody className="px-3 text-white">
+										<h4 className="title my-0 py-0">
+											Para preguntar
+										</h4>
+										<h5>
+											Para saber qué día de la semana será
+											algo, o habrá algo, hablando
+											específicamente de una pregunta cuya
+											respuesta pueda ser un día de la
+											semana, preguntaremos:
+											<br />
+										</h5>
+										<h5 className="text-right">
+											<strong>
+												Qué dia de la semana?
+											</strong>
+											<br />
+											<br />
+											「何よう日ですか。」
+											<br />
+											<br />
+											「なんようびですか。」
+											<br />
+											<br />
+											(nanyoubi desuka.)
+										</h5>
 									</CardBody>
 								</Card>
 							</Col>

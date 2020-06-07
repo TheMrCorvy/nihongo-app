@@ -87,11 +87,15 @@ export default function Numeros(props) {
 							<CardBody className="text-white text-capitalize">
 								<span className="title">Los días del mes</span>
 								<i className="fas fa-chevron-right pl-3"></i>
+								<br />
+								<small>
+									Incluyendo Años, meses, y cumpleaños
+								</small>
 								<i
 									className="fas fa-3x fa-calendar-alt"
 									style={{
 										position: "absolute",
-										top: 10,
+										top: 20,
 										right: 10,
 										opacity: 0.7,
 									}}
@@ -205,7 +209,7 @@ export default function Numeros(props) {
 				</Col>
 				<Col md="6">
 					<Link
-						to="/kanji"
+						to="/kanji/1"
 						onClick={() => {
 							props.scrollTop();
 						}}
