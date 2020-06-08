@@ -10,6 +10,9 @@ import {
 import TablasHiragana from "components/Sections/TablasHiragana";
 import { Link } from "react-router-dom";
 
+import TsuChiquita from "components/Sections/TsuChiquita";
+import SonidosEspeciales from "components/Sections/SonidosEspeciales";
+
 class HiraganaView extends React.Component {
 	constructor(props) {
 		super(props);
@@ -46,14 +49,14 @@ class HiraganaView extends React.Component {
 		return (
 			<React.Fragment>
 				<div
-					className="wrapper"
+					className="wrapper text-info"
 					style={{
 						background: "#f2f2f2",
 						borderRadius: "20px 20px 0 0",
 					}}
 				>
 					<i
-						className="fas fa-info-circle fa-2x text-info"
+						className="fas fa-info-circle fa-2x"
 						style={{
 							position: "absolute",
 							top: "20px",
@@ -69,7 +72,7 @@ class HiraganaView extends React.Component {
 						<Row className="justify-content-around">
 							<Col md="12">
 								<h1 id="hiragana-title" className="text-center">
-									<u>ひらがな</u>
+									ひらがな
 								</h1>
 								<UncontrolledTooltip
 									placement="bottom"
@@ -81,17 +84,20 @@ class HiraganaView extends React.Component {
 							</Col>
 							<TablasHiragana />
 						</Row>
+						<Row className="mt-4">
+							<TsuChiquita tabla="hiragana" />
+							<SonidosEspeciales tabla="hiragana" />
+						</Row>
 					</div>
 
 					<section
-						className="container-fluid mb-5 py-3"
+						className="container-fluid mb-5 py-3 bg-white"
 						id="info"
-						style={{ background: "#f2f2f2" }}
 					>
 						<Row>
 							<Col md="12">
-								<h3 className="text-center">
-									<u>Más Info</u>
+								<h3 className="text-center title pt-2">
+									Más Info
 								</h3>
 							</Col>
 							<Col md="6">
@@ -275,7 +281,7 @@ class HiraganaView extends React.Component {
 								</Card>
 							</Col>
 
-							<h2 className="text-center col-lg-12 mt-5">
+							<h2 className="text-center col-lg-12 title">
 								Continuar Viendo
 							</h2>
 

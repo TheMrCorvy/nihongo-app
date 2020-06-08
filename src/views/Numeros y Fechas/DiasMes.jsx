@@ -1188,7 +1188,7 @@ export default class DiasMes extends React.Component {
 								>
 									<CardBody className="text-center px-3">
 										<h4 className="my-0 py-0">
-											Los Años y los Meses
+											Años y Meses
 										</h4>
 										<div className="progress-container progress-success pb-4">
 											<Progress

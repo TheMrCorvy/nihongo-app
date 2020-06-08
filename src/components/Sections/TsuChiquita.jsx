@@ -8,8 +8,7 @@ export default function TsuChiquita(props) {
 				<Col md="6">
 					<Card
 						style={{
-							background:
-								"linear-gradient(87deg, #5e72e4 0, #825ee4 100%)",
+							background: "rgb(17, 113, 239)",
 							borderRadius: ".5rem",
 						}}
 						className="text-white"
@@ -33,7 +32,7 @@ export default function TsuChiquita(props) {
 							>
 								Easter egg: Alexby Chiquito
 							</UncontrolledTooltip>
-							<div className="progress-container progress-info pb-4">
+							<div className="progress-container progress-success pb-4">
 								<Progress max="100" value="100"></Progress>
 							</div>
 							<p>
