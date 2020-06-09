@@ -7,7 +7,7 @@ import {
 	CardBody,
 	Progress,
 } from "reactstrap";
-import TablasHiragana from "components/Sections/TablasHiragana";
+import TablasHiragana from "components/Sections/Kanas/TablasHiragana";
 import { Link } from "react-router-dom";
 
 import TsuChiquita from "components/Sections/TsuChiquita";
@@ -34,8 +34,9 @@ class HiraganaView extends React.Component {
 		document.body.style.borderRadius = "0";
 	}
 
-	scrollToInfo = () => {
-		document.getElementById("info").scrollIntoView({
+	scrollTo = (e, seccion) => {
+		e.preventDefault();
+		document.getElementById(seccion).scrollIntoView({
 			block: "start",
 			behavior: "smooth",
 		});
@@ -54,9 +55,12 @@ class HiraganaView extends React.Component {
 						background: "#f2f2f2",
 						borderRadius: "20px 20px 0 0",
 					}}
+					id="top"
 				>
-					<i
-						className="fas fa-info-circle fa-2x"
+					<a
+						href="#pablo"
+						onClick={(e) => this.scrollTo(e, "info")}
+						className="text-info title pt-0"
 						style={{
 							position: "absolute",
 							top: "20px",
@@ -64,10 +68,9 @@ class HiraganaView extends React.Component {
 							zIndex: 10,
 							cursor: "pointer",
 						}}
-						onClick={() => {
-							this.scrollToInfo();
-						}}
-					></i>
+					>
+						<i className="fas fa-info-circle fa-2x"></i>
+					</a>
 					<div className="container-fluid py-3">
 						<Row className="justify-content-around">
 							<Col md="12">
@@ -121,18 +124,27 @@ class HiraganaView extends React.Component {
 										</div>
 										<p>
 											Todos los caractéres se componen por
-											uno o más trazos, ésto hace que el
-											orden de su escritura importe mucho,
-											ya que si se escriben en un orden
-											incorrecto es posible que no quede
-											exactamente igual al original.{" "}
-											<br /> Para el 99% de los casos
-											(sean Kanjis, Hiraganas o Katakanas)
-											existe la regla de que siempre se
-											inicia desde arriba a la izquierda
+											uno o más <strong>trazos</strong>,
+											ésto hace que el orden de su
+											escritura importe{" "}
+											<strong>mucho</strong>, ya que si se
+											escriben en un orden incorrecto es
+											posible que no quede exactamente
+											igual al original. <br /> Para el
+											99% de los casos (sean{" "}
+											<strong>Kanjis</strong>,{" "}
+											<strong>Hiraganas</strong> o{" "}
+											<strong>Katakanas</strong>) existe
+											la regla de que siempre se inicia
+											desde{" "}
+											<strong>
+												arriba a la izquierda
+											</strong>
 											del caractér, y se dibujan los
-											trazos llendo de izquierda a derecha
-											y luego de arriba a abajo.
+											trazos llendo de{" "}
+											<strong>izquierda a derecha</strong>
+											y luego{" "}
+											<strong>de arriba a abajo</strong>.
 										</p>
 									</CardBody>
 								</Card>
@@ -157,16 +169,19 @@ class HiraganaView extends React.Component {
 										</div>
 										<p>
 											La pronunciación es sumamente
-											similar al español, con algunas
-											adiciones. <br /> En el caso de los
-											sonidos con <strong>H</strong>{" "}
-											(は、ひ、へ、ほ), se pronuncian
-											usando lo que en español es el
+											similar al Español, con algunas
+											<strong>adiciones</strong>. <br />{" "}
+											En el caso de los sonidos con{" "}
+											<strong>H</strong> (は、ひ、へ、ほ),
+											se pronuncian usando lo que en
+											español es el sonido de la{" "}
+											<strong>J</strong>, quedando como
+											"ja", "ji", "jo", "je" (haciendo el
 											sonido de la <strong>J</strong>,{" "}
-											quedando como "ja", "ji", "jo", "je"
-											(haciendo el sonido de la{" "}
-											<strong>J</strong>, lo más suave
-											posible).{" "}
+											<strong>
+												lo más suave posible
+											</strong>
+											).
 										</p>
 
 										<p>
@@ -192,7 +207,8 @@ class HiraganaView extends React.Component {
 											pronunciación sonará más parecido a
 											como suena la letra{" "}
 											<strong>J</strong> en inglés, por
-											ejemplo, en la palabra "Jenifer".
+											ejemplo, en la palabra "
+											<strong>Jenifer</strong>".
 										</p>
 									</CardBody>
 								</Card>
@@ -219,12 +235,14 @@ class HiraganaView extends React.Component {
 										</div>
 										<p>
 											Las tablas, tanto de Hiragana como
-											de Katakana, incluyen todos los
-											sonidos "disponibles" en el idioma
-											japonés, por ende si un espacio está
-											en blanco, es por que ese sonido no
-											existe como tal (aunque realmente
-											con los Katakanas se pueden "crear"
+											de Katakana, incluyen{" "}
+											<strong>todos</strong> los sonidos "
+											<strong>disponibles</strong>" en el
+											idioma Japonés, por ende si un
+											espacio está en blanco, es por que
+											ese sonido no existe como tal
+											(aunque realmente con los Katakanas
+											se pueden "<strong>crear</strong>"
 											sonidos nuevos, siguiendo ciertas
 											reglas).
 										</p>
@@ -252,11 +270,14 @@ class HiraganaView extends React.Component {
 										</div>
 										<p>
 											A éstas alturas te estarás
-											preguntando "Qué pasó con ふ?", y lo
-											que pasa es que es una excepción, ya
-											que en lugar de leerse como "hu"
-											igual que los demas en su fila, se
-											lee más parecido a "fu" haciendo la{" "}
+											preguntando "
+											<strong>Qué pasó con ふ?</strong>",
+											y lo que pasa es que es una
+											excepción, ya que en lugar de leerse
+											como "<strong>hu</strong>" igual que
+											los demas en su fila, se lee más
+											parecido a "<strong>fu</strong>"
+											haciendo la{" "}
 											<strong id="F-chat">F</strong> lo
 											más suave posible.
 										</p>
@@ -270,12 +291,13 @@ class HiraganaView extends React.Component {
 										</UncontrolledTooltip>
 										<p>
 											El idioma japonés es uno basado en
-											sílabas, de ésta forma, toda
-											consonante debe estar acompañada por
-											almenos una vocal, siendo la ん es
-											la única excepción a ésta regla, ya
-											que se pronuncia tal cual con el
-											sonido de la letra "N".
+											<strong>sílabas</strong>, de ésta
+											forma, toda consonante debe estar
+											acompañada por almenos una vocal,
+											siendo la ん es la única{" "}
+											<strong>excepción</strong> a ésta
+											regla, ya que se pronuncia tal cual
+											con el sonido de la letra "N".
 										</p>
 									</CardBody>
 								</Card>
@@ -360,6 +382,19 @@ class HiraganaView extends React.Component {
 										</CardBody>
 									</Card>
 								</Link>
+							</Col>
+							<Col md="12" className="text-center mb-4">
+								<a
+									href="#pablo"
+									onClick={(e) => this.scrollTo(e, "top")}
+									className="text-info title"
+									style={{
+										fontSize: "1.2rem",
+										lineHeight: "1.61rem",
+									}}
+								>
+									<i className="fas fa-3x fa-chevron-up"></i>
+								</a>
 							</Col>
 						</Row>
 					</section>

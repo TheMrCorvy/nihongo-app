@@ -1,6 +1,8 @@
 import Home from "views/Home";
-import HiraganaView from "views/HiraganaView";
-import KatakanaView from "views/KatakanaView";
+
+import HiraganaView from "views/Kanas/HiraganaView";
+import KatakanaView from "views/Kanas/KatakanaView";
+
 import Creditos from "views/Creditos";
 import Particulas from "views/Particulas";
 import Frases from "views/Frases";
@@ -19,6 +21,8 @@ import Kanji from "views/Kanji";
 import Numeros from "views/Numeros y Fechas/Numeros";
 import DiasSemana from "views/Numeros y Fechas/DiasSemana";
 import DiasMes from "views/Numeros y Fechas/DiasMes";
+
+import Principiantes from "views/Principiantes";
 
 const routes = [
 	{
@@ -105,6 +109,11 @@ const routes = [
 		path: "/dias-mes",
 		nameKey: "Numeros y Fechas: Dias del Mes",
 		component: DiasMes,
+	},
+	{
+		path: "/beginers",
+		nameKey: "Guía para Principiantes",
+		component: Principiantes,
 	},
 ];
 export default routes;

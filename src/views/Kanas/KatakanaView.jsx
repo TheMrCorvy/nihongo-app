@@ -7,8 +7,12 @@ import {
 	CardBody,
 	Progress,
 } from "reactstrap";
-import TablasKatakana from "components/Sections/TablasKatakana";
 import { Link } from "react-router-dom";
+
+import TablasKatakana from "components/Sections/Kanas/TablasKatakana";
+
+import TsuChiquita from "components/Sections/TsuChiquita";
+import SonidosEspeciales from "components/Sections/SonidosEspeciales";
 
 class HiraganaView extends React.Component {
 	constructor(props) {
@@ -31,8 +35,9 @@ class HiraganaView extends React.Component {
 		document.body.style.borderRadius = "0";
 	}
 
-	scrollToInfo = () => {
-		document.getElementById("info").scrollIntoView({
+	scrollTo = (e, seccion) => {
+		e.preventDefault();
+		document.getElementById(seccion).scrollIntoView({
 			block: "start",
 			behavior: "smooth",
 		});
@@ -46,14 +51,17 @@ class HiraganaView extends React.Component {
 		return (
 			<React.Fragment>
 				<div
-					className="wrapper"
+					className="wrapper text-info"
+					id="top"
 					style={{
 						background: "#f2f2f2",
 						borderRadius: "20px 20px 0 0",
 					}}
 				>
-					<i
-						className="fas fa-info-circle fa-2x text-info"
+					<a
+						href="#pablo"
+						onClick={(e) => this.scrollTo(e, "info")}
+						className="text-info title pt-0"
 						style={{
 							position: "absolute",
 							top: "20px",
@@ -61,15 +69,14 @@ class HiraganaView extends React.Component {
 							zIndex: 10,
 							cursor: "pointer",
 						}}
-						onClick={() => {
-							this.scrollToInfo();
-						}}
-					></i>
+					>
+						<i className="fas fa-info-circle fa-2x"></i>
+					</a>
 					<div className="container-fluid py-3">
 						<Row>
 							<Col md="12">
 								<h1 id="katakana-title" className="text-center">
-									<u>カタカナ</u>
+									カタカナ
 								</h1>
 								<UncontrolledTooltip
 									placement="bottom"
@@ -81,17 +88,20 @@ class HiraganaView extends React.Component {
 							</Col>
 							<TablasKatakana />
 						</Row>
+						<Row className="mt-4">
+							<TsuChiquita tabla="katakana" />
+							<SonidosEspeciales tabla="katakana" />
+						</Row>
 					</div>
 
 					<section
-						className="container-fluid mb-5 py-3"
+						className="container-fluid mb-5 py-3 bg-white"
 						id="info"
-						style={{ background: "#f2f2f2" }}
 					>
 						<Row className="justify-content-around">
 							<Col md="12">
-								<h3 className="text-center">
-									<u>Más Info</u>
+								<h3 className="text-center title pt-2">
+									Más Info
 								</h3>
 							</Col>
 							<Col md="6">
@@ -115,18 +125,26 @@ class HiraganaView extends React.Component {
 										</div>
 										<p>
 											Todos los caractéres se componen por
-											uno o más trazos, ésto hace que el
-											orden de su escritura importe mucho,
-											ya que si se escriben en un orden
-											incorrecto es posible que no quede
-											exactamente igual al original.{" "}
-											<br /> Para el 99% de los casos
-											(sean Kanjis, Hiraganas o Katakanas)
-											existe la regla de que siempre se
-											inicia desde arriba a la izquierda
+											uno o más <strong>trazos</strong>,
+											ésto hace que el orden de su
+											escritura importe mucho, ya que si
+											se escriben en un orden
+											<strong>incorrecto</strong> es
+											posible que no quede exactamente
+											igual al original. <br /> Para el
+											99% de los casos (sean Kanjis,
+											Hiraganas o Katakanas) existe la
+											regla de que siempre se inicia desde{" "}
+											<strong>
+												arriba a la izquierda
+											</strong>
 											del caractér, y se dibujan los
-											trazos llendo de izquierda a derecha
-											y luego de arriba a abajo.
+											trazos llendo{" "}
+											<strong>
+												de izquierda a derecha
+											</strong>
+											y luego{" "}
+											<strong>de arriba a abajo</strong>.
 										</p>
 									</CardBody>
 								</Card>
@@ -154,17 +172,21 @@ class HiraganaView extends React.Component {
 										<p>
 											Las tablas, tanto de Hiragana como
 											de Katakana, incluyen todos los
-											sonidos "disponibles" en el idioma
-											japonés, por ende si un espacio está
-											en blanco, es por que ese sonido no
-											existe como tal, pero al escribir
-											con Katakana existe la libertad de
-											"crear" tus propios sonidos. Para
+											sonidos "
+											<strong>disponibles</strong>" en el
+											idioma Japonés, por ende si un
+											espacio está en blanco, es por que
+											ese sonido no existe como tal, pero
+											al escribir con{" "}
+											<strong>Katakana</strong> existe la
+											libertad de "<strong>crear</strong>"
+											tus propios sonidos. <br /> Para
 											hacerlo solo hace falta escribir un
 											katakana en tamaño normal y enfrente
-											una bocal cualquiera, pero en un
-											tamaño más pequeño (como en los
-											sonidos diptongales).
+											una <strong>vocal</strong>{" "}
+											cualquiera, pero en un tamaño{" "}
+											<strong>más pequeño</strong> (como
+											en los sonidos diptongales).
 										</p>
 										<p>
 											También un dato a tener en cuenta es
@@ -201,20 +223,23 @@ class HiraganaView extends React.Component {
 										</div>
 										<p>
 											Los Katakana se usan mayormente para
-											escribir sonidos o palabras
-											extranjeras, por ejemplo ビール para
-											escribir "cerveza" ya que la palabra
-											como tal viene del inglés "beer".
+											escribir sonidos o palabras{" "}
+											<strong>extranjeras</strong>, por
+											ejemplo ビール para escribir "
+											<strong>cerveza</strong>" ya que la
+											palabra como tal viene del inglés
+											"beer".
 										</p>
 										<p>
 											También un uso frecuente de los
-											Katakana es en las onomatopeyas.
+											Katakana es en las{" "}
+											<strong>onomatopeyas</strong>.
 										</p>
 									</CardBody>
 								</Card>
 							</Col>
 
-							<h2 className="text-center col-lg-12 mt-5">
+							<h2 className="text-center col-lg-12 mt-5 title pt-2">
 								Continuar Viendo
 							</h2>
 							<Col md="6">
@@ -292,6 +317,19 @@ class HiraganaView extends React.Component {
 										</CardBody>
 									</Card>
 								</Link>
+							</Col>
+							<Col md="12" className="text-center mb-4">
+								<a
+									href="#pablo"
+									onClick={(e) => this.scrollTo(e, "top")}
+									className="text-info title"
+									style={{
+										fontSize: "1.2rem",
+										lineHeight: "1.61rem",
+									}}
+								>
+									<i className="fas fa-3x fa-chevron-up"></i>
+								</a>
 							</Col>
 						</Row>
 					</section>

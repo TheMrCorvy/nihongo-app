@@ -36,16 +36,17 @@ export default function TsuChiquita(props) {
 								<Progress max="100" value="100"></Progress>
 							</div>
 							<p>
-								En el idioma Japonés existe un sonido de "doble
-								consonante". Éste se genera al poner una つ de
-								tamaño más pequeño escrita en Hiragana o
-								Katakana, con la función de generar una "pausa"
-								o "tropiezo" antes de la siguiente sílaba.{" "}
-								<br /> Por ejemplo, si hubiera una つ pequeña
-								antes de un sonido "ta", se pronunciaria
-								parecido a "tta", es más o menos como si
-								quisieras decirlo, pero no estás seguro, pero lo
-								dices igualmente.
+								En el idioma Japonés existe un sonido de "
+								<strong>doble consonante</strong>". Éste se
+								genera al poner una つ de tamaño más pequeño
+								escrita en Hiragana o Katakana, con la función
+								de generar una "<strong>pausa</strong>" o
+								"tropiezo" antes de la siguiente sílaba. <br />{" "}
+								Por ejemplo, si hubiera una つ pequeña antes de
+								un sonido "<strong>ta</strong>", se pronunciaria
+								parecido a "<strong>tta</strong>", es más o
+								menos como si quisieras decirlo, pero no estás
+								seguro, pero lo dices igualmente.
 							</p>
 						</CardBody>
 					</Card>
@@ -59,7 +60,7 @@ export default function TsuChiquita(props) {
 					<Card
 						style={{
 							background:
-								"linear-gradient(87deg, #5e72e4 0, #825ee4 100%)",
+								"linear-gradient(87deg, rgb(251, 99, 64) 0px, rgb(251, 177, 64) 100%)",
 							borderRadius: ".5rem",
 						}}
 						className="text-white"
@@ -87,16 +88,17 @@ export default function TsuChiquita(props) {
 								<Progress max="100" value="100"></Progress>
 							</div>
 							<p>
-								En el idioma Japonés existe un sonido de "doble
-								consonante". Éste se genera al poner una ツ de
-								tamaño más pequeño escrita en Hiragana o
-								Katakana, con la función de generar una "pausa"
-								o "tropiezo" antes de la siguiente sílaba.{" "}
-								<br /> Por ejemplo, si hubiera una ツ pequeña
-								antes de un sonido "ta", se pronunciaria
-								parecido a "tta", es más o menos como si
-								quisieras decirlo, pero no estás seguro, pero lo
-								dices igualmente.
+								En el idioma Japonés existe un sonido de "
+								<strong>doble consonante</strong>". Éste se
+								genera al poner una ツ de tamaño más pequeño
+								escrita en Hiragana o Katakana, con la función
+								de generar una "<strong>pausa</strong>" o
+								"tropiezo" antes de la siguiente sílaba. <br />{" "}
+								Por ejemplo, si hubiera una ツ pequeña antes de
+								un sonido "<strong>ta</strong>", se pronunciaria
+								parecido a "<strong>tta</strong>", es más o
+								menos como si quisieras decirlo, pero no estás
+								seguro, pero lo dices igualmente.
 							</p>
 						</CardBody>
 					</Card>

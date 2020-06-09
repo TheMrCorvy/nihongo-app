@@ -1,8 +1,8 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import GrupoVerbos from "components/Sections/GrupoVerbos";
-import GrupoAdjetivos from "components/Sections/GrupoAdjetivos";
-import GrupoSustantivos from "components/Sections/GrupoSustantivos";
+import GrupoVerbos from "components/Sections/Grupos/GrupoVerbos";
+import GrupoAdjetivos from "components/Sections/Grupos/GrupoAdjetivos";
+import GrupoSustantivos from "components/Sections/Grupos/GrupoSustantivos";
 
 export default class Grupos extends React.Component {
 	constructor(props) {

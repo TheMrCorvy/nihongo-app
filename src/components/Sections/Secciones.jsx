@@ -6,12 +6,54 @@ function scrollTop() {
 	window.scrollTo(0, 0);
 }
 
-export default function Secciones() {
+export default function Secciones(props) {
 	return (
 		<React.Fragment>
-			<h3 className="title text-center col-lg-12">
-				Contenido Disponible
-			</h3>
+			{props.view === "home" && (
+				<React.Fragment>
+					<h3 className="title text-center col-lg-12">
+						Contenido Disponible
+					</h3>
+					<Col md="12">
+						<Link
+							to="/beginers"
+							onClick={() => {
+								scrollTop();
+							}}
+						>
+							<Card
+								style={{
+									borderRadius: "10px",
+									boxShadow:
+										"0px 5px 25px 0px rgba(251, 177, 64, 0.6)",
+									background:
+										"linear-gradient(87deg, #fbb140 100%, #fb6340 0)",
+								}}
+							>
+								<CardBody className="text-white">
+									<span className="title text-capitalize">
+										guía para principiantes
+									</span>
+									<i className="fas fa-chevron-right pl-3"></i>
+									<br />
+									<small>
+										¿Por dónde empezar a estudiar?
+									</small>
+									<i
+										className="fas fa-3x fa-chalkboard-teacher"
+										style={{
+											position: "absolute",
+											top: 20,
+											right: 10,
+											opacity: 0.7,
+										}}
+									></i>
+								</CardBody>
+							</Card>
+						</Link>
+					</Col>
+				</React.Fragment>
+			)}
 			<Col md="6">
 				<Link
 					to="/hiragana"

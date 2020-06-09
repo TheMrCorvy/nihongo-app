@@ -1,11 +1,11 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 
-import Ikeyoushi from "components/Tiempos/Ikeyoushi";
-import Nakeyoushi from "components/Tiempos/Nakeyoushi";
-import VerbosFormal from "components/Tiempos/VerbosFormal";
-import VerbosFutsu from "components/Tiempos/VerbosFutsu";
-import Sustantivos from "components/Tiempos/Sustantivos";
+import Ikeyoushi from "components/Sections/Tiempos/Ikeyoushi";
+import Nakeyoushi from "components/Sections/Tiempos/Nakeyoushi";
+import VerbosFormal from "components/Sections/Tiempos/VerbosFormal";
+import VerbosFutsu from "components/Sections/Tiempos/VerbosFutsu";
+import Sustantivos from "components/Sections/Tiempos/Sustantivos";
 
 export default class Tiempos extends React.Component {
 	constructor(props) {

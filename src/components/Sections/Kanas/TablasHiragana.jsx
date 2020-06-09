@@ -27,6 +27,8 @@ function TablasHiragana() {
 							style={{
 								width: "100%",
 								fontSize: "1.2rem",
+								borderCollapse: "separate",
+								borderSpacing: "0 25px",
 							}}
 						>
 							<thead>
@@ -56,7 +58,6 @@ function TablasHiragana() {
 										お <br /> <small>O</small>
 									</td>
 								</tr>
-								<br />
 								<tr className="text-center">
 									<td>
 										か <br /> <small>Ka</small>
@@ -74,7 +75,6 @@ function TablasHiragana() {
 										こ <br /> <small>ko</small>
 									</td>
 								</tr>
-								<br />
 								<tr className="text-center">
 									<td>
 										さ <br /> <small>sa</small>
@@ -92,7 +92,6 @@ function TablasHiragana() {
 										そ <br /> <small>so</small>
 									</td>
 								</tr>
-								<br />
 								<tr className="text-center">
 									<td>
 										た <br /> <small>ta</small>
@@ -110,7 +109,6 @@ function TablasHiragana() {
 										と <br /> <small>to</small>
 									</td>
 								</tr>
-								<br />
 								<tr className="text-center">
 									<td>
 										な <br /> <small>na</small>
@@ -128,7 +126,6 @@ function TablasHiragana() {
 										の <br /> <small>no</small>
 									</td>
 								</tr>
-								<br />
 								<tr className="text-center">
 									<td>
 										は <br /> <small>ha</small>
@@ -146,7 +143,6 @@ function TablasHiragana() {
 										ほ <br /> <small>ho</small>
 									</td>
 								</tr>
-								<br />
 								<tr className="text-center">
 									<td>
 										ま <br /> <small>ma</small>
@@ -164,7 +160,6 @@ function TablasHiragana() {
 										も <br /> <small>mo</small>
 									</td>
 								</tr>
-								<br />
 								<tr className="text-center">
 									<td>
 										や <br /> <small>ya</small>
@@ -178,7 +173,6 @@ function TablasHiragana() {
 										よ <br /> <small>yo</small>
 									</td>
 								</tr>
-								<br />
 								<tr className="text-center">
 									<td>
 										ら <br /> <small>ra</small>
@@ -196,7 +190,6 @@ function TablasHiragana() {
 										ろ <br /> <small>ro</small>
 									</td>
 								</tr>
-								<br />
 								<tr className="text-center">
 									<td>
 										わ <br /> <small>wa</small>
@@ -208,7 +201,6 @@ function TablasHiragana() {
 										を <br /> <small>wo</small>
 									</td>
 								</tr>
-								<br />
 								<tr className="text-center">
 									<td>
 										ん <br /> <small>n</small>
@@ -244,6 +236,8 @@ function TablasHiragana() {
 									style={{
 										width: "100%",
 										fontSize: "1.2rem",
+										borderCollapse: "separate",
+										borderSpacing: "0 25px",
 									}}
 								>
 									<thead>
@@ -274,7 +268,6 @@ function TablasHiragana() {
 												ご <br /> <small>go</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												ざ <br /> <small>za</small>
@@ -292,7 +285,6 @@ function TablasHiragana() {
 												ぞ <br /> <small>zo</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												だ <br /> <small>da</small>
@@ -310,7 +302,6 @@ function TablasHiragana() {
 												ど <br /> <small>do</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												ば <br /> <small>ba</small>
@@ -328,7 +319,6 @@ function TablasHiragana() {
 												ぼ <br /> <small>bo</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												ぱ <br /> <small>pa</small>
@@ -370,6 +360,8 @@ function TablasHiragana() {
 									style={{
 										width: "100%",
 										fontSize: "1.2rem",
+										borderCollapse: "separate",
+										borderSpacing: "0 25px",
 									}}
 								>
 									<thead>
@@ -398,7 +390,6 @@ function TablasHiragana() {
 												<small>kyo</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												しゃ <br />
@@ -415,7 +406,6 @@ function TablasHiragana() {
 												<small>sho</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												ちゃ <br />
@@ -435,7 +425,6 @@ function TablasHiragana() {
 												<small>cho</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												にゃ
@@ -452,7 +441,6 @@ function TablasHiragana() {
 												<small>nyo</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												ひゃ <br />
@@ -469,7 +457,6 @@ function TablasHiragana() {
 												<small>hyo</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												みゃ <br />
@@ -486,7 +473,6 @@ function TablasHiragana() {
 												<small>myo</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												りゃ <br />
@@ -503,7 +489,6 @@ function TablasHiragana() {
 												<small>ryo</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												ぎゃ <br />
@@ -520,7 +505,6 @@ function TablasHiragana() {
 												<small>gyo</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												じゃ <br />
@@ -537,7 +521,6 @@ function TablasHiragana() {
 												<small>jo</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												ぢゃ <br />
@@ -554,7 +537,6 @@ function TablasHiragana() {
 												<small>jo / dyo</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												びゃ <br />
@@ -571,7 +553,6 @@ function TablasHiragana() {
 												<small>byo</small>
 											</td>
 										</tr>
-										<br />
 										<tr className="text-center">
 											<td>
 												ぴゃ <br />
