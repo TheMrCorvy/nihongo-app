@@ -21,6 +21,7 @@ import Kanji from "views/Kanji";
 import Numeros from "views/Numeros y Fechas/Numeros";
 import DiasSemana from "views/Numeros y Fechas/DiasSemana";
 import DiasMes from "views/Numeros y Fechas/DiasMes";
+import Horas from "views/Numeros y Fechas/Horas";
 
 import Principiantes from "views/Principiantes";
 
@@ -114,6 +115,11 @@ const routes = [
 		path: "/beginers",
 		nameKey: "Guía para Principiantes",
 		component: Principiantes,
+	},
+	{
+		path: "/horas",
+		nameKey: "Numeros y Fechas: Las Horas del Día",
+		component: Horas,
 	},
 ];
 export default routes;

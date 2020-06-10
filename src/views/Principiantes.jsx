@@ -88,6 +88,93 @@ class Principiantes extends React.Component {
 							</Col>
 							<Col md="12">
 								<Card
+									className="bg-info card-plain"
+									style={{ borderRadius: "15px" }}
+								>
+									<CardHeader className="text-white text-center">
+										<h4 className="title">
+											Imprenta vs Cursiva
+										</h4>
+									</CardHeader>
+									<CardBody
+										className="mt-5 bg-white px-3"
+										style={{
+											borderRadius: "15px",
+										}}
+									>
+										<h4 className="text-center">
+											Diferencias entre la Escritura a
+											Mano y la Digital
+										</h4>
+										<p>
+											Al igual que en el Español que
+											tenemos una{" "}
+											<strong>tipografía</strong> para la
+											escritura <strong>a mano</strong> y
+											otra para la escritura en{" "}
+											<strong>digital</strong> o impresa,
+											en <strong>Japonés</strong> pasa lo
+											mísmo.
+										</p>
+										<p>
+											Hay 2 formas de escribir{" "}
+											<strong>Hiraganas</strong> y{" "}
+											<strong>Kanjis</strong>, por un lado
+											está la llamada{" "}
+											<strong>Mincho</strong>, y por el
+											otro la forma{" "}
+											<strong>kyokasho</strong>, siendo la
+											Mincho el "
+											<strong>equivalente</strong>" de
+											nuestra imprenta, y la Kyokasho el
+											de la{" "}
+											<strong>escritura a mano</strong>.
+											<br />
+											La Mincho, como se mencionó
+											previamente, se utiliza para los
+											entornos <strong>Digitales</strong>,
+											mientras que la Kyokasho
+											(traduciendose como "
+											<strong>libro de texto</strong>") es
+											la que se enseña en las escuelas en
+											Japón, y en los cursos de Japonés
+											para aprender el idioma.
+										</p>
+										<p>
+											Los <strong>Hiraganas</strong> que
+											caen en éste grupo de "escribirse
+											distinto a mano y en digital" son
+											los siguientes:
+										</p>
+										<Row className="justify-content-around px-3">
+											<p className="px-3">き (ki)</p>
+											<p className="px-3">さ (sa)</p>
+											<p className="px-3">な (na)</p>
+											<p className="px-3">ふ (fu)</p>
+											<p className="px-3">む (mu)</p>
+											<p className="px-3">も (mo)</p>
+											<p className="px-3">り (ri)</p>
+										</Row>
+										<p>
+											<strong>
+												Cuál debería aprender entonces?
+											</strong>{" "}
+											Debido a la naturaleza de ésta App,
+											se mostrará siempre la forma{" "}
+											<strong>Mincho</strong>, pero lo más
+											recomendable es que te acostumbres a
+											escribir en la forma{" "}
+											<strong>Kyokasho</strong>, aunque
+											cabe destacar que los japoneses te
+											entenderán sin importar de que forma
+											escribas, siempre y cuando se
+											parezca al caractér original.
+										</p>
+									</CardBody>
+								</Card>
+							</Col>
+							<Col md="12">
+								<Card
 									className="card-plain bg-info"
 									style={{ borderRadius: "15px" }}
 								>

@@ -1,5 +1,12 @@
 import React from "react";
-import { Container, Row, Col, Card, CardBody } from "reactstrap";
+import {
+	Container,
+	Row,
+	Col,
+	Card,
+	CardBody,
+	UncontrolledTooltip,
+} from "reactstrap";
 
 export default class DiasSemana extends React.Component {
 	state = {};
@@ -171,7 +178,7 @@ export default class DiasSemana extends React.Component {
 											</strong>
 											<br />
 											<br />
-											「何よう日ですか。」
+											「何曜日ですか。」
 											<br />
 											<br />
 											「なんようびですか。」
@@ -179,6 +186,28 @@ export default class DiasSemana extends React.Component {
 											<br />
 											(nanyoubi desuka.)
 										</h5>
+										<h5>
+											Ejemplo:
+											<br />
+											<br />
+											<span id="kotoshi">
+												今年の　クリスマスは　何曜日ですか。
+												<br />
+												<br />
+												ことしの　クリスマスは　なんようびですか。
+											</span>
+											<br />
+											<br />
+											¿En qué dia cae Navidad éste año?
+										</h5>
+										<UncontrolledTooltip
+											placement="top"
+											target="kotoshi"
+											delay={0}
+										>
+											kotoshino kurisumasuwa
+											nanyoubidesuka.
+										</UncontrolledTooltip>
 									</CardBody>
 								</Card>
 							</Col>
