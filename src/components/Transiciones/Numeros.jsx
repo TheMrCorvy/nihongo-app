@@ -41,7 +41,7 @@ export default function Numeros(props) {
 				</Col>
 				<Col md="6">
 					<Link
-						to="/transicion/fechas-numeros"
+						to="/contadores"
 						onClick={() => {
 							props.scrollTop();
 						}}

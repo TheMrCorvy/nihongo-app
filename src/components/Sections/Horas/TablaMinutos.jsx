@@ -15,7 +15,7 @@ export default function TablaMinutos() {
 								<tr>
 									<th
 										scope="col"
-										colspan="4"
+										colSpan="4"
 										className="pb-3"
 									>
 										Los Minutos

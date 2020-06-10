@@ -24,6 +24,7 @@ import DiasMes from "views/Numeros y Fechas/DiasMes";
 import Horas from "views/Numeros y Fechas/Horas";
 
 import Principiantes from "views/Principiantes";
+import Contadores from "views/Numeros y Fechas/Contadores";
 
 const routes = [
 	{
@@ -120,6 +121,11 @@ const routes = [
 		path: "/horas",
 		nameKey: "Numeros y Fechas: Las Horas del Día",
 		component: Horas,
+	},
+	{
+		path: "/contadores",
+		nameKey: "Numeros y Fechas: Los Contadores",
+		component: Contadores,
 	},
 ];
 export default routes;
