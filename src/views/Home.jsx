@@ -110,7 +110,7 @@ class Home extends React.Component {
 											border: "none",
 										}}
 									/>
-									<Secciones view="home" />
+									<Secciones all={true} />
 								</Row>
 							</section>
 						</Container>

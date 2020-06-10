@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 
 import TsuChiquita from "components/Sections/TsuChiquita";
 import SonidosEspeciales from "components/Sections/SonidosEspeciales";
+import Secciones from "components/Sections/Secciones";
 
 class HiraganaView extends React.Component {
 	constructor(props) {
@@ -307,82 +308,8 @@ class HiraganaView extends React.Component {
 								Continuar Viendo
 							</h2>
 
-							<Col md="6">
-								<Link
-									to="/katakana"
-									onClick={() => {
-										this.scrollTop();
-									}}
-								>
-									<Card
-										style={{
-											borderRadius: "10px",
-											boxShadow:
-												"0px 5px 25px 0px rgba(94, 114, 228, 0.6)",
-											background:
-												"linear-gradient(87deg,#5e72e4 0,#825ee4 100%)",
-										}}
-									>
-										<CardBody className="text-white text-capitalize">
-											<span className="title">
-												Katakana　カタカナ
-											</span>
-											<i className="fas fa-chevron-right pl-3"></i>
-											<br />
-											<small>
-												¿Cómo se escribe en Japonés?
-											</small>
-											<i
-												className="fas fa-3x fa-flag"
-												style={{
-													position: "absolute",
-													top: 20,
-													right: 10,
-													opacity: 0.7,
-												}}
-											></i>
-										</CardBody>
-									</Card>
-								</Link>
-							</Col>
-							<Col md="6">
-								<Link
-									to="/kanji"
-									onClick={() => {
-										this.scrollTop();
-									}}
-								>
-									<Card
-										style={{
-											borderRadius: "10px",
-											boxShadow:
-												"0px 5px 25px 0px rgba(255, 54, 54, 0.6)",
-											background:
-												"linear-gradient(87deg,#f5365c 0,#f56036 100%)",
-										}}
-									>
-										<CardBody className="text-white text-capitalize">
-											<span className="title">
-												Kanjis　漢字
-											</span>
-											<i className="fas fa-chevron-right pl-3"></i>
-											<br />
-											<small>
-												¿Cómo se escribe en Japonés?
-											</small>
-											<i
-												className="fas fa-3x fa-language"
-												style={{
-													position: "absolute",
-													top: 20,
-													right: 10,
-													opacity: 0.7,
-												}}
-											></i>
-										</CardBody>
-									</Card>
-								</Link>
-							</Col>
+							<Secciones katakana={true} kanjis={true} />
+
 							<Col md="12" className="text-center mb-4">
 								<a
 									href="#pablo"

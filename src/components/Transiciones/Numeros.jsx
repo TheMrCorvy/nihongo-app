@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Card, CardBody, Row } from "reactstrap";
 import { Link } from "react-router-dom";
+import Secciones from "components/Sections/Secciones";
 
 export default function Numeros(props) {
 	return (
@@ -171,76 +172,7 @@ export default function Numeros(props) {
 			</Row>
 			<h3 className="title text-center mt-5">Contenido Relacionado</h3>
 			<Row className="justify-content-around">
-				<Col md="6">
-					<Link
-						to="/hiragana"
-						onClick={() => {
-							props.scrollTop();
-						}}
-					>
-						<Card
-							style={{
-								borderRadius: "10px",
-								boxShadow:
-									"0px 5px 25px 0px rgba(44, 168, 255, 0.6)",
-								background:
-									"linear-gradient(87deg,#11cdef 0,#1171ef 100%)",
-							}}
-						>
-							<CardBody className="text-white text-capitalize">
-								<span className="title">
-									Hiragana　ひらがな
-								</span>
-								<i className="fas fa-chevron-right pl-3"></i>
-								<br />
-								<small>¿Cómo se escribe en Japonés?</small>
-								<i
-									className="fas fa-3x fa-paint-brush"
-									style={{
-										position: "absolute",
-										top: 20,
-										right: 10,
-										opacity: 0.7,
-									}}
-								></i>
-							</CardBody>
-						</Card>
-					</Link>
-				</Col>
-				<Col md="6">
-					<Link
-						to="/kanji/1"
-						onClick={() => {
-							props.scrollTop();
-						}}
-					>
-						<Card
-							style={{
-								borderRadius: "10px",
-								boxShadow:
-									"0px 5px 25px 0px rgba(255, 54, 54, 0.6)",
-								background:
-									"linear-gradient(87deg,#f5365c 0,#f56036 100%)",
-							}}
-						>
-							<CardBody className="text-white text-capitalize">
-								<span className="title">Kanjis　漢字</span>
-								<i className="fas fa-chevron-right pl-3"></i>
-								<br />
-								<small>¿Cómo se escribe en Japonés?</small>
-								<i
-									className="fas fa-3x fa-language"
-									style={{
-										position: "absolute",
-										top: 20,
-										right: 10,
-										opacity: 0.7,
-									}}
-								></i>
-							</CardBody>
-						</Card>
-					</Link>
-				</Col>
+				<Secciones hiragana={true} kanjis={true} />
 			</Row>
 		</React.Fragment>
 	);
