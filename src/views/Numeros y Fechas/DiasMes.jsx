@@ -649,7 +649,7 @@ export default class DiasMes extends React.Component {
 												<tr>
 													<th
 														scope="col"
-														colspan="4"
+														colSpan="4"
 														className="pb-3"
 													>
 														Excepción
@@ -660,7 +660,7 @@ export default class DiasMes extends React.Component {
 												<tr>
 													<th
 														scope="row"
-														classname="pl-2"
+														className="pl-2"
 													>
 														1
 													</th>
@@ -690,7 +690,7 @@ export default class DiasMes extends React.Component {
 												<tr>
 													<th
 														scope="col"
-														colspan="4"
+														colSpan="4"
 														className="pb-3"
 													>
 														Terminan en か
@@ -926,7 +926,7 @@ export default class DiasMes extends React.Component {
 												<tr>
 													<th
 														scope="col"
-														colspan="4"
+														colSpan="4"
 														className="pb-3"
 													>
 														Usa lectura alternativa

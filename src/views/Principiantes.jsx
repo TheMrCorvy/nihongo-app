@@ -8,7 +8,7 @@ import {
 	CardHeader,
 	UncontrolledTooltip,
 } from "reactstrap";
-import { Link } from "react-router-dom";
+
 import Secciones from "components/Sections/Secciones";
 
 class Principiantes extends React.Component {

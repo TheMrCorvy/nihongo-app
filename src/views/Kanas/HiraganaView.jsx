@@ -8,7 +8,6 @@ import {
 	Progress,
 } from "reactstrap";
 import TablasHiragana from "components/Sections/Kanas/TablasHiragana";
-import { Link } from "react-router-dom";
 
 import TsuChiquita from "components/Sections/TsuChiquita";
 import SonidosEspeciales from "components/Sections/SonidosEspeciales";

@@ -7,7 +7,6 @@ import {
 	CardBody,
 	Progress,
 } from "reactstrap";
-import { Link } from "react-router-dom";
 
 import TablasKatakana from "components/Sections/Kanas/TablasKatakana";
 
