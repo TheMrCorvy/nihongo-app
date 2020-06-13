@@ -6,6 +6,7 @@ import Nakeyoushi from "components/Sections/Tiempos/Nakeyoushi";
 import VerbosFormal from "components/Sections/Tiempos/VerbosFormal";
 import VerbosFutsu from "components/Sections/Tiempos/VerbosFutsu";
 import Sustantivos from "components/Sections/Tiempos/Sustantivos";
+import BackToTop from "components/Sections/BackToTop";
 
 export default class Tiempos extends React.Component {
 	constructor(props) {
@@ -137,19 +138,7 @@ export default class Tiempos extends React.Component {
 
 						<Sustantivos />
 
-						<Col md="12" className="text-center mb-4">
-							<a
-								href="#pablo"
-								onClick={(e) => this.scrollTo(e, "top")}
-								className="text-info title"
-								style={{
-									fontSize: "1.2rem",
-									lineHeight: "1.61rem",
-								}}
-							>
-								<i className="fas fa-3x fa-chevron-up"></i>
-							</a>
-						</Col>
+						<BackToTop />
 					</Row>
 				</div>
 			</React.Fragment>

@@ -1,0 +1,44 @@
+{
+	"lista": [
+		{
+			"hiragana": "は",
+			"romaji": "wa"
+		},
+		{
+			"hiragana": "が",
+			"romaji": "ga"
+		},
+		{
+			"hiragana": "を",
+			"romaji": "wo"
+		},
+		{
+			"hiragana": "と",
+			"romaji": "to"
+		},
+		{
+			"hiragana": "へ",
+			"romaji": "he"
+		},
+		{
+			"hiragana": "も",
+			"romaji": "mo"
+		},
+		{
+			"hiragana": "の",
+			"romaji": "no"
+		},
+		{
+			"hiragana": "に",
+			"romaji": "ni"
+		},
+		{
+			"hiragana": "で",
+			"romaji": "de"
+		},
+		{
+			"hiragana": "から y まで",
+			"romaji": "kara"
+		}
+	]
+}

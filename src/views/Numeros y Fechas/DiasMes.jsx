@@ -910,6 +910,24 @@ export default class DiasMes extends React.Component {
 														</strong>
 													</td>
 												</tr>
+												<tr>
+													<th scope="row">24</th>
+													<td>二十四日</td>
+													<td>
+														にじゅうよ
+														<span className="text-success">
+															っか
+														</span>
+													</td>
+													<td>
+														<strong>
+															nijuuyo
+															<span className="text-success">
+																kka
+															</span>
+														</strong>
+													</td>
+												</tr>
 											</tbody>
 										</table>
 									</CardBody>

@@ -24,9 +24,9 @@ export default class DiasSemana extends React.Component {
 		document.body.style.background = "#fff";
 	}
 
-	scrollTo = (e, particula) => {
+	scrollTo = (e, seccion) => {
 		e.preventDefault();
-		document.getElementById(particula).scrollIntoView({
+		document.getElementById(seccion).scrollIntoView({
 			block: "start",
 			behavior: "smooth",
 		});

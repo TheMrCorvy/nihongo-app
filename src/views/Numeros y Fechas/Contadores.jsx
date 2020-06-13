@@ -265,6 +265,20 @@ export default class Contadores extends React.Component {
 												</tr>
 											</tbody>
 										</table>
+										<p className="mt-3">
+											<strong>Nota:</strong> El contador
+											de cosas pequeñas es algo así como
+											un{" "}
+											<strong>contador genérico</strong>{" "}
+											que se puede usar para la mayoria de
+											cosas sin que sea incorrecto del
+											todo.
+										</p>
+										<p>
+											Cuándo no recuerdes qué contador se
+											usa, es mejor que en lugar de decir
+											el número plano, uses éste contador.
+										</p>
 									</CardBody>
 								</Card>
 							</Col>

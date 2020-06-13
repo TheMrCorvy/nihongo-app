@@ -13,6 +13,7 @@ import TablasKatakana from "components/Sections/Kanas/TablasKatakana";
 import TsuChiquita from "components/Sections/TsuChiquita";
 import SonidosEspeciales from "components/Sections/SonidosEspeciales";
 import Secciones from "components/Sections/Secciones";
+import BackToTop from "components/Sections/BackToTop";
 
 class HiraganaView extends React.Component {
 	constructor(props) {
@@ -245,19 +246,7 @@ class HiraganaView extends React.Component {
 
 							<Secciones hiragana={true} kanjis={true} />
 
-							<Col md="12" className="text-center mb-4">
-								<a
-									href="#pablo"
-									onClick={(e) => this.scrollTo(e, "top")}
-									className="text-info title"
-									style={{
-										fontSize: "1.2rem",
-										lineHeight: "1.61rem",
-									}}
-								>
-									<i className="fas fa-3x fa-chevron-up"></i>
-								</a>
-							</Col>
+							<BackToTop />
 						</Row>
 					</section>
 				</div>

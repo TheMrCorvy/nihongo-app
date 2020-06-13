@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card, CardBody } from "reactstrap";
 
 import verbos from "components/verbos.json";
+import BackToTop from "components/Sections/BackToTop";
 
 class Verbos extends React.Component {
 	state = {};
@@ -147,19 +148,7 @@ class Verbos extends React.Component {
 									</Card>
 								</Col>
 							))}
-							<Col md="12" className="text-center mb-4">
-								<a
-									href="#pablo"
-									onClick={(e) => this.scrollTo(e, "top")}
-									className="text-info title"
-									style={{
-										fontSize: "1.2rem",
-										lineHeight: "1.61rem",
-									}}
-								>
-									<i className="fas fa-3x fa-chevron-up"></i>
-								</a>
-							</Col>
+							<BackToTop />
 						</Row>
 					</Container>
 				</div>

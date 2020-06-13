@@ -9,6 +9,7 @@ import {
 } from "reactstrap";
 
 import adjetivos from "components/adjetivos.json";
+import BackToTop from "components/Sections/BackToTop";
 
 class Adjetivos extends React.Component {
 	state = {};
@@ -268,19 +269,7 @@ class Adjetivos extends React.Component {
 									</Col>
 								))}
 							</div>
-							<Col md="12" className="text-center mb-4">
-								<a
-									href="#pablo"
-									onClick={(e) => this.scrollTo(e, "top")}
-									className="text-info title"
-									style={{
-										fontSize: "1.2rem",
-										lineHeight: "1.61rem",
-									}}
-								>
-									<i className="fas fa-3x fa-chevron-up"></i>
-								</a>
-							</Col>
+							<BackToTop />
 						</Row>
 					</Container>
 				</div>

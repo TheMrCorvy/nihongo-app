@@ -1,5 +1,19 @@
 import React from "react";
-import { Row, Col, Card, CardBody, Container } from "reactstrap";
+import { Row, Col, Container } from "reactstrap";
+
+import AccesosDirectos from "components/Sections/Particulas/AccesosDirectos";
+
+import ParticulaWa from "components/Sections/Particulas/ParticulaWa";
+import ParticulaWo from "components/Sections/Particulas/ParticulaWo";
+import ParticulaTo from "components/Sections/Particulas/ParticulaTo";
+import ParticulaNi from "components/Sections/Particulas/ParticulaNi";
+import ParticulaE from "components/Sections/Particulas/ParticulaE";
+import ParticulaGa from "components/Sections/Particulas/ParticulaGa";
+import ParticulaDe from "components/Sections/Particulas/ParticulaDe";
+import ParticulaMo from "components/Sections/Particulas/ParticulaMo";
+import BackToTop from "components/Sections/BackToTop";
+import ParticulaNo from "components/Sections/Particulas/ParticulaNo";
+import ParticulaKara from "components/Sections/Particulas/ParticulaKara";
 
 class Particulas extends React.Component {
 	state = {};
@@ -17,14 +31,6 @@ class Particulas extends React.Component {
 		document.body.style.background = "#fff";
 	}
 
-	scrollTo = (e, particula) => {
-		e.preventDefault();
-		document.getElementById(particula).scrollIntoView({
-			block: "start",
-			behavior: "smooth",
-		});
-	};
-
 	render() {
 		return (
 			<React.Fragment>
@@ -34,6 +40,7 @@ class Particulas extends React.Component {
 						background: "#f2f2f2",
 						borderRadius: "20px 20px 0 0",
 					}}
+					id="top"
 				>
 					<Container>
 						<h1 className="text-center title h3">
@@ -44,8 +51,7 @@ class Particulas extends React.Component {
 								<p>
 									Las <strong>Partículas</strong>, son afijos
 									o palabras cortas que modifican la ultima
-									palabra u oración antes de las mismas (sean
-									sustantivos, verbos, adjetivos, etc.).
+									palabra u oración antes de las mismas.
 									Tienen varias funciones, como pueden ser
 									indicar si una frase es una pregunta o una
 									afirmación, indicar el estado del objeto de
@@ -53,633 +59,32 @@ class Particulas extends React.Component {
 									interlocutor, entre otras.
 								</p>
 							</Col>
-							<Col
-								md="12"
-								className="container row text-center justify-content-around px-5 mb-5"
-							>
-								<h4 className="col-lg-12">Accesos Directos</h4>
-
-								<a
-									href="#pablo"
-									onClick={(e) => this.scrollTo(e, "wa")}
-									className="text-info title"
-									style={{
-										fontSize: "1.2rem",
-										lineHeight: "1.61rem",
-									}}
-								>
-									は
-								</a>
-								<a
-									href="#pablo"
-									onClick={(e) => this.scrollTo(e, "wo")}
-									className="text-info title"
-									style={{
-										fontSize: "1.2rem",
-										lineHeight: "1.61rem",
-									}}
-								>
-									を
-								</a>
-								<a
-									href="#pablo"
-									onClick={(e) => this.scrollTo(e, "to")}
-									className="text-info title"
-									style={{
-										fontSize: "1.2rem",
-										lineHeight: "1.61rem",
-									}}
-								>
-									と
-								</a>
-								<a
-									href="#pablo"
-									onClick={(e) => this.scrollTo(e, "ni")}
-									className="text-info title"
-									style={{
-										fontSize: "1.2rem",
-										lineHeight: "1.61rem",
-									}}
-								>
-									に
-								</a>
-								<a
-									href="#pablo"
-									onClick={(e) => this.scrollTo(e, "he")}
-									className="text-info title"
-									style={{
-										fontSize: "1.2rem",
-										lineHeight: "1.61rem",
-									}}
-								>
-									へ
-								</a>
-								<a
-									href="#pablo"
-									onClick={(e) => this.scrollTo(e, "ka")}
-									className="text-info title"
-									style={{
-										fontSize: "1.2rem",
-										lineHeight: "1.61rem",
-									}}
-								>
-									か
-								</a>
-								<a
-									href="#pablo"
-									onClick={(e) => this.scrollTo(e, "ga")}
-									className="text-info title"
-									style={{
-										fontSize: "1.2rem",
-										lineHeight: "1.61rem",
-									}}
-								>
-									が
-								</a>
-								<a
-									href="#pablo"
-									onClick={(e) => this.scrollTo(e, "ga")}
-									className="text-info title"
-									style={{
-										fontSize: "1.2rem",
-										lineHeight: "1.61rem",
-									}}
-								>
-									で
-								</a>
+							<Col md="12" className="px-4">
+								<h4 className="title text-danger mt-2">
+									Advertencia
+								</h4>
+								<p>
+									Siendo que <strong>las partículas</strong>{" "}
+									son un tema relativamente avanzado, en toda
+									ésta sección <strong>no</strong> estarán
+									disponibles las lecturas en{" "}
+									<strong>Romaji</strong>, pero si seguirá
+									disponible la opción de tocar para saber
+									como se leen los kanjis.
+								</p>
 							</Col>
-							<Col md="12">
-								<Card
-									className="card-plain bg-white"
-									style={{ borderRadius: ".5rem" }}
-									id="wa"
-								>
-									<div
-										className="bg-info text-white text-center justify-content-center"
-										style={{
-											borderTopLeftRadius: ".5rem",
-											borderBottomRightRadius: ".5rem",
-											height: "40px",
-											width: "40px",
-											position: "absolute",
-											top: 0,
-											left: 0,
-										}}
-									>
-										<p className="mb-0 h2">は</p>
-									</div>
-									<h4 className="text-right px-4 pt-2 float-right my-0">
-										Partícula <strong>Ha</strong>
-									</h4>
-									<CardBody className="mt-5">
-										<div
-											style={{ width: "100%" }}
-											className="row justify-content-between mx-0 px-3"
-										>
-											<p className="h5">Pronunciación:</p>
-
-											<p className="h5">
-												<strong>Wa</strong>
-											</p>
-										</div>
-										<h4 className="text-center">
-											¿Qué y cómo conecta?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											¿Cuándo se usa?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											Ejemplos
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-									</CardBody>
-								</Card>
-							</Col>
-							<Col md="12">
-								<Card
-									className="card-plain bg-white"
-									style={{ borderRadius: ".5rem" }}
-									id="wo"
-								>
-									<div
-										className="bg-info text-white text-center justify-content-center"
-										style={{
-											borderTopLeftRadius: ".5rem",
-											borderBottomRightRadius: ".5rem",
-											height: "40px",
-											width: "40px",
-											position: "absolute",
-											top: 0,
-											left: 0,
-										}}
-									>
-										<p className="mb-0 h2">を</p>
-									</div>
-									<h4 className="text-right px-4 pt-2 float-right my-0">
-										Partícula <strong>Wo</strong>
-									</h4>
-									<CardBody className="mt-5">
-										<div
-											style={{ width: "100%" }}
-											className="row justify-content-between mx-0 px-3"
-										>
-											<p className="h5">Pronunciación:</p>
-
-											<p className="h5">
-												<strong>O / Wo</strong>
-											</p>
-										</div>
-										<h4 className="text-center">
-											¿Qué y cómo conecta?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											¿Cuándo se usa?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											Ejemplos
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-									</CardBody>
-								</Card>
-							</Col>
-							<Col md="12">
-								<Card
-									className="card-plain bg-white"
-									style={{ borderRadius: ".5rem" }}
-									id="to"
-								>
-									<div
-										className="bg-info text-white text-center justify-content-center"
-										style={{
-											borderTopLeftRadius: ".5rem",
-											borderBottomRightRadius: ".5rem",
-											height: "40px",
-											width: "40px",
-											position: "absolute",
-											top: 0,
-											left: 0,
-										}}
-									>
-										<p className="mb-0 h2">と</p>
-									</div>
-									<h4 className="text-right px-4 pt-2 float-right my-0">
-										Partícula <strong>To</strong>
-									</h4>
-									<CardBody className="mt-5">
-										<div
-											style={{ width: "100%" }}
-											className="row justify-content-between mx-0 px-3"
-										>
-											<p className="h5">Pronunciación:</p>
-
-											<p className="h5">
-												<strong>To</strong>
-											</p>
-										</div>
-										<h4 className="text-center">
-											¿Qué y cómo conecta?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											¿Cuándo se usa?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											Ejemplos
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-									</CardBody>
-								</Card>
-							</Col>
-							<Col md="12">
-								<Card
-									className="card-plain bg-white"
-									style={{ borderRadius: ".5rem" }}
-									id="ni"
-								>
-									<div
-										className="bg-info text-white text-center justify-content-center"
-										style={{
-											borderTopLeftRadius: ".5rem",
-											borderBottomRightRadius: ".5rem",
-											height: "40px",
-											width: "40px",
-											position: "absolute",
-											top: 0,
-											left: 0,
-										}}
-									>
-										<p className="mb-0 h2">に</p>
-									</div>
-									<h4 className="text-right px-4 pt-2 float-right my-0">
-										Partícula <strong>Ni</strong>
-									</h4>
-									<CardBody className="mt-5">
-										<div
-											style={{ width: "100%" }}
-											className="row justify-content-between mx-0 px-3"
-										>
-											<p className="h5">Pronunciación:</p>
-
-											<p className="h5">
-												<strong>Ni</strong>
-											</p>
-										</div>
-										<h4 className="text-center">
-											¿Qué y cómo conecta?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											¿Cuándo se usa?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											Ejemplos
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-									</CardBody>
-								</Card>
-							</Col>
-							<Col md="12">
-								<Card
-									className="card-plain bg-white"
-									style={{ borderRadius: ".5rem" }}
-									id="he"
-								>
-									<div
-										className="bg-info text-white text-center justify-content-center"
-										style={{
-											borderTopLeftRadius: ".5rem",
-											borderBottomRightRadius: ".5rem",
-											height: "40px",
-											width: "40px",
-											position: "absolute",
-											top: 0,
-											left: 0,
-										}}
-									>
-										<p className="mb-0 h2">へ</p>
-									</div>
-									<h4 className="text-right px-4 pt-2 float-right my-0">
-										Partícula <strong>He</strong>
-									</h4>
-									<CardBody className="mt-5">
-										<div
-											style={{ width: "100%" }}
-											className="row justify-content-between mx-0 px-3"
-										>
-											<p className="h5">Pronunciación:</p>
-
-											<p className="h5">
-												<strong>E</strong>
-											</p>
-										</div>
-										<h4 className="text-center">
-											¿Qué y cómo conecta?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											¿Cuándo se usa?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											Ejemplos
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-									</CardBody>
-								</Card>
-							</Col>
-							<Col md="12">
-								<Card
-									className="card-plain bg-white"
-									style={{ borderRadius: ".5rem" }}
-									id="ka"
-								>
-									<div
-										className="bg-info text-white text-center justify-content-center"
-										style={{
-											borderTopLeftRadius: ".5rem",
-											borderBottomRightRadius: ".5rem",
-											height: "40px",
-											width: "40px",
-											position: "absolute",
-											top: 0,
-											left: 0,
-										}}
-									>
-										<p className="mb-0 h2">か</p>
-									</div>
-									<h4 className="text-right px-4 pt-2 float-right my-0">
-										Partícula <strong>Ka</strong>
-									</h4>
-									<CardBody className="mt-5">
-										<div
-											style={{ width: "100%" }}
-											className="row justify-content-between mx-0 px-3"
-										>
-											<p className="h5">Pronunciación:</p>
-
-											<p className="h5">
-												<strong>Ka</strong>
-											</p>
-										</div>
-										<h4 className="text-center">
-											¿Qué y cómo conecta?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											¿Cuándo se usa?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											Ejemplos
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-									</CardBody>
-								</Card>
-							</Col>
-							<Col md="12">
-								<Card
-									className="card-plain bg-white"
-									style={{ borderRadius: ".5rem" }}
-									id="ga"
-								>
-									<div
-										className="bg-info text-white text-center justify-content-center"
-										style={{
-											borderTopLeftRadius: ".5rem",
-											borderBottomRightRadius: ".5rem",
-											height: "40px",
-											width: "40px",
-											position: "absolute",
-											top: 0,
-											left: 0,
-										}}
-									>
-										<p className="mb-0 h2">が</p>
-									</div>
-									<h4 className="text-right px-4 pt-2 float-right my-0">
-										Partícula <strong>Ga</strong>
-									</h4>
-									<CardBody className="mt-5">
-										<div
-											style={{ width: "100%" }}
-											className="row justify-content-between mx-0 px-3"
-										>
-											<p className="h5">Pronunciación:</p>
-
-											<p className="h5">
-												<strong>Ga</strong>
-											</p>
-										</div>
-										<h4 className="text-center">
-											¿Qué y cómo conecta?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											¿Cuándo se usa?
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-										<h4 className="text-center">
-											Ejemplos
-										</h4>
-										<p className="pl-3">
-											Lorem ipsum dolor sit amet
-											consectetur adipisicing elit. Quod
-											tenetur dolore praesentium ipsam
-											culpa similique laboriosam eaque
-											dicta eum, rerum blanditiis, eius
-											sunt odio accusantium consequatur
-											quisquam molestiae. Dolor,
-											temporibus.
-										</p>
-									</CardBody>
-								</Card>
-							</Col>
+							<AccesosDirectos />
+							<ParticulaWa />
+							<ParticulaGa />
+							<ParticulaWo />
+							<ParticulaTo />
+							<ParticulaE />
+							<ParticulaMo />
+							<ParticulaNo />
+							<ParticulaKara />
+							<ParticulaNi />
+							<ParticulaDe />
+							<BackToTop />
 						</Row>
 					</Container>
 				</div>
