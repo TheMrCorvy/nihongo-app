@@ -51,16 +51,32 @@ export default function ParticulaWo() {
 						target="shiru"
 						delay={0}
 					>
-						しる
+						し
 					</UncontrolledTooltip>
 					<h4 className="text-center">Ejemplos</h4>
 					<p className="px-3">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quod tenetur dolore praesentium ipsam culpa similique
-						laboriosam eaque dicta eum, rerum blanditiis, eius sunt
-						odio accusantium consequatur quisquam molestiae. Dolor,
-						temporibus.
+						<strong className="text-info">
+							Saber / Conocer (知る):
+						</strong>{" "}
+						「<span id="tokyo">東京</span>
+						<span className="text-success">を</span>　
+						<span id="shiru2">知</span>っていますか」 <br />{" "}
+						"Conóces Tokyo?"
 					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="tokyo"
+						delay={0}
+					>
+						とうきょう
+					</UncontrolledTooltip>
+					<UncontrolledTooltip
+						placement="top"
+						target="shiru2"
+						delay={0}
+					>
+						し
+					</UncontrolledTooltip>
 				</CardBody>
 			</Card>
 		</Col>

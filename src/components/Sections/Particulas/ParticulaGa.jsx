@@ -71,12 +71,33 @@ export default function ParticulaGa() {
 					</p>
 					<h4 className="text-center">Ejemplos</h4>
 					<p className="px-3">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quod tenetur dolore praesentium ipsam culpa similique
-						laboriosam eaque dicta eum, rerum blanditiis, eius sunt
-						odio accusantium consequatur quisquam molestiae. Dolor,
-						temporibus.
+						<strong className="text-info">
+							Haber / existir (います):
+						</strong>{" "}
+						<span id="inu">「犬</span>
+						<span className="text-success">が</span>　います」{" "}
+						<br /> "Hay un perro"
 					</p>
+					<UncontrolledTooltip placement="top" target="inu" delay={0}>
+						いぬ
+					</UncontrolledTooltip>
+					<p className="px-3">
+						<strong className="text-info">Gustos (好き):</strong>{" "}
+						「みかん<span className="text-success">が</span>
+						　好きです」 <br /> "Me gustan las mandarinas"
+					</p>
+					<p className="px-3">
+						<strong className="text-info">Énfasis:</strong>「せ
+						<span className="text-success">が</span>　
+						<span id="takai">高</span>いです」 <br /> "Es alto"
+					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="takai"
+						delay={0}
+					>
+						たか
+					</UncontrolledTooltip>
 				</CardBody>
 			</Card>
 		</Col>

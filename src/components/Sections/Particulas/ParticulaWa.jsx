@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Card, CardBody } from "reactstrap";
+import { Col, Card, CardBody, UncontrolledTooltip } from "reactstrap";
 
 export default function ParticulaWa() {
 	return (
@@ -48,13 +48,27 @@ export default function ParticulaWa() {
 						mísma.
 					</p>
 					<h4 className="text-center">Ejemplos</h4>
-					<p className="px-3">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quod tenetur dolore praesentium ipsam culpa similique
-						laboriosam eaque dicta eum, rerum blanditiis, eius sunt
-						odio accusantium consequatur quisquam molestiae. Dolor,
-						temporibus.
+					<p className="text-center">
+						"Mi nombre es Mike Miller". <br />「
+						<span id="watashi">私</span>の　
+						<span id="namae">名前</span>
+						<span className="text-success">は</span>
+						　マイク　ミラーです」
 					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="watashi"
+						delay={0}
+					>
+						わたし
+					</UncontrolledTooltip>
+					<UncontrolledTooltip
+						placement="top"
+						target="namae"
+						delay={0}
+					>
+						なまえ
+					</UncontrolledTooltip>
 				</CardBody>
 			</Card>
 		</Col>
