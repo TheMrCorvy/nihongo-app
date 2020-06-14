@@ -131,7 +131,7 @@ export default function ParticulaDe() {
 					>
 						い
 					</UncontrolledTooltip>
-					<p className="px-3">
+					<p className="pl-3">
 						<strong className="text-info">Herramienta:</strong>「
 						<span id="genkin">現金</span>
 						<span className="text-success">で</span>

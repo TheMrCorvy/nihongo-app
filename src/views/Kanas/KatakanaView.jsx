@@ -129,7 +129,7 @@ class HiraganaView extends React.Component {
 											uno o más <strong>trazos</strong>,
 											ésto hace que el orden de su
 											escritura importe mucho, ya que si
-											se escriben en un orden
+											se escriben en un orden{" "}
 											<strong>incorrecto</strong> es
 											posible que no quede exactamente
 											igual al original. <br /> Para el

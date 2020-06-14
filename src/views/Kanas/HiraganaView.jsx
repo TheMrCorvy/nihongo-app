@@ -166,7 +166,7 @@ class HiraganaView extends React.Component {
 										</div>
 										<p>
 											La pronunciación es sumamente
-											similar al Español, con algunas
+											similar al Español, con algunas{" "}
 											<strong>adiciones</strong>. <br />{" "}
 											En el caso de los sonidos con{" "}
 											<strong>H</strong> (は、ひ、へ、ほ),
@@ -287,7 +287,7 @@ class HiraganaView extends React.Component {
 											en alguna red social
 										</UncontrolledTooltip>
 										<p>
-											El idioma japonés es uno basado en
+											El idioma japonés es uno basado en{" "}
 											<strong>sílabas</strong>, de ésta
 											forma, toda consonante debe estar
 											acompañada por almenos una vocal,

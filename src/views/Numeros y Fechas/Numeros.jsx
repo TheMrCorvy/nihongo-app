@@ -47,14 +47,18 @@ export default class Numeros extends React.Component {
 							es unir las denominaciones de los números.
 						</p>
 						<Row className="justify-content-around">
-							<h3 className="title">Del 0 al 10</h3>
+							<h3 className="title text-info">Del 0 al 10</h3>
 							<Col md="12">
 								<Card
-									className="card-plain bg-white"
-									style={{ borderRadius: ".5rem" }}
+									className="card-plain"
+									style={{
+										borderRadius: ".5rem",
+										background:
+											"linear-gradient(35deg, #5e72e4 0, #825ee4 100%)",
+									}}
 								>
 									<CardBody className="mt-3 text-center px-2">
-										<table className="container text-info">
+										<table className="container text-white">
 											<thead>
 												<tr>
 													<th scope="col">Número</th>
@@ -158,7 +162,8 @@ export default class Numeros extends React.Component {
 									<br />
 									<br />
 									<strong>
-										Ejemplo: 53 <br />　
+										Ejemplo: 53 <br />
+										　
 										<span className="text-success">五</span>
 										<span className="text-primary">十</span>
 										<span className="text-warning">三</span>
@@ -188,11 +193,13 @@ export default class Numeros extends React.Component {
 							<h3 className="title">Del 10 en adelante</h3>
 							<Col md="12">
 								<Card
-									className="card-plain bg-white"
-									style={{ borderRadius: ".5rem" }}
+									className="card-plain bg-info"
+									style={{
+										borderRadius: ".5rem",
+									}}
 								>
 									<CardBody className="mt-3 text-center px-2">
-										<table className="container text-info">
+										<table className="container text-white">
 											<thead>
 												<tr>
 													<th scope="col">Número</th>
@@ -284,6 +291,62 @@ export default class Numeros extends React.Component {
 									de entre 100 y 1.000, y luego la regla de
 									entre 10 y 100.
 								</p>
+							</Col>
+							<h3 className="title">
+								Cuidado con las Excepciones
+							</h3>
+							<Col md="12">
+								<Card
+									className="card-plain"
+									style={{
+										borderRadius: ".5rem",
+										background:
+											"linear-gradient(87deg, rgb(245, 54, 92) 0px, rgb(245, 96, 54) 100%)",
+									}}
+								>
+									<CardBody className="mt-3 text-center px-2">
+										<table className="container text-white">
+											<thead>
+												<tr>
+													<th scope="col">Número</th>
+													<th scope="col">Kanji</th>
+													<th scope="col">
+														Lecturas
+													</th>
+													<th scope="col">
+														Pronunciaciones
+													</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">300</th>
+													<td>三百</td>
+													<td>さんびゃく</td>
+													<td>sanbyaku</td>
+												</tr>
+												<tr>
+													<th scope="row">600</th>
+													<td>六百</td>
+													<td>ろっぴゃく</td>
+													<td>roppyaku</td>
+												</tr>
+												<tr>
+													<th scope="row">800</th>
+													<td>八百</td>
+													<td>はっぴゃく</td>
+													<td>happyaku</td>
+												</tr>
+												<tr>
+													<th scope="row">3.000</th>
+													<td>三千</td>
+													<td>さんぜん</td>
+													<td>sanzen</td>
+												</tr>
+											</tbody>
+										</table>
+									</CardBody>
+								</Card>
 							</Col>
 							<h3 className="title text-center text-uppercase px-3 text-danger">
 								pero Apartir del 10.000 cambian las reglas
