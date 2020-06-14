@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Card, CardBody } from "reactstrap";
+import { Col, Card, CardBody, UncontrolledTooltip } from "reactstrap";
 
 export default function ParticulaTo() {
 	return (
@@ -59,18 +59,67 @@ export default function ParticulaTo() {
 					</p>
 					<p className="px-3">
 						Y por último, la partícula と tambien se usa para
-						conectar con「おもいます」("pienso que" / "opino que" /
-						"creo que"), para de ésta forma expresar{" "}
-						<strong>pensamientos</strong>.
+						conectar con<span id="omoimasu2">「思い</span>ます」
+						("pienso que" / "opino que" / "creo que"), para de ésta
+						forma expresar <strong>pensamientos</strong>.
 					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="omoimasu2"
+						delay={0}
+					>
+						おも
+					</UncontrolledTooltip>
 					<h4 className="text-center">Ejemplos</h4>
-					<p className="px-3">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quod tenetur dolore praesentium ipsam culpa similique
-						laboriosam eaque dicta eum, rerum blanditiis, eius sunt
-						odio accusantium consequatur quisquam molestiae. Dolor,
-						temporibus.
+					<p className="px-3 text-center">
+						<strong className="text-info">Conector "Y":</strong>{" "}
+						「果物<span className="text-success">と</span>　野菜。」
+						<br />
+						「くだもの<span className="text-success">と</span>
+						　やさい。」
+						<br />
+						"Frutas <strong className="text-success">y</strong>{" "}
+						verduras"
 					</p>
+					<p className="px-3 text-center">
+						<strong className="text-info">Compañía:</strong>{" "}
+						「ミラーさん
+						<span className="text-success">と</span>　
+						<span id="ikimasu">行</span>きました。」
+						<br />
+						"Fui <strong className="text-success">con</strong>{" "}
+						Miller-san"
+					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="ikimasu"
+						delay={0}
+					>
+						い
+					</UncontrolledTooltip>
+					<p className="px-3 text-center">
+						<strong className="text-info">(と思いま):</strong>
+						「もうすぐ<span id="hajimaru">始</span>まる
+						<span className="text-success">と</span>　
+						<span id="omoimasu3">思</span>います。」
+						<br />
+						"Creo <strong className="text-success">que</strong> está
+						por empezar."
+					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="omoimasu3"
+						delay={0}
+					>
+						おも
+					</UncontrolledTooltip>
+					<UncontrolledTooltip
+						placement="top"
+						target="hajimaru"
+						delay={0}
+					>
+						はじ
+					</UncontrolledTooltip>
 				</CardBody>
 			</Card>
 		</Col>

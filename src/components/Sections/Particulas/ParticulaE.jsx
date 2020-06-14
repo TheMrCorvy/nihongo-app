@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Card, CardBody } from "reactstrap";
+import { Col, Card, CardBody, UncontrolledTooltip } from "reactstrap";
 
 function scrollTo(e, particula) {
 	e.preventDefault();
@@ -55,8 +55,8 @@ export default function ParticulaE() {
 						<strong>Cómo así?</strong>, cuando uno dice "mañana
 						pasaré <strong>por tu barrio</strong>, tal vez paso a
 						saludar", ese "por tu barrio" es una ubicación{" "}
-						<strong>aproximada</strong>, y por ende en Japonés se
-						conecta con へ.
+						<strong>aproximada</strong>, y por ende se conecta con
+						へ.
 						<br />
 						En el caso de que dijeramos "mañana iré a{" "}
 						<strong>tu casa</strong> a saludar", al aclarar que el
@@ -77,12 +77,24 @@ export default function ParticulaE() {
 					</p>
 					<h4 className="text-center">Ejemplos</h4>
 					<p className="px-3">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quod tenetur dolore praesentium ipsam culpa similique
-						laboriosam eaque dicta eum, rerum blanditiis, eius sunt
-						odio accusantium consequatur quisquam molestiae. Dolor,
-						temporibus.
+						<strong className="text-info">
+							Destino Aproximado de la Acción:
+						</strong>
+						「<span id="nihon">日本</span>
+						<span className="text-success">へ</span>　ようこそ！」
+						<br />
+						"Bienvenido <strong className="text-success">
+							a
+						</strong>{" "}
+						Japón!"
 					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="nihon"
+						delay={0}
+					>
+						にほん
+					</UncontrolledTooltip>
 				</CardBody>
 			</Card>
 		</Col>

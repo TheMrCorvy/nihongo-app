@@ -51,6 +51,11 @@ export default function ParticulaGa() {
 						hablando acerca de las cualidades de algo.
 					</p>
 					<p className="px-3">
+						Nota: si bien solo puede haber <strong>una</strong>{" "}
+						partícula は en la oración, sí es posible utilizar la
+						partícula が <strong>múltiples</strong> veces.
+					</p>
+					<p className="px-3">
 						También se usa para hablar de cosas más específicas,
 						como puede ser hablar acerca de <strong>gustos</strong>{" "}
 						utilizando<span id="suki">「好き」</span>.
@@ -75,7 +80,7 @@ export default function ParticulaGa() {
 							Haber / existir (います):
 						</strong>{" "}
 						<span id="inu">「犬</span>
-						<span className="text-success">が</span>　います」{" "}
+						<span className="text-success">が</span>　います。」
 						<br /> "Hay un perro"
 					</p>
 					<UncontrolledTooltip placement="top" target="inu" delay={0}>
@@ -84,12 +89,12 @@ export default function ParticulaGa() {
 					<p className="px-3">
 						<strong className="text-info">Gustos (好き):</strong>{" "}
 						「みかん<span className="text-success">が</span>
-						　好きです」 <br /> "Me gustan las mandarinas"
+						　好きです。」 <br /> "Me gustan las mandarinas"
 					</p>
 					<p className="px-3">
 						<strong className="text-info">Énfasis:</strong>「せ
 						<span className="text-success">が</span>　
-						<span id="takai">高</span>いです」 <br /> "Es alto"
+						<span id="takai">高</span>いです。」 <br /> "Es alto"
 					</p>
 					<UncontrolledTooltip
 						placement="top"

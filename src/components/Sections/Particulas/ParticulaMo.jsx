@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Card, CardBody } from "reactstrap";
+import { Col, Card, CardBody, UncontrolledTooltip } from "reactstrap";
 
 export default function ParticulaMo() {
 	return (
@@ -53,12 +53,53 @@ export default function ParticulaMo() {
 					</p>
 					<h4 className="text-center">Ejemplos</h4>
 					<p className="px-3">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quod tenetur dolore praesentium ipsam culpa similique
-						laboriosam eaque dicta eum, rerum blanditiis, eius sunt
-						odio accusantium consequatur quisquam molestiae. Dolor,
-						temporibus.
+						<strong className="text-info">"También":</strong>「
+						<span id="watashi2">私</span>
+						<span className="text-success">も</span>　
+						<span id="ikitai2">行</span>きたいです。」
+						<br />
+						"Yo <strong className="text-success">
+							también
+						</strong>{" "}
+						quiero ir."
 					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="watashi2"
+						delay={0}
+					>
+						わたし
+					</UncontrolledTooltip>
+					<UncontrolledTooltip
+						placement="top"
+						target="ikitai2"
+						delay={0}
+					>
+						い
+					</UncontrolledTooltip>
+					<p className="px-3">
+						<strong className="text-info">"Ninguno":</strong>「
+						<span id="nani2">何</span>
+						<span className="text-success">も</span>　
+						<span id="shiru3">知</span>らない。」
+						<br />
+						"Yo <strong className="text-success">no</strong> se
+						nada."
+					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="nani2"
+						delay={0}
+					>
+						なに
+					</UncontrolledTooltip>
+					<UncontrolledTooltip
+						placement="top"
+						target="shiru3"
+						delay={0}
+					>
+						し
+					</UncontrolledTooltip>
 				</CardBody>
 			</Card>
 		</Col>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Card, CardBody } from "reactstrap";
+import { Col, Card, CardBody, UncontrolledTooltip } from "reactstrap";
 
 function scrollTo(e, particula) {
 	e.preventDefault();
@@ -117,13 +117,44 @@ export default function ParticulaNi() {
 						alguno de esos 2 verbos.
 					</p>
 					<h4 className="text-center">Ejemplos</h4>
-					<p className="pl-3">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quod tenetur dolore praesentium ipsam culpa similique
-						laboriosam eaque dicta eum, rerum blanditiis, eius sunt
-						odio accusantium consequatur quisquam molestiae. Dolor,
-						temporibus.
+					<p className="px-3 text-center">
+						<strong className="text-info">
+							Destino de la acción:
+						</strong>
+						<br />
+						「どこ
+						<span className="text-success">に</span>　
+						<span id="ikitai3">行</span>きますか。」
+						<br />"<strong className="text-success">
+							A dónde
+						</strong>{" "}
+						vas?"
 					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="ikitai3"
+						delay={0}
+					>
+						い
+					</UncontrolledTooltip>
+					<p className="px-3 text-center">
+						<strong className="text-info">
+							Lugar de Existencia:
+						</strong>
+						<br />「<span id="nihon43">日本</span>
+						<span className="text-success">に</span>　
+						ヂズニランドが　ありますか。」
+						<br />
+						"Hay un Disneyland{" "}
+						<strong className="text-success">en</strong> Japón?"
+					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="nihon43"
+						delay={0}
+					>
+						にほん
+					</UncontrolledTooltip>
 				</CardBody>
 			</Card>
 		</Col>

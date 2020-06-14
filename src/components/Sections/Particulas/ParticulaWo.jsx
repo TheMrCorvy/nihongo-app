@@ -60,7 +60,7 @@ export default function ParticulaWo() {
 						</strong>{" "}
 						「<span id="tokyo">東京</span>
 						<span className="text-success">を</span>　
-						<span id="shiru2">知</span>っていますか」 <br />{" "}
+						<span id="shiru2">知</span>っていますか。」 <br />{" "}
 						"Conóces Tokyo?"
 					</p>
 					<UncontrolledTooltip

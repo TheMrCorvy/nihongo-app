@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Card, CardBody } from "reactstrap";
+import { Col, Card, CardBody, UncontrolledTooltip } from "reactstrap";
 
 export default function ParticulaKara() {
 	return (
@@ -60,12 +60,34 @@ export default function ParticulaKara() {
 					</p>
 					<h4 className="text-center">Ejemplos</h4>
 					<p className="px-3">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quod tenetur dolore praesentium ipsam culpa similique
-						laboriosam eaque dicta eum, rerum blanditiis, eius sunt
-						odio accusantium consequatur quisquam molestiae. Dolor,
-						temporibus.
+						<strong className="text-info">De inicio a Fin:</strong>
+						「あさ
+						<span className="text-success">から</span>　よる
+						<span className="text-success">まで</span>。」
+						<br />"<strong className="text-success">
+							Desde
+						</strong>{" "}
+						la mañana{" "}
+						<strong className="text-success">hasta</strong> la
+						noche."
 					</p>
+					<p className="px-3">
+						<strong className="text-info">Justificación:</strong>
+						「あぶない
+						<span className="text-success">から</span>、
+						<span id="genki2">気</span>をつけて。」
+						<br />
+						"Ten cuidado
+						<strong className="text-success"> proque</strong> es
+						peligroso."
+					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="genki2"
+						delay={0}
+					>
+						き
+					</UncontrolledTooltip>
 				</CardBody>
 			</Card>
 		</Col>

@@ -28,6 +28,11 @@
 			"hiragana": "の",
 			"romaji": "no"
 		},
+
+		{
+			"hiragana": "から y まで",
+			"romaji": "kara"
+		},
 		{
 			"hiragana": "に",
 			"romaji": "ni"
@@ -35,10 +40,6 @@
 		{
 			"hiragana": "で",
 			"romaji": "de"
-		},
-		{
-			"hiragana": "から y まで",
-			"romaji": "kara"
 		}
 	]
 }

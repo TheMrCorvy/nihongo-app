@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Card, CardBody } from "reactstrap";
+import { Col, Card, CardBody, UncontrolledTooltip } from "reactstrap";
 
 function scrollTo(e, particula) {
 	e.preventDefault();
@@ -80,19 +80,75 @@ export default function ParticulaDe() {
 						concierto", por ejemplo.
 					</p>
 					<p className="px-3">
+						Hay solo <strong>una</strong> excepción cuando se habla
+						de transportes, y es que al ir{" "}
+						<strong>caminando</strong> a algún lugar, no se usa la
+						partícula で, sino que se dice simplemente「あるいて」.
+					</p>
+					<p className="px-3">
 						で También se utiliza para indicar la{" "}
 						<strong>herramienta</strong>, sean herramientas físicas,
-						conocimientos, Apps, dispositivos, etc. Por ejemplo:
+						o Apps, dispositivos, métodos de pago etc. Por ejemplo:
 						"Con <strong>qué</strong> utensillos se come eso?".
 					</p>
 					<h4 className="text-center">Ejemplos</h4>
 					<p className="px-3">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quod tenetur dolore praesentium ipsam culpa similique
-						laboriosam eaque dicta eum, rerum blanditiis, eius sunt
-						odio accusantium consequatur quisquam molestiae. Dolor,
-						temporibus.
+						<strong className="text-info">Lugar de Acción:</strong>
+						「どこ
+						<span className="text-success">で</span>　
+						<span id="kaimasu">買</span>いますか。」
+						<br />"<strong className="text-success">
+							Dónde
+						</strong>{" "}
+						se compra?"
 					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="kaimasu"
+						delay={0}
+					>
+						か
+					</UncontrolledTooltip>
+					<p className="px-3">
+						<strong className="text-info">Transporte:</strong>「
+						<span id="densha">電車</span>
+						<span className="text-success">で</span>　
+						<span id="ikimasu45">行</span>きました。」
+						<br />
+						"Fui <strong className="text-success">en</strong> tren."
+					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="densha"
+						delay={0}
+					>
+						でんしゃ
+					</UncontrolledTooltip>
+					<UncontrolledTooltip
+						placement="top"
+						target="ikimasu45"
+						delay={0}
+					>
+						い
+					</UncontrolledTooltip>
+					<p className="px-3">
+						<strong className="text-info">Herramienta:</strong>「
+						<span id="genkin">現金</span>
+						<span className="text-success">で</span>
+						　はらいます。」
+						<br />
+						"Pagaré <strong className="text-success">
+							en
+						</strong>{" "}
+						efectivo."
+					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="genkin"
+						delay={0}
+					>
+						げんきん
+					</UncontrolledTooltip>
 				</CardBody>
 			</Card>
 		</Col>

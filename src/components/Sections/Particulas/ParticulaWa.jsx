@@ -53,7 +53,7 @@ export default function ParticulaWa() {
 						<span id="watashi">私</span>の　
 						<span id="namae">名前</span>
 						<span className="text-success">は</span>
-						　マイク　ミラーです」
+						　マイク　ミラーです。」
 					</p>
 					<UncontrolledTooltip
 						placement="top"
