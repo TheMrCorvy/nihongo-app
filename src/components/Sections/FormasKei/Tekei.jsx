@@ -302,10 +302,6 @@ export default function Tekei() {
 							¿Cuál es la Fórmula Mágica?
 						</h5>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Quo, perspiciatis libero, adipisci labore nisi
-							iusto, eius quae fugiat nulla quod porro fugit atque
-							magni doloribus modi quisquam eum expedita tenetur.
 							<br />
 							<br />
 							<br />
