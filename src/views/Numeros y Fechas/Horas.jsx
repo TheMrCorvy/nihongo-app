@@ -120,6 +120,68 @@ export default class Horas extends React.Component {
 
 							<Col md="12">
 								<Card
+									className="card-plain bg-white"
+									style={{ borderRadius: ".5rem" }}
+								>
+									<CardBody className="text-center px-3">
+										<h3 className="mt-1 text-primary">
+											Ejemplos:
+										</h3>
+										<Row>
+											<Col md="6" className="pb-5">
+												<p>
+													07:35 A.M.
+													<i className="fas fa-long-arrow-alt-right px-2"></i>
+													<span className="text-success">
+														午後　七時　三十五　分
+													</span>
+													<br />
+													<br />
+													07:35 A.M.
+													<i className="fas fa-long-arrow-alt-right px-2"></i>
+													<strong className="text-success">
+														ごぜん　しちじ　さんじゅうご　ふん
+													</strong>
+													<br />
+													<br />
+													07:35 A.M.
+													<i className="fas fa-long-arrow-alt-right px-2"></i>
+													<strong className="text-success">
+														gozen shichiji sanjuugo
+														fun
+													</strong>
+												</p>
+											</Col>
+											<Col md="6">
+												<p>
+													17:48 P.M.
+													<i className="fas fa-long-arrow-alt-right px-2"></i>
+													<span className="text-info">
+														午前　五時　四十八　分
+													</span>
+													<br />
+													<br />
+													17:48 P.M.
+													<i className="fas fa-long-arrow-alt-right px-2"></i>
+													<strong className="text-info">
+														ごご　ごじ　よんじゅうはっぷん
+													</strong>
+													<br />
+													<br />
+													17:48 P.M.
+													<i className="fas fa-long-arrow-alt-right px-2"></i>
+													<strong className="text-info">
+														gogo goji yonjuuhappun
+													</strong>
+												</p>
+											</Col>
+										</Row>
+									</CardBody>
+								</Card>
+							</Col>
+
+							<Col md="12">
+								<Card
 									className="card-plain"
 									style={{
 										borderRadius: ".5rem",
