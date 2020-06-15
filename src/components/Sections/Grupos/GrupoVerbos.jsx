@@ -51,18 +51,30 @@ export default function GrupoVerbos() {
 						</h6>
 						<Row className="justify-content-around px-3">
 							<p>
-								Hiraganas con sonido terminado en い + る(
+								Hiraganas con sonidos terminados en{" "}
+								<strong>I</strong> + る(
 								<strong>algoi</strong>+ru)
 							</p>
 							<p>
-								Hiraganas con sonido terminado en え + る(
+								Hiraganas con sonidos terminados en{" "}
+								<strong>E</strong> + る(
 								<strong>algoe</strong>+ru)
 							</p>
+							<br />
+							<p>
+								<strong className="text-info">Nota:</strong> No
+								son los verbos terminados en los Hiraganas{" "}
+								<strong className="text-danger">
+									いる o える
+								</strong>
+								, sino aquellos cuyos ultimos Hiraganas terminan
+								en esos sonídos, por ejemplo:
+								<span className="text-success">
+									「食べる - たべる」
+								</span>
+								(taberu).
+							</p>
 						</Row>
-						<small className="text-danger">
-							* Nota: Cabe destacar que siempre puede haber alguna
-							excepción.
-						</small>
 					</CardBody>
 				</Card>
 			</Col>

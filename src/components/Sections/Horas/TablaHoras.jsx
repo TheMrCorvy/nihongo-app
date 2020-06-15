@@ -7,7 +7,9 @@ export default function TablaHoras() {
 			<Col md="12">
 				<Card
 					className="card-plain bg-info text-white"
-					style={{ borderRadius: ".5rem" }}
+					style={{
+						borderRadius: ".5rem",
+					}}
 				>
 					<CardBody className="text-center px-2">
 						<table className="container">

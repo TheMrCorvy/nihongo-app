@@ -14,7 +14,6 @@ import Sustantivos from "views/Vocabulario Palabras/Sustantivos";
 import Grupos from "views/Grupos y Tiempos/Grupos";
 import Tiempos from "views/Grupos y Tiempos/Tiempos";
 
-import FormasKei from "views/FormasKei";
 import Transicion from "views/Transicion";
 import Kanji from "views/Kanji";
 
@@ -25,6 +24,8 @@ import Horas from "views/Numeros y Fechas/Horas";
 
 import Principiantes from "views/Principiantes";
 import Contadores from "views/Numeros y Fechas/Contadores";
+
+import FormasKei from "views/FormasKei";
 
 const routes = [
 	{
@@ -83,11 +84,6 @@ const routes = [
 		component: Tiempos,
 	},
 	{
-		path: "/formas-kei",
-		nameKey: "Formas Kei",
-		component: FormasKei,
-	},
-	{
 		path: "/transicion/:recurso",
 		nameKey: "Transicion",
 		component: Transicion,
@@ -126,6 +122,11 @@ const routes = [
 		path: "/contadores",
 		nameKey: "Numeros y Fechas: Los Contadores",
 		component: Contadores,
+	},
+	{
+		path: "/formas-kei/:forma",
+		nameKey: "Layout Formas Kei",
+		component: FormasKei,
 	},
 ];
 export default routes;

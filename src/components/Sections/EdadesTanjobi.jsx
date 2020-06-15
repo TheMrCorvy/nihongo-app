@@ -44,6 +44,12 @@ export default function EdadesTanjobi() {
 							<br />
 							(nansaidesuka)
 						</p>
+						<p className="text-left">
+							También está la alternativa de
+							「おいくつですか。」(oikutsudesuka) para preguntar
+							por la edad de alguien y sonar un poco más formal y
+							cortés, puedes utilizar la que más te guste.
+						</p>
 						<br />
 						<h2 className="pt-0 title text-capitalize text-right">
 							Pero alto ahí!

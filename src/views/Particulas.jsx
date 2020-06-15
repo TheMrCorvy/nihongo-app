@@ -40,7 +40,6 @@ class Particulas extends React.Component {
 						background: "#f2f2f2",
 						borderRadius: "20px 20px 0 0",
 					}}
-					id="top"
 				>
 					<Container>
 						<h1 className="text-center title h3">

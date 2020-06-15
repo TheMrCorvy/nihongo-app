@@ -6,8 +6,12 @@ export default function TablaMinutos() {
 		<React.Fragment>
 			<Col md="12">
 				<Card
-					className="card-plain bg-info text-white"
-					style={{ borderRadius: ".5rem" }}
+					className="card-plain text-white"
+					style={{
+						borderRadius: ".5rem",
+						background:
+							"linear-gradient(87deg, rgb(245, 54, 92) 0px, rgb(245, 96, 54) 100%)",
+					}}
 				>
 					<CardBody className="text-center px-2">
 						<table className="container">

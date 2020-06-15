@@ -1,19 +1,22 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
-import Tekei from "components/Sections/Tekei";
-import Nakei from "components/Sections/Nakei";
-import Ukei from "components/Sections/Ukei";
+import { Row, Container, Col, UncontrolledTooltip } from "reactstrap";
+
+import BackToTop from "components/Sections/BackToTop";
+
+import LasFormasKei from "components/LasFormasKei";
 
 export default class FormasKei extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {};
+		this.state = {
+			parametro: this.props.match.params.forma,
+		};
 	}
-
 	componentDidMount() {
 		document.body.classList.add("landing-page");
 		document.body.classList.add("sidebar-collapse");
-		document.body.style.background = "#f2f2f2";
+		document.body.style.background = "#000";
+		document.body.style.borderRadius = "20px 20px 0 0";
 		document.documentElement.classList.remove("nav-open");
 	}
 
@@ -23,125 +26,56 @@ export default class FormasKei extends React.Component {
 		document.body.style.background = "#fff";
 	}
 
-	scrollTo = (e, particula) => {
-		e.preventDefault();
-		document.getElementById(particula).scrollIntoView({
-			block: "start",
-			behavior: "smooth",
-		});
-	};
-
 	render() {
 		return (
 			<React.Fragment>
-				<div className="container-fluid mb-5">
-					<h1 className="text-center title h3" id="top">
-						Formas 形
-					</h1>
-					<p className="text-center">
-						(Los sustantivos no varían de forma)
-					</p>
-					<Row className="justify-content-around">
-						<Col
-							md="12"
-							className="container row text-center justify-content-between px-5 mb-5"
+				<div
+					className="wrapper mb-5"
+					style={{
+						background: "#f2f2f2",
+						borderRadius: "20px 20px 0 0",
+					}}
+				>
+					<Container>
+						<h1 className="text-center title h3">
+							Formas <span id="kei3">形</span>
+						</h1>
+						<UncontrolledTooltip
+							placement="top"
+							target="kei3"
+							delay={0}
 						>
-							<h4 className="col-lg-12">Accesos Directos</h4>
-
-							<a
-								href="#pablo"
-								onClick={(e) => this.scrollTo(e, "verbos-te")}
-								className="text-info title"
-								style={{
-									fontSize: "1.2rem",
-									lineHeight: "1.61rem",
-								}}
-							>
-								Verbos　て形
-							</a>
-							<a
-								href="#pablo"
-								onClick={(e) =>
-									this.scrollTo(e, "adjetivos-te")
-								}
-								className="text-info title"
-								style={{
-									fontSize: "1.2rem",
-									lineHeight: "1.61rem",
-								}}
-							>
-								Adjetivos　て形
-							</a>
-							<a
-								href="#pablo"
-								onClick={(e) => this.scrollTo(e, "verbos-na")}
-								className="text-info title"
-								style={{
-									fontSize: "1.2rem",
-									lineHeight: "1.61rem",
-								}}
-							>
-								Verbos　な形
-							</a>
-							<a
-								href="#pablo"
-								onClick={(e) =>
-									this.scrollTo(e, "adjetivos-na")
-								}
-								className="text-info title"
-								style={{
-									fontSize: "1.2rem",
-									lineHeight: "1.61rem",
-								}}
-							>
-								Adjetivos　な形
-							</a>
-							<a
-								href="#pablo"
-								onClick={(e) => this.scrollTo(e, "verbos-u")}
-								className="text-info title"
-								style={{
-									fontSize: "1.2rem",
-									lineHeight: "1.61rem",
-								}}
-							>
-								Verbos　う形
-							</a>
-							<a
-								href="#pablo"
-								onClick={(e) => this.scrollTo(e, "adjetivos-u")}
-								className="text-info title"
-								style={{
-									fontSize: "1.2rem",
-									lineHeight: "1.61rem",
-								}}
-							>
-								Adjetivos　う形
-							</a>
-						</Col>
-
-						<Tekei verbos={true} />
-						<Nakei verbos={true} />
-						<Ukei verbos={true} />
-
-						<Tekei verbos={false} />
-						<Nakei verbos={false} />
-						<Ukei verbos={false} />
-
-						<Col md="12" className="text-center mb-4">
-							<a
-								href="#pablo"
-								onClick={(e) => this.scrollTo(e, "top")}
-								className="text-info title"
-								style={{
-									fontSize: "1.2rem",
-									lineHeight: "1.61rem",
-								}}
-							>
-								<i className="fas fa-3x fa-chevron-up"></i>
-							</a>
-						</Col>
-					</Row>
+							けい <br />
+						</UncontrolledTooltip>
+						<Row className="justify-content-around">
+							<Col md="12" className="text-center">
+								<p>
+									<strong>Nota:</strong> Siendo que las formas{" "}
+									<span id="kei2">形</span> son un tema
+									relativamente avanzado, no estarán
+									disponibles las lecturas en{" "}
+									<strong>Romaji</strong>, pero se mantendrá
+									activa la opcion de tocar en un{" "}
+									<strong>Kanji</strong> para saber cómo se
+									lee.
+								</p>
+								<UncontrolledTooltip
+									placement="top"
+									target="kei2"
+									delay={0}
+								>
+									けい <br />
+								</UncontrolledTooltip>
+							</Col>
+							{LasFormasKei.map(
+								(forma) =>
+									this.state.parametro === forma.ruta && (
+										<forma.componente key={forma.key} />
+									)
+							)}
+							<BackToTop />
+						</Row>
+					</Container>
 				</div>
 			</React.Fragment>
 		);
