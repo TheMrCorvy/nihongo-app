@@ -39,7 +39,7 @@ export default function ParticulaMo() {
 					</div>
 					<h4 className="text-center">¿Cuál es su Función?</h4>
 					<p className="px-3">
-						La partícula も tiene 2 usos "principales" bastante
+						La partícula も tiene 3 usos "principales" bastante
 						simples, por un lado も funciona para marcar{" "}
 						<strong>inclución</strong>, a diferencia de と que es
 						parecido a "<strong>Y</strong>" en Español, も será mas
@@ -47,9 +47,16 @@ export default function ParticulaMo() {
 						<strong>también</strong>").
 					</p>
 					<p className="px-3">
-						Y por el otro lado, も también se usa para marcar{" "}
+						Y por otro lado, も también se usa para marcar{" "}
 						<strong>negación</strong>, pero en el sentido específico
 						de decir "<strong>ninguno</strong>".
+					</p>
+					<p className="px-3">
+						Por último, la partícula も se usa frecuentemente para
+						preguntar si es que <strong>está bien</strong> hacer
+						algo o si <strong>está permitido</strong> o no. Podrás
+						encontrar más detalles de ésto visitando la sección de
+						La Forma て<span id="kei20">形</span>.
 					</p>
 					<h4 className="text-center">Ejemplos</h4>
 					<p className="px-3">
@@ -63,6 +70,13 @@ export default function ParticulaMo() {
 						</strong>{" "}
 						quiero ir."
 					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="kei20"
+						delay={0}
+					>
+						けい
+					</UncontrolledTooltip>
 					<UncontrolledTooltip
 						placement="top"
 						target="watashi2"
