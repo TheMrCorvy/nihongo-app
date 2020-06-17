@@ -46,7 +46,7 @@ export default function Taikei() {
 						presente negativo, pasado afirmativo, y pasado
 						negativo).
 					</p>
-					<h4 className="text-center text-success">
+					<h4 className="text-center text-success mt-5">
 						Presente Afirmativo
 					</h4>
 					<p>
@@ -69,7 +69,7 @@ export default function Taikei() {
 					>
 						(si tan solo todas las cosas fueran así...)
 					</UncontrolledTooltip>
-					<p>
+					<p className="my-5">
 						Ejemplo: <br />
 						かき
 						<del className="text-info">ます</del>
@@ -92,7 +92,7 @@ export default function Taikei() {
 						Para el siguiente paso, no añadiremos「たい」, sino que
 						será「たくない」, y por último terminaremos con「です」.
 					</p>
-					<p>
+					<p className="my-5">
 						Ejemplo: <br />
 						かき
 						<del className="text-info">ます</del>
@@ -114,7 +114,7 @@ export default function Taikei() {
 						por「たかった」, y como de costumbre, terminamos
 						con「です」.
 					</p>
-					<p>
+					<p className="my-5">
 						Ejemplo: <br />
 						かき
 						<del className="text-info">ます</del>
@@ -139,7 +139,7 @@ export default function Taikei() {
 						, quedando finalmente como「たくなかった」, y por
 						último「です」.
 					</p>
-					<p>
+					<p className="my-5">
 						Ejemplo: <br />
 						かき
 						<del className="text-info">ます</del>

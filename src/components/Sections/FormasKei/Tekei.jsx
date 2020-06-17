@@ -292,7 +292,7 @@ export default function Tekei() {
 							unirse, y la forma て形 es la forma que se utiliza
 							para poder unir los verbos de una oración.
 						</p>
-						<h5 className="text-center pt-0 mt-0">
+						<h5 className="text-center pt-0 mt-5">
 							¿Cómo se Conectan los Verbos?
 						</h5>
 						<p>
@@ -310,7 +310,7 @@ export default function Tekei() {
 							tiempo que se quiera indicar, y el nivel de
 							formalidad.
 						</p>
-						<p className="text-center">
+						<p className="text-center mt-5">
 							Ejemplo: <br />
 							"Me levanto, me visto, y voy al colegio."
 							<br />
@@ -359,7 +359,7 @@ export default function Tekei() {
 							<strong>frecuencia</strong>" ("todos los días", "a
 							veces", etc.).
 						</p>
-						<p className="text-center">
+						<p className="text-center mt-5">
 							Ejemplo: <br />
 							"Todos los días me levanto, me visto, y voy al
 							colegio."
@@ -433,7 +433,7 @@ export default function Tekei() {
 							<strong className="text-info">dónde</strong> con su
 							respectiva partícula, sea で o に.
 						</p>
-						<p className="text-center">
+						<p className="text-center my-5">
 							Ejemplo: <br />
 							ここ
 							<span className="text-info">で</span>　
@@ -480,7 +480,7 @@ export default function Tekei() {
 							la partícula も, sino que haremos uso de{" "}
 							<strong className="text-primary">は</strong>.
 						</p>
-						<p className="text-center">
+						<p className="text-center my-5">
 							Ejemplo: <br />
 							ここ
 							<span className="text-info">に</span>　
@@ -528,27 +528,33 @@ export default function Tekei() {
 							Pedidos / Peticiones
 						</h4>
 						<p>
-							Hay 2 formas de hacer peticiones de la forma más{" "}
+							Hay 3 formas de hacer peticiones de la forma más{" "}
 							<strong className="text-primary">
 								amablemente
 							</strong>{" "}
 							posible.
 						</p>
 						<p>
-							Por un lado se usa la forma ない形 para pedir cosas
-							del estilo "no podrías hacer ésta cosa por favor?".
-							Ésta forma de hacer <strong>peticiones</strong> es
-							la más usada para pedir las cosas amablemente, pero
-							tambien se puede unir algún verbo en la forma て con
-							「下さい - ください」("por favor") para hacer una
-							petición, y seguir sonando amable, "Harías ésta
-							cosa" en la forma て + "por favor?".
+							Por un lado se usa「ませんか。」para pedir cosas del
+							estilo "no podrías hacer ésta cosa?". Ésta forma de
+							hacer <strong>peticiones</strong> es la más usada
+							para pedir las cosas amablemente y de manera{" "}
+							<strong>Formal</strong>, pero tambien se puede unir
+							algún verbo en la forma て con 「下さい -
+							ください」("por favor") para hacer una petición, y
+							seguir sonando amable, "Harías ésta cosa" en la
+							forma て + "por favor?".
 						</p>
 						<p>
-							Ambas formas son correctas y se puede modificar el
-							nivel de formalidad en ambos casos.
+							Y por último se puede usar la forma ない de una
+							manera similar para obtener los mísmos resultados.
 						</p>
-						<p className="text-center">
+						<p>
+							Todas las formas son correctas y se puede modificar
+							el nivel de formalidad en los casos del て形 y
+							ない形.
+						</p>
+						<p className="text-center mt-5">
 							Ejemplo: <br />
 							すこし<span id="yasumi">休</span>んで
 							<span className="text-success">
@@ -617,7 +623,7 @@ export default function Tekei() {
 							demás verbos de la oración <strong>deberán</strong>{" "}
 							estar conjugados en dicha forma.
 						</p>
-						<p className="text-center">
+						<p className="text-center mt-5">
 							Ejemplo: <br />
 							"Estoy vieno la tele en casa."
 							<br />

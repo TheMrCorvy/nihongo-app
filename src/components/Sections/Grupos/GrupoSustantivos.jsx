@@ -17,11 +17,14 @@ export default function GrupoSustantivos(props) {
 					style={{ borderRadius: ".5rem" }}
 					className="bg-white card-plain px-3"
 				>
-					<h3 className="title text-warning text-center" id="wago">
+					<h3
+						className="title text-warning text-center mb-0"
+						id="wago"
+					>
 						和語
 					</h3>
 					<UncontrolledTooltip
-						placement="bottom"
+						placement="top"
 						target="wago"
 						delay={0}
 					>
@@ -40,11 +43,14 @@ export default function GrupoSustantivos(props) {
 					style={{ borderRadius: ".5rem" }}
 					className="bg-white card-plain px-3"
 				>
-					<h3 className="title text-primary text-center" id="kango">
+					<h3
+						className="title text-primary text-center mb-0"
+						id="kango"
+					>
 						漢語
 					</h3>
 					<UncontrolledTooltip
-						placement="bottom"
+						placement="top"
 						target="kango"
 						delay={0}
 					>
@@ -63,11 +69,14 @@ export default function GrupoSustantivos(props) {
 					style={{ borderRadius: ".5rem" }}
 					className="bg-white card-plain px-3"
 				>
-					<h3 className="title text-success text-center" id="garaigo">
+					<h3
+						className="title text-success text-center mb-0"
+						id="garaigo"
+					>
 						外来語
 					</h3>
 					<UncontrolledTooltip
-						placement="bottom"
+						placement="top"
 						target="garaigo"
 						delay={0}
 					>

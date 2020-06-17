@@ -21,7 +21,7 @@ const LasFormasKei = [
 	},
 	{
 		key: 3,
-		nombre: "Forma 辞書形 じしけい (la forma う)",
+		nombre: "Forma 辞書形 じしけい (う)",
 		icono: "user-friends",
 		ruta: "u",
 		componente: Jishokei,
