@@ -28,6 +28,7 @@ import Principiantes from "views/Principiantes";
 import Contadores from "views/Numeros y Fechas/Contadores";
 
 import FormasKei from "views/FormasKei";
+import UnirAdjetivos from "views/Grupos y Tiempos/UnirAdjetivos";
 
 const routes = [
 	{
@@ -134,6 +135,11 @@ const routes = [
 		path: "/formas-kei/:forma",
 		nameKey: "Layout Formas Kei",
 		component: FormasKei,
+	},
+	{
+		path: "/unir-adjetivos",
+		nameKey: "Unir Adjetivos",
+		component: UnirAdjetivos,
 	},
 ];
 export default routes;

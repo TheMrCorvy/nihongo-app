@@ -21,7 +21,7 @@ export default function GrupoAdjetivos(props) {
 						い形ようし
 					</h3>
 					<UncontrolledTooltip
-						placement="bottom"
+						placement="top"
 						target="ikeyoushi"
 						delay={0}
 					>
@@ -56,7 +56,7 @@ export default function GrupoAdjetivos(props) {
 						な形ようし
 					</h3>
 					<UncontrolledTooltip
-						placement="bottom"
+						placement="top"
 						target="nakeyoushi"
 						delay={0}
 					>
