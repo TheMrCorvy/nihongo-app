@@ -15,6 +15,8 @@ import Grupos from "views/Grupos y Tiempos/Grupos";
 import Tiempos from "views/Grupos y Tiempos/Tiempos";
 
 import Transicion from "views/Transicion";
+
+import Kanjis from "views/Kanjis";
 import Kanji from "views/Kanji";
 
 import Numeros from "views/Numeros y Fechas/Numeros";
@@ -87,6 +89,11 @@ const routes = [
 		path: "/transicion/:recurso",
 		nameKey: "Transicion",
 		component: Transicion,
+	},
+	{
+		path: "/kanjis",
+		nameKey: "Diccionario Kanjis",
+		component: Kanjis,
 	},
 	{
 		path: "/kanji/1",

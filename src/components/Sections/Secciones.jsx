@@ -133,7 +133,7 @@ export default function Secciones(props) {
 			{(props.all || props.kanjis) && (
 				<Col md="6">
 					<Link
-						to="/kanji/1"
+						to="/kanjis"
 						onClick={() => {
 							scrollTop();
 						}}

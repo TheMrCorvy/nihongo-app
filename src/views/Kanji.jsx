@@ -34,12 +34,11 @@ export default class Kanji extends React.Component {
 					}}
 				>
 					<Row className="justify-content-center mb-5">
-						<Col md="6">
+						<Col md="12">
 							<Card
 								style={{
-									height: "87%",
 									borderRadius: "20px",
-									background: "#1171ef",
+									background: "rgb(17, 113, 239)",
 									overflow: "hidden",
 								}}
 								className="mt-3 card-plain"
@@ -108,69 +107,31 @@ export default class Kanji extends React.Component {
 											consectetur adipisicing elit.
 										</p>
 									</div>
+									<h6 className="title text-white px-3">
+										Grupo de verbo: 2
+									</h6>
+									<h6 className="title text-white px-3">
+										Tipo de Adjetivo: な形
+									</h6>
+									<div className="row justify-content-around text-white px-3">
+										<h6 className="title text-white px-3">
+											Cantidad de Trazos: 5
+										</h6>
+										<h6 className="title text-white px-3">
+											Nivel de examen: N2
+										</h6>
+									</div>
 								</CardBody>
 							</Card>
 						</Col>
-						<Col md="6">
-							<Card
-								className="card-plain bg-white mt-3"
-								style={{
-									borderRadius: "20px",
-								}}
-							>
-								<CardBody>
-									<h3 className="title pt-0 mb-0 text-center text-info">
-										Más Info
-									</h3>
-									<ul>
-										<li>
-											<p className="title">
-												Verbo:{" "}
-												<span className="text-success">
-													Grupo 3
-												</span>
-											</p>
-										</li>
-										<li>
-											<p className="title">
-												Adjetivo:{" "}
-												<span className="text-primary">
-													な形ようし
-												</span>
-											</p>
-										</li>
-										<li>
-											<p className="title">
-												Kanjis / hiraganas / Katakanas
-												parecidos:
-											</p>
-											<ul className="row justify-content-around pr-5">
-												<li className="mr-4">
-													<p>kanji</p>
-												</li>
-												<li className="mr-4">
-													<p>kanji</p>
-												</li>
-												<li className="mr-4">
-													<p>kanji</p>
-												</li>
-												<li className="mr-4">
-													<p>kanji</p>
-												</li>
-												<li className="mr-4">
-													<p>kanji</p>
-												</li>
-												<li className="mr-4">
-													<p>kanji</p>
-												</li>
-												<li className="mr-4">
-													<p>kanji</p>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</CardBody>
-							</Card>
+						<Col md="12">
+							<p className="text-center">
+								<strong className="text-info">Nota:</strong>{" "}
+								Puedes tocar en los Hiragana y Katakana para ver
+								las lecturas en{" "}
+								<strong className="text-success">Romaji</strong>
+								.
+							</p>
 						</Col>
 					</Row>
 				</div>
