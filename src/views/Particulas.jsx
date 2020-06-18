@@ -3,17 +3,7 @@ import { Row, Col, Container } from "reactstrap";
 
 import AccesosDirectos from "components/Sections/Particulas/AccesosDirectos";
 
-import ParticulaWa from "components/Sections/Particulas/ParticulaWa";
-import ParticulaWo from "components/Sections/Particulas/ParticulaWo";
-import ParticulaTo from "components/Sections/Particulas/ParticulaTo";
-import ParticulaNi from "components/Sections/Particulas/ParticulaNi";
-import ParticulaE from "components/Sections/Particulas/ParticulaE";
-import ParticulaGa from "components/Sections/Particulas/ParticulaGa";
-import ParticulaDe from "components/Sections/Particulas/ParticulaDe";
-import ParticulaMo from "components/Sections/Particulas/ParticulaMo";
-import BackToTop from "components/Sections/BackToTop";
-import ParticulaNo from "components/Sections/Particulas/ParticulaNo";
-import ParticulaKara from "components/Sections/Particulas/ParticulaKara";
+import LasParticulas from "components/LasParticulas";
 
 class Particulas extends React.Component {
 	state = {};
@@ -72,18 +62,10 @@ class Particulas extends React.Component {
 									como se leen los kanjis.
 								</p>
 							</Col>
-							<AccesosDirectos />
-							<ParticulaWa />
-							<ParticulaGa />
-							<ParticulaWo />
-							<ParticulaTo />
-							<ParticulaE />
-							<ParticulaMo />
-							<ParticulaNo />
-							<ParticulaKara />
-							<ParticulaNi />
-							<ParticulaDe />
-							<BackToTop />
+							<AccesosDirectos LasParticulas={LasParticulas} />
+							{LasParticulas.map((particula) => (
+								<particula.componente key={particula.romaji} />
+							))}
 						</Row>
 					</Container>
 				</div>

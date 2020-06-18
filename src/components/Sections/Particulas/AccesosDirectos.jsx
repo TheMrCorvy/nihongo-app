@@ -1,6 +1,5 @@
 import React from "react";
 import { Col } from "reactstrap";
-import particulas from "components/particulas.json";
 
 function scrollTo(e, particula) {
 	e.preventDefault();
@@ -10,14 +9,14 @@ function scrollTo(e, particula) {
 	});
 }
 
-export default function AccesosDirectos() {
+export default function AccesosDirectos(props) {
 	return (
 		<Col
 			md="12"
 			className="container row text-center justify-content-around px-5 mb-5"
 		>
 			<h4 className="col-lg-12">Accesos Directos</h4>
-			{particulas.lista.map((part) => (
+			{props.LasParticulas.map((part) => (
 				<a
 					href="#pablo"
 					onClick={(e) => scrollTo(e, part.romaji)}
