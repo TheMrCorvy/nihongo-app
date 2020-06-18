@@ -90,10 +90,10 @@ export default function GruposTiempos(props) {
 							}}
 						>
 							<CardBody className="text-white text-capitalize">
-								<span className="title">unira adjetivos</span>
+								<span className="title">unir adjetivos</span>
 								<i className="fas fa-chevron-right pl-3"></i>
 								<i
-									className="far fa-3x fa-link"
+									className="fas fa-3x fa-link"
 									style={{
 										position: "absolute",
 										top: 10,

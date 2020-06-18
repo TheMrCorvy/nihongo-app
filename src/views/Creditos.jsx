@@ -2,6 +2,8 @@ import React from "react";
 
 import Parallax from "components/Sections/Parallax";
 
+import BgImage from "../assets/img/bg-image.png";
+
 import { Card, CardBody, CardTitle, Row, Col, CardHeader } from "reactstrap";
 
 class Creditos extends React.Component {
@@ -29,7 +31,7 @@ class Creditos extends React.Component {
 		return (
 			<React.Fragment>
 				<div className="wrapper mb-5">
-					<Parallax BackgroundImage="assets/img/bg-image.png" />
+					<Parallax BackgroundImage={BgImage} />
 
 					<div className="bg-light container-fluid">
 						<Row className="d-flex justify-content-center">
