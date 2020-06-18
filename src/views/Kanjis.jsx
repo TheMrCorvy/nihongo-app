@@ -148,7 +148,12 @@ export default class Kanjis extends React.Component {
 							onClick={(e) => this.scrollTo(e, "top")}
 						>
 							<div className="mx-2">
-								<Card className="bg-white card-plain">
+								<Card
+									className="bg-white card-plain"
+									style={{
+										borderRadius: ".5rem",
+									}}
+								>
 									<CardBody className="px-3 text-black">
 										<p className="text-center">手</p>
 										<div className="progress-container progress-info pb-4">
@@ -168,6 +173,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(45, 206, 137) 0px, rgb(45, 206, 204) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -187,6 +193,7 @@ export default class Kanjis extends React.Component {
 								className="text-white card-plain"
 								style={{
 									background: "rgb(45, 206, 137)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -207,6 +214,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(17, 205, 239) 0px, rgb(17, 113, 239) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -226,6 +234,7 @@ export default class Kanjis extends React.Component {
 								className="text-white card-plain"
 								style={{
 									background: "rgb(17, 113, 239)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -246,6 +255,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -266,6 +276,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(251, 177, 64) 100%, rgb(251, 99, 64) 0px)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -286,6 +297,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(251, 99, 64) 0px, rgb(251, 177, 64) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -306,6 +318,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(245, 54, 92) 0px, rgb(245, 96, 54) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -326,6 +339,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(23, 43, 77) 0px, rgb(26, 23, 77) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -364,6 +378,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(45, 206, 137) 0px, rgb(45, 206, 204) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -376,6 +391,7 @@ export default class Kanjis extends React.Component {
 								className="text-white card-plain"
 								style={{
 									background: "rgb(45, 206, 137)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -389,6 +405,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(17, 205, 239) 0px, rgb(17, 113, 239) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -401,6 +418,7 @@ export default class Kanjis extends React.Component {
 								className="text-white card-plain"
 								style={{
 									background: "rgb(17, 113, 239)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -414,6 +432,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -427,6 +446,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(251, 177, 64) 100%, rgb(251, 99, 64) 0px)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -440,6 +460,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(251, 99, 64) 0px, rgb(251, 177, 64) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -453,6 +474,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(245, 54, 92) 0px, rgb(245, 96, 54) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">
@@ -466,6 +488,7 @@ export default class Kanjis extends React.Component {
 								style={{
 									background:
 										"linear-gradient(87deg, rgb(23, 43, 77) 0px, rgb(26, 23, 77) 100%)",
+									borderRadius: ".5rem",
 								}}
 							>
 								<CardBody className="px-3">

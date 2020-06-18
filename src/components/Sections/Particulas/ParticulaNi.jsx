@@ -143,7 +143,7 @@ export default function ParticulaNi() {
 						</strong>
 						<br />「<span id="nihon43">日本</span>
 						<span className="text-success">に</span>　
-						ヂズニランドが　ありますか。」
+						ディズニランドが　ありますか。」
 						<br />
 						"Hay un Disneyland{" "}
 						<strong className="text-success">en</strong> Japón?"

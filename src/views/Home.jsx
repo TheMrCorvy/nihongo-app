@@ -1,10 +1,9 @@
 import React from "react";
 
-// reactstrap components
-import { Container, Row, Col } from "reactstrap";
-import Parallax from "components/Parallax.js";
-import { UncontrolledTooltip } from "reactstrap";
-import BgImage from "../assets/img/bg-image.png";
+import { Container, Row, Col, UncontrolledTooltip } from "reactstrap";
+
+import Parallax from "components/Sections/Parallax";
+
 import Secciones from "components/Sections/Secciones";
 
 class Home extends React.Component {
@@ -28,7 +27,7 @@ class Home extends React.Component {
 		return (
 			<React.Fragment>
 				<div className="wrapper">
-					<Parallax BackgroundImage={BgImage} />
+					<Parallax BackgroundImage="assets/img/bg-image.png" />
 					<div className="section section-about-us pt-0">
 						<Container>
 							<Row>

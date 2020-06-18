@@ -1,6 +1,7 @@
 import React from "react";
-import Parallax from "components/Parallax";
-import BgImage from "../assets/img/bg-image.png";
+
+import Parallax from "components/Sections/Parallax";
+
 import { Card, CardBody, CardTitle, Row, Col, CardHeader } from "reactstrap";
 
 class Creditos extends React.Component {
@@ -28,7 +29,7 @@ class Creditos extends React.Component {
 		return (
 			<React.Fragment>
 				<div className="wrapper mb-5">
-					<Parallax BackgroundImage={BgImage} />
+					<Parallax BackgroundImage="assets/img/bg-image.png" />
 
 					<div className="bg-light container-fluid">
 						<Row className="d-flex justify-content-center">
@@ -100,10 +101,7 @@ class Creditos extends React.Component {
 							<Col md="8">
 								<h5 className="my-5">
 									Ésta App fue creada por{" "}
-									<a
-										href="https://corvalangonzalo.xyz"
-										target="_blank"
-									>
+									<a href="https://corvalangonzalo.xyz">
 										Gonzalo Salvador Corvalán
 									</a>
 								</h5>
