@@ -1,0 +1,94 @@
+{
+	"Kanjis": [
+		{
+			"id": 1,
+			"kanji": "手",
+			"codigo_color": "1",
+			"cant_trazos": "4",
+			"tipo_adj": "",
+			"grupo_vrb": "",
+			"tradduccion": "Mano"
+		},
+		{
+			"id": 2,
+			"kanji": "手",
+			"codigo_color": "2",
+			"cant_trazos": "4",
+			"tipo_adj": "",
+			"grupo_vrb": "",
+			"tradduccion": "Mano"
+		},
+		{
+			"id": 3,
+			"kanji": "手",
+			"codigo_color": "3",
+			"cant_trazos": "4",
+			"tipo_adj": "",
+			"grupo_vrb": "",
+			"tradduccion": "Mano"
+		},
+		{
+			"id": 4,
+			"kanji": "手",
+			"codigo_color": "4",
+			"cant_trazos": "4",
+			"tipo_adj": "",
+			"grupo_vrb": "",
+			"tradduccion": "Mano"
+		},
+		{
+			"id": 5,
+			"kanji": "手",
+			"codigo_color": "5",
+			"cant_trazos": "4",
+			"tipo_adj": "",
+			"grupo_vrb": "",
+			"tradduccion": "Mano"
+		},
+		{
+			"id": 6,
+			"kanji": "手",
+			"codigo_color": "6",
+			"cant_trazos": "4",
+			"tipo_adj": "",
+			"grupo_vrb": "",
+			"tradduccion": "Mano"
+		},
+		{
+			"id": 7,
+			"kanji": "手",
+			"codigo_color": "7",
+			"cant_trazos": "4",
+			"tipo_adj": "",
+			"grupo_vrb": "",
+			"tradduccion": "Mano"
+		},
+		{
+			"id": 8,
+			"kanji": "手",
+			"codigo_color": "8",
+			"cant_trazos": "4",
+			"tipo_adj": "",
+			"grupo_vrb": "",
+			"tradduccion": "Mano"
+		},
+		{
+			"id": 9,
+			"kanji": "手",
+			"codigo_color": "9",
+			"cant_trazos": "4",
+			"tipo_adj": "",
+			"grupo_vrb": "",
+			"tradduccion": "Mano"
+		},
+		{
+			"id": 10,
+			"kanji": "手",
+			"codigo_color": "10",
+			"cant_trazos": "4",
+			"tipo_adj": "",
+			"grupo_vrb": "",
+			"tradduccion": "Mano"
+		}
+	]
+}

@@ -97,7 +97,7 @@ const routes = [
 		component: Kanjis,
 	},
 	{
-		path: "/kanji/1",
+		path: "/kanji/:idKanji",
 		nameKey: "Info Kanji",
 		component: Kanji,
 	},

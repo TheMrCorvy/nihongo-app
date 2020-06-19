@@ -1,10 +1,23 @@
 import React from "react";
-import { Row, Col, Card, CardBody } from "reactstrap";
+import {
+	Row,
+	Col,
+	Card,
+	CardBody,
+	Spinner,
+	UncontrolledTooltip,
+} from "reactstrap";
+
+import Lecturas from "components/Json de Prueba/Lecturas";
 
 export default class Kanji extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {};
+		this.state = {
+			cargando: true,
+			error: false,
+			lecturas: Lecturas.Lecturas,
+		};
 	}
 
 	componentDidMount() {
@@ -21,6 +34,133 @@ export default class Kanji extends React.Component {
 		document.body.style.background = "#fff";
 		document.body.style.borderRadius = "0";
 	}
+
+	resultadosMapeados = () => {
+		if (!this.state.error && !this.state.cargando) {
+			return (
+				<React.Fragment>
+					<h4 className="title text-white text-center pt-0 my-0">
+						Lecturas
+					</h4>
+					<h6 className="title text-white text-center">Hiragana</h6>
+					<div
+						className="row justify-content-around text-white pt-3 px-4"
+						style={{
+							fontFamily: "Sawarabi Gothic",
+						}}
+					>
+						{this.state.lecturas.map(
+							(lectura) =>
+								lectura.hiragana && (
+									<React.Fragment>
+										<p
+											key={lectura.id}
+											id={
+												"lectura-hiragana-" + lectura.id
+											}
+										>
+											{lectura.hiragana}
+										</p>
+										<UncontrolledTooltip
+											placement="top"
+											target={
+												"lectura-hiragana-" + lectura.id
+											}
+											delay={0}
+										>
+											{lectura.romaji}
+										</UncontrolledTooltip>
+									</React.Fragment>
+								)
+						)}
+					</div>
+					<h6 className="title text-white text-center">Katakana</h6>
+					<div
+						className="row justify-content-around text-white pt-3 px-4"
+						style={{
+							fontFamily: "Sawarabi Gothic",
+						}}
+					>
+						{this.state.lecturas.map(
+							(lectura) =>
+								lectura.katakana && (
+									<React.Fragment>
+										<p
+											key={lectura.id}
+											id={
+												"lectura-katakana-" + lectura.id
+											}
+										>
+											{lectura.katakana}
+										</p>
+										<UncontrolledTooltip
+											placement="top"
+											target={
+												"lectura-katakana-" + lectura.id
+											}
+											delay={0}
+										>
+											{lectura.romaji}
+										</UncontrolledTooltip>
+									</React.Fragment>
+								)
+						)}
+					</div>
+					<h6 className="title text-white text-center">
+						Significado
+					</h6>
+					<div className="row justify-content-around text-white px-3">
+						<p className="text-center">
+							Lorem ipsum dolor sit, amet consectetur adipisicing
+							elit.
+						</p>
+					</div>
+					{/* <h6 className="title text-white px-3">Grupo de verbo: 2</h6>
+					<h6 className="title text-white px-3">
+						Tipo de Adjetivo: な形
+					</h6> */}
+				</React.Fragment>
+			);
+		} else if (this.state.cargando && !this.state.error) {
+			setTimeout(() => {
+				this.setState({
+					error: true,
+					cargando: false,
+				});
+			}, 3000);
+			return (
+				<React.Fragment>
+					<Col
+						md="12"
+						className="justify-content-center d-flex align-items-center text-center mb-3"
+					>
+						<Spinner color="white" />
+					</Col>
+					<p className="text-center text-white">Cargando...</p>
+				</React.Fragment>
+			);
+		} else {
+			setTimeout(() => {
+				this.setState({
+					error: false,
+					cargando: false,
+				});
+			}, 3000);
+			return (
+				<React.Fragment>
+					<Col
+						md="12"
+						className="justify-content-center d-flex align-items-center text-center mb-3"
+					>
+						<Spinner color="danger" />
+					</Col>
+					<p className="text-center text-white">
+						Hubo un error, intentando nuevamente...
+					</p>
+				</React.Fragment>
+			);
+		}
+	};
 
 	render() {
 		return (
@@ -65,54 +205,7 @@ export default class Kanji extends React.Component {
 											愛
 										</span>
 									</h1>
-									<h4 className="title text-white text-center pt-0 my-0">
-										Lecturas
-									</h4>
-									<h6 className="title text-white text-center pt-2 my-0">
-										Hiragana
-									</h6>
-									<div
-										className="row justify-content-around text-white pt-3 px-4"
-										style={{
-											fontFamily: "Sawarabi Gothic",
-										}}
-									>
-										<p>あい</p>
-										<p>あい</p>
-										<p>あい</p>
-										<p>あい</p>
-										<p>あい</p>
-									</div>
-									<h6 className="title text-white text-center pt-2 my-0">
-										Katakana
-									</h6>
-									<div
-										className="row justify-content-around text-white pt-3 px-4"
-										style={{
-											fontFamily: "Sawarabi Gothic",
-										}}
-									>
-										<p>アイ</p>
-										<p>アイ</p>
-										<p>アイ</p>
-										<p>アイ</p>
-										<p>アイ</p>
-									</div>
-									<h6 className="title text-white text-center pt-2 my-0">
-										Significado
-									</h6>
-									<div className="row justify-content-around text-white px-3">
-										<p className="text-center">
-											Lorem ipsum dolor sit, amet
-											consectetur adipisicing elit.
-										</p>
-									</div>
-									<h6 className="title text-white px-3">
-										Grupo de verbo: 2
-									</h6>
-									<h6 className="title text-white px-3">
-										Tipo de Adjetivo: な形
-									</h6>
+									{this.resultadosMapeados()}
 									<div className="row justify-content-around text-white px-3">
 										<h6 className="title text-white px-3">
 											Cantidad de Trazos: 5

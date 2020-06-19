@@ -1,0 +1,74 @@
+{
+	"Lecturas": [
+		{
+			"id": 1,
+			"id_kanji": "1",
+			"hiragana": "あい",
+			"katakana": "",
+			"romaji": "ai"
+		},
+		{
+			"id": 2,
+			"id_kanji": "1",
+			"hiragana": "あい",
+			"katakana": "",
+			"romaji": "ai"
+		},
+		{
+			"id": 3,
+			"id_kanji": "1",
+			"hiragana": "あい",
+			"katakana": "",
+			"romaji": "ai"
+		},
+		{
+			"id": 4,
+			"id_kanji": "1",
+			"hiragana": "あい",
+			"katakana": "",
+			"romaji": "ai"
+		},
+		{
+			"id": 5,
+			"id_kanji": "1",
+			"hiragana": "あい",
+			"katakana": "",
+			"romaji": "ai"
+		},
+		{
+			"id": 6,
+			"id_kanji": "1",
+			"hiragana": "",
+			"katakana": "アイ",
+			"romaji": "ai"
+		},
+		{
+			"id": 7,
+			"id_kanji": "1",
+			"hiragana": "",
+			"katakana": "アイ",
+			"romaji": "ai"
+		},
+		{
+			"id": 8,
+			"id_kanji": "1",
+			"hiragana": "",
+			"katakana": "アイ",
+			"romaji": "ai"
+		},
+		{
+			"id": 9,
+			"id_kanji": "1",
+			"hiragana": "",
+			"katakana": "アイ",
+			"romaji": "ai"
+		},
+		{
+			"id": 10,
+			"id_kanji": "1",
+			"hiragana": "",
+			"katakana": "アイ",
+			"romaji": "ai"
+		}
+	]
+}
