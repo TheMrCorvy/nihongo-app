@@ -41,9 +41,9 @@ function MainNavbar() {
 			>
 				<Container>
 					<div className="navbar-translate text-center">
-						<NavbarBrand>
+						{/* <NavbarBrand>
 							<i className="fas fa-2x fa-search"></i>
-						</NavbarBrand>
+						</NavbarBrand> */}
 						<NavbarBrand onClick={() => history.goBack()}>
 							<i className="fas fa-2x fa-chevron-left"></i>
 						</NavbarBrand>
