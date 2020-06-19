@@ -54,6 +54,7 @@ function MainNavbar() {
 							onClick={() => {
 								scrollTop();
 							}}
+							style={{ marginRight: "-5px" }}
 						>
 							<i className="fas fa-2x fa-home"></i>
 						</NavbarBrand>
