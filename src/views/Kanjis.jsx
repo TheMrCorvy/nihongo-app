@@ -11,7 +11,6 @@ import {
 	Col,
 	FormGroup,
 	Input,
-	Spinner,
 } from "reactstrap";
 
 import { Link } from "react-router-dom";
@@ -23,8 +22,6 @@ export default class Kanjis extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			cargando: true,
-			error: false,
 			ListaKanjis: ListaKanjis.Kanjis,
 		};
 	}
@@ -134,149 +131,53 @@ export default class Kanjis extends React.Component {
 		}
 	};
 
-	ResultadosMapeados = () => {
-		if (!this.state.cargando && !this.state.error) {
-			return (
-				<React.Fragment>
-					<Pagination
-						className="pagination pagination-info"
-						listClassName="pagination-info row justify-content-around"
-					>
-						<PaginationItem>
-							<PaginationLink
-								href="#pablo"
-								onClick={(e) => e.preventDefault()}
-							>
-								<i
-									className="fas fa-3x fa-chevron-left text-info"
-									style={{ marginTop: -5 }}
-								></i>
-							</PaginationLink>
-						</PaginationItem>
+	// ResultadosMapeados = () => {
+	// 	if (!this.state.cargando && !this.state.error) {
+	// 		return (
+	// 			<React.Fragment>
 
-						<PaginationItem className="active show">
-							<PaginationLink>1</PaginationLink>
-						</PaginationItem>
-						<PaginationItem className="show">
-							<PaginationLink>2</PaginationLink>
-						</PaginationItem>
-						<PaginationItem className="show">
-							<PaginationLink>3</PaginationLink>
-						</PaginationItem>
-						<PaginationItem className="show">
-							<PaginationLink>4</PaginationLink>
-						</PaginationItem>
-						<PaginationItem className="show">
-							<PaginationLink>5</PaginationLink>
-						</PaginationItem>
-
-						<PaginationItem>
-							<PaginationLink
-								href="#pablo"
-								onClick={(e) => e.preventDefault()}
-							>
-								<i
-									className="fas fa-3x fa-chevron-right text-info"
-									style={{ marginTop: -5 }}
-								></i>
-							</PaginationLink>
-						</PaginationItem>
-					</Pagination>
-					<Col md="12">
-						<FormGroup>
-							<label htmlFor="exampleFormControlSelect1">
-								Ordenar Por:
-							</label>
-							<Input id="exampleFormControlSelect1" type="select">
-								<option>Orden Alfabético</option>
-								<option>Cantidad de Trazos</option>
-								<option>Nivel de Examen</option>
-							</Input>
-						</FormGroup>
-					</Col>
-					<h5 className="title text-info text-center col-lg-12">
-						Kanjis
-					</h5>
-					{this.state.ListaKanjis.map((kanji) => (
-						<Link
-							to={"/kanji/" + kanji.id}
-							onClick={(e) => this.scrollTo(e, "top")}
-							key={kanji.id}
-						>
-							<div className="mx-2">
-								<Card
-									className="card-plain"
-									style={{
-										borderRadius: ".5rem",
-										background: this.switch(
-											kanji.codigo_color
-										).BgColor,
-										color: this.switch(kanji.codigo_color)
-											.TextColor,
-									}}
-								>
-									<CardBody className="px-3">
-										<p className="text-center">手</p>
-										<div className="progress-container progress-info pb-4">
-											<Progress
-												max="100"
-												value="100"
-											></Progress>
-										</div>
-										<p className="mb-0">
-											Mano{" "}
-											{
-												this.switch(kanji.codigo_color)
-													.JLPT
-											}
-										</p>
-									</CardBody>
-								</Card>
-							</div>
-						</Link>
-					))}
-				</React.Fragment>
-			);
-		} else if (!this.state.error && this.state.cargando) {
-			setTimeout(() => {
-				this.setState({
-					error: true,
-					cargando: false,
-				});
-			}, 3000);
-			return (
-				<React.Fragment>
-					<Col
-						md="12"
-						className="justify-content-center d-flex align-items-center text-center mb-3"
-					>
-						<Spinner color="info" />
-					</Col>
-					<p className="text-center">Cargando...</p>
-				</React.Fragment>
-			);
-		} else {
-			setTimeout(() => {
-				this.setState({
-					error: false,
-					cargando: false,
-				});
-			}, 3000);
-			return (
-				<React.Fragment>
-					<Col
-						md="12"
-						className="justify-content-center d-flex align-items-center text-center mb-3"
-					>
-						<Spinner color="danger" />
-					</Col>
-					<p className="text-center">
-						Hubo un error, intentando nuevamente...
-					</p>
-				</React.Fragment>
-			);
-		}
-	};
+	// 			</React.Fragment>
+	// 		);
+	// 	} else if (!this.state.error && this.state.cargando) {
+	// 		setTimeout(() => {
+	// 			this.setState({
+	// 				error: true,
+	// 				cargando: false,
+	// 			});
+	// 		}, 3000);
+	// 		return (
+	// 			<React.Fragment>
+	// 				<Col
+	// 					md="12"
+	// 					className="justify-content-center d-flex align-items-center text-center mb-3"
+	// 				>
+	// 					<Spinner color="info" />
+	// 				</Col>
+	// 				<p className="text-center">Cargando...</p>
+	// 			</React.Fragment>
+	// 		);
+	// 	} else {
+	// 		setTimeout(() => {
+	// 			this.setState({
+	// 				error: false,
+	// 				cargando: false,
+	// 			});
+	// 		}, 3000);
+	// 		return (
+	// 			<React.Fragment>
+	// 				<Col
+	// 					md="12"
+	// 					className="justify-content-center d-flex align-items-center text-center mb-3"
+	// 				>
+	// 					<Spinner color="danger" />
+	// 				</Col>
+	// 				<p className="text-center">
+	// 					Hubo un error, intentando nuevamente...
+	// 				</p>
+	// 			</React.Fragment>
+	// 		);
+	// 	}
+	// };
 
 	render() {
 		return (
@@ -308,7 +209,110 @@ export default class Kanjis extends React.Component {
 					</h3>
 					<Container>
 						<Row className="justify-content-center">
-							{this.ResultadosMapeados()}
+							<Pagination
+								className="pagination pagination-info"
+								listClassName="pagination-info row justify-content-around"
+							>
+								<PaginationItem>
+									<PaginationLink
+										href="#pablo"
+										onClick={(e) => e.preventDefault()}
+									>
+										<i
+											className="fas fa-3x fa-chevron-left text-info"
+											style={{ marginTop: -5 }}
+										></i>
+									</PaginationLink>
+								</PaginationItem>
+
+								<PaginationItem className="active show">
+									<PaginationLink>1</PaginationLink>
+								</PaginationItem>
+								<PaginationItem className="show">
+									<PaginationLink>2</PaginationLink>
+								</PaginationItem>
+								<PaginationItem className="show">
+									<PaginationLink>3</PaginationLink>
+								</PaginationItem>
+								<PaginationItem className="show">
+									<PaginationLink>4</PaginationLink>
+								</PaginationItem>
+								<PaginationItem className="show">
+									<PaginationLink>5</PaginationLink>
+								</PaginationItem>
+
+								<PaginationItem>
+									<PaginationLink
+										href="#pablo"
+										onClick={(e) => e.preventDefault()}
+									>
+										<i
+											className="fas fa-3x fa-chevron-right text-info"
+											style={{ marginTop: -5 }}
+										></i>
+									</PaginationLink>
+								</PaginationItem>
+							</Pagination>
+							<Col md="12">
+								<FormGroup>
+									<label htmlFor="exampleFormControlSelect1">
+										Ordenar Por:
+									</label>
+									<Input
+										id="exampleFormControlSelect1"
+										type="select"
+									>
+										<option>Orden Alfabético</option>
+										<option>Cantidad de Trazos</option>
+										<option>Nivel de Examen</option>
+									</Input>
+								</FormGroup>
+							</Col>
+							<h5 className="title text-info text-center col-lg-12">
+								Kanjis
+							</h5>
+							{this.state.ListaKanjis.map((kanji) => (
+								<Link
+									to={"/kanji/" + kanji.id}
+									onClick={(e) => this.scrollTo(e, "top")}
+									key={kanji.id}
+								>
+									<div className="mx-2">
+										<Card
+											className="card-plain"
+											style={{
+												borderRadius: ".5rem",
+												background: this.switch(
+													kanji.codigo_color
+												).BgColor,
+												color: this.switch(
+													kanji.codigo_color
+												).TextColor,
+											}}
+										>
+											<CardBody className="px-3">
+												<p className="text-center">
+													手
+												</p>
+												<div className="progress-container progress-info pb-4">
+													<Progress
+														max="100"
+														value="100"
+													></Progress>
+												</div>
+												<p className="mb-0">
+													Mano{" "}
+													{
+														this.switch(
+															kanji.codigo_color
+														).JLPT
+													}
+												</p>
+											</CardBody>
+										</Card>
+									</div>
+								</Link>
+							))}
 						</Row>
 					</Container>
 					<Row className="justify-content-around">

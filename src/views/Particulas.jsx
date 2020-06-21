@@ -4,6 +4,7 @@ import { Row, Col, Container } from "reactstrap";
 import AccesosDirectos from "components/Sections/Particulas/AccesosDirectos";
 
 import LasParticulas from "components/LasParticulas";
+import BackToTop from "components/Sections/BackToTop";
 
 class Particulas extends React.Component {
 	state = {};
@@ -66,6 +67,7 @@ class Particulas extends React.Component {
 							{LasParticulas.map((particula) => (
 								<particula.componente key={particula.romaji} />
 							))}
+							<BackToTop />
 						</Row>
 					</Container>
 				</div>

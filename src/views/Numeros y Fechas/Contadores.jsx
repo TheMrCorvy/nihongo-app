@@ -71,9 +71,7 @@ export default class Contadores extends React.Component {
 											<strong className="text-info">
 												2 perros
 											</strong>
-											. Ésto pasa porque ambos objetos de
-											la oración, son cosas distintas.
-											Para decir que se tienen{" "}
+											. Para decir que se tienen{" "}
 											<strong className="text-info">
 												2 libros
 											</strong>
@@ -82,7 +80,8 @@ export default class Contadores extends React.Component {
 											<strong className="text-info">
 												cosas planas
 											</strong>
-											, mientras que para decir que hay{" "}
+											, o el propio de los libros,
+											mientras que para decir que hay{" "}
 											<strong className="text-info">
 												2 perros
 											</strong>
@@ -114,7 +113,7 @@ export default class Contadores extends React.Component {
 											estudiar y saberlos todos, en la
 											vida real lo más probable es que no
 											uses más que unos cuantos. Es por
-											eso que aquí veremos 4 de los
+											eso que aquí veremos 5 de los
 											contadores más frecuentes,
 											incluyendo{" "}
 											<strong className="text-info">
@@ -184,9 +183,9 @@ export default class Contadores extends React.Component {
 											<tbody>
 												<tr>
 													<th scope="row">1</th>
-													<td>ひとり</td>
+													<td>ひとつ</td>
 													<td>
-														<strong>hitori</strong>
+														<strong>hitotsu</strong>
 													</td>
 												</tr>
 												<tr>
@@ -602,6 +601,129 @@ export default class Contadores extends React.Component {
 													</td>
 													<td>
 														<strong>nandai</strong>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</CardBody>
+								</Card>
+							</Col>
+							<Col md="12">
+								<Card
+									className="card-plain text-white"
+									style={{
+										borderRadius: ".5rem",
+										background:
+											"linear-gradient(87deg, rgb(245, 54, 92) 0px, rgb(245, 96, 54) 100%)",
+									}}
+								>
+									<CardBody className="text-center px-4">
+										<h4 className="mt-1 mb-0">
+											Animales Pequeños
+										</h4>
+										<small className="text-center">
+											(Pájaros no incluidos en el empaque
+											original)
+										</small>
+										<p className="mt-4">
+											Se utiliza para contar animales
+											pequeños como mascotas (perros,
+											gatos...), peces, ratas, insectos,
+											ranas, abejas, hormigas, etc.
+										</p>
+										<p>
+											Ya que las aves tienen su propio
+											contador, no se podrá utilizar éste
+											para contarlas, pero si se puede
+											utilizar, por ejemplo, el contador
+											de cosas pequeñas si se desea.
+										</p>
+										<table className="container">
+											<tbody>
+												<tr>
+													<th scope="row">1</th>
+													<td>いっぴき</td>
+													<td>
+														<strong>ippiki</strong>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row">2</th>
+													<td>にひき</td>
+													<td>
+														<strong>nihiki</strong>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row">3</th>
+													<td>さんびき</td>
+													<td>
+														<strong>sanbiki</strong>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row">4</th>
+													<td>よんひき</td>
+													<td>
+														<strong>yonhiki</strong>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row">5</th>
+													<td>ごひき</td>
+													<td>
+														<strong>gohiki</strong>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row">6</th>
+													<td>ろっぴき</td>
+													<td>
+														<strong>roppiki</strong>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row">7</th>
+													<td>ななひき / しちひき</td>
+													<td>
+														<strong>
+															nanahiki /
+															shichihiki{" "}
+														</strong>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row">8</th>
+													<td>はっぴき</td>
+													<td>
+														<strong>happiki</strong>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row">9</th>
+													<td>きゅうひき</td>
+													<td>
+														<strong>
+															kyuuhiki
+														</strong>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row">10</th>
+													<td>じゅっぴき</td>
+													<td>
+														<strong>juppiki</strong>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row">
+														Pregunta
+													</th>
+													<td>
+														「何びき」(なんびき)
+													</td>
+													<td>
+														<strong>nanbiki</strong>
 													</td>
 												</tr>
 											</tbody>

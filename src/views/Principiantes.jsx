@@ -88,6 +88,177 @@ class Principiantes extends React.Component {
 							</Col>
 							<Col md="12">
 								<Card
+									className="card-plain bg-info"
+									style={{ borderRadius: "15px" }}
+								>
+									<CardHeader className="text-white text-center">
+										<h4 className="title">La Escritura</h4>
+									</CardHeader>
+									<CardBody
+										className="mt-5 bg-white px-3"
+										style={{
+											borderRadius: "15px",
+										}}
+									>
+										<h4 className="text-center">
+											¿Cómo se escribe en Japonés?
+										</h4>
+
+										<p>
+											Hay 4 formas válidas de escribir en
+											Japonés.
+										</p>
+										<h5 className="text-info mt-5 text-center">
+											Romaji
+										</h5>
+										<p>
+											En primer lugar está el{" "}
+											<strong>Romaji</strong>, que es la
+											fonética del idioma escrito con las
+											letras occidentales, para dejarlo
+											más sencillo, vendría siendo la
+											forma de escribir cómo suena el
+											Japonés, pero con nuestras letras.
+											<br />
+											Si bien ésta escritura no es nativa
+											de Japón, es una forma de escritura
+											igual de válida que las demás.
+										</p>
+										<p>
+											<strong className="text-info">
+												Ejemplo:
+											</strong>{" "}
+											"
+											<strong className="text-success">
+												Japón
+											</strong>
+											" en <strong>Romaji</strong> sería "
+											<strong className="text-success">
+												nihon
+											</strong>
+											"
+										</p>
+										<h5 className="text-info mt-5 text-center">
+											Hiragana y Katakana
+										</h5>
+										<p>
+											Continuando están los llamados "
+											<strong>Kanas</strong>", son dos
+											formas de escritura basadas en la
+											fonética, y que no expresan ningún
+											significado más allá del que se
+											pueda inferir de una frase hablada.
+											<br />
+											Hay 2 tablas Kanas. La tabla de{" "}
+											<strong>Hiragana</strong> expresa
+											todos los sonidos disponibles en
+											idioma, y se usa para dar
+											pronunciación a los{" "}
+											<strong>Kanjis</strong>, así como
+											tabién encuentran su uso en forma de
+											las partículas que componen y dan
+											sentido a las oraciones.
+											<br />Y por el otro lado está la
+											tabla de <strong>Katakana</strong>,
+											cuyo principal uso estará en
+											escribir o adaptar palabras, sonidos
+											y expresiones de otros idiomas, para
+											ser usados en el Japonés. Para
+											lograr ésto, los Katakana cuentan
+											con una flexibilidad que los
+											Hiragana no tienen, y es que se
+											pueden generar sonidos que no se
+											encuentran "predefinidos" en el
+											idioma, a base de unir Katakanas.
+											<br />
+											<small>
+												(ésto cuenta con una explicación
+												un poco más extendida en la
+												sección de Katakana)
+											</small>
+										</p>
+										<p>
+											<strong className="text-info">
+												Ejemplo:
+											</strong>{" "}
+											"
+											<strong className="text-success">
+												Japón
+											</strong>
+											" en <strong>Hiragana</strong> sería
+											"
+											<strong className="text-success">
+												にほん
+											</strong>
+											"
+										</p>
+										<p>
+											Y en <strong>Katakana</strong> sería
+											"
+											<strong className="text-success">
+												ニホン
+											</strong>
+											"
+										</p>
+										<h5 className="text-info mt-5 text-center">
+											Kanji
+										</h5>
+										<p>
+											Por último están los{" "}
+											<strong>Kanji</strong>, que son lo
+											que se conoce como{" "}
+											<strong>ideogramas</strong>{" "}
+											(símbolos que representan ideas o
+											conceptos), y son el principal pilar
+											que le da sentido a todo dentro del
+											idioma, ya que son los que
+											proporcionan un significado a las
+											cosas.
+											<br />
+											El kanji de{" "}
+											<span id="hito">人</span>, por
+											ejemplo, representa a una{" "}
+											<strong>persona</strong>, y se
+											utiliza para escribir toda clase de
+											conceptos relacionados a las{" "}
+											<strong>personas</strong>, palabras
+											como "empleado", "extranjero",
+											"población", "chofer", etc. se
+											escriben utilizando dicho kanji.
+										</p>
+										<UncontrolledTooltip
+											placement="top"
+											target="hito"
+											delay={0}
+										>
+											ひと <br /> (Hito)
+										</UncontrolledTooltip>
+										<p>
+											<strong className="text-info">
+												Ejemplo:
+											</strong>{" "}
+											"
+											<strong className="text-success">
+												Japón
+											</strong>
+											" escrito con{" "}
+											<strong>Kanjis</strong>, sería "
+											<strong className="text-success">
+												日本
+											</strong>
+											"
+										</p>
+									</CardBody>
+								</Card>
+							</Col>
+
+							<Secciones
+								hiragana={true}
+								katakana={true}
+								kanjis={true}
+							/>
+							<Col md="12">
+								<Card
 									className="bg-info card-plain"
 									style={{ borderRadius: "15px" }}
 								>
@@ -173,113 +344,6 @@ class Principiantes extends React.Component {
 									</CardBody>
 								</Card>
 							</Col>
-							<Col md="12">
-								<Card
-									className="card-plain bg-info"
-									style={{ borderRadius: "15px" }}
-								>
-									<CardHeader className="text-white text-center">
-										<h4 className="title">La Escritura</h4>
-									</CardHeader>
-									<CardBody
-										className="mt-5 bg-white px-3"
-										style={{
-											borderRadius: "15px",
-										}}
-									>
-										<h4 className="text-center">
-											¿Cómo se escribe en Japonés?
-										</h4>
-										<p>
-											Hay 4 formas válidas de escribir en
-											Japonés. <br /> En primer lugar está
-											el <strong>Romaji</strong>, que es
-											la fonética del idioma escrito con
-											las letras occidentales, para
-											dejarlo más sencillo, vendría siendo
-											la forma de escribir cómo suena el
-											Japonés, pero con nuestras letras.
-											<br />
-											Si bien ésta escritura no es nativa
-											de Japón, es una forma de escritura
-											igual de válida que las demás.
-										</p>
-										<p>
-											Continuando están los llamados "
-											<strong>Kanas</strong>", son dos
-											formas de escritura basadas en la
-											fonética, y que no expresan ningún
-											significado más allá del que se
-											pueda inferir de una frase hablada.
-											<br />
-											Hay 2 tablas Kanas. La tabla de{" "}
-											<strong>Hiragana</strong> expresa
-											todos los sonidos disponibles en
-											idioma, y se usa para dar
-											pronunciación a los{" "}
-											<strong>Kanjis</strong>, así como
-											tabién encuentran su uso en forma de
-											las partículas que componen y dan
-											sentido a las oraciones.
-											<br />Y por el otro lado está la
-											tabla de <strong>Katakana</strong>,
-											cuyo principal uso estará en
-											escribir o adaptar palabras, sonidos
-											y expresiones de otros idiomas, para
-											ser usados en el Japonés. Para
-											lograr ésto, los Katakana cuentan
-											con una flexibilidad que los
-											Hiragana no tienen, y es que se
-											pueden generar sonidos que no se
-											encuentran "predefinidos" en el
-											idioma, a base de unir Katakanas.
-											<br />
-											<small>
-												(ésto cuenta con una explicación
-												un poco más extendida en la
-												sección de Katakana)
-											</small>
-										</p>
-										<p>
-											Por último están los{" "}
-											<strong>Kanji</strong>, que son lo
-											que se conoce como{" "}
-											<strong>ideogramas</strong>{" "}
-											(símbolos que representan ideas o
-											conceptos), y son el principal pilar
-											que le da sentido a todo dentro del
-											idioma, ya que son los que
-											proporcionan un significado a las
-											cosas.
-											<br />
-											El kanji de{" "}
-											<span id="hito">人</span>, por
-											ejemplo, representa a una{" "}
-											<strong>persona</strong>, y se
-											utiliza para escribir toda clase de
-											conceptos relacionados a las{" "}
-											<strong>personas</strong>, palabras
-											como "empleado", "extranjero",
-											"población", "chofer", etc. se
-											escriben utilizando dicho kanji.
-										</p>
-										<UncontrolledTooltip
-											placement="top"
-											target="hito"
-											delay={0}
-										>
-											ひと <br /> (Hito)
-										</UncontrolledTooltip>
-									</CardBody>
-								</Card>
-							</Col>
-
-							<Secciones
-								hiragana={true}
-								katakana={true}
-								kanjis={true}
-							/>
-
 							<Col md="12">
 								<Card
 									className="bg-info card-plain"

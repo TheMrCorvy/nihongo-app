@@ -18,36 +18,93 @@ export default function GrupoVerbos() {
 							Los verbos que terminan en los siguientes hiraganas:
 						</h6>
 						<Row className="justify-content-around px-3">
-							<p className="text-info px-2">
-								<span className="text-warning">い</span>ます
+							<p className="text-info px-2" id="g1-imasu">
+								<span className="text-warning">-い</span>ます
 							</p>
-							<p className="text-info px-2">
-								<span className="text-warning">き</span>ます
+							<UncontrolledTooltip
+								placement="top"
+								target="g1-imasu"
+								delay={0}
+							>
+								(-imasu)
+							</UncontrolledTooltip>
+							<p className="text-info px-2" id="g1-kimasu">
+								<span className="text-warning">-き</span>ます
 							</p>
-							<p className="text-info px-2">
-								<span className="text-warning">ぎ</span>ます
+							<UncontrolledTooltip
+								placement="top"
+								target="g1-kimasu"
+								delay={0}
+							>
+								(-kimasu)
+							</UncontrolledTooltip>
+							<p className="text-info px-2" id="g1-gimasu">
+								<span className="text-warning">-ぎ</span>ます
 							</p>
-							<p className="text-info px-2">
-								<span className="text-warning">し</span>ます
+							<UncontrolledTooltip
+								placement="top"
+								target="g1-gimasu"
+								delay={0}
+							>
+								(-gimasu)
+							</UncontrolledTooltip>
+							<p className="text-info px-2" id="g1-shimasu">
+								<span className="text-warning">-し</span>ます
 							</p>
-							<p className="text-info px-2">
-								<span className="text-warning">ち</span>ます
+							<UncontrolledTooltip
+								placement="top"
+								target="g1-shimasu"
+								delay={0}
+							>
+								(-shimasu)
+							</UncontrolledTooltip>
+							<p className="text-info px-2" id="g1-chimasu">
+								<span className="text-warning">-ち</span>ます
 							</p>
-							<p className="text-info px-2">
-								<span className="text-warning">び</span>ます
+							<UncontrolledTooltip
+								placement="top"
+								target="ikimasu50"
+								delay={0}
+							>
+								(-chimasu)
+							</UncontrolledTooltip>
+							<p className="text-info px-2" id="g1-bimasu">
+								<span className="text-warning">-び</span>ます
 							</p>
-							<p className="text-info px-2">
-								<span className="text-warning">み</span>ます
+							<UncontrolledTooltip
+								placement="top"
+								target="g1-bimasu"
+								delay={0}
+							>
+								(-bimasu)
+							</UncontrolledTooltip>
+							<p className="text-info px-2" id="g1-mimasu">
+								<span className="text-warning">-み</span>ます
 							</p>
-							<p className="text-info px-2">
-								<span className="text-warning">り</span>ます
+							<UncontrolledTooltip
+								placement="top"
+								target="g1-mimasu"
+								delay={0}
+							>
+								(-mimasu)
+							</UncontrolledTooltip>
+							<p className="text-info px-2" id="g1-rimasu">
+								<span className="text-warning">-り</span>ます
 							</p>
+							<UncontrolledTooltip
+								placement="top"
+								target="g1-rimasu"
+								delay={0}
+							>
+								(-rimasu)
+							</UncontrolledTooltip>
 						</Row>
 						<p>
 							<strong className="text-info">Nota:</strong> El
 							verbo
 							<span className="text-danger">
-								「<span id="ikimasu50">行</span>きます」
+								「<span id="ikimasu50">行</span>
+								きます」(ikimasu){" "}
 							</span>
 							es una excepción que generalmente sigue sus propias
 							reglas, así que es recomendable tenerlo en cuenta a
@@ -92,7 +149,8 @@ export default function GrupoVerbos() {
 								<strong className="text-info">Nota:</strong> No
 								son los verbos terminados en los Hiraganas{" "}
 								<strong className="text-danger">
-									います o えます
+									<span id="g2-imasu">います</span> o{" "}
+									<span id="g2-emasu">えます</span>
 								</strong>
 								, sino aquellos cuyos ultimos Hiraganas terminan
 								en esos sonídos, por ejemplo:
@@ -101,6 +159,20 @@ export default function GrupoVerbos() {
 								</span>
 								(tabemasu).
 							</p>
+							<UncontrolledTooltip
+								placement="top"
+								target="g2-imasu"
+								delay={0}
+							>
+								(imasu)
+							</UncontrolledTooltip>
+							<UncontrolledTooltip
+								placement="top"
+								target="g2-emasu"
+								delay={0}
+							>
+								(emasu)
+							</UncontrolledTooltip>
 						</Row>
 					</CardBody>
 				</Card>

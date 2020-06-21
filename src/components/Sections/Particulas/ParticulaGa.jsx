@@ -58,14 +58,14 @@ export default function ParticulaGa() {
 					<p className="px-3">
 						También se usa para hablar de cosas más específicas,
 						como puede ser hablar acerca de <strong>gustos</strong>{" "}
-						utilizando<span id="suki">「好き」</span>.
+						utilizando「<span id="suki">好</span>き」.
 					</p>
 					<UncontrolledTooltip
 						placement="top"
 						target="suki"
 						delay={0}
 					>
-						すき
+						す
 					</UncontrolledTooltip>
 					<p className="px-3">
 						Para finalizar con los usos más frecuentes de が, ésta
@@ -88,9 +88,17 @@ export default function ParticulaGa() {
 					</UncontrolledTooltip>
 					<p className="px-3">
 						<strong className="text-info">Gustos (好き):</strong>{" "}
-						「みかん<span className="text-success">が</span>
-						　好きです。」 <br /> "Me gustan las mandarinas"
+						「みかん<span className="text-success">が</span>　
+						<span id="suki2">好</span>きです。」 <br /> "Me gustan
+						las mandarinas"
 					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="suki2"
+						delay={0}
+					>
+						す
+					</UncontrolledTooltip>
 					<p className="px-3">
 						<strong className="text-info">Énfasis:</strong>「せ
 						<span className="text-success">が</span>　

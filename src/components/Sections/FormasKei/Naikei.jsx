@@ -378,8 +378,10 @@ export default function Naikei() {
 								飲まなければなりません。
 							</span>
 							<br />"
-							<strong className="text-danger title">Debes</strong>{" "}
-							tomar la{" "}
+							<strong className="text-danger title">
+								Debes tomar
+							</strong>{" "}
+							la{" "}
 							<strong className="text-success">medicina</strong>."
 						</p>
 						<UncontrolledTooltip

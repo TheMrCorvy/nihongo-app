@@ -47,8 +47,15 @@ export default function ParticulaTo() {
 						と <strong>bajo ninguna sircunstancia</strong> se puede
 						usar para conectar ni <strong>verbos</strong> ni{" "}
 						<strong>adjetivos</strong>, ya que para ambos casos se
-						usa la forma て形.
+						usa la forma て<span id="tekei-part-to">形</span>.
 					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="tekei-part-to"
+						delay={0}
+					>
+						けい
+					</UncontrolledTooltip>
 					<p className="px-3">
 						También estaremos usando と para expresar{" "}
 						<strong>compañía</strong>, por ejemplo que estemos
@@ -72,15 +79,27 @@ export default function ParticulaTo() {
 					</UncontrolledTooltip>
 					<h4 className="text-center">Ejemplos</h4>
 					<p className="px-3 text-center">
-						<strong className="text-info">Conector "Y":</strong>{" "}
-						「果物<span className="text-success">と</span>　野菜。」
-						<br />
-						「くだもの<span className="text-success">と</span>
-						　やさい。」
-						<br />
-						"Frutas <strong className="text-success">y</strong>{" "}
-						verduras"
+						<strong className="text-info">Conector "Y":</strong> 「
+						<span id="kudamono">果物</span>
+						<span className="text-success">と</span>　
+						<span id="yasai">野菜</span>。」
+						<br /> "Frutas{" "}
+						<strong className="text-success">y</strong> verduras"
 					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="kudamono"
+						delay={0}
+					>
+						くだもの
+					</UncontrolledTooltip>
+					<UncontrolledTooltip
+						placement="top"
+						target="yasai"
+						delay={0}
+					>
+						やさい
+					</UncontrolledTooltip>
 					<p className="px-3 text-center">
 						<strong className="text-info">Compañía:</strong>{" "}
 						「ミラーさん
