@@ -4,6 +4,7 @@ import Numeros from "components/Transiciones/Numeros";
 import VocabularioPalabras from "components/Transiciones/VocabularioPalabras";
 import GruposTiempos from "components/Transiciones/GruposTiempos";
 import FormasKei from "components/Transiciones/FormasKei";
+import ConstruirFrases from "components/Transiciones/ConstruirFrases";
 
 export default class Transicion extends React.Component {
 	constructor(props) {
@@ -42,6 +43,11 @@ export default class Transicion extends React.Component {
 			case "formas-kei":
 				this.setState({
 					color: "linear-gradient(87deg, #f56036 0, #f5365c 100%)",
+				});
+				break;
+			case "construir-frases":
+				this.setState({
+					color: "rgb(45, 206, 137)",
 				});
 				break;
 
@@ -108,6 +114,9 @@ export default class Transicion extends React.Component {
 							)}
 							{this.state.recurso === "formas-kei" && (
 								<FormasKei scrollTop={this.scrollTop} />
+							)}
+							{this.state.recurso === "construir-frases" && (
+								<ConstruirFrases scrollTop={this.scrollTop} />
 							)}
 						</CardBody>
 					</Card>

@@ -365,7 +365,7 @@ export default function Secciones(props) {
 			{(props.all || props.construirFrases) && (
 				<Col md="6">
 					<Link
-						to="/frases"
+						to="/transicion/construir-frases"
 						onClick={() => {
 							scrollTop();
 						}}

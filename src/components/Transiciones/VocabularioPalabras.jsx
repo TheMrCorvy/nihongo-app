@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Card, CardBody, Row } from "reactstrap";
 import { Link } from "react-router-dom";
+import Secciones from "components/Sections/Secciones";
 
 export default class VocabularioPalabras extends React.Component {
 	constructor(props) {
@@ -10,9 +11,11 @@ export default class VocabularioPalabras extends React.Component {
 		};
 	}
 	componentDidMount() {
-		this.setState({
-			height: "auto",
-		});
+		setTimeout(() => {
+			this.setState({
+				height: "auto",
+			});
+		}, 3000);
 	}
 	componentWillUnmount() {
 		this.setState({
@@ -25,7 +28,7 @@ export default class VocabularioPalabras extends React.Component {
 				<h3 className="title text-center pt-2">
 					Vocabulario de Palabras Generales
 				</h3>
-				<Row className="justify-content-around">
+				<Row className="justify-content-around px-3">
 					<Col
 						md="12"
 						className="px-0 mb-4"
@@ -35,6 +38,8 @@ export default class VocabularioPalabras extends React.Component {
 							borderRadius: "10px",
 							background:
 								"linear-gradient(87deg, rgb(45, 206, 137) 0px, rgb(45, 206, 204) 100%)",
+							boxShadow:
+								"rgba(45, 206, 137, 0.6) 0px 5px 25px 0px",
 						}}
 					>
 						<h4 className="text-white text-center title mt-3 pt-0">
@@ -179,6 +184,8 @@ export default class VocabularioPalabras extends React.Component {
 							borderRadius: "10px",
 							background:
 								"linear-gradient(87deg, rgb(17, 205, 239) 0px, rgb(17, 113, 239) 100%)",
+							boxShadow:
+								"rgba(44, 168, 255, 0.6) 0px 5px 25px 0px",
 						}}
 					>
 						<h4 className="text-white text-center title mt-3 pt-0">
@@ -210,6 +217,31 @@ export default class VocabularioPalabras extends React.Component {
 										<CardBody className="text-white text-capitalize px-3">
 											<span className="title">
 												transporte
+											</span>
+											<i className="fas fa-chevron-right pl-3"></i>
+										</CardBody>
+									</Card>
+								</Link>
+							</Col>
+							<Col md="5">
+								<Link
+									to="/verbos"
+									onClick={() => {
+										this.props.scrollTop();
+									}}
+								>
+									<Card
+										style={{
+											borderRadius: "10px",
+											background:
+												"linear-gradient(87deg, rgb(251, 99, 64) 0px, rgb(251, 177, 64) 100%)",
+										}}
+										className="card-plain"
+									>
+										<CardBody className="text-white text-capitalize px-3">
+											<span className="title">
+												{/* visa pasaporte avion aeropuerto, etc */}
+												vocabulario de aeropuerto
 											</span>
 											<i className="fas fa-chevron-right pl-3"></i>
 										</CardBody>
@@ -299,6 +331,8 @@ export default class VocabularioPalabras extends React.Component {
 							borderRadius: "10px",
 							background:
 								"linear-gradient(87deg, rgb(247, 165, 153) 0px, rgb(235, 172, 163) 100%)",
+							boxShadow:
+								"rgba(247, 165, 153, 0.7) 0px 5px 25px 0px",
 						}}
 					>
 						<h4 className="text-white text-center title mt-3 pt-0">
@@ -384,7 +418,7 @@ export default class VocabularioPalabras extends React.Component {
 							</Col>
 						</div>
 					</Col>
-					<Col md="6">
+					<Col md="6" className="px-0">
 						<Link
 							to="/verbos"
 							onClick={() => {
@@ -416,7 +450,9 @@ export default class VocabularioPalabras extends React.Component {
 							</Card>
 						</Link>
 					</Col>
-					<h3 className="title text-center col-lg-12">
+				</Row>
+				<Row className="justify-content-around">
+					<h3 className="title text-center col-lg-12 px-0">
 						Todas las Palabras
 					</h3>
 					<Col md="6">
@@ -598,42 +634,7 @@ export default class VocabularioPalabras extends React.Component {
 							</Card>
 						</Link>
 					</Col>
-					<Col md="6">
-						<Link
-							to="/unir-adjetivos"
-							onClick={() => {
-								this.props.scrollTop();
-							}}
-						>
-							<Card
-								style={{
-									borderRadius: "10px",
-									boxShadow:
-										"rgba(45, 206, 137, 0.6) 0px 5px 25px 0px",
-									background:
-										"linear-gradient(87deg, rgb(45, 206, 137) 0px, rgb(45, 206, 204) 100%)",
-								}}
-							>
-								<CardBody className="text-white">
-									<span className="title text-capitalize">
-										unir adjetivos
-									</span>
-									<i className="fas fa-chevron-right pl-3"></i>
-									<br />
-									<small>Como se unen las Palabras?</small>
-									<i
-										className="fas fa-3x fa-link"
-										style={{
-											position: "absolute",
-											top: 20,
-											right: 10,
-											opacity: 0.7,
-										}}
-									></i>
-								</CardBody>
-							</Card>
-						</Link>
-					</Col>
+					<Secciones hiragana={true} katakana={true} kanjis={true} />
 				</Row>
 			</React.Fragment>
 		);

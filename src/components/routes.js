@@ -5,7 +5,6 @@ import KatakanaView from "views/Kanas/KatakanaView";
 
 import Creditos from "views/Creditos";
 import Particulas from "views/Particulas";
-import Frases from "views/Frases";
 
 import Verbos from "views/Vocabulario Palabras/Verbos";
 import Adjetivos from "views/Vocabulario Palabras/Adjetivos";
@@ -60,11 +59,6 @@ const routes = [
 		path: "/verbos",
 		nameKey: "Verbos",
 		component: Verbos,
-	},
-	{
-		path: "/frases",
-		nameKey: "Frases",
-		component: Frases,
 	},
 	{
 		path: "/adjetivos",
