@@ -16,7 +16,7 @@ import {
 import { Link } from "react-router-dom";
 import BackToTop from "components/Sections/BackToTop";
 
-import ListaKanjis from "components/Json de Prueba/Kanjis.json";
+import ListaKanjis from "components/Jsons/Kanjis.json";
 
 export default class Kanjis extends React.Component {
 	constructor(props) {

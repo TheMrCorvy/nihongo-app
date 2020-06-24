@@ -1,134 +1,108 @@
-const LasFrases = [
-	{
-		titulo: "Presentación inicial",
-		componente: "",
-		grupo: {},
-	},
-	{
-		titulo: "unir palabras",
-		componente: "",
-		grupo: {
-			tituloGrupo: "tekei",
-			colorGrupo: "verde",
+import Jikushoukan from "./Sections/Construir Frases/Sin Grupo/Jikushoukan";
+
+const LasFrases2 = {
+	frasesCortas: [
+		{
+			titulo: "ser capaz de...",
+			componente: "",
+			url: "dekiru",
 		},
-	},
-	{
-		titulo: "ubicaciones",
-		componente: "",
-		grupo: {},
-	},
-	{
-		titulo: '"por favor"',
-		componente: "",
-		grupo: {},
-	},
-	{
-		titulo: "actualmente estoy en...",
-		componente: "",
-		grupo: {},
-	},
-	{
-		titulo: "instrucciones e indicaciones",
-		componente: "",
-		grupo: {
-			tituloGrupo: "tekei",
-			colorGrupo: "verde",
+		{
+			titulo: "comparaciones",
+			componente: "",
+			url: "comparaciones",
 		},
-	},
-	{
-		titulo: "nakerebanarimasen",
-		componente: "",
-		grupo: {},
-	},
-	{
-		titulo: "ser capaz de...",
-		componente: "",
-		grupo: {
-			tituloGrupo: "frases cortas",
-			colorGrupo: "azul",
+		{
+			titulo: "me parece / creo que",
+			componente: "",
+			url: "to-omou",
 		},
-	},
-	{
-		titulo: 'peticiones "por favor"',
-		componente: "",
-		grupo: {},
-	},
-	{
-		titulo: "comparaciones",
-		componente: "",
-		grupo: {
-			tituloGrupo: "frases cortas",
-			colorGrupo: "azul",
+		{
+			titulo: "preguntar por confirmacion deshou?",
+			componente: "",
+			url: "deshou",
 		},
-	},
-	{
-		titulo: "discurso normal futsuukei",
-		componente: "",
-		grupo: {},
-	},
-	{
-		titulo: "me parece / creo que",
-		componente: "",
-		grupo: {
-			tituloGrupo: "frases cortas",
-			colorGrupo: "azul",
+		{
+			titulo: "eventos y accidentes",
+			componente: "",
+			url: "eventos-accidentes",
 		},
-	},
-	{
-		titulo: "pregunatr por confirmacion deshoU?",
-		componente: "",
-		grupo: {
-			tituloGrupo: "frases cortas",
-			colorGrupo: "azul",
+		{
+			titulo: "demo... algo mas",
+			componente: "",
+			url: "demo",
 		},
-	},
-	{
-		titulo: "eventos y accidentes",
-		componente: "",
-		grupo: {
-			tituloGrupo: "frases cortas",
-			colorGrupo: "azul",
+		{
+			titulo: "igaito, por mas que no lo parezca",
+			componente: "",
+			url: "igaito",
 		},
-	},
-	{
-		titulo: "demo... algo mas",
-		componente: "",
-		grupo: {
-			tituloGrupo: "frases cortas",
-			colorGrupo: "azul",
+		{
+			titulo: "cantidades amari",
+			componente: "",
+			url: "cantidades",
 		},
-	},
-	{
-		titulo: "igaito, por mas que no lo parezca",
-		componente: "",
-		grupo: {
-			tituloGrupo: "frases cortas",
-			colorGrupo: "azul",
+		{
+			titulo: "justificacion kara",
+			componente: "",
+			url: "desukara",
 		},
-	},
-	{
-		titulo: "mochiron",
-		componente: "",
-		grupo: {
-			tituloGrupo: "frases cortas",
-			colorGrupo: "azul",
+		{
+			titulo: "mochiron",
+			componente: "",
+			url: "mochiron",
 		},
-	},
-	{
-		titulo: "justificacion kara",
-		componente: "",
-		grupo: {
-			tituloGrupo: "frases cortas",
-			colorGrupo: "azul",
+	],
+	sinGrupo: [
+		{
+			titulo: "Presentación inicial",
+			componente: Jikushoukan,
+			url: "jikushoukan",
+			icono: "id-card",
 		},
-	},
-	{
-		titulo: "cantidades amari",
-		componente: "",
-		grupo: {
-			tituloGrupo: "frases cortas",
-			colorGrupo: "azul",
+		{
+			titulo: "ubicaciones",
+			componente: "",
+			url: "koko-soko-asoko",
+			icono: "map-marked-alt",
 		},
-	},
-];
-export default LasFrases;
+		{
+			titulo: "actualmente estoy en...",
+			componente: "",
+			url: "imasu",
+			icono: "thumbtack",
+		},
+		{
+			titulo: "nakerebanarimasen",
+			componente: "",
+			url: "nakerebanarimasen",
+			icono: "exclamation",
+		},
+		{
+			titulo: 'peticiones "por favor"',
+			componente: "",
+			url: "kudasai",
+			icono: "praying-hands",
+		},
+		{
+			titulo: "discurso normal futsuukei",
+			componente: "",
+			url: "futsuukei",
+			icono: "jedi",
+		},
+		{
+			titulo: "instrucciones e indicaciones",
+			componente: "",
+			url: "instrucciones",
+			icono: "location-arrow",
+		},
+		{
+			titulo: "unir palabras",
+			componente: "",
+			url: "unir-palabras",
+			icono: "link",
+		},
+	],
+};
+
+export default LasFrases2;

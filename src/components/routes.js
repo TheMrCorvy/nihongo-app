@@ -15,8 +15,8 @@ import Tiempos from "views/Grupos y Tiempos/Tiempos";
 
 import Transicion from "views/Transicion";
 
-import Kanjis from "views/Kanjis";
-import Kanji from "views/Kanji";
+import Kanjis from "views/Kanjis/Kanjis";
+import Kanji from "views/Kanjis/Kanji";
 
 import Numeros from "views/Numeros y Fechas/Numeros";
 import DiasSemana from "views/Numeros y Fechas/DiasSemana";
@@ -27,7 +27,10 @@ import Principiantes from "views/Principiantes";
 import Contadores from "views/Numeros y Fechas/Contadores";
 
 import FormasKei from "views/FormasKei";
+
 import UnirAdjetivos from "views/Grupos y Tiempos/UnirAdjetivos";
+
+import ConstruirFrases from "views/ConstruirFrases";
 
 const routes = [
 	{
@@ -134,6 +137,11 @@ const routes = [
 		path: "/unir-adjetivos",
 		nameKey: "Unir Adjetivos",
 		component: UnirAdjetivos,
+	},
+	{
+		path: "/construir-frases/:lego",
+		nameKey: "Layout Construir Frases",
+		component: ConstruirFrases,
 	},
 ];
 export default routes;

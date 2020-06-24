@@ -114,8 +114,9 @@ export default class Tiempos extends React.Component {
 							</a>
 						</Col>
 						<p className="text-success title text-center col-lg-12">
-							El tiempo futuro no se conjuga en Japonés, para esto
-							se usan las formas en presente.
+							El tiempo Futuro no se conjuga en Japonés, para
+							expresar dicho tiempo, se hará uso de las formas
+							conjugadas en Presente.
 						</p>
 						<h2 className="col-lg-12 text-center title">Verbos</h2>
 

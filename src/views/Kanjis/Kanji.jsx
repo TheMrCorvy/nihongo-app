@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Card, CardBody, UncontrolledTooltip } from "reactstrap";
 
-import Lecturas from "components/Json de Prueba/Lecturas";
+import Lecturas from "components/Jsons/Lecturas";
 
 export default class Kanji extends React.Component {
 	constructor(props) {

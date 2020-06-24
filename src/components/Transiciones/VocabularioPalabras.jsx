@@ -11,11 +11,9 @@ export default class VocabularioPalabras extends React.Component {
 		};
 	}
 	componentDidMount() {
-		setTimeout(() => {
-			this.setState({
-				height: "auto",
-			});
-		}, 3000);
+		this.setState({
+			height: "auto",
+		});
 	}
 	componentWillUnmount() {
 		this.setState({
@@ -35,7 +33,7 @@ export default class VocabularioPalabras extends React.Component {
 						style={{
 							overflowY: "hidden",
 							height: this.state.height,
-							borderRadius: "10px",
+							borderRadius: "15px",
 							background:
 								"linear-gradient(87deg, rgb(45, 206, 137) 0px, rgb(45, 206, 204) 100%)",
 							boxShadow:
@@ -53,7 +51,7 @@ export default class VocabularioPalabras extends React.Component {
 								position: "relative",
 							}}
 						>
-							<Col md="3">
+							<Col md="auto">
 								<Link
 									to="/verbos"
 									onClick={() => {
@@ -77,7 +75,7 @@ export default class VocabularioPalabras extends React.Component {
 									</Card>
 								</Link>
 							</Col>
-							<Col md="3">
+							<Col md="auto">
 								<Link
 									to="/adjetivos"
 									onClick={() => {
@@ -101,7 +99,7 @@ export default class VocabularioPalabras extends React.Component {
 									</Card>
 								</Link>
 							</Col>
-							<Col md="4">
+							<Col md="auto">
 								<Link
 									to="/sustantivos"
 									onClick={() => {
@@ -125,7 +123,7 @@ export default class VocabularioPalabras extends React.Component {
 									</Card>
 								</Link>
 							</Col>
-							<Col md="3">
+							<Col md="auto">
 								<Link
 									to="/sustantivos"
 									onClick={() => {
@@ -149,7 +147,7 @@ export default class VocabularioPalabras extends React.Component {
 									</Card>
 								</Link>
 							</Col>
-							<Col md="3">
+							<Col md="auto">
 								<Link
 									to="/sustantivos"
 									onClick={() => {
@@ -181,7 +179,7 @@ export default class VocabularioPalabras extends React.Component {
 						style={{
 							overflowY: "hidden",
 							height: this.state.height,
-							borderRadius: "10px",
+							borderRadius: "15px",
 							background:
 								"linear-gradient(87deg, rgb(17, 205, 239) 0px, rgb(17, 113, 239) 100%)",
 							boxShadow:
@@ -199,7 +197,7 @@ export default class VocabularioPalabras extends React.Component {
 								position: "relative",
 							}}
 						>
-							<Col md="3">
+							<Col md="auto">
 								<Link
 									to="/verbos"
 									onClick={() => {
@@ -223,7 +221,7 @@ export default class VocabularioPalabras extends React.Component {
 									</Card>
 								</Link>
 							</Col>
-							<Col md="5">
+							<Col md="auto">
 								<Link
 									to="/verbos"
 									onClick={() => {
@@ -248,7 +246,7 @@ export default class VocabularioPalabras extends React.Component {
 									</Card>
 								</Link>
 							</Col>
-							<Col md="3">
+							<Col md="auto">
 								<Link
 									to="/adjetivos"
 									onClick={() => {
@@ -272,7 +270,7 @@ export default class VocabularioPalabras extends React.Component {
 									</Card>
 								</Link>
 							</Col>
-							<Col md="4">
+							<Col md="auto">
 								<Link
 									to="/sustantivos"
 									onClick={() => {
@@ -296,7 +294,7 @@ export default class VocabularioPalabras extends React.Component {
 									</Card>
 								</Link>
 							</Col>
-							<Col md="4">
+							<Col md="auto">
 								<Link
 									to="/sustantivos"
 									onClick={() => {
@@ -328,7 +326,7 @@ export default class VocabularioPalabras extends React.Component {
 						style={{
 							overflowY: "hidden",
 							height: this.state.height,
-							borderRadius: "10px",
+							borderRadius: "15px",
 							background:
 								"linear-gradient(87deg, rgb(247, 165, 153) 0px, rgb(235, 172, 163) 100%)",
 							boxShadow:
@@ -346,7 +344,7 @@ export default class VocabularioPalabras extends React.Component {
 								position: "relative",
 							}}
 						>
-							<Col md="4">
+							<Col md="auto">
 								<Link
 									to="/verbos"
 									onClick={() => {
@@ -370,7 +368,7 @@ export default class VocabularioPalabras extends React.Component {
 									</Card>
 								</Link>
 							</Col>
-							<Col md="3">
+							<Col md="auto">
 								<Link
 									to="/verbos"
 									onClick={() => {
@@ -392,7 +390,7 @@ export default class VocabularioPalabras extends React.Component {
 									</Card>
 								</Link>
 							</Col>
-							<Col md="3">
+							<Col md="auto">
 								<Link
 									to="/verbos"
 									onClick={() => {
