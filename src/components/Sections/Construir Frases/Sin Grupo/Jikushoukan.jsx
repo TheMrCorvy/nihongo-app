@@ -423,6 +423,57 @@ export default function Jikushoukan() {
 									</strong>
 								</p>
 							</li>
+							<li className="col-auto">
+								<p>
+									<strong className="text-info">
+										Kosutarika{" "}
+									</strong>{" "}
+									(コスタリカ) ={" "}
+									<strong className="text-info">
+										Costa Rica
+									</strong>
+								</p>
+							</li>
+							<li className="col-auto">
+								<p>
+									<strong className="text-info">
+										Kyuuba{" "}
+									</strong>{" "}
+									(キューバ) ={" "}
+									<strong className="text-info">Cuba</strong>
+								</p>
+							</li>
+							<li className="col-auto">
+								<p>
+									<strong className="text-info">
+										Ekuadoru{" "}
+									</strong>{" "}
+									(エクアドル) ={" "}
+									<strong className="text-info">
+										Ecuador
+									</strong>
+								</p>
+							</li>
+							<li className="col-auto">
+								<p>
+									<strong className="text-info">
+										Paraguai{" "}
+									</strong>{" "}
+									(パラグアイ) ={" "}
+									<strong className="text-info">
+										Paraguay
+									</strong>
+								</p>
+							</li>
+							<li className="col-auto">
+								<p>
+									<strong className="text-info">
+										Peruu{" "}
+									</strong>{" "}
+									(ペルー) ={" "}
+									<strong className="text-info">Perú</strong>
+								</p>
+							</li>
 						</ul>
 					</CardBody>
 				</Card>
