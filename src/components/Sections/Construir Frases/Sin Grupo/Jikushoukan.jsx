@@ -1,6 +1,11 @@
 import React from "react";
 import { Col, Card, CardBody, UncontrolledTooltip } from "reactstrap";
+import { Link } from "react-router-dom";
 import EdadesTanjobi from "components/Sections/EdadesTanjobi";
+
+function scrollTop() {
+	window.scrollTo(0, 0);
+}
 
 export default function Jikushoukan() {
 	return (
@@ -136,7 +141,7 @@ export default function Jikushoukan() {
 									「<span id="watashi2">私</span>
 									<span className="text-warning">の</span>　
 									<span className="text-info">
-										しゅうみ
+										しゅみ
 										<span className="text-warning">は</span>
 										　アニメ
 										<span className="text-warning">を</span>
@@ -159,7 +164,7 @@ export default function Jikushoukan() {
 										<span className="text-warning">no</span>
 										　
 										<span className="text-info">
-											shuumi
+											shumi
 											<span className="text-warning">
 												wa
 											</span>
@@ -423,6 +428,174 @@ export default function Jikushoukan() {
 				</Card>
 			</Col>
 			<EdadesTanjobi />
+			<Col md="12">
+				<Card
+					className="card-plain bg-white"
+					style={{ borderRadius: "15px" }}
+				>
+					<h4 className="text-center mb-0">
+						¿Cómo hablamos de nuestros Hobbys?
+					</h4>
+					<CardBody className="px-3">
+						<p>
+							Para ésta sección del ejemplo, debemos trabajar un
+							poco más, ya que haremos uso de una conjugación en
+							particular de los verbos, la partícula を, y el
+							"conector" こと para terminar la frase.
+						</p>
+						<p>La fórmula es la siguiente:</p>
+						<p className="text-center">
+							「El <strong className="text-info">objeto</strong>{" "}
+							de la oración{" "}
+							<strong className="text-success">+</strong> を{" "}
+							<strong className="text-success">+</strong> el{" "}
+							<strong className="text-info">verbo</strong> en la
+							forma う <strong className="text-success">+</strong>{" "}
+							<span className="text-success">ことです</span>。」
+						</p>
+						<p>
+							を = o <br />
+							ことです = kotodesu
+						</p>
+						<h5>Algunos Ejemplos:</h5>
+						<ul className="row justify-content-between">
+							<li className="col-auto px-4">
+								<p>
+									Escuchar música: <br />
+									Ongaku o kiku <br />
+									<span className="text-success">
+										音楽を　聞く
+									</span>
+									<br />
+									<span className="text-info">
+										おんがくを　きく
+									</span>
+								</p>
+							</li>
+							<li className="col-auto px-4">
+								<p>
+									Ver películas: <br /> Eiga o miru <br />
+									<span className="text-success">
+										映画を　見る
+									</span>
+									<br />
+									<span className="text-info">
+										えいがを　みる
+									</span>
+								</p>
+							</li>
+							<li className="col-auto px-4">
+								<p>
+									Viajar: <br />
+									Ryokou o suru <br />
+									<span className="text-success">
+										旅行を　する
+									</span>
+									<br />
+									<span className="text-info">
+										りょこうを　する
+									</span>
+								</p>
+							</li>
+							<li className="col-auto px-4">
+								<p>
+									Pintar / Dibujar: <br />
+									E o kaku <br />
+									<span className="text-success">
+										絵を　描く
+									</span>
+									<br />
+									<span className="text-info">
+										えを　かく
+									</span>
+								</p>
+							</li>
+							<li className="col-auto px-4">
+								<p>
+									Jugar al fútbol: <br />
+									Sakkaa o suru <br />
+									<span className="text-success">
+										サッカーを　する
+									</span>
+								</p>
+							</li>
+							<li className="col-auto px-4">
+								<p>
+									Leer libros: <br />
+									Hon o yomu <br />
+									<span className="text-success">
+										本を　読む
+									</span>
+									<br />
+									<span className="text-info">
+										ほんを　よむ
+									</span>
+								</p>
+							</li>
+							<li className="col-auto px-4">
+								<p>
+									Tocar la guitarra: <br />
+									Gitaa o hiku <br />
+									<span className="text-success">
+										ギターを　弾く
+									</span>
+									<br />
+									<span className="text-info">
+										ギターを　ひく
+									</span>
+								</p>
+							</li>
+							<li className="col-auto px-4">
+								<p>
+									Fotografía / sacar fotos: <br />
+									Shashin o toru <br />
+									<span className="text-success">
+										写真を　摂る
+									</span>
+									<br />
+									<span className="text-info">
+										しゃしんを　とる
+									</span>
+								</p>
+							</li>
+						</ul>
+					</CardBody>
+				</Card>
+			</Col>
+			<Col md="6">
+				<Link
+					to="/formas-kei/u"
+					onClick={() => {
+						scrollTop();
+					}}
+				>
+					<Card
+						style={{
+							borderRadius: "10px",
+							boxShadow:
+								"0px 5px 25px 0px rgba(255, 54, 54, 0.6)",
+							background:
+								"linear-gradient(87deg, #f56036 0, #f5365c 100%)",
+						}}
+					>
+						<CardBody className="text-white text-capitalize">
+							<span className="title">
+								Forma 辞書形 じしけい (う)
+							</span>
+							<i className="fas fa-chevron-right pl-3"></i>
+							<i
+								className="fas fa-3x fa-user-friends"
+								style={{
+									position: "absolute",
+									top: 10,
+									right: 10,
+									opacity: 0.7,
+								}}
+							></i>
+						</CardBody>
+					</Card>
+				</Link>
+			</Col>
 		</React.Fragment>
 	);
 }
