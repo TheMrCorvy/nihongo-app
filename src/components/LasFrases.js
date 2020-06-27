@@ -1,4 +1,7 @@
 import Jikushoukan from "./Sections/Construir Frases/Sin Grupo/Jikushoukan";
+import KokoYDore from "./Sections/Construir Frases/Sin Grupo/KokoYDore";
+import ImaImasu from "./Sections/Construir Frases/Sin Grupo/ImaImasu";
+import NakerebaNarimasen from "./Sections/Construir Frases/Sin Grupo/NakerebaNarimasen";
 
 const LasFrases2 = {
 	frasesCortas: [
@@ -61,20 +64,20 @@ const LasFrases2 = {
 			icono: "id-card",
 		},
 		{
-			titulo: "ubicaciones",
-			componente: "",
+			titulo: "ubicaciones y preguntas",
+			componente: KokoYDore,
 			url: "koko-soko-asoko",
 			icono: "map-marked-alt",
 		},
 		{
 			titulo: "actualmente estoy en...",
-			componente: "",
+			componente: ImaImasu,
 			url: "imasu",
 			icono: "thumbtack",
 		},
 		{
-			titulo: "nakerebanarimasen",
-			componente: "",
+			titulo: "obligaciones y opcionales",
+			componente: NakerebaNarimasen,
 			url: "nakerebanarimasen",
 			icono: "exclamation",
 		},

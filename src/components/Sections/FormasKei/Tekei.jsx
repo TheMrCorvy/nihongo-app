@@ -540,7 +540,7 @@ export default function Tekei() {
 							hacer <strong>peticiones</strong> es la más usada
 							para pedir las cosas amablemente y de manera{" "}
 							<strong>Formal</strong>, pero tambien se puede unir
-							algún verbo en la forma て con 「下さい -
+							algún verbo en la forma て con「下さい -
 							ください」("por favor") para hacer una petición, y
 							seguir sonando amable, "Harías ésta cosa" en la
 							forma て + "por favor?".
@@ -625,21 +625,26 @@ export default function Tekei() {
 						</p>
 						<p className="text-center mt-5">
 							Ejemplo: <br />
-							"Estoy vieno la tele en casa."
+							"Estoy viendo la tele en casa."
 							<br />
 							<i className="fas fa-long-arrow-alt-down px-2"></i>
 							<br />
-							<span className="text-success">
-								家で　テレビを　見て
-								<span className="text-primary">います</span>。
-							</span>
+							<span className="text-info">家</span>
+							<span className="text-success">で　</span>
+							<span className="text-info">テレビ</span>
+							<span className="text-success">を　</span>
+							<span className="text-warning">見て</span>
+							<span className="text-primary">います</span>
+							。
 							<br />
 							<i className="fas fa-long-arrow-alt-down px-2"></i>
 							<br />
-							<span className="text-info">
-								うちで　テレビを　みて
-								<span className="text-primary">います</span>。
-							</span>
+							<span className="text-info">うち</span>
+							<span className="text-success">で　</span>
+							<span className="text-info">テレビ</span>
+							<span className="text-success">を　</span>
+							<span className="text-warning">みて</span>
+							<span className="text-primary">います</span>。
 						</p>
 					</CardBody>
 				</Card>
