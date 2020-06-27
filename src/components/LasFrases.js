@@ -2,6 +2,7 @@ import Jikushoukan from "./Sections/Construir Frases/Sin Grupo/Jikushoukan";
 import KokoYDore from "./Sections/Construir Frases/Sin Grupo/KokoYDore";
 import ImaImasu from "./Sections/Construir Frases/Sin Grupo/ImaImasu";
 import NakerebaNarimasen from "./Sections/Construir Frases/Sin Grupo/NakerebaNarimasen";
+import Kudasai from "./Sections/Construir Frases/Sin Grupo/Kudasai";
 
 const LasFrases2 = {
 	frasesCortas: [
@@ -83,7 +84,7 @@ const LasFrases2 = {
 		},
 		{
 			titulo: 'peticiones "por favor"',
-			componente: "",
+			componente: Kudasai,
 			url: "kudasai",
 			icono: "praying-hands",
 		},

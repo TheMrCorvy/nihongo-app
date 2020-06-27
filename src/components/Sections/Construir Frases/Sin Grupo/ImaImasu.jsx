@@ -9,7 +9,7 @@ function scrollTop() {
 export default function ImaImasu() {
 	return (
 		<React.Fragment>
-			<Col md="12" id="presente">
+			<Col md="12">
 				<Card
 					className="card-plain bg-white"
 					style={{ borderRadius: ".5rem" }}

@@ -1,15 +1,22 @@
 import React from "react";
 import { Col, Card, CardBody, Row, UncontrolledTooltip } from "reactstrap";
 
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-// function scrollTop() {
-// 	window.scrollTo(0, 0);
-// }
+function scrollTo(seccion) {
+	if (seccion === "top") {
+		window.scrollTo(0, 0);
+	} else {
+		document.getElementById(seccion).scrollIntoView({
+			block: "start",
+			behavior: "smooth",
+		});
+	}
+}
 export default function NakerebaNarimasen() {
 	return (
 		<React.Fragment>
-			<Col md="12" id="presente">
+			<Col md="12">
 				<Card
 					className="card-plain bg-white"
 					style={{ borderRadius: ".5rem" }}
@@ -21,11 +28,23 @@ export default function NakerebaNarimasen() {
 						<p>
 							En el idioma Japonés disponemos de un par de frases
 							con varios usos, entre los cuales vamos a encontrar
-							el indicar <strong>obligación</strong>, sea para uno
-							mísmo o hacia otra persona, y por otro lado el
-							indicar <strong>cosas opcionales</strong> ("no hace
-							falta que..."), y de la misma forma preguntar si
-							algo estaría bien o no.
+							el indicar{" "}
+							<strong
+								className="text-info"
+								onClick={() => scrollTo("nakereba")}
+							>
+								<u>obligación</u>
+							</strong>
+							, sea para uno mísmo o hacia otra persona, y por
+							otro lado el indicar{" "}
+							<strong
+								className="text-info"
+								onClick={() => scrollTo("nakute")}
+							>
+								<u>cosas opcionales</u>
+							</strong>{" "}
+							("no hace falta que..."), y de la misma forma
+							preguntar si algo estaría bien o no.
 						</p>
 						<p>
 							Para utilizar éstas frases, conviene tener fresco en
@@ -36,7 +55,7 @@ export default function NakerebaNarimasen() {
 					</CardBody>
 				</Card>
 			</Col>
-			<Col md="12" id="presente">
+			<Col md="12" id="nakereba">
 				<Card
 					className="card-plain bg-white"
 					style={{ borderRadius: ".5rem" }}
@@ -246,7 +265,7 @@ export default function NakerebaNarimasen() {
 					</CardBody>
 				</Card>
 			</Col>
-			<Col md="12" id="presente">
+			<Col md="12" id="nakute">
 				<Card
 					className="card-plain bg-white"
 					style={{ borderRadius: ".5rem" }}
@@ -337,6 +356,38 @@ export default function NakerebaNarimasen() {
 						</UncontrolledTooltip>
 					</CardBody>
 				</Card>
+			</Col>
+			<Col md="6">
+				<Link
+					to="/formas-kei/nai"
+					onClick={() => {
+						scrollTo("top");
+					}}
+				>
+					<Card
+						style={{
+							borderRadius: "10px",
+							boxShadow:
+								"0px 5px 25px 0px rgba(255, 54, 54, 0.6)",
+							background:
+								"linear-gradient(87deg, #f56036 0, #f5365c 100%)",
+						}}
+					>
+						<CardBody className="text-white text-capitalize">
+							<span className="title">Forma ない</span>
+							<i className="fas fa-chevron-right pl-3"></i>
+							<i
+								className="fas fa-3x fa-times"
+								style={{
+									position: "absolute",
+									top: 10,
+									right: 10,
+									opacity: 0.7,
+								}}
+							></i>
+						</CardBody>
+					</Card>
+				</Link>
 			</Col>
 		</React.Fragment>
 	);
