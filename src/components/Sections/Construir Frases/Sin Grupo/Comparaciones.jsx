@@ -17,7 +17,7 @@ export default function Comparaciones() {
 						<p>
 							Si te estabas preguntando cómo hacer comparaciones
 							en japonés, deja de hacerlo. Vamos a ver como
-							utilizar 「方 - ほう - hou」y「より - yori」 para,
+							utilizar 「方 - ほう - hou」y「より - yori」para,
 							entre otras cosas, hacer comparaciones.
 						</p>
 						<p>
@@ -374,7 +374,17 @@ export default function Comparaciones() {
 						<h5 className="text-center text-success pt-0 mt-0">
 							¿Cuál es EL MÁS de todos?
 						</h5>
-						<p>Para finalizar con las comparaciones,</p>
+						<p>
+							Para finalizar con las comparaciones, toca hablar
+							del "más" de todos, el mejor de los mejores, top de
+							los top, rey de reyes, bueno creo que ya se
+							entiende.
+						</p>
+						<p>
+							Igual que en el punto anterior, veremos tanto el{" "}
+							<strong>cómo preguntar</strong>, de igual manera,
+							también veremos <strong>cómo responder</strong>.
+						</p>
 						<h5 className="text-center">
 							La estructura para preguntar
 						</h5>
@@ -383,104 +393,141 @@ export default function Comparaciones() {
 							Japonés deberá ser la siguiente:
 						</p>
 						<p className="text-center">
-							X-cosa 1 + <span className="text-warning">と</span>{" "}
-							+ X-cosa 2 +{" "}
-							<span className="text-warning">と</span> (...) +{" "}
-							<span className="text-info">どちら</span> +{" "}
-							<span className="text-success">が</span> +
-							<strong className="text-primary">"la Frase"</strong>
+							<strong className="text-danger">
+								Grupo Contenedor
+							</strong>{" "}
+							+ <span className="text-success">で</span> +{" "}
+							<strong>La Pregunta</strong> +{" "}
+							<span className="text-warning">が</span> +{" "}
+							<span className="text-info">いちばん</span> +{" "}
+							<strong className="text-primary">La Frase</strong>
 						</p>
 						<ul>
 							<li>
 								<p>
-									<span className="text-success">が</span>:
-									(ga) La partícula ga debe estar siempre
-									presente en ésta estructura de frases.
+									<strong className="text-danger">
+										El Grupo Contenedor
+									</strong>
+									: Es opcional el mencionar "a que gurpo
+									pertenece" lo que sea que estemos
+									destacando, puede ser "el mundo" ("el mejor
+									del mundo", por ejemplo), aunque, como se
+									aclaró recién, es opcional. Uno puede decir
+									"Es el mejor", refiriendose al mejor del
+									mundo, sin necesariamente incluir "del
+									mundo" en la oración.
 								</p>
 							</li>
 							<li>
 								<p>
-									<span className="text-info">どちら</span>:
-									(dochira) El indicador de que estamos
-									comparando 2 o más cosas dentro de un grupo
-									determinado. Traducido al Español sería la
-									pregunta "cuál".
+									<span className="text-success">で</span>:
+									(de) La partícula で debe estar presente en
+									la oración <strong>siempre y cuando</strong>{" "}
+									hayamos indicado al grupo contenedor, ya que
+									al hacerlo estamos declarando{" "}
+									<strong className="text-info">
+										el lugar de la acción
+									</strong>
+									, lo que debe conectarse con dicha
+									partícula.
+								</p>
+							</li>
+							<li>
+								<p>
+									<strong>La Pregunta</strong>: Así de ambiguo
+									como suena, aquí viene la pregunta de la
+									oración. Desde "quién", pasando por "cuál",
+									siguiendo en "cómo", y hasta "dónde", y la
+									lista solo continúa. Básicamente, aquí viene
+									el Kanji de「何 - nan」que viene siendo la
+									principal forma de preguntar cualquier cosa
+									en Japonés, acompañado por cualquier
+									combinación de caractéres para formar la
+									pregunta que se esté buscando.
+								</p>
+							</li>
+							<li>
+								<p>
+									<span className="text-warning">が</span>:
+									(ga) La partícula が debe estar siempre
+									presente en ésta "fórmula" para que sea
+									gramaticalmente correcta
+								</p>
+							</li>
+							<li>
+								<p>
+									<span className="text-info">いちばん</span>:
+									(ichiban) Traducido literalmente como la
+									"primera" posición, será ésta la palabra que
+									indicará que estamos hablando de lo más de
+									lo más.
 								</p>
 							</li>
 							<li>
 								<p>
 									<strong className="text-primary">
-										"La Frase"
+										La Frase
 									</strong>
-									: puede ser un adjetivo, un verbo o
-									cualquier otra palabra. Aquí irán todos los
-									aspectos que queramos destacar como{" "}
-									<strong className="text-danger">
-										"el más del grupo"
-									</strong>
-									, o que estemos comparando entre los objetos
-									del grupo mencionado.
+									: "La frase" será la conclución de la
+									oración. Aquí puede ir un verbo, adjetivo,
+									sustantivo, o hasta una oración entera.
+									Básicamente es el aspecto que estemos
+									comparando o destacando dentro de la
+									oración.
 								</p>
 							</li>
 						</ul>
 						<br />
 						<br />
 						<p>
-							En éste caso el orden en el que digamos las cosas no
-							cambiará el significado de la frase, ya que
-							estaremos comparando{" "}
+							El orden en el que digamos las cosas no cambiará el
+							significado de la frase, ya que estaremos comparando{" "}
 							<strong className="text-info">
-								"cual es el más que..."
+								"cual es el más de todos"
 							</strong>{" "}
-							dentro de un determinado grupo.
+							dentro de un determinado grupo, sea que éste fuera
+							declarado dentro de la oración o no.
 						</p>
 						<p>Ejemplo:</p>
 						<p className="text-center">
-							"Entre el Fútbol,{" "}
-							<strong className="text-warning">y</strong> el
-							Voley, <strong className="text-info">cuál</strong>{" "}
-							<strong className="text-success">es</strong>{" "}
+							"Cuál <strong className="text-warning">es</strong>{" "}
+							<strong className="text-info">el</strong>{" "}
+							<strong className="text-danger">deporte</strong>{" "}
 							<strong className="text-info">más</strong>{" "}
 							<strong className="text-primary">divertido</strong>
 							?"
 							<br />
 							<i className="fas fa-long-arrow-alt-down px-2"></i>
 							<br />
-							サッカー<span className="text-warning">と</span>
-							　やきゅう<span className="text-warning">と</span>　
-							<span className="text-info" id="dochira">
-								何方
-							</span>
-							<span className="text-success">が</span>　
-							<span className="text-primary" id="omoshiroi">
+							<span className="text-danger">スポーツ</span>
+							<span className="text-success">で</span>　
+							<span id="naniga">何</span>
+							<span className="text-warning">が　</span>
+							<span className="text-info">いちばん</span>
+							<span className="text-primary" id="omoshiroi2">
 								面白い
 							</span>
 							ですか。
 							<br />
 							<i className="fas fa-long-arrow-alt-down px-2"></i>
 							<br />
-							sakkaa<strong className="text-warning">to</strong>
-							　yakyuu<strong className="text-warning">to</strong>
-							　
-							<strong className="text-info" id="dochira">
-								dochira
-							</strong>
-							<strong className="text-success">ga</strong>　
-							<strong className="text-primary" id="omoshiroi">
-								omoshiroi
-							</strong>
+							<strong className="text-danger">supootsu</strong>
+							<strong className="text-success">de</strong>　 nani
+							<strong className="text-warning">ga　</strong>
+							<strong className="text-info">ichiban</strong>
+							<strong className="text-primary">omoshiroi</strong>
 							desuka。
 						</p>
 						<UncontrolledTooltip
 							placement="top"
-							target="dochira"
+							target="naniga"
 							delay={0}
 						>
-							どちら
+							なに
 						</UncontrolledTooltip>
 						<UncontrolledTooltip
 							placement="top"
-							target="omoshiroi"
+							target="omoshiroi2"
 							delay={0}
 						>
 							おもしろ
@@ -490,88 +537,43 @@ export default function Comparaciones() {
 							La estructura para responder
 						</h5>
 						<p>
-							La estructura de la <strong>respuesta</strong> en
-							Japonés deberá ser la siguiente:
+							La estructura para responder es bastante simple
+							realmente.
 						</p>
-						<p className="text-center">
-							X-cosa +{" "}
-							<span className="text-info">
-								の<span id="houga2">方</span>が
-							</span>{" "}
-							+ <strong className="text-primary">La Frase</strong>
+						<p>
+							Comenzamos con{" "}
+							<strong className="text-danger">
+								La respuesta
+							</strong>
+							, básicamente si nos preguntaron "cual es el deporte
+							más divertido?", no deberíamos responder con "sopa
+							de ramen", sino con algún deporte (a no ser que
+							comer ramen sea considerado un deporte...). A ésto
+							siempre lo conectaremos con la partigula が (ga),
+							para continuar con el indicador いちばん (ichiban).
 						</p>
-						<UncontrolledTooltip
-							placement="top"
-							target="houga2"
-							delay={0}
-						>
-							ほう
-						</UncontrolledTooltip>
-						<ul>
-							<li>
-								<p>
-									<span className="text-info">の方が</span>:
-									(no houga) Es el indicador de{" "}
-									<strong>"es más que"</strong>. Cabe destacar
-									que no se debe usar para "es el que más / es
-									el más que...".
-								</p>
-								<p>
-									<strong className="text-info">Nota:</strong>{" "}
-									El が (ga) es la partícula ga, ésta debe
-									estar siempre presente cuando usemos éste
-									tipo de respuesta.
-								</p>
-							</li>
-							<li>
-								<p>
-									<strong className="text-primary">
-										La Frase
-									</strong>
-									: Aquí va el resto de la oración, sea el
-									aspecto que estamos comparando, o bien algo
-									que no haya estado presente como tal, dentro
-									de la pregunta (algo asi como: "
-									<strong className="text-warning">
-										entre
-									</strong>{" "}
-									restaurante 1{" "}
-									<strong className="text-warning">y</strong>{" "}
-									restaurante 2,{" "}
-									<strong className="text-info">
-										cual es mas
-									</strong>{" "}
-									<strong className="text-primary">
-										recomendable
-									</strong>
-									", "el restaurante 1 es mas barato").
-								</p>
-							</li>
-						</ul>
-						<p>Ejemplo:</p>
-						<p className="text-center">
-							"El Fútbol es más divertido".
-							<br />
-							<i className="fas fa-long-arrow-alt-down px-2"></i>
-							<br />
-							サッカー<span className="text-info">の方が</span>　
-							<span className="text-primary">面白い</span>です。
-							<br />
-							<i className="fas fa-long-arrow-alt-down px-2"></i>
-							<br />
-							sakkaa
-							<strong className="text-info">no　houga</strong>　
-							<strong className="text-primary">omoshiroi</strong>
-							desu。
+						<p>
+							Por último, concluiremos con "
+							<strong className="text-primary">La Frase</strong>",
+							el aspecto que estamos comparando o destacando, en
+							el caso del ejemplo sería el "divertido" de la
+							oración.
+						</p>
+						<p>
+							<small>
+								A estas alturas no creo que haga falta
+								aclararlo, pero por si acaso, la frase debe
+								terminar con です ya que estamos afirmando algo.
+							</small>
 						</p>
 					</CardBody>
 				</Card>
 			</Col>
 
 			<Secciones
-				formasKei={true}
-				gruposTiempos={true}
+				kanjis={true}
 				particulas={true}
+				vocabularioPalabras={true}
 			/>
 		</React.Fragment>
 	);
