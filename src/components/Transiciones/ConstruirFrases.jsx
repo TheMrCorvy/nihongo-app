@@ -14,7 +14,6 @@ export default class ConstruirFrases extends React.Component {
 		};
 	}
 	componentDidMount() {
-		console.log(this.state.frases);
 		this.setState({
 			altura: "auto",
 		});
