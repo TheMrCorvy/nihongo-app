@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardBody, Row, Col, UncontrolledTooltip } from "reactstrap";
 
-export default function VerbosFutsu() {
+export default function VerbosFutsu(props) {
 	return (
 		<React.Fragment>
 			<Col md="12" id="futsu">
@@ -9,8 +9,8 @@ export default function VerbosFutsu() {
 					style={{ borderRadius: ".5rem" }}
 					className="bg-white card-plain px-3"
 				>
-					<h3 className="title text-success text-center">
-						Verbos Forma Normal (う)
+					<h3 className="title text-success text-center text-capitalize">
+						{props.title}
 					</h3>
 					<CardBody>
 						<Row>
@@ -34,7 +34,7 @@ export default function VerbosFutsu() {
 									las reglas de conjugación de su respectivo
 									grupo.
 								</p>
-								<p>Ejemplo: よむ (yomu)</p>
+								<p>Ejemplo: よむ (yomu - Leer)</p>
 								<UncontrolledTooltip
 									placement="top"
 									target="jishokei"
@@ -58,7 +58,7 @@ export default function VerbosFutsu() {
 								>
 									ないけい <br /> (Naikei)
 								</UncontrolledTooltip>
-								<p>Ejemplo: よまない (yomanai)</p>
+								<p>Ejemplo: よまない (yomanai - "No leer")</p>
 							</Col>
 
 							<Col md="6" className="mb-5">
@@ -75,7 +75,7 @@ export default function VerbosFutsu() {
 								>
 									たけい <br /> (Takei)
 								</UncontrolledTooltip>
-								<p>Ejemplo: よんだ (yonda)</p>
+								<p>Ejemplo: よんだ (yonda - "Leí / Leyó")</p>
 							</Col>
 
 							<Col md="6">
@@ -121,6 +121,8 @@ export default function VerbosFutsu() {
 									<strong className="text-success">
 										manakatta
 									</strong>
+									<br />
+									"No leyó"
 								</p>
 							</Col>
 						</Row>

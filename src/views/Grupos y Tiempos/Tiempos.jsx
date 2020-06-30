@@ -121,7 +121,7 @@ export default class Tiempos extends React.Component {
 						<h2 className="col-lg-12 text-center title">Verbos</h2>
 
 						<VerbosFormal />
-						<VerbosFutsu />
+						<VerbosFutsu title="Verbos Forma Normal (う)" />
 
 						<h2 className="col-lg-12 text-center title">
 							Adjetivos

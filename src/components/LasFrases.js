@@ -3,6 +3,9 @@ import KokoYDore from "./Sections/Construir Frases/Sin Grupo/KokoYDore";
 import ImaImasu from "./Sections/Construir Frases/Sin Grupo/ImaImasu";
 import NakerebaNarimasen from "./Sections/Construir Frases/Sin Grupo/NakerebaNarimasen";
 import Kudasai from "./Sections/Construir Frases/Sin Grupo/Kudasai";
+import FutsuuKei from "./Sections/Construir Frases/Sin Grupo/FutsuuKei";
+import UnirPalabras from "./Sections/Construir Frases/Sin Grupo/UnirPalabras";
+import Comparaciones from "./Sections/Construir Frases/Sin Grupo/Comparaciones";
 
 const LasFrases2 = {
 	frasesCortas: [
@@ -10,11 +13,6 @@ const LasFrases2 = {
 			titulo: "ser capaz de...",
 			componente: "",
 			url: "dekiru",
-		},
-		{
-			titulo: "comparaciones",
-			componente: "",
-			url: "comparaciones",
 		},
 		{
 			titulo: "me parece / creo que",
@@ -90,21 +88,21 @@ const LasFrases2 = {
 		},
 		{
 			titulo: "discurso normal futsuukei",
-			componente: "",
+			componente: FutsuuKei,
 			url: "futsuukei",
 			icono: "jedi",
 		},
 		{
-			titulo: "instrucciones e indicaciones",
-			componente: "",
-			url: "instrucciones",
-			icono: "location-arrow",
-		},
-		{
 			titulo: "unir palabras",
-			componente: "",
+			componente: UnirPalabras,
 			url: "unir-palabras",
 			icono: "link",
+		},
+		{
+			titulo: "comparaciones",
+			componente: Comparaciones,
+			url: "comparaciones",
+			icono: "balance-scale",
 		},
 	],
 };

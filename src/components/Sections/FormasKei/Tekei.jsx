@@ -296,7 +296,7 @@ export default function Tekei() {
 							¿Cómo se Conectan los Verbos?
 						</h5>
 						<p>
-							Para unir múltiples verbos debemos seguir la
+							Para unir múltiples verbos debemos utilizar la
 							siguiente "fórmula". En primer lugar conjugaremos
 							todos los verbos que vayan a ser unidos en sus
 							respectivas formas て, y ahora viene la parte
