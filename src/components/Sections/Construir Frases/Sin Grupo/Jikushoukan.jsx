@@ -200,7 +200,7 @@ export default function Jikushoukan() {
 							Para que no quedara tan largo, éste ejemplo quedó
 							dividido en <strong>3 partes</strong>.
 						</p>
-						<p>
+						<p className="mt-5">
 							<strong>1)</strong> En la primera, me presento, digo
 							quien soy, cuantos años tengo, de donde vengo, y a
 							qué me dedico.

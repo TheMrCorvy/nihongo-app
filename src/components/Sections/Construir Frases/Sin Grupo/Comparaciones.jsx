@@ -43,7 +43,7 @@ export default function Comparaciones() {
 							Dicho aspecto a comparar es el "adjetivo" en la
 							fórmula.
 						</p>
-						<h5 className="text-center">
+						<h5 className="text-center mt-5">
 							Cómo construiremos la frase entonces?
 						</h5>
 						<p>
@@ -83,7 +83,7 @@ export default function Comparaciones() {
 						<br />
 						<br />
 						<p>Ejemplo:</p>
-						<p className="text-center">
+						<p className="text-center mb-5">
 							"<strong className="text-warning">Tokyo</strong>{" "}
 							<strong className="text-success">es</strong>{" "}
 							<strong className="text-info">más</strong>{" "}
@@ -172,7 +172,7 @@ export default function Comparaciones() {
 							es el mas "algo", entre otras muchas posibles
 							configuraciones.
 						</p>
-						<h5 className="text-center">
+						<h5 className="text-center mt-5">
 							La estructura para preguntar
 						</h5>
 						<p>
@@ -385,7 +385,7 @@ export default function Comparaciones() {
 							<strong>cómo preguntar</strong>, de igual manera,
 							también veremos <strong>cómo responder</strong>.
 						</p>
-						<h5 className="text-center">
+						<h5 className="text-center mt-5">
 							La estructura para preguntar
 						</h5>
 						<p>

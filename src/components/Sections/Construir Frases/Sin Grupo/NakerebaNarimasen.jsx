@@ -78,7 +78,7 @@ export default function NakerebaNarimasen() {
 							distinciones entre discurso <strong>Formal</strong>{" "}
 							y <strong>Normal</strong>.
 						</p>
-						<h5 className="text-center">Tengo Que...</h5>
+						<h5 className="text-center mt-5">Tengo Que...</h5>
 						<p>
 							Para expresar éstas obligaciones se pueden utilizan
 							cualquiera de las 2 siguientes formas
@@ -104,7 +104,7 @@ export default function NakerebaNarimasen() {
 							<strong className="text-success">quiero</strong>{" "}
 							hacerlo".
 						</p>
-						<h5>Comencemos a crear las frases</h5>
+						<h5 className="mt-5">Comencemos a crear las frases</h5>
 						<p>
 							Como ya se dijo antes, estaremos usando la forma
 							な形 (nakei) de los verbos, y usaremos la siguiente
@@ -159,7 +159,7 @@ export default function NakerebaNarimasen() {
 						>
 							べんきょう
 						</UncontrolledTooltip>
-						<h5 className="text-center">
+						<h5 className="text-center mt-5">
 							Acortaciones y Discurso Normal
 						</h5>
 						<p>
@@ -169,7 +169,7 @@ export default function NakerebaNarimasen() {
 							conversación, podremos hacer uso de sus formas
 							cortas, y ligeramente informales.
 						</p>
-						<h5>Discurso Normal</h5>
+						<h5 className="mt-5">Discurso Normal</h5>
 						<p>
 							Cuando nos encontramos hablando con alguien en un
 							vocabulario "informal", podremos hacer uso de las
@@ -289,8 +289,8 @@ export default function NakerebaNarimasen() {
 							De igual manera, no se diferencia entre "Tú" y "Yo",
 							como en las obligaciones.
 						</p>
-						<h5 className="text-center">La Fórmula</h5>
-						<p className="text-center my-5">
+						<h5 className="text-center mt-5">La Fórmula</h5>
+						<p className="text-center mt-4 mb-5">
 							<strong>El verbo</strong> en la forma な形, pero{" "}
 							<strong className="text-danger">
 								retiraremos el「ない」(nai)

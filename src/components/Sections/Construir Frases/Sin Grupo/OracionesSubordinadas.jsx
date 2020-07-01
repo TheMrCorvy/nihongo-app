@@ -30,7 +30,7 @@ export default function OracionesSubordinadas() {
 							Por ejemplo: "Quiero criar un perro que se haga
 							grande"
 						</p>
-						<p className="text-center">
+						<p className="text-center my-5">
 							<span id="watashi">私</span>は　
 							<span className="text-info">
 								<span id="ooki">大</span>きくなる
