@@ -137,6 +137,11 @@ const LasPalabras = {
 					url: "ejemplo",
 					icono: "lightbulb",
 				},
+				{
+					tituloElemento: "palabras útiles",
+					url: "ejemplo",
+					icono: "tools",
+				},
 			],
 		},
 	],

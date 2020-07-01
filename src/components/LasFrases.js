@@ -1,51 +1,51 @@
-import Jikushoukan from "./Sections/Construir Frases/Sin Grupo/Jikushoukan";
-import KokoYDore from "./Sections/Construir Frases/Sin Grupo/KokoYDore";
-import ImaImasu from "./Sections/Construir Frases/Sin Grupo/ImaImasu";
-import NakerebaNarimasen from "./Sections/Construir Frases/Sin Grupo/NakerebaNarimasen";
-import Kudasai from "./Sections/Construir Frases/Sin Grupo/Kudasai";
-import FutsuuKei from "./Sections/Construir Frases/Sin Grupo/FutsuuKei";
-import UnirPalabras from "./Sections/Construir Frases/Sin Grupo/UnirPalabras";
-import Comparaciones from "./Sections/Construir Frases/Sin Grupo/Comparaciones";
-import OracionesSubordinadas from "./Sections/Construir Frases/Sin Grupo/OracionesSubordinadas";
+import Jikushoukan from "./Sections/Construir Frases/Jikushoukan";
+import KokoYDore from "./Sections/Construir Frases/KokoYDore";
+import ImaImasu from "./Sections/Construir Frases/ImaImasu";
+import NakerebaNarimasen from "./Sections/Construir Frases/NakerebaNarimasen";
+import Kudasai from "./Sections/Construir Frases/Kudasai";
+import FutsuuKei from "./Sections/Construir Frases/FutsuuKei";
+import UnirPalabras from "./Sections/Construir Frases/UnirPalabras";
+import Comparaciones from "./Sections/Construir Frases/Comparaciones";
+import OracionesSubordinadas from "./Sections/Construir Frases/OracionesSubordinadas";
 
 const LasFrases2 = {
-	frasesCortas: [
-		{
-			titulo: "ser capaz de...",
-			componente: "",
-			url: "dekiru",
-		},
-		{
-			titulo: "eventos y accidentes",
-			componente: "",
-			url: "eventos-accidentes",
-		},
-		{
-			titulo: "demo... algo mas",
-			componente: "",
-			url: "demo",
-		},
-		{
-			titulo: "igaito, por mas que no lo parezca",
-			componente: "",
-			url: "igaito",
-		},
-		{
-			titulo: "cantidades amari",
-			componente: "",
-			url: "cantidades",
-		},
-		{
-			titulo: "justificacion kara",
-			componente: "",
-			url: "desukara",
-		},
-		{
-			titulo: "mochiron",
-			componente: "",
-			url: "mochiron",
-		},
-	],
+	// frasesCortas: [
+	// 	{
+	// 		titulo: "ser capaz de...",
+	// 		componente: "",
+	// 		url: "dekiru",
+	// 	},
+	// 	{
+	// 		titulo: "eventos y accidentes",
+	// 		componente: "",
+	// 		url: "eventos-accidentes",
+	// 	},
+	// 	{
+	// 		titulo: "demo... algo mas",
+	// 		componente: "",
+	// 		url: "demo",
+	// 	},
+	// 	{
+	// 		titulo: "igaito, por mas que no lo parezca",
+	// 		componente: "",
+	// 		url: "igaito",
+	// 	},
+	// 	{
+	// 		titulo: "cantidades amari",
+	// 		componente: "",
+	// 		url: "cantidades",
+	// 	},
+	// 	{
+	// 		titulo: "justificacion kara",
+	// 		componente: "",
+	// 		url: "desukara",
+	// 	},
+	// 	{
+	// 		titulo: "mochiron",
+	// 		componente: "",
+	// 		url: "mochiron",
+	// 	},
+	// ],
 	sinGrupo: [
 		{
 			titulo: "Presentación inicial",

@@ -47,12 +47,6 @@ export default class ConstruirFrases extends React.Component {
 										<lego.componente key={lego.titulo} />
 									)
 							)}
-							{LasFrases.frasesCortas.map(
-								(lego) =>
-									this.state.parametro === lego.url &&
-									// <lego.componente key={lego.titulo} />
-									lego.titulo
-							)}
 							<BackToTop />
 						</Row>
 					</Container>

@@ -9,7 +9,6 @@ export default class ConstruirFrases extends React.Component {
 		super(props);
 		this.state = {
 			sinGrupo: LasFrases.sinGrupo,
-			frasesCortas: LasFrases.frasesCortas,
 			altura: "0",
 		};
 	}
@@ -25,57 +24,6 @@ export default class ConstruirFrases extends React.Component {
 					Construir Frases Simples
 				</h3>
 				<Row className="justify-content-around">
-					{/* <Col md="12">
-						<Card
-							style={{
-								overflowY: "hidden",
-								height: this.state.altura,
-								borderRadius: "15px",
-								background: "rgb(3, 169, 244)",
-								boxShadow:
-									"rgba(3, 169, 244, 0.6) 0px 5px 25px 0px",
-							}}
-						>
-							<h4 className="text-white text-center title mt-3 pt-0">
-								Frases Cortas
-							</h4>
-							<CardBody
-								className="d-flex justify-content-between px-0 col-lg-12"
-								style={{
-									overflowX: "scroll",
-									whiteSpace: "nowrap",
-									position: "relative",
-								}}
-							>
-								{this.state.frasesCortas.map((link) => (
-									<Col md="auto" key={link.titulo}>
-										<Link
-											to={"/construir-frases/" + link.url}
-											onClick={() => {
-												this.props.scrollTop();
-											}}
-										>
-											<Card
-												style={{
-													borderRadius: "10px",
-													background:
-														"rgb(45, 206, 137)",
-												}}
-												className="card-plain"
-											>
-												<CardBody className="text-white text-capitalize px-3">
-													<span className="title">
-														{link.titulo}
-													</span>
-													<i className="fas fa-chevron-right pl-3"></i>
-												</CardBody>
-											</Card>
-										</Link>
-									</Col>
-								))}
-							</CardBody>
-						</Card>
-					</Col> */}
 					{this.state.sinGrupo.map((link) => (
 						<Col md="6" key={link.titulo}>
 							<Link
