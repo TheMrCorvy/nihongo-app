@@ -6,6 +6,7 @@ import Kudasai from "./Sections/Construir Frases/Sin Grupo/Kudasai";
 import FutsuuKei from "./Sections/Construir Frases/Sin Grupo/FutsuuKei";
 import UnirPalabras from "./Sections/Construir Frases/Sin Grupo/UnirPalabras";
 import Comparaciones from "./Sections/Construir Frases/Sin Grupo/Comparaciones";
+import OracionesSubordinadas from "./Sections/Construir Frases/Sin Grupo/OracionesSubordinadas";
 
 const LasFrases2 = {
 	frasesCortas: [
@@ -13,16 +14,6 @@ const LasFrases2 = {
 			titulo: "ser capaz de...",
 			componente: "",
 			url: "dekiru",
-		},
-		{
-			titulo: "me parece / creo que",
-			componente: "",
-			url: "to-omou",
-		},
-		{
-			titulo: "preguntar por confirmacion deshou?",
-			componente: "",
-			url: "deshou",
 		},
 		{
 			titulo: "eventos y accidentes",
@@ -87,7 +78,7 @@ const LasFrases2 = {
 			icono: "praying-hands",
 		},
 		{
-			titulo: "discurso normal futsuukei",
+			titulo: "discurso normal 普通形",
 			componente: FutsuuKei,
 			url: "futsuukei",
 			icono: "jedi",
@@ -103,6 +94,12 @@ const LasFrases2 = {
 			componente: Comparaciones,
 			url: "comparaciones",
 			icono: "balance-scale",
+		},
+		{
+			titulo: "oraciones subordinadas",
+			componente: OracionesSubordinadas,
+			url: "oraciones-subordinadas",
+			icono: "user-tag",
 		},
 	],
 };

@@ -25,7 +25,7 @@ export default class ConstruirFrases extends React.Component {
 					Construir Frases Simples
 				</h3>
 				<Row className="justify-content-around">
-					<Col md="12">
+					{/* <Col md="12">
 						<Card
 							style={{
 								overflowY: "hidden",
@@ -75,7 +75,7 @@ export default class ConstruirFrases extends React.Component {
 								))}
 							</CardBody>
 						</Card>
-					</Col>
+					</Col> */}
 					{this.state.sinGrupo.map((link) => (
 						<Col md="6" key={link.titulo}>
 							<Link

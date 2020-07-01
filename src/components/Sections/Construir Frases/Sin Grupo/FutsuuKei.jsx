@@ -173,6 +173,32 @@ export default function FutsuuKei() {
 					</CardBody>
 				</Card>
 			</Col>
+			<Col md="12">
+				<Card
+					className="card-plain bg-white"
+					style={{ borderRadius: ".5rem" }}
+				>
+					<CardBody className="px-3">
+						<h4 className="text-center text-info title pt-0 mt-0">
+							Preguntar por confirmación
+						</h4>
+						<p>
+							En Español, generalmente decimos ", no?" o "apoco?"
+							o similares, con la intención de que la otra persona
+							nos de una confirmación de si o no acerca de lo que
+							acabamos de decir, por ejemplo "ayer fuiste al cine
+							<strong>, no?</strong>" esperando un "si" o "no".
+						</p>
+						<p>
+							En Japonés, al usar el vocabulario{" "}
+							<strong>Normal</strong> 普通形 (ふつうけい -
+							futsuukei) dispondremos de la
+							terminación「でしょう？ - deshou?」que cumplirá la
+							misma funcion de nuestro ", no?".
+						</p>
+					</CardBody>
+				</Card>
+			</Col>
 			<Secciones formasKei={true} gruposTiempos={true} />
 		</React.Fragment>
 	);

@@ -132,6 +132,11 @@ const LasPalabras = {
 					url: "ejemplo",
 					icono: "paw",
 				},
+				{
+					tituloElemento: "decir, creer, pensar",
+					url: "ejemplo",
+					icono: "lightbulb",
+				},
 			],
 		},
 	],
