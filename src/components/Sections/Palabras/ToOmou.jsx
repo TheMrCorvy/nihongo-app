@@ -181,17 +181,17 @@ export default function ToOmou() {
 					</p>
 					<p className="text-right">
 						<strong className="text-success">
-							"Dijo que vendría"
+							"Dijo que vendría, no?"
 						</strong>
 						<br />「<span id="kiru">来</span>る
 						<span className="text-primary">と　</span>
 						<span className="text-info">
-							<span id="itte">言</span>っていた
+							<span id="itte">言</span>っていたでしょう？
 						</span>
 						」
 						<br />
 						「kiru <strong className="text-primary">to </strong>
-						<strong className="text-info">itteita</strong>」
+						<strong className="text-info">itteita deshou?</strong>」
 					</p>
 					<UncontrolledTooltip
 						placement="top"
