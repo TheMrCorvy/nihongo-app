@@ -80,7 +80,49 @@ export default function ToOmou() {
 						debemos conectar lo que les precede con la partícula{" "}
 						<strong className="text-danger">と</strong>.
 					</p>
+					<h4 className="text-center text-danger title">Nota</h4>
+					<p>
+						Podremos preguntar por la opinión de alguien formulando
+						la pregunta con{" "}
+						<strong>el tema del que queremos preguntar</strong>{" "}
+						seguido de la frase「に　ついてが　どう
+						<span id="omou3">思</span>いますか。」, lo que se
+						traduciría como "Qué opinas de{" "}
+						<strong className="text-info">
+							el tema del que queremos preguntar
+						</strong>
+						?"
+					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="omou3"
+						delay={0}
+					>
+						おも
+					</UncontrolledTooltip>
 					<h4 className="text-center">Ejemplos</h4>
+					<p>
+						<strong className="text-info">思う - Opinar:</strong>
+					</p>
+					<p className="text-right">
+						<strong className="text-success">"Qué opinas?"</strong>
+						<br />
+						「どう
+						<span className="text-info">
+							<span id="omou4">思</span>いますか
+						</span>
+						」
+						<br />
+						「dou　
+						<strong className="text-info">omoimasuka</strong>」
+					</p>
+					<UncontrolledTooltip
+						placement="top"
+						target="omou4"
+						delay={0}
+					>
+						おも
+					</UncontrolledTooltip>
 					<p>
 						<strong className="text-info">思う - Opinar:</strong>
 					</p>

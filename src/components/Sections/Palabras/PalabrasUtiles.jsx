@@ -54,7 +54,7 @@ export default function PalabrasUtiles(props) {
 							{palabra.TituloSupeingo} - {palabra.TituloNihongo}
 						</h5>
 					</Button>
-					<UncontrolledCollapse
+					{/* <UncontrolledCollapse
 						toggler={
 							"#buttonToggler-" +
 							palabra.Key +
@@ -67,91 +67,107 @@ export default function PalabrasUtiles(props) {
 						}}
 						className="px-4"
 						defaultOpen
+					> */}
+					<Card
+						className="card-plain pt-4 px-4"
+						style={{
+							borderRadius: "15px",
+							// zIndex: -1,
+							marginTop: -25,
+						}}
 					>
-						<Card
-							className="card-plain bg-white pt-4 px-3"
+						<CardBody
+							className="bg-white px-3"
 							style={{
-								borderRadius: "15px",
+								borderBottomLeftRadius: "15px",
+								borderBottomRightRadius: "15px",
+								// zIndex: -1,
+								// marginTop: -25,
 							}}
 						>
-							<CardBody>
-								<h5
-									className="text-center"
-									style={{
-										lineHeight: "2.5rem",
-									}}
-								>
-									Lecturas:{" "}
-									{palabra.Furagana && (
-										<span className="text-success">
-											「{palabra.Furagana}」
-										</span>
-									)}
-									<span className="text-info text-capitalize">
-										「{palabra.Romaji}」
+							<h5
+								className="text-center"
+								style={{
+									lineHeight: "2.5rem",
+								}}
+							>
+								Lecturas:{" "}
+								{palabra.Furagana && (
+									<span className="text-success">
+										「{palabra.Furagana}」
 									</span>
-								</h5>
-								<h3 className="text-center mt-3 text-capitalize">
-									{palabra.Subtitulo}
-								</h3>
-								{palabra.Texto && <p>{palabra.Texto}</p>}
-								{palabra.Ejemplo1 && (
-									<div className="text-center pt-4">
-										<h5 className="text-left">Ejemplo:</h5>
-										<p>
-											<strong className="text-info">
-												"{palabra.Ejemplo1.Traduccion}":
-											</strong>
-										</p>
-										<p className="text-success">
-											「{palabra.Ejemplo1.Kanjis}」
-										</p>
-										<p>
+								)}
+								<span className="text-info text-capitalize">
+									「{palabra.Romaji}」
+								</span>
+							</h5>
+							<h3 className="text-center mt-3 text-capitalize">
+								{palabra.Subtitulo}
+							</h3>
+							{palabra.Texto && <p>{palabra.Texto}</p>}
+							{palabra.Ejemplo1 && (
+								<div className="text-center pt-4">
+									<h5 className="text-left">Ejemplo:</h5>
+									<p>
+										<strong>
+											"{palabra.Ejemplo1.Traduccion}":
+										</strong>
+									</p>
+									<p className="text-info">
+										「{palabra.Ejemplo1.Kanjis}」
+									</p>
+									<p>
+										<strong className="text-success">
 											「{palabra.Ejemplo1.RomajiEjemplo}」
-										</p>
-									</div>
-								)}
-								{palabra.Ejemplo2 && (
-									<div className="text-center pt-4">
-										<h5 className="text-left">Ejemplo:</h5>
-										<p>
-											<strong className="text-info">
-												"{palabra.Ejemplo2.Traduccion}":
-											</strong>
-										</p>
-										<p className="text-success">
-											「{palabra.Ejemplo2.Kanjis}」
-										</p>
-										<p>
-											「{palabra.Ejemplo2.RomajiEjemplo}」
-										</p>
-									</div>
-								)}
-								{palabra.Ejemplo3 && (
-									<div className="text-center pt-4">
-										<h5 className="text-left">Ejemplo:</h5>
-										<p>
-											<strong className="text-info">
-												"{palabra.Ejemplo3.Traduccion}":
-											</strong>
-										</p>
-										<p className="text-success">
-											「{palabra.Ejemplo3.Kanjis}」
-										</p>
-										<p>
-											「{palabra.Ejemplo3.RomajiEjemplo}」
-										</p>
-									</div>
-								)}
-								<div className="text-danger text-center mb-0 mt-5">
-									<i
-										className="fas fa-2x fa-times-circle"
-										id={"cerrar-" + palabra.Key}
-									></i>
+										</strong>
+									</p>
 								</div>
-							</CardBody>
-						</Card>
-					</UncontrolledCollapse>
+							)}
+							{palabra.Ejemplo2 && (
+								<div className="text-center pt-4">
+									<h5 className="text-left">Ejemplo:</h5>
+									<p>
+										<strong>
+											"{palabra.Ejemplo2.Traduccion}":
+										</strong>
+									</p>
+									<p className="text-info">
+										「{palabra.Ejemplo2.Kanjis}」
+									</p>
+									<p>
+										<strong className="text-success">
+											「{palabra.Ejemplo2.RomajiEjemplo}」
+										</strong>
+									</p>
+								</div>
+							)}
+							{palabra.Ejemplo3 && (
+								<div className="text-center pt-4">
+									<h5 className="text-left">Ejemplo:</h5>
+									<p>
+										<strong>
+											"{palabra.Ejemplo3.Traduccion}":
+										</strong>
+									</p>
+									<p className="text-info">
+										「{palabra.Ejemplo3.Kanjis}」
+									</p>
+									<p>
+										<strong className="text-success">
+											「{palabra.Ejemplo3.RomajiEjemplo}」
+										</strong>
+									</p>
+								</div>
+							)}
+							{/* <div className="text-danger text-center mb-0 mt-5">
+								<i
+									className="fas fa-2x fa-times-circle"
+									id={"cerrar-" + palabra.Key}
+								></i>
+							</div> */}
+						</CardBody>
+					</Card>
+					{/* </UncontrolledCollapse> */}
 				</Col>
 			))}
 		</React.Fragment>

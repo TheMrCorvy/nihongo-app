@@ -59,6 +59,10 @@ const LasPalabras = {
 					tituloElemento: "lugares de japón",
 					url: "ejemplo",
 				},
+				{
+					tituloElemento: "el clima",
+					url: "ejemplo",
+				},
 			],
 		},
 		{

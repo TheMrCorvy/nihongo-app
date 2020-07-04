@@ -2,55 +2,39 @@
 	"PalabrasUtiles": [
 		{
 			"Key": 1,
-			"TituloSupeingo": "verdura",
-			"TituloNihongo": "果物",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
-			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"TituloSupeingo": "desear",
+			"TituloNihongo": "欲しい",
+			"Subtitulo": "quisiera... / desearía...",
+			"Furagana": "ほしい",
+			"Romaji": "hoshii",
+			"background": "rgb(3, 169, 244)",
+			"boxShadow": "rgba(3, 169, 244, 0.6) 0px 5px 25px 0px",
+			"Texto": "Usaremos el verbo 欲しい (ほしい - hoshii) para expresar sentimientos de deseo, sea de obtener algo, deseo de hacer algo, etc. \n Cabe destacar que siempre que utilicemos éste verbo con algún otro, el otro verbo (lo que deseamos hacer) debe ir en la forma て形 (てけい - tekei), en caso de ser conjugado en cualquier otra forma, deberá conectarse con la partícula「が」al verbo 欲しい. \n Por último, si estamos hablando de alguien, dicha persona irá conectada a la oración con la partícula「に」",
 			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Qué es lo que más deseas en éstos momentos?",
+				"Kanjis": "今いちばん欲しい物は　なんだ？",
+				"RomajiEjemplo": "ima ichiban hoshii mono wa nanda?"
 			},
 			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Desearía tener 10.000.000 de dólares",
+				"Kanjis": "一千万ドルが　欲しい。",
+				"RomajiEjemplo": "issen man doru ga hoshii。"
 			},
-			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			}
+			"Ejemplo3": ""
 		},
 		{
 			"Key": 2,
-			"TituloSupeingo": "mochiron!",
-			"TituloNihongo": "果物",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
-			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
-			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			},
-			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			},
-			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			}
+			"TituloSupeingo": "por supuesto!",
+			"TituloNihongo": "勿論！",
+			"Subtitulo": "desde luego!",
+			"Furagana": "もちろん！",
+			"Romaji": "mochiron！",
+			"background": "rgb(76, 175, 80)",
+			"boxShadow": "rgba(76, 175, 80, 0.6) 0px 5px 25px 0px",
+			"Texto": "Nada muy complicado por aquí, ésta expersión es el equivalente de lo que en Español decimos \"Por supuesto\", \"Claro que si\", \"Naturalmente\", etc.",
+			"Ejemplo1": "",
+			"Ejemplo2": "",
+			"Ejemplo3": ""
 		},
 		{
 			"Key": 3,
@@ -80,58 +64,28 @@
 		},
 		{
 			"Key": 4,
-			"TituloSupeingo": "por mas que no lo parezca igaito",
-			"TituloNihongo": "果物",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
-			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"TituloSupeingo": "por mas que no lo parezca",
+			"TituloNihongo": "意外と",
+			"Subtitulo": "sorpresivamente...",
+			"Furagana": "いがいと",
+			"Romaji": "igaito",
+			"background": "linear-gradient(87deg, rgb(17, 205, 239) 0px, rgb(17, 113, 239) 100%)",
+			"boxShadow": "rgba(44, 168, 255, 0.6) 0px 5px 25px 0px",
+			"Texto": "「いがいと - igaito」Es una expresión que puede traducirse de varias maneras, pero siempre siguiendo un hilo determinado, éste viene siendo algo del estilo de \"Aunque no lo parezca...\" seguido del resto de la oración.",
 			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Sorpresivamente, es comida.",
+				"Kanjis": "意外と食べ物です",
+				"RomajiEjemplo": "igaito tabemono desu"
 			},
 			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Aunque no lo parezca, el es un genio para las matemáticas.",
+				"Kanjis": "意外と　かれは　数学の　てんさいです。",
+				"RomajiEjemplo": "igaito kare wa suugaku no tensai desu。"
 			},
-			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			}
+			"Ejemplo3": ""
 		},
 		{
 			"Key": 5,
-			"TituloSupeingo": "demo... algo mas",
-			"TituloNihongo": "果物",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
-			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
-			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			},
-			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			},
-			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			}
-		},
-		{
-			"Key": 6,
 			"TituloSupeingo": "ser capaz de dekiru",
 			"TituloNihongo": "果物",
 			"Subtitulo": "las verduras",
@@ -157,7 +111,7 @@
 			}
 		},
 		{
-			"Key": 7,
+			"Key": 6,
 			"TituloSupeingo": "pasado continuo",
 			"TituloNihongo": "とき",
 			"Subtitulo": "las verduras",
@@ -183,7 +137,7 @@
 			}
 		},
 		{
-			"Key": 8,
+			"Key": 7,
 			"TituloSupeingo": "llegar a ser",
 			"TituloNihongo": "なります",
 			"Subtitulo": "las verduras",
@@ -209,7 +163,7 @@
 			}
 		},
 		{
-			"Key": 9,
+			"Key": 8,
 			"TituloSupeingo": "experiencias",
 			"TituloNihongo": "あります",
 			"Subtitulo": "las verduras",
@@ -235,61 +189,9 @@
 			}
 		},
 		{
-			"Key": 10,
-			"TituloSupeingo": "antes de / adelante de",
+			"Key": 9,
+			"TituloSupeingo": "antes de / delante de",
 			"TituloNihongo": "前",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
-			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
-			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			},
-			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			},
-			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			}
-		},
-		{
-			"Key": 11,
-			"TituloSupeingo": "desear",
-			"TituloNihongo": "ほし",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
-			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
-			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			},
-			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			},
-			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			}
-		},
-		{
-			"Key": 12,
-			"TituloSupeingo": "está buen o no?",
-			"TituloNihongo": "いいですか",
 			"Subtitulo": "las verduras",
 			"Furagana": "くだもの",
 			"Romaji": "kudamono",

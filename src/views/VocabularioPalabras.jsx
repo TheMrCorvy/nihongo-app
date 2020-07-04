@@ -3,7 +3,7 @@ import { Row, Container } from "reactstrap";
 
 import BackToTop from "components/Sections/BackToTop";
 
-import Palabras from "components/Jsons/Palabras";
+import Palabras from "components/Jsons/VocabularioPalabras";
 
 import LasPalabras from "components/LasPalabras";
 
