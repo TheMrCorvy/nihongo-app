@@ -32,10 +32,10 @@ class Particulas extends React.Component {
 						borderRadius: "20px 20px 0 0",
 					}}
 				>
-					<Container>
-						<h1 className="text-center title h3">
-							Guía para Partículas
-						</h1>
+					<h1 className="text-center title h3">
+						Guía para Partículas
+					</h1>
+					<Container className="container-fluid">
 						<Row className="justify-content-around">
 							<Col md="12" className="px-4 pb-4">
 								<p>

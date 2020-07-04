@@ -32,6 +32,8 @@ import UnirAdjetivos from "views/Grupos y Tiempos/UnirAdjetivos";
 
 import ConstruirFrases from "views/ConstruirFrases";
 
+import VocabularioPalabras from "views/VocabularioPalabras";
+
 const routes = [
 	{
 		path: "/",
@@ -142,6 +144,11 @@ const routes = [
 		path: "/construir-frases/:lego",
 		nameKey: "Layout Construir Frases",
 		component: ConstruirFrases,
+	},
+	{
+		path: "/vocabulario-palabras/:palabra",
+		nameKey: "Vocabulario de Palabras",
+		component: VocabularioPalabras,
 	},
 ];
 export default routes;

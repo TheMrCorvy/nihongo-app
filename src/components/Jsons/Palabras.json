@@ -1,0 +1,316 @@
+{
+	"PalabrasUtiles": [
+		{
+			"Key": 1,
+			"TituloSupeingo": "verdura",
+			"TituloNihongo": "果物",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		},
+		{
+			"Key": 2,
+			"TituloSupeingo": "mochiron!",
+			"TituloNihongo": "果物",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		},
+		{
+			"Key": 3,
+			"TituloSupeingo": "cantidades amari",
+			"TituloNihongo": "果物",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		},
+		{
+			"Key": 4,
+			"TituloSupeingo": "por mas que no lo parezca igaito",
+			"TituloNihongo": "果物",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		},
+		{
+			"Key": 5,
+			"TituloSupeingo": "demo... algo mas",
+			"TituloNihongo": "果物",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		},
+		{
+			"Key": 6,
+			"TituloSupeingo": "ser capaz de dekiru",
+			"TituloNihongo": "果物",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		},
+		{
+			"Key": 7,
+			"TituloSupeingo": "pasado continuo",
+			"TituloNihongo": "とき",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		},
+		{
+			"Key": 8,
+			"TituloSupeingo": "llegar a ser",
+			"TituloNihongo": "なります",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		},
+		{
+			"Key": 9,
+			"TituloSupeingo": "experiencias",
+			"TituloNihongo": "あります",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		},
+		{
+			"Key": 10,
+			"TituloSupeingo": "antes de / adelante de",
+			"TituloNihongo": "前",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		},
+		{
+			"Key": 11,
+			"TituloSupeingo": "desear",
+			"TituloNihongo": "ほし",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		},
+		{
+			"Key": 12,
+			"TituloSupeingo": "está buen o no?",
+			"TituloNihongo": "いいですか",
+			"Subtitulo": "las verduras",
+			"Furagana": "くだもの",
+			"Romaji": "kudamono",
+			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Ejemplo1": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo2": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			},
+			"Ejemplo3": {
+				"Traduccion": "Dijo que vendría",
+				"Kanjis": "来ると　言っていた",
+				"RomajiEjemplo": "kiru to itteita"
+			}
+		}
+	]
+}

@@ -1,3 +1,6 @@
+import ToOmou from "./Sections/Palabras/ToOmou";
+import PalabrasUtiles from "./Sections/Palabras/PalabrasUtiles";
+
 const LasPalabras = {
 	Elementos: [
 		{
@@ -134,15 +137,30 @@ const LasPalabras = {
 				},
 				{
 					tituloElemento: "decir, creer, pensar",
-					url: "ejemplo",
+					url: "/decir-creer-pensar",
 					icono: "lightbulb",
 				},
 				{
 					tituloElemento: "palabras útiles",
-					url: "ejemplo",
+					url: "/palabras-utiles",
 					icono: "tools",
 				},
+				{
+					tituloElemento: "vocabulario de trabajo",
+					url: "/vocabulario-trabajo",
+					icono: "toolbox",
+				},
 			],
+		},
+	],
+	Componentes: [
+		{
+			url: "decir-creer-pensar",
+			componente: ToOmou,
+		},
+		{
+			url: "palabras-utiles",
+			componente: PalabrasUtiles,
 		},
 	],
 };

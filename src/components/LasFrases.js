@@ -9,43 +9,6 @@ import Comparaciones from "./Sections/Construir Frases/Comparaciones";
 import OracionesSubordinadas from "./Sections/Construir Frases/OracionesSubordinadas";
 
 const LasFrases2 = {
-	// frasesCortas: [
-	// 	{
-	// 		titulo: "ser capaz de...",
-	// 		componente: "",
-	// 		url: "dekiru",
-	// 	},
-	// 	{
-	// 		titulo: "eventos y accidentes",
-	// 		componente: "",
-	// 		url: "eventos-accidentes",
-	// 	},
-	// 	{
-	// 		titulo: "demo... algo mas",
-	// 		componente: "",
-	// 		url: "demo",
-	// 	},
-	// 	{
-	// 		titulo: "igaito, por mas que no lo parezca",
-	// 		componente: "",
-	// 		url: "igaito",
-	// 	},
-	// 	{
-	// 		titulo: "cantidades amari",
-	// 		componente: "",
-	// 		url: "cantidades",
-	// 	},
-	// 	{
-	// 		titulo: "justificacion kara",
-	// 		componente: "",
-	// 		url: "desukara",
-	// 	},
-	// 	{
-	// 		titulo: "mochiron",
-	// 		componente: "",
-	// 		url: "mochiron",
-	// 	},
-	// ],
 	sinGrupo: [
 		{
 			titulo: "Presentación inicial",
