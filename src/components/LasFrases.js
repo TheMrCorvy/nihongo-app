@@ -8,63 +8,61 @@ import UnirPalabras from "./Sections/Construir Frases/UnirPalabras";
 import Comparaciones from "./Sections/Construir Frases/Comparaciones";
 import OracionesSubordinadas from "./Sections/Construir Frases/OracionesSubordinadas";
 
-const LasFrases2 = {
-	sinGrupo: [
-		{
-			titulo: "Presentación inicial",
-			componente: Jikushoukan,
-			url: "jikushoukan",
-			icono: "id-card",
-		},
-		{
-			titulo: "ubicaciones y preguntas",
-			componente: KokoYDore,
-			url: "koko-soko-asoko",
-			icono: "map-marked-alt",
-		},
-		{
-			titulo: "actualmente estoy en...",
-			componente: ImaImasu,
-			url: "imasu",
-			icono: "thumbtack",
-		},
-		{
-			titulo: "obligaciones y opcionales",
-			componente: NakerebaNarimasen,
-			url: "nakerebanarimasen",
-			icono: "exclamation",
-		},
-		{
-			titulo: 'peticiones "por favor"',
-			componente: Kudasai,
-			url: "kudasai",
-			icono: "praying-hands",
-		},
-		{
-			titulo: "discurso normal 普通形",
-			componente: FutsuuKei,
-			url: "futsuukei",
-			icono: "jedi",
-		},
-		{
-			titulo: "unir palabras",
-			componente: UnirPalabras,
-			url: "unir-palabras",
-			icono: "link",
-		},
-		{
-			titulo: "comparaciones",
-			componente: Comparaciones,
-			url: "comparaciones",
-			icono: "balance-scale",
-		},
-		{
-			titulo: "oraciones subordinadas",
-			componente: OracionesSubordinadas,
-			url: "oraciones-subordinadas",
-			icono: "user-tag",
-		},
-	],
-};
+const LasFrases = [
+	{
+		titulo: "Presentación inicial",
+		componente: Jikushoukan,
+		url: "jikushoukan",
+		icono: "id-card",
+	},
+	{
+		titulo: "ubicaciones y preguntas",
+		componente: KokoYDore,
+		url: "koko-soko-asoko",
+		icono: "map-marked-alt",
+	},
+	{
+		titulo: "actualmente estoy en...",
+		componente: ImaImasu,
+		url: "imasu",
+		icono: "thumbtack",
+	},
+	{
+		titulo: "obligaciones y opcionales",
+		componente: NakerebaNarimasen,
+		url: "nakerebanarimasen",
+		icono: "exclamation",
+	},
+	{
+		titulo: 'peticiones "por favor"',
+		componente: Kudasai,
+		url: "kudasai",
+		icono: "praying-hands",
+	},
+	{
+		titulo: "discurso normal 普通形",
+		componente: FutsuuKei,
+		url: "futsuukei",
+		icono: "jedi",
+	},
+	{
+		titulo: "unir palabras",
+		componente: UnirPalabras,
+		url: "unir-palabras",
+		icono: "link",
+	},
+	{
+		titulo: "comparaciones",
+		componente: Comparaciones,
+		url: "comparaciones",
+		icono: "balance-scale",
+	},
+	{
+		titulo: "oraciones subordinadas",
+		componente: OracionesSubordinadas,
+		url: "oraciones-subordinadas",
+		icono: "user-tag",
+	},
+];
 
-export default LasFrases2;
+export default LasFrases;

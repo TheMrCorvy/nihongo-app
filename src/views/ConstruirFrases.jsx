@@ -41,7 +41,7 @@ export default class ConstruirFrases extends React.Component {
 							Construye Frases Simples
 						</h1>
 						<Row className="justify-content-around">
-							{LasFrases.sinGrupo.map(
+							{LasFrases.map(
 								(lego) =>
 									this.state.parametro === lego.url && (
 										<lego.componente key={lego.titulo} />

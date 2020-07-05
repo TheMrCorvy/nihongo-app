@@ -8,7 +8,7 @@ export default class ConstruirFrases extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			sinGrupo: LasFrases.sinGrupo,
+			sinGrupo: LasFrases,
 			altura: "0",
 		};
 	}

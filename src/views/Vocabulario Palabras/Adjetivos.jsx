@@ -8,7 +8,7 @@ import {
 	UncontrolledTooltip,
 } from "reactstrap";
 
-import adjetivos from "components/adjetivos.json";
+import adjetivos from "components/Jsons/adjetivos.json";
 import BackToTop from "components/Sections/BackToTop";
 
 class Adjetivos extends React.Component {

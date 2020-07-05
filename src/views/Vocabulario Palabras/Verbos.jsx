@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, CardBody } from "reactstrap";
 
-import verbos from "components/verbos.json";
+import verbos from "components/Jsons/verbos.json";
 import BackToTop from "components/Sections/BackToTop";
 
 class Verbos extends React.Component {

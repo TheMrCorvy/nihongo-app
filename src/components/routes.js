@@ -6,6 +6,7 @@ import KatakanaView from "views/Kanas/KatakanaView";
 import Creditos from "views/Creditos";
 import Particulas from "views/Particulas";
 
+import VocabularioPalabras from "views/Vocabulario Palabras/VocabularioPalabras";
 import Verbos from "views/Vocabulario Palabras/Verbos";
 import Adjetivos from "views/Vocabulario Palabras/Adjetivos";
 import Sustantivos from "views/Vocabulario Palabras/Sustantivos";
@@ -31,8 +32,6 @@ import FormasKei from "views/FormasKei";
 import UnirAdjetivos from "views/Grupos y Tiempos/UnirAdjetivos";
 
 import ConstruirFrases from "views/ConstruirFrases";
-
-import VocabularioPalabras from "views/VocabularioPalabras";
 
 const routes = [
 	{
