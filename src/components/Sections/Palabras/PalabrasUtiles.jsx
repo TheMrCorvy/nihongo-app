@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Card, CardBody, UncontrolledCollapse, Button } from "reactstrap";
+import { Col, Card, CardBody, Button } from "reactstrap";
 
 export default function PalabrasUtiles(props) {
 	return (
@@ -36,6 +36,13 @@ export default function PalabrasUtiles(props) {
 						Palabras Útiles
 					</h4>
 				</Card>
+			</Col>
+			<Col md="12" className="text-center">
+				<p>
+					<strong className="text-danger">Nota:</strong> La función de
+					"toca el Kanji para conocer su lectura" no estará disponible
+					en ésta pantalla.
+				</p>
 			</Col>
 			{props.jsonDePalabras.PalabrasUtiles.map((palabra) => (
 				<Col md="auto" className="mb-5" key={palabra.Key}>
@@ -104,7 +111,13 @@ export default function PalabrasUtiles(props) {
 							<h3 className="text-center mt-3 text-capitalize">
 								{palabra.Subtitulo}
 							</h3>
-							{palabra.Texto && <p>{palabra.Texto}</p>}
+							{palabra.Texto && (
+								<p
+									dangerouslySetInnerHTML={{
+										__html: palabra.Texto,
+									}}
+								></p>
+							)}
 							{palabra.Ejemplo1 && (
 								<div className="text-center pt-4">
 									<h5 className="text-left">Ejemplo:</h5>

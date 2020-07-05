@@ -31,7 +31,7 @@ export default function ToOmou() {
 						}}
 					></i>
 				</div>
-				<h4 className="text-left px-4 pt-2 float-left my-0">
+				<h4 className="text-left px-3 pt-3 float-left my-0">
 					Decir, Creer, y Pensar
 				</h4>
 				<CardBody className="mt-5 px-3">

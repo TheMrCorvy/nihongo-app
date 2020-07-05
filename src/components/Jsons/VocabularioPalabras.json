@@ -9,7 +9,7 @@
 			"Romaji": "hoshii",
 			"background": "rgb(3, 169, 244)",
 			"boxShadow": "rgba(3, 169, 244, 0.6) 0px 5px 25px 0px",
-			"Texto": "Usaremos el verbo 欲しい (ほしい - hoshii) para expresar sentimientos de deseo, sea de obtener algo, deseo de hacer algo, etc. \n Cabe destacar que siempre que utilicemos éste verbo con algún otro, el otro verbo (lo que deseamos hacer) debe ir en la forma て形 (てけい - tekei), en caso de ser conjugado en cualquier otra forma, deberá conectarse con la partícula「が」al verbo 欲しい. \n Por último, si estamos hablando de alguien, dicha persona irá conectada a la oración con la partícula「に」",
+			"Texto": "Usaremos el verbo 欲しい (ほしい - hoshii) para expresar <strong>sentimientos de deseo</strong>, sea de obtener algo, deseo de hacer algo, etc. <br/><br/> Cabe destacar que siempre que utilicemos éste verbo con algún otro, el otro verbo (lo que deseamos hacer) debe ir en la forma て形 (てけい - tekei), en caso de ser conjugado en cualquier otra forma, deberá conectarse con la partícula「が」al verbo 欲しい. <br/><br/> Por último, si estamos hablando de alguien, dicha persona irá conectada a la oración con la partícula「に」.",
 			"Ejemplo1": {
 				"Traduccion": "Qué es lo que más deseas en éstos momentos?",
 				"Kanjis": "今いちばん欲しい物は　なんだ？",
@@ -38,29 +38,21 @@
 		},
 		{
 			"Key": 3,
-			"TituloSupeingo": "cantidades amari",
-			"TituloNihongo": "果物",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
-			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"TituloSupeingo": "adverbios de cantidades",
+			"TituloNihongo": "あまり",
+			"Subtitulo": "indicar cantidades abstractas",
+			"Furagana": "",
+			"Romaji": "amari",
+			"background": "linear-gradient(87deg, rgb(251, 99, 64) 0px, rgb(251, 177, 64) 100%)",
+			"boxShadow": "rgba(251, 99, 64, 0.6) 0px 5px 25px 0px",
+			"Texto": "Si bien los adverbios ya tienen su propia sección, aquí veremos como indicar cantidades del tipo \"un poco\", \"mucho\", etc.<br/><br/>とても = totemo = \"mucho\"<br/><br/>一杯 = いっぱい = ippai= \"mucho\", \"lleno\", \"un montón de\"<br/><br/>よく = \"bien\", \"bastante\", \"frecuentemente\"<br/><br/>ちょっと= chotto = \"un poco\"<br/><br/>少し = すこし = sukoshi = \"un poco\", \"una pequeña cantidad\"<br/><br/>あまり = amari = \"no mucho\", o \"mucho\" pero con una connotación negativa.<br/><br/>ぜんぜん = zenzen = \"nada\", \"no, en absoluto\".<br/><br/><strong>Nota:</strong> Me gustaría aclarar que cuando usemos adverbios con connotación negativa, ぜんぜん o あまり, debemos conjugar a la forma <strong>negativa</strong> a los verbos, o lo que sea de lo que estemos hablando.",
 			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "No sé mucho Japonés",
+				"Kanjis": "日本語を　あまり知りません。",
+				"RomajiEjemplo": "nihongo o amari shirimasen"
 			},
-			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			},
-			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			}
+			"Ejemplo2": "",
+			"Ejemplo3": ""
 		},
 		{
 			"Key": 4,
@@ -86,133 +78,139 @@
 		},
 		{
 			"Key": 5,
-			"TituloSupeingo": "ser capaz de dekiru",
-			"TituloNihongo": "果物",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
+			"TituloSupeingo": "ser capaz de...",
+			"TituloNihongo": "できる",
+			"Subtitulo": "ことが　できる",
+			"Furagana": "",
+			"Romaji": "koto ga dekiru",
 			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
 			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Texto": "Si bien forma parte del vocabulario <strong>Normal</strong>, informal, podremos indicar si es posible o no hacer algo utilizando el verbo「できる」, de la misma manera que lo podremos utilizar para decir \"en la medida de lo posible...\", haciendo uso de「できるだけ」<br/><br/> También podremos hacer uso del verbo「できる」para indicar que <strong>algo se ha completado con éxito</strong> <br/><br/> Las conjugaciones de tiempo del verbo 「できる」van a ser las siguientes:<br/><br/>1) <strong class=\"text-info\">Normal</strong>「できる」(dekiru) = \"se puede / poderse\"<br/>1) <strong class=\"text-primary\">Formal</strong>「できます」(dekimasu) = \"se puede / poderse\"<br/><br/>2) <strong class=\"text-info\">Normal</strong>「できない」(dekinai) = \"no se puede / no poderse\"<br/>2) <strong class=\"text-primary\">Formal</strong>「できません」(dekimasen) = \"no se puede / no poderse\"<br/><br/>3) <strong class=\"text-info\">Normal</strong>「できた」(dekita) = \"se pudo\"<br/>3) <strong class=\"text-primary\">Formal</strong>「できまじた」(dekimashita) = \"se pudo\"<br/><br/>4) <strong class=\"text-info\">Normal</strong>「できなかった」(dekinakatta) = \"no se pudo\"<br/>4) <strong class=\"text-primary\">Formal</strong>「できませんでした」(dekimasendeshita) = \"no se pudo\"",
 			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Se jugar al Tenis",
+				"Kanjis": "私は　テニスが　できます",
+				"RomajiEjemplo": "watashi wa tenisu ga dekimasu"
 			},
 			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Lo más rápido que puedas",
+				"Kanjis": "できるだけ早く",
+				"RomajiEjemplo": "dekiru dake hayaku"
 			},
 			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Lograste hacer bien el examen? / Te fue bien en el examen?",
+				"Kanjis": "試験できた？",
+				"RomajiEjemplo": "shiken dekita?"
 			}
 		},
 		{
 			"Key": 6,
-			"TituloSupeingo": "pasado continuo",
+			"TituloSupeingo": "\"pasado continuo\"",
 			"TituloNihongo": "とき",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
-			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Subtitulo": "\"cuando pasó...\", \"una vez que pasó...\"",
+			"Furagana": "",
+			"Romaji": "toki",
+			"background": "rgb(255, 87, 34)",
+			"boxShadow": "rgba(255, 87, 34, 0.7) 0px 5px 25px 0px",
+			"Texto": "Usaremos「とき」para indicar \"cuando pasó...\", o \"una vez que pasó...\", \"el momento en el que pasó...\", etc. Las \"reglas\" serían las siguientes:<br/><br/> La forma 辞書形 - じしけい - jishokei (la forma う - u de los verbos) seguido de「とき」para indicar <strong>mientras pasaba...</strong><br/><br/>La forma た (ta) de los verbos +「とき」indicará \"una vez que pasó <strong>verbo en forma た (ta)</strong>, el resto de la oración\"<br/><br/>Para el resto de combinaciones posibles con「とき」, lo que se expresará será algo del estilo \"en la época en que...\", \"el momento cuando\", y otros similares.<br/><br/>Las otras combinaciones posibles son las siguientes:<br/><br/>Las demás formas de los verbos +「とき」<br/><br/>Los adjetivos +「とき」<br/><br/>Y por último, los sustantivos +「の」+「とき」.",
 			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Era guapo cuando era jóven",
+				"Kanjis": "若いとき、きれいでした。",
+				"RomajiEjemplo": "wakai toki、kirei deshita"
 			},
-			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			},
-			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			}
+			"Ejemplo2": "",
+			"Ejemplo3": ""
 		},
 		{
 			"Key": 7,
 			"TituloSupeingo": "llegar a ser",
 			"TituloNihongo": "なります",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
-			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Subtitulo": "convertirse o hacerse",
+			"Furagana": "",
+			"Romaji": "narimasu",
+			"background": "linear-gradient(87deg, rgb(45, 206, 137) 0px, rgb(45, 206, 204) 100%)",
+			"boxShadow": "rgba(45, 206, 137, 0.6) 0px 5px 25px 0px",
+			"Texto": "Usaremos el verbo「なります」casi siempre que queramos expresar un cambio, pasar de un estado de algo, a otro.<br /> <br /><strong>Nota:</strong> Siempre que usemos éste verbos, debemos usar la partícula「に」para conectarlo, ya que estamos marcando el <strong>destino de la acción</strong>.",
 			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Quisiera llegar a ser presidente de la empresa",
+				"Kanjis": "社長に　なりたい",
+				"RomajiEjemplo": "shachou ni naritai"
 			},
 			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Ahora está limpio / Ha embellecido",
+				"Kanjis": "きれいに　なりました",
+				"RomajiEjemplo": "kirei ni narimashita"
 			},
-			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
-			}
+			"Ejemplo3": ""
 		},
 		{
 			"Key": 8,
 			"TituloSupeingo": "experiencias",
-			"TituloNihongo": "あります",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
-			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"TituloNihongo": "ことが　あります",
+			"Subtitulo": "las experiencias",
+			"Furagana": "",
+			"Romaji": "koto ga arimasu",
+			"background": "linear-gradient(87deg, rgb(251, 177, 64) 100%, rgb(251, 99, 64) 0px)",
+			"boxShadow": "rgba(251, 177, 64, 0.6) 0px 5px 25px 0px",
+			"Texto": "Éste es el equivalente en Japonés de lo que en Español diríamos \"alguna vez hice...\", o \"una vez fui\", y otros del estilo. <br/><br/> Básicamente ésta es la forma de relatar acerca de algo que hemos experimentado o no en el transcurso de nuestras vidas.<br/><br/> La \"<strong>Fórmula Mágica</strong>\" para este caso va a ser muy sencilla, primero conjugaremos el comienzo de la oración al tiempo <strong>pasado</strong>, y conectaremos con lo que será el final de la frase,「ことが　あります」.",
 			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Alguna vez fuiste a Japón?",
+				"Kanjis": "日本へ　行ったことが　ありますか。",
+				"RomajiEjemplo": "nihon e itta koto ga arimasuka。"
 			},
 			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Nunca he subido al Monte Fuji",
+				"Kanjis": "富士山に　登ったことが　ありません。",
+				"RomajiEjemplo": "fujisan ni nobotta koto ga arimasen"
 			},
 			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Subi al Monte Fuji solo una vez",
+				"Kanjis": "一度富士山に　登ったことが　あります。",
+				"RomajiEjemplo": "ichido fujisan ni nobotta koto ga arimasu"
 			}
 		},
 		{
 			"Key": 9,
-			"TituloSupeingo": "antes de / delante de",
+			"TituloSupeingo": "delante de",
 			"TituloNihongo": "前",
-			"Subtitulo": "las verduras",
-			"Furagana": "くだもの",
-			"Romaji": "kudamono",
-			"background": "linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-			"boxShadow": "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
-			"Texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed dignissimos esse fuga! Minus, alias.",
+			"Subtitulo": "antes de",
+			"Furagana": "まえ",
+			"Romaji": "mae",
+			"background": "rgb(17, 113, 239)",
+			"boxShadow": "rgba(17, 113, 239, 0.6) 0px 5px 25px 0px",
+			"Texto": "El Kanji de「前」es uno que tiene múltiples usos (igual que casi cualquier otro Kanji realmente), pero aquí vamos a estar viendo 2 de sus usos más frecuentes, \"delante de...\" y \"antes de...\".<br/><br/>Para formar dichas expreciones, debemos seguir unas reglas bastantes simples.<br/><br/><strong>\"Antes de...\":</strong> viene primero el verbo en tiempo <strong>presente</strong>, seguido de「前」y conectamos con la partícula「に - ni」al resto de la frase (el orden en la oración es el siguiente: cosa que hacemos +「前に」+ cosa que hacemos antes de eso).<br/><br/><strong>\"Adelante de...\":</strong> Éste caso es incluso más simple, primero diremos \"lo que está detras\" +「の　前に - no mae ni」+ \"lo que está adelante de eso\".",
 			"Ejemplo1": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Lávate las manos antes de comer",
+				"Kanjis": "食べる前に　手を　洗いなさい",
+				"RomajiEjemplo": "taberu mae ni te o arainasai"
 			},
 			"Ejemplo2": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Hay una plaza enfrente de casa",
+				"Kanjis": "家の　前に　公園が　あります",
+				"RomajiEjemplo": "ie no mae ni kouen ga arimasu"
 			},
 			"Ejemplo3": {
-				"Traduccion": "Dijo que vendría",
-				"Kanjis": "来ると　言っていた",
-				"RomajiEjemplo": "kiru to itteita"
+				"Traduccion": "Hace 3 años",
+				"Kanjis": "３年前",
+				"RomajiEjemplo": "san nen mae"
 			}
+		},
+		{
+			"Key": 10,
+			"TituloSupeingo": "intención",
+			"TituloNihongo": "つもり",
+			"Subtitulo": "la intención de...",
+			"Furagana": "",
+			"Romaji": "tsumori",
+			"background": "linear-gradient(87deg, rgb(245, 96, 54) 0px, rgb(245, 54, 92) 100%)",
+			"boxShadow": "rgba(255, 54, 54, 0.6) 0px 5px 25px 0px",
+			"Texto": "Cuando queramos decir \"es mi intención...\", utilizaremos el sustantivo「つもり」para expresar algo del estilo \"tengo la intención de...\". <br/><br/>Cabe destacar que, si bien es correcto conjugar al sustantivo つもり, sonará más natural el conjugar al verbo que lo preseda, y siguiendo por la misma línea, también suena más natural que, en lugar de usar la partícula「を」, usar「は」en su lugar.",
+			"Ejemplo1": {
+				"Traduccion": "No es mi intención dejar el trabajo",
+				"Kanjis": "仕事は　やめないつもりです。",
+				"RomajiEjemplo": "shigoto wa yamenai tsumori desu。"
+			},
+			"Ejemplo2": "",
+			"Ejemplo3": ""
 		}
 	]
 }
