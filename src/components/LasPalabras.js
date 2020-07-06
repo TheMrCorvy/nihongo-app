@@ -140,7 +140,7 @@ const LasPalabras = {
 					icono: "paw",
 				},
 				{
-					tituloElemento: "decir, creer, pensar",
+					tituloElemento: "decir, creer, y pensar",
 					url: "/decir-creer-pensar",
 					icono: "lightbulb",
 				},
