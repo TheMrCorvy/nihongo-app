@@ -1,8 +1,8 @@
-import Taikei from "components/Sections/FormasKei/Taikei";
-import Tekei from "components/Sections/FormasKei/Tekei";
-import Jishokei from "components/Sections/FormasKei/Jishokei";
-import Naikei from "components/Sections/FormasKei/Naikei";
-import Takei from "components/Sections/FormasKei/Takei";
+import Taikei from "components/Sections/Formas Kei/Taikei";
+import Tekei from "components/Sections/Formas Kei/Tekei";
+import Jishokei from "components/Sections/Formas Kei/Jishokei";
+import Naikei from "components/Sections/Formas Kei/Naikei";
+import Takei from "components/Sections/Formas Kei/Takei";
 
 const LasFormasKei = [
 	{

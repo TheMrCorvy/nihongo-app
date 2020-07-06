@@ -104,18 +104,18 @@
 		},
 		{
 			"Key": 6,
-			"TituloSupeingo": "\"pasado continuo\"",
-			"TituloNihongo": "とき",
-			"Subtitulo": "\"cuando pasó...\", \"una vez que pasó...\"",
+			"TituloSupeingo": "intención",
+			"TituloNihongo": "つもり",
+			"Subtitulo": "la intención de...",
 			"Furagana": "",
-			"Romaji": "toki",
-			"background": "rgb(255, 87, 34)",
-			"boxShadow": "rgba(255, 87, 34, 0.7) 0px 5px 25px 0px",
-			"Texto": "Usaremos「とき」para indicar \"cuando pasó...\", o \"una vez que pasó...\", \"el momento en el que pasó...\", etc. Las \"reglas\" serían las siguientes:<br/><br/> La forma 辞書形 - じしけい - jishokei (la forma う - u de los verbos) seguido de「とき」para indicar <strong>mientras pasaba...</strong><br/><br/>La forma た (ta) de los verbos +「とき」indicará \"una vez que pasó <strong>verbo en forma た (ta)</strong>, el resto de la oración\"<br/><br/>Para el resto de combinaciones posibles con「とき」, lo que se expresará será algo del estilo \"en la época en que...\", \"el momento cuando\", y otros similares.<br/><br/>Las otras combinaciones posibles son las siguientes:<br/><br/>Las demás formas de los verbos +「とき」<br/><br/>Los adjetivos +「とき」<br/><br/>Y por último, los sustantivos +「の」+「とき」.",
+			"Romaji": "tsumori",
+			"background": "linear-gradient(87deg, rgb(245, 96, 54) 0px, rgb(245, 54, 92) 100%)",
+			"boxShadow": "rgba(255, 54, 54, 0.6) 0px 5px 25px 0px",
+			"Texto": "Cuando queramos decir \"es mi intención...\", utilizaremos el sustantivo「つもり」para expresar algo del estilo \"tengo la intención de...\". <br/><br/>Cabe destacar que, si bien es correcto conjugar al sustantivo つもり, sonará más natural el conjugar al verbo que lo preseda, y siguiendo por la misma línea, también suena más natural que, en lugar de usar la partícula「を」, usar「は」en su lugar.",
 			"Ejemplo1": {
-				"Traduccion": "Era guapo cuando era jóven",
-				"Kanjis": "若いとき、きれいでした。",
-				"RomajiEjemplo": "wakai toki、kirei deshita"
+				"Traduccion": "No es mi intención dejar el trabajo",
+				"Kanjis": "仕事は　やめないつもりです。",
+				"RomajiEjemplo": "shigoto wa yamenai tsumori desu。"
 			},
 			"Ejemplo2": "",
 			"Ejemplo3": ""
@@ -193,24 +193,6 @@
 				"Kanjis": "３年前",
 				"RomajiEjemplo": "san nen mae"
 			}
-		},
-		{
-			"Key": 10,
-			"TituloSupeingo": "intención",
-			"TituloNihongo": "つもり",
-			"Subtitulo": "la intención de...",
-			"Furagana": "",
-			"Romaji": "tsumori",
-			"background": "linear-gradient(87deg, rgb(245, 96, 54) 0px, rgb(245, 54, 92) 100%)",
-			"boxShadow": "rgba(255, 54, 54, 0.6) 0px 5px 25px 0px",
-			"Texto": "Cuando queramos decir \"es mi intención...\", utilizaremos el sustantivo「つもり」para expresar algo del estilo \"tengo la intención de...\". <br/><br/>Cabe destacar que, si bien es correcto conjugar al sustantivo つもり, sonará más natural el conjugar al verbo que lo preseda, y siguiendo por la misma línea, también suena más natural que, en lugar de usar la partícula「を」, usar「は」en su lugar.",
-			"Ejemplo1": {
-				"Traduccion": "No es mi intención dejar el trabajo",
-				"Kanjis": "仕事は　やめないつもりです。",
-				"RomajiEjemplo": "shigoto wa yamenai tsumori desu。"
-			},
-			"Ejemplo2": "",
-			"Ejemplo3": ""
 		}
 	]
 }

@@ -7,6 +7,7 @@ import FutsuuKei from "./Sections/Construir Frases/FutsuuKei";
 import UnirPalabras from "./Sections/Construir Frases/UnirPalabras";
 import Comparaciones from "./Sections/Construir Frases/Comparaciones";
 import OracionesSubordinadas from "./Sections/Construir Frases/OracionesSubordinadas";
+import Toki from "./Sections/Construir Frases/Toki";
 
 const LasFrases = [
 	{
@@ -62,6 +63,12 @@ const LasFrases = [
 		componente: OracionesSubordinadas,
 		url: "oraciones-subordinadas",
 		icono: "user-tag",
+	},
+	{
+		titulo: "en el pasado... とき",
+		componente: Toki,
+		url: "toki",
+		icono: "clock",
 	},
 ];
 
