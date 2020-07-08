@@ -32,7 +32,6 @@ export default function PergaminoHabilitado(props) {
 						zIndex: -1,
 						marginTop: -25,
 					}}
-					className="px-4"
 				>
 					<Card
 						className="card-plain pt-4 px-4"
