@@ -72,11 +72,11 @@ class Principiantes extends React.Component {
 											<strong>importaron</strong>" la
 											escritura China que se adaptó al
 											idioma para poder ser escrito. Ésto
-											ocaciona que haya algunas
+											ocasiona que haya algunas
 											inconsistencias, reglas que se
 											aplican o no, excepciones generales
 											o específicas, etc. <br /> Y también
-											ocaciona ciertas diferencias entre
+											ocasiona ciertas diferencias entre
 											el habla y la escritura, hay ciertas
 											formas de abreviar palabras o frases
 											que son válidas para una

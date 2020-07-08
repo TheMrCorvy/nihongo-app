@@ -8,8 +8,7 @@ export default class ConstruirFrases extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			sinGrupo: LasFrases,
-			altura: "0",
+			LasFrases: LasFrases.Elementos,
 		};
 	}
 	componentDidMount() {
@@ -24,41 +23,85 @@ export default class ConstruirFrases extends React.Component {
 					Construir Frases Simples
 				</h3>
 				<Row className="justify-content-around">
-					{this.state.sinGrupo.map((link) => (
-						<Col md="6" key={link.titulo}>
-							<Link
-								to={"/construir-frases/" + link.url}
-								onClick={() => {
-									this.props.scrollTop();
+					{this.state.LasFrases.map((grupo) => (
+						<Col md="12" key={grupo.titulo}>
+							<Card
+								style={{
+									overflowY: "hidden",
+									height: "auto",
+									borderRadius: "15px",
+									background: grupo.bgColor,
+									boxShadow: grupo.sombra,
 								}}
 							>
-								<Card
+								<h4
+									className={
+										"text-center text-capitalize title mt-3 pt-0 " +
+										grupo.textColor
+									}
+								>
+									{grupo.titulo}
+								</h4>
+								<CardBody
+									className="d-flex justify-content-between px-0 col-lg-12"
 									style={{
-										borderRadius: "10px",
-										boxShadow:
-											"rgba(45, 206, 137, 0.6) 0px 5px 25px 0px",
-										background: "rgb(45, 206, 137)",
+										overflowX: "scroll",
+										whiteSpace: "nowrap",
+										position: "relative",
 									}}
 								>
-									<CardBody className="text-white">
-										<span className="title text-capitalize">
-											{link.titulo}
-										</span>
-										<i className="fas fa-chevron-right pl-3"></i>
-										<i
-											className={
-												"fas fa-3x fa-" + link.icono
-											}
+									{grupo.elementos.map((elemento) => (
+										<Col
+											md="auto"
+											key={elemento.titulo}
 											style={{
-												position: "absolute",
-												top: 10,
-												right: 10,
-												opacity: 0.7,
+												minWidth: "20rem",
 											}}
-										></i>
-									</CardBody>
-								</Card>
-							</Link>
+										>
+											<Link
+												to={
+													"/construir-frases/" +
+													elemento.url
+												}
+												onClick={() => {
+													this.props.scrollTop();
+												}}
+											>
+												<Card
+													style={{
+														borderRadius: "10px",
+														boxShadow:
+															"rgba(45, 206, 137, 0.6) 0px 5px 25px 0px",
+														background:
+															"rgb(45, 206, 137)",
+														width: "100%",
+													}}
+												>
+													<CardBody className="text-white">
+														<span className="title text-capitalize">
+															{elemento.titulo}
+														</span>
+														<i className="fas fa-chevron-right pl-3"></i>
+														<i
+															className={
+																"fas fa-3x fa-" +
+																elemento.icono
+															}
+															style={{
+																position:
+																	"absolute",
+																top: 10,
+																right: 10,
+																opacity: 0.7,
+															}}
+														></i>
+													</CardBody>
+												</Card>
+											</Link>
+										</Col>
+									))}
+								</CardBody>
+							</Card>
 						</Col>
 					))}
 					<h3 className="title text-center col-lg-12 mt-5">

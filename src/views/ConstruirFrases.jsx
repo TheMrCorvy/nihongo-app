@@ -41,10 +41,12 @@ export default class ConstruirFrases extends React.Component {
 							Construye Frases Simples
 						</h1>
 						<Row className="justify-content-around">
-							{LasFrases.map(
-								(lego) =>
-									this.state.parametro === lego.url && (
-										<lego.componente key={lego.titulo} />
+							{LasFrases.Componentes.map(
+								(elemento) =>
+									this.state.parametro === elemento.url && (
+										<elemento.componente
+											key={elemento.titulo}
+										/>
 									)
 							)}
 							<BackToTop />

@@ -3,9 +3,9 @@ import { Row, Container } from "reactstrap";
 
 import BackToTop from "components/Sections/BackToTop";
 
-import Palabras from "components/Jsons/VocabularioPalabras";
-
 import LasPalabras from "components/LasPalabras";
+
+import ListarPalabras from "components/Sections/Palabras/ListarPalabras";
 
 export default class VocabularioPalabras extends React.Component {
 	constructor(props) {
@@ -41,14 +41,25 @@ export default class VocabularioPalabras extends React.Component {
 				>
 					<Container>
 						<Row className="justify-content-around pt-4">
+							{/* primero se itera el array hasta encontrar el componente correcto, y luego se evalua si el componente es único o generico */}
 							{LasPalabras.Componentes.map(
 								(palabra) =>
-									this.state.palabra === palabra.url && (
-										<palabra.componente
-											key={palabra.url}
-											jsonDePalabras={Palabras}
-										/>
-									)
+									this.state.palabra === palabra.url && [
+										palabra.ComponenteIndividual ? (
+											<palabra.componente
+												key={palabra.url}
+												ListaDePalabras={palabra.Array}
+											/>
+										) : (
+											<ListarPalabras
+												key={palabra.url}
+												ListaDePalabras={palabra.Array}
+												Titulo={palabra.Titulo}
+												Icono={palabra.Icono}
+												Layout={palabra.Layout}
+											/>
+										),
+									]
 							)}
 							<BackToTop />
 						</Row>

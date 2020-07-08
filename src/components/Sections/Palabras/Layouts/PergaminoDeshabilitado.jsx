@@ -1,49 +1,9 @@
 import React from "react";
-import { Col, Card, CardBody, Button } from "reactstrap";
+import { Col, Button, Card, CardBody } from "reactstrap";
 
-export default function PalabrasUtiles(props) {
+export default function PergaminoDeshabilitado(props) {
 	return (
 		<React.Fragment>
-			<Col md="12">
-				<Card
-					className="card-plain"
-					style={{ borderRadius: "15px" }}
-					id="de"
-				>
-					<div
-						className="bg-info text-white text-center justify-content-center"
-						style={{
-							borderTopRightRadius: "15px",
-							borderBottomLeftRadius: "15px",
-							height: "50px",
-							width: "50px",
-							position: "absolute",
-							top: 0,
-							right: 0,
-						}}
-					>
-						<i
-							className="fas fa-3x fa-tools"
-							style={{
-								position: "absolute",
-								top: 4,
-								right: 4,
-								opacity: 0.7,
-							}}
-						></i>
-					</div>
-					<h4 className="text-left px-4 pt-2 float-left my-0 text-info title">
-						Palabras Útiles
-					</h4>
-				</Card>
-			</Col>
-			<Col md="12" className="text-center">
-				<p>
-					<strong className="text-danger">Nota:</strong> La función de
-					"toca el Kanji para conocer su lectura" no estará disponible
-					en ésta pantalla.
-				</p>
-			</Col>
 			{props.ListaDePalabras.map((palabra) => (
 				<Col md="auto" className="mb-5" key={palabra.Key}>
 					<Button

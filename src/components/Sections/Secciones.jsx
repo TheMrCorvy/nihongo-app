@@ -342,7 +342,9 @@ export default function Secciones(props) {
 							}}
 						>
 							<CardBody className="text-white">
-								<span className="title">Formas 形</span>
+								<span className="title">
+									Formas 形 de los Verbos
+								</span>
 								<i className="fas fa-chevron-right pl-3"></i>
 								<br />
 								<small>

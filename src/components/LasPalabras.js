@@ -1,5 +1,9 @@
 import ToOmou from "./Sections/Palabras/ToOmou";
 import PalabrasUtiles from "./Sections/Palabras/PalabrasUtiles";
+import VocabularioTrabajo from "./Sections/Palabras/VocabularioTrabajo";
+
+import PalabrasDeUtilidad from "components/Jsons/Secciones de las Palabras/Palabras Utiles.json";
+import Trabajo from "components/Jsons/Secciones de las Palabras/Trabajo.json";
 
 const LasPalabras = {
 	Elementos: [
@@ -135,23 +139,23 @@ const LasPalabras = {
 			textColor: "text-white",
 			elementos: [
 				{
-					tituloElemento: "los animales",
-					url: "ejemplo",
+					tituloElemento: "animales",
+					url: "animales",
 					icono: "paw",
 				},
 				{
 					tituloElemento: "decir, creer, y pensar",
-					url: "/decir-creer-pensar",
+					url: "decir-creer-pensar",
 					icono: "lightbulb",
 				},
 				{
 					tituloElemento: "palabras útiles",
-					url: "/palabras-utiles",
+					url: "palabras-utiles",
 					icono: "tools",
 				},
 				{
 					tituloElemento: "vocabulario de trabajo",
-					url: "/vocabulario-trabajo",
+					url: "vocabulario-trabajo",
 					icono: "toolbox",
 				},
 			],
@@ -160,11 +164,29 @@ const LasPalabras = {
 	Componentes: [
 		{
 			url: "decir-creer-pensar",
+			ComponenteIndividual: true,
 			componente: ToOmou,
+			Array: {},
 		},
 		{
 			url: "palabras-utiles",
+			ComponenteIndividual: true,
 			componente: PalabrasUtiles,
+			Array: PalabrasDeUtilidad.PalabrasUtiles,
+		},
+		{
+			url: "vocabulario-trabajo",
+			ComponenteIndividual: true,
+			componente: VocabularioTrabajo,
+			Array: Trabajo.VocabularioTrabajo,
+		},
+		{
+			url: "animales",
+			ComponenteIndividual: false,
+			Array: Trabajo.VocabularioTrabajo,
+			Titulo: "algunos animales",
+			Icono: "paw",
+			Layout: 1,
 		},
 	],
 };

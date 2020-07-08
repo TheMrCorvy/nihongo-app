@@ -27,7 +27,7 @@ export default class VocabularioPalabras extends React.Component {
 			return seccion.elementos.map((elemento) => (
 				<Col md="6" key={elemento.tituloElemento}>
 					<Link
-						to={"/vocabulario-palabras" + elemento.url}
+						to={"/vocabulario-palabras/" + elemento.url}
 						onClick={() => {
 							this.props.scrollTop();
 						}}
@@ -91,7 +91,10 @@ export default class VocabularioPalabras extends React.Component {
 							{seccion.elementos.map((elemento) => (
 								<Col md="auto" key={elemento.tituloElemento}>
 									<Link
-										to={"/" + elemento.url}
+										to={
+											"/vocabulario-palabras/" +
+											elemento.url
+										}
 										onClick={() => {
 											this.props.scrollTop();
 										}}
