@@ -1,12 +1,29 @@
 import React from "react";
 
-import { Col, Card, CardBody } from "reactstrap";
+import { Col, Card } from "reactstrap";
+import Clasico from "components/Sections/Palabras/Layouts/Clasico";
+import PergaminoDeshabilitado from "./Layouts/PergaminoDeshabilitado";
+import PergaminoHabilitado from "./Layouts/PergaminoHabilitado";
 
-function calcularLongitudDeLaColumna(palabra) {
-	if (palabra.Texto) {
-		return "12";
-	} else {
-		return "6";
+function elegirLayout(arrayDePalabras, estiloLayout) {
+	switch (estiloLayout) {
+		case 1:
+			return arrayDePalabras.map((palabra) => (
+				<Clasico key={palabra.Key} palabra={palabra} />
+			));
+		case 2:
+			return arrayDePalabras.map((palabra) => (
+				<PergaminoDeshabilitado key={palabra.Key} palabra={palabra} />
+			));
+		case 3:
+			return arrayDePalabras.map((palabra) => (
+				<PergaminoHabilitado key={palabra.Key} palabra={palabra} />
+			));
+
+		default:
+			return arrayDePalabras.map((palabra) => (
+				<Clasico key={palabra.Key} palabra={palabra} />
+			));
 	}
 }
 
@@ -48,122 +65,7 @@ export default function ListarPalabras(props) {
 					</Card>
 				</Col>
 			)}
-			{props.ListaDePalabras.map((palabra) => (
-				<Col
-					md={calcularLongitudDeLaColumna(palabra)}
-					key={palabra.Key}
-				>
-					<Card
-						style={{ borderRadius: "10px" }}
-						className="bg-white card-plain px-3"
-					>
-						<CardBody>
-							<div
-								style={{ width: "100%" }}
-								className="row justify-content-between mx-0"
-							>
-								<p className="h5 text-info title pt-0 mb-0">
-									{palabra.TituloNihongo}
-								</p>
-								<p
-									className="h5 text-info text-capitalize title pt-0 mb-0"
-									style={{
-										fontSize: "0.9rem",
-									}}
-								>
-									{palabra.TituloSupeingo}
-								</p>
-							</div>
-							<div
-								style={{ width: "100%" }}
-								className="row justify-content-between mx-0 mt-4"
-							>
-								<p className="h5 text-info title pt-0 mb-0">
-									{palabra.Furagana}
-								</p>
-								<p
-									className="h5 text-info title pt-0 mb-0 text-capitalize"
-									style={{
-										fontSize: "0.8rem",
-									}}
-								>
-									{palabra.Romaji}
-								</p>
-							</div>
-							{palabra.Subtitulo && (
-								<h5 className="text-center text-warning my-3">
-									{palabra.Subtitulo}
-								</h5>
-							)}
-							{palabra.Texto && (
-								<p
-									className="my-5"
-									dangerouslySetInnerHTML={{
-										__html: palabra.Texto,
-									}}
-								></p>
-							)}
-							{palabra.Ejemplo1 && (
-								<div className="text-center pt-4">
-									<h5 className="text-left">Ejemplo:</h5>
-									<p>
-										<strong>
-											"{palabra.Ejemplo1.Traduccion}
-											":
-										</strong>
-									</p>
-									<p className="text-info">
-										「{palabra.Ejemplo1.Kanjis}」
-									</p>
-									<p>
-										<strong className="text-success">
-											「{palabra.Ejemplo1.RomajiEjemplo}」
-										</strong>
-									</p>
-								</div>
-							)}
-							{palabra.Ejemplo2 && (
-								<div className="text-center pt-4">
-									<h5 className="text-left">Ejemplo:</h5>
-									<p>
-										<strong>
-											"{palabra.Ejemplo2.Traduccion}
-											":
-										</strong>
-									</p>
-									<p className="text-info">
-										「{palabra.Ejemplo2.Kanjis}」
-									</p>
-									<p>
-										<strong className="text-success">
-											「{palabra.Ejemplo2.RomajiEjemplo}」
-										</strong>
-									</p>
-								</div>
-							)}
-							{palabra.Ejemplo3 && (
-								<div className="text-center pt-4">
-									<h5 className="text-left">Ejemplo:</h5>
-									<p>
-										<strong>
-											"{palabra.Ejemplo3.Traduccion}
-											":
-										</strong>
-									</p>
-									<p className="text-info">
-										「{palabra.Ejemplo3.Kanjis}」
-									</p>
-									<p>
-										<strong className="text-success">
-											「{palabra.Ejemplo3.RomajiEjemplo}」
-										</strong>
-									</p>
-								</div>
-							)}
-						</CardBody>
-					</Card>
-				</Col>
-			))}
+			{elegirLayout(props.ListaDePalabras, props.EstiloLayout)}
 		</React.Fragment>
 	);
 }

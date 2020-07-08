@@ -56,7 +56,7 @@ export default class VocabularioPalabras extends React.Component {
 												ListaDePalabras={palabra.Array}
 												Titulo={palabra.Titulo}
 												Icono={palabra.Icono}
-												Layout={palabra.Layout}
+												EstiloLayout={palabra.Layout}
 											/>
 										),
 									]

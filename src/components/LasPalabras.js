@@ -1,5 +1,4 @@
 import ToOmou from "./Sections/Palabras/ToOmou";
-import PalabrasUtiles from "./Sections/Palabras/PalabrasUtiles";
 import VocabularioTrabajo from "./Sections/Palabras/VocabularioTrabajo";
 
 import PalabrasDeUtilidad from "components/Jsons/Secciones de las Palabras/Palabras Utiles.json";
@@ -170,9 +169,11 @@ const LasPalabras = {
 		},
 		{
 			url: "palabras-utiles",
-			ComponenteIndividual: true,
-			componente: PalabrasUtiles,
+			ComponenteIndividual: false,
 			Array: PalabrasDeUtilidad.PalabrasUtiles,
+			Titulo: "Palabras Útiles",
+			Icono: "tools",
+			Layout: 3,
 		},
 		{
 			url: "vocabulario-trabajo",
