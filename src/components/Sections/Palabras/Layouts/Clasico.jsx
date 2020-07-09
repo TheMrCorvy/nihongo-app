@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Card, CardBody } from "reactstrap";
 
 function calcularLongitudDeLaColumna(palabra) {
-	if (palabra.Texto) {
+	if (palabra.Subtitulo) {
 		return "12";
 	} else {
 		return "6";
@@ -57,14 +57,14 @@ export default function Clasico(props) {
 						)}
 						{props.palabra.Texto && (
 							<p
-								className="my-5"
+								className="mt-5"
 								dangerouslySetInnerHTML={{
 									__html: props.palabra.Texto,
 								}}
 							></p>
 						)}
 						{props.palabra.Ejemplo1 && (
-							<div className="text-center pt-4">
+							<div className="text-center　mt-5 pt-4">
 								<h5 className="text-left">Ejemplo:</h5>
 								<p>
 									<strong>

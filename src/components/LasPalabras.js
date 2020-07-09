@@ -5,11 +5,13 @@ import Animales from "components/Jsons/Secciones de las Palabras/Animales.json";
 import Adverbios from "components/Jsons/Secciones de las Palabras/Adverbios.json";
 
 //jsons
+import Comidas from "components/Jsons/Secciones de las Palabras/Comida.json";
 import ToOmou from "./Sections/Palabras/ToOmou";
 import VocabularioTrabajo from "./Sections/Palabras/VocabularioTrabajo";
 import AdverbiosDerivadosDeAdjetivos from "./Sections/Palabras/AdverbiosDerivadosDeAdjetivos";
 import AdverbiosVerdaderos from "./Sections/Palabras/AdverbiosVerdaderos";
 import VocabularioDeAdverbios from "components/Sections/Palabras/VocabularioDeAdverbios";
+import Cocina from "components/Jsons/Secciones de las Palabras/Cocina.json";
 
 const LasPalabras = {
 	Elementos: [
@@ -22,7 +24,7 @@ const LasPalabras = {
 			elementos: [
 				{
 					tituloElemento: "comida",
-					url: "ejemplo",
+					url: "comida",
 				},
 				{
 					tituloElemento: "bebida",
@@ -38,7 +40,7 @@ const LasPalabras = {
 				},
 				{
 					tituloElemento: "cocina",
-					url: "ejemplo",
+					url: "cocina",
 				},
 			],
 		},
@@ -173,6 +175,22 @@ const LasPalabras = {
 			ComponenteIndividual: true,
 			componente: VocabularioDeAdverbios,
 			Array: Adverbios.Clasificaciones,
+		},
+		{
+			url: "comida",
+			ComponenteIndividual: false,
+			Array: Comidas.Comidas,
+			Titulo: "Vocabulario de Comidas",
+			Icono: "hamburger",
+			Layout: 1,
+		},
+		{
+			url: "cocina",
+			ComponenteIndividual: false,
+			Array: Cocina.Cocina,
+			Titulo: "Vocabulario de Cocina",
+			Icono: "hamburger",
+			Layout: 1,
 		},
 		{
 			url: "palabras-utiles",
