@@ -294,5 +294,407 @@
 			"Ejemplo2": "",
 			"Ejemplo3": ""
 		}
-	]
+	],
+	"Clasificaciones": {
+		"DeFrecuencia": [
+			{
+				"TituloNihongo": "あまり",
+				"Romaji": "amari",
+				"Furagana": "",
+				"Traduccion": "No muy, no mucho, no tan <strong class=\"text-primary\">*Se usa con adjetivos negativos*</strong>"
+			},
+			{
+				"TituloNihongo": "ほとんど",
+				"Romaji": "hotondo",
+				"Furagana": "",
+				"Traduccion": "\"De vez en cuando\", o \"Casi\""
+			},
+			{
+				"TituloNihongo": "ほとんどいつも",
+				"Romaji": "hotondoitsumo",
+				"Furagana": "",
+				"Traduccion": "\"Casi siempre\""
+			},
+			{
+				"TituloNihongo": "いつも",
+				"Romaji": "itsumo",
+				"Furagana": "",
+				"Traduccion": "\"Siempre\""
+			},
+			{
+				"TituloNihongo": "決して",
+				"Romaji": "kesshite",
+				"Furagana": "けっして",
+				"Traduccion": "\"Nunca\""
+			},
+			{
+				"TituloNihongo": "まだ",
+				"Romaji": "mada",
+				"Furagana": "",
+				"Traduccion": "\"Todavía\", \"Aún\""
+			},
+			{
+				"TituloNihongo": "ますます",
+				"Romaji": "masumasu",
+				"Furagana": "",
+				"Traduccion": "\"Cada vez más\""
+			},
+			{
+				"TituloNihongo": "めったに",
+				"Romaji": "metta ni",
+				"Furagana": "",
+				"Traduccion": "\"Casi nunca\""
+			},
+			{
+				"TituloNihongo": "年中",
+				"Romaji": "nenjuu",
+				"Furagana": "ねんじゅう",
+				"Traduccion": "\"Todo el año\""
+			},
+			{
+				"TituloNihongo": "二度と",
+				"Romaji": "nidoto",
+				"Furagana": "にどと",
+				"Traduccion": "\"Nunca más\""
+			},
+			{
+				"TituloNihongo": "しばらく",
+				"Romaji": "shibaraku",
+				"Furagana": "",
+				"Traduccion": "\"Por unos momentos\", \"Por ahora\", \"Por un rato\""
+			},
+			{
+				"TituloNihongo": "たびたび",
+				"Romaji": "tabitabi",
+				"Furagana": "",
+				"Traduccion": "\"Frecuentemente\""
+			},
+			{
+				"TituloNihongo": "絶えず",
+				"Romaji": "taezu",
+				"Furagana": "たえず",
+				"Traduccion": "\"Constantemente\", \"Contínuamente\""
+			},
+			{
+				"TituloNihongo": "たいてい",
+				"Romaji": "taitei",
+				"Furagana": "",
+				"Traduccion": "\"Por lo general\", \"Normalmente\""
+			},
+			{
+				"TituloNihongo": "たまに",
+				"Romaji": "tamani",
+				"Furagana": "",
+				"Traduccion": "\"Ocacionalmente\""
+			},
+			{
+				"TituloNihongo": "時々",
+				"Romaji": "tokidoki",
+				"Furagana": "ときどき",
+				"Traduccion": "\"Algunas veces\""
+			},
+			{
+				"TituloNihongo": "よく",
+				"Romaji": "yoku",
+				"Furagana": "",
+				"Traduccion": "\"A menudo\", <strong class=\"text-primary\">Con el verbo conjugado en negativo</strong>"
+			},
+			{
+				"TituloNihongo": "全然",
+				"Romaji": "zenzen",
+				"Furagana": "ぜんぜん",
+				"Traduccion": "\"Nunca\""
+			}
+		],
+		"DeTiempo": [
+			{
+				"TituloNihongo": "初めて",
+				"Romaji": "hajimete",
+				"Furagana": "はじめて",
+				"Traduccion": "\"Por primera vez\""
+			},
+			{
+				"TituloNihongo": "五日",
+				"Romaji": "itsuka",
+				"Furagana": "いつか",
+				"Traduccion": "\"Alguna vez\""
+			},
+			{
+				"TituloNihongo": "まもなく",
+				"Romaji": "mamonaku",
+				"Furagana": "",
+				"Traduccion": "\"Pronto\""
+			},
+			{
+				"TituloNihongo": "まず",
+				"Romaji": "mazu",
+				"Furagana": "",
+				"Traduccion": "\"Primero\""
+			},
+			{
+				"TituloNihongo": "もうすぐ",
+				"Romaji": "mousugu",
+				"Furagana": "",
+				"Traduccion": "\"Ya pronto\", \"Enseguida\""
+			},
+			{
+				"TituloNihongo": "さっき",
+				"Romaji": "sakki",
+				"Furagana": "",
+				"Traduccion": "\"Hace poco\""
+			},
+			{
+				"TituloNihongo": "さっそく",
+				"Romaji": "sassoku",
+				"Furagana": "",
+				"Traduccion": "\"Enseguida\""
+			},
+			{
+				"TituloNihongo": "すぐ",
+				"Romaji": "sugu",
+				"Furagana": "",
+				"Traduccion": "\"Enseguida\", \"El siguiente...\" (algo), \"Pronto\""
+			},
+			{
+				"TituloNihongo": "しょうらい",
+				"Romaji": "shourai",
+				"Furagana": "",
+				"Traduccion": "\"En el futuro\""
+			},
+			{
+				"TituloNihongo": "やがて",
+				"Romaji": "yagate",
+				"Furagana": "",
+				"Traduccion": "\"Pronto\", \"Poco después\""
+			}
+		],
+		"DeModo": [
+			{
+				"TituloNihongo": "ちゃんと",
+				"Romaji": "chanto",
+				"Furagana": "",
+				"Traduccion": "\"Correctamente\""
+			},
+			{
+				"TituloNihongo": "段々",
+				"Romaji": "dandan",
+				"Furagana": "だんだん",
+				"Traduccion": "\"Gradualmente\", \"Paso a paso\""
+			},
+			{
+				"TituloNihongo": "どんどん",
+				"Romaji": "dondon",
+				"Furagana": "",
+				"Traduccion": "\"Rápidamente\""
+			},
+			{
+				"TituloNihongo": "はっきり",
+				"Romaji": "hakkiri",
+				"Furagana": "",
+				"Traduccion": "\"Claramente\""
+			},
+			{
+				"TituloNihongo": "早く",
+				"Romaji": "hayaku",
+				"Furagana": "はやく",
+				"Traduccion": "\"Rápidamente\""
+			},
+			{
+				"TituloNihongo": "一人でに",
+				"Romaji": "hitorideni",
+				"Furagana": "ひとりでに",
+				"Traduccion": "\"Solo\", \"Por uno mismo\""
+			},
+			{
+				"TituloNihongo": "必ず",
+				"Romaji": "kanarazu",
+				"Furagana": "かならず",
+				"Traduccion": "\"Sin falta\", \"Definitivamente\", \"Sin lugar a dudas\""
+			},
+			{
+				"TituloNihongo": "きっと",
+				"Romaji": "kitto",
+				"Furagana": "",
+				"Traduccion": "\"Sin falta\""
+			},
+			{
+				"TituloNihongo": "真面目に",
+				"Romaji": "majimeni",
+				"Furagana": "まじめに",
+				"Traduccion": "\"Tomarselo en serio\", \"Seriamente\", \"Diligentemente\""
+			},
+			{
+				"TituloNihongo": "真っすぐ",
+				"Romaji": "massugu",
+				"Furagana": "まっすぐ",
+				"Traduccion": "\"Con rectitud\", \"Directamente\""
+			},
+			{
+				"TituloNihongo": "思わず",
+				"Romaji": "omowazu",
+				"Furagana": "おもわず",
+				"Traduccion": "\"Sin querer\", \"Por accidente\""
+			},
+			{
+				"TituloNihongo": "静かに",
+				"Romaji": "shizukani",
+				"Furagana": "しずかに",
+				"Traduccion": "\"Tranquilamente\""
+			},
+			{
+				"TituloNihongo": "そろそろ",
+				"Romaji": "sorosoro",
+				"Furagana": "",
+				"Traduccion": "\"Despacio\", \"Prontamente\""
+			},
+			{
+				"TituloNihongo": "よく",
+				"Romaji": "yoku",
+				"Furagana": "",
+				"Traduccion": "\"Bien\""
+			},
+			{
+				"TituloNihongo": "ゆっくり",
+				"Romaji": "yukkuri",
+				"Furagana": "",
+				"Traduccion": "\"Lentamente\", \"Tomandose su tiempo\""
+			},
+			{
+				"TituloNihongo": "わざと",
+				"Romaji": "wazato",
+				"Furagana": "",
+				"Traduccion": "\"A drede\", \"Intencionalente\""
+			}
+		],
+		"DeCantidad": [
+			{
+				"TituloNihongo": "数多",
+				"Romaji": "amata",
+				"Furagana": "あまた",
+				"Traduccion": "\"Demasiado\""
+			},
+			{
+				"TituloNihongo": "ちょっと",
+				"Romaji": "chotto",
+				"Furagana": "",
+				"Traduccion": "\"Un poco\""
+			},
+			{
+				"TituloNihongo": "ほとんど",
+				"Romaji": "hotondo",
+				"Furagana": "",
+				"Traduccion": "\"Casi\", \"Apenas\""
+			},
+			{
+				"TituloNihongo": "一杯",
+				"Romaji": "ippai",
+				"Furagana": "いっぱい",
+				"Traduccion": "\"Mucho\", \"Lleno\""
+			},
+			{
+				"TituloNihongo": "十分",
+				"Romaji": "juubun",
+				"Furagana": "じゅうぶん",
+				"Traduccion": "\"Suficientemente\", \"Abundantemente\", \"Satisfactoriamente\", \"Adecuadamente\""
+			},
+			{
+				"TituloNihongo": "かなり",
+				"Romaji": "kanari",
+				"Furagana": "",
+				"Traduccion": "\"Bastante\""
+			},
+			{
+				"TituloNihongo": "まあまあ",
+				"Romaji": "maamaa",
+				"Furagana": "",
+				"Traduccion": "\"Más o menos\""
+			},
+			{
+				"TituloNihongo": "もっと",
+				"Romaji": "motto",
+				"Furagana": "",
+				"Traduccion": "\"Más\""
+			},
+			{
+				"TituloNihongo": "なかなか",
+				"Romaji": "nakanaka",
+				"Furagana": "",
+				"Traduccion": "\"Completamente\", \"Bastante\", \"Considerablemente\", \"De ningún modo\""
+			},
+			{
+				"TituloNihongo": "全て",
+				"Romaji": "subete",
+				"Furagana": "すべて",
+				"Traduccion": "\"Todo\""
+			},
+			{
+				"TituloNihongo": "高く",
+				"Romaji": "takaku",
+				"Furagana": "たかく",
+				"Traduccion": "\"A gran altura\", \"Caro, costoso\""
+			},
+			{
+				"TituloNihongo": "たくさん",
+				"Romaji": "takusan",
+				"Furagana": "",
+				"Traduccion": "\"Mucho\", \"Muchos\""
+			},
+			{
+				"TituloNihongo": "とても",
+				"Romaji": "totemo",
+				"Furagana": "",
+				"Traduccion": "\"Mucho\", \"Muy\""
+			},
+			{
+				"TituloNihongo": "やっとこ",
+				"Romaji": "yattoko",
+				"Furagana": "",
+				"Traduccion": "\"Apenas\""
+			},
+			{
+				"TituloNihongo": "ずいぶん",
+				"Romaji": "zuibun",
+				"Furagana": "",
+				"Traduccion": "\"Mucho\", \"Muy\", \"Extremadamente\", \"Bastante\""
+			}
+		],
+		"DeDuda": [
+			{
+				"TituloNihongo": "結局",
+				"Romaji": "kekkyoku",
+				"Furagana": "けっきょく",
+				"Traduccion": "\"Al final\", \"Después de todo...\""
+			},
+			{
+				"TituloNihongo": "まだ",
+				"Romaji": "mada",
+				"Furagana": "",
+				"Traduccion": "\"Todavía\""
+			},
+			{
+				"TituloNihongo": "もしかし",
+				"Romaji": "moshikashi",
+				"Furagana": "",
+				"Traduccion": "\"Tal vez\", \"Podrá ser que...\", \"Es posible\""
+			},
+			{
+				"TituloNihongo": "恐ら",
+				"Romaji": "osoraku",
+				"Furagana": "おそらく",
+				"Traduccion": "\"Quizás\""
+			},
+			{
+				"TituloNihongo": "早晩",
+				"Romaji": "souban",
+				"Furagana": "そうばん",
+				"Traduccion": "\"Eventualmente\""
+			},
+			{
+				"TituloNihongo": "たぶん",
+				"Romaji": "tabun",
+				"Furagana": "",
+				"Traduccion": "\"Posiblemente\", \"Probablemente\""
+			}
+		]
+	}
 }

@@ -1,14 +1,15 @@
-import ToOmou from "./Sections/Palabras/ToOmou";
-import VocabularioTrabajo from "./Sections/Palabras/VocabularioTrabajo";
-
+//Componentes
 import PalabrasDeUtilidad from "components/Jsons/Secciones de las Palabras/Palabras Utiles.json";
 import Trabajo from "components/Jsons/Secciones de las Palabras/Trabajo.json";
 import Animales from "components/Jsons/Secciones de las Palabras/Animales.json";
-import AdverbiosDerivadosDeAdjetivos from "./Sections/Palabras/AdverbiosDerivadosDeAdjetivos";
 import Adverbios from "components/Jsons/Secciones de las Palabras/Adverbios.json";
+
+//jsons
+import ToOmou from "./Sections/Palabras/ToOmou";
+import VocabularioTrabajo from "./Sections/Palabras/VocabularioTrabajo";
+import AdverbiosDerivadosDeAdjetivos from "./Sections/Palabras/AdverbiosDerivadosDeAdjetivos";
 import AdverbiosVerdaderos from "./Sections/Palabras/AdverbiosVerdaderos";
 import VocabularioDeAdverbios from "components/Sections/Palabras/VocabularioDeAdverbios";
-import VocabularioAdverbios from "components/Jsons/Secciones de las Palabras/Adverbios.json";
 
 const LasPalabras = {
 	Elementos: [
@@ -110,25 +111,9 @@ const LasPalabras = {
 					url: "adverbios-verdaderos",
 				},
 				{
-					tituloElemento: "vocabulario de adverbios",
+					tituloElemento: "clasificación adverbios",
 					url: "vocabulario-de-adverbios",
 				},
-				// {
-				// 	tituloElemento: "de tiempo",
-				// 	url: "ejemplo",
-				// },
-				// {
-				// 	tituloElemento: "de modo",
-				// 	url: "ejemplo",
-				// },
-				// {
-				// 	tituloElemento: "de cantidad",
-				// 	url: "ejemplo",
-				// },
-				// {
-				// 	tituloElemento: "de duda",
-				// 	url: "ejemplo",
-				// },
 			],
 		},
 		{
@@ -187,7 +172,7 @@ const LasPalabras = {
 			url: "vocabulario-de-adverbios",
 			ComponenteIndividual: true,
 			componente: VocabularioDeAdverbios,
-			Array: VocabularioAdverbios.Lista,
+			Array: Adverbios.Clasificaciones,
 		},
 		{
 			url: "palabras-utiles",
