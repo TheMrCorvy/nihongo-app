@@ -3,6 +3,12 @@ import VocabularioTrabajo from "./Sections/Palabras/VocabularioTrabajo";
 
 import PalabrasDeUtilidad from "components/Jsons/Secciones de las Palabras/Palabras Utiles.json";
 import Trabajo from "components/Jsons/Secciones de las Palabras/Trabajo.json";
+import Animales from "components/Jsons/Secciones de las Palabras/Animales.json";
+import AdverbiosDerivadosDeAdjetivos from "./Sections/Palabras/AdverbiosDerivadosDeAdjetivos";
+import Adverbios from "components/Jsons/Secciones de las Palabras/Adverbios.json";
+import AdverbiosVerdaderos from "./Sections/Palabras/AdverbiosVerdaderos";
+import VocabularioDeAdverbios from "components/Sections/Palabras/VocabularioDeAdverbios";
+import VocabularioAdverbios from "components/Jsons/Secciones de las Palabras/Adverbios.json";
 
 const LasPalabras = {
 	Elementos: [
@@ -96,41 +102,33 @@ const LasPalabras = {
 			textColor: "text-white",
 			elementos: [
 				{
-					tituloElemento: "derivados de los adjetivos",
-					url: "ejemplo",
+					tituloElemento: "derivados de adjetivos",
+					url: "adverbios-derivados-de-adjetivos",
 				},
 				{
 					tituloElemento: "adverbios verdaderos",
-					url: "ejemplo",
+					url: "adverbios-verdaderos",
 				},
 				{
-					tituloElemento: "la forma て como adverbio",
-					url: "ejemplo",
+					tituloElemento: "vocabulario de adverbios",
+					url: "vocabulario-de-adverbios",
 				},
-				{
-					tituloElemento: "de frecuencia",
-					url: "ejemplo",
-				},
-				{
-					tituloElemento: "de tiempo",
-					url: "ejemplo",
-				},
-				{
-					tituloElemento: "de modo",
-					url: "ejemplo",
-				},
-				{
-					tituloElemento: "de lugar",
-					url: "ejemplo",
-				},
-				{
-					tituloElemento: "de cantidad",
-					url: "ejemplo",
-				},
-				{
-					tituloElemento: "de duda",
-					url: "ejemplo",
-				},
+				// {
+				// 	tituloElemento: "de tiempo",
+				// 	url: "ejemplo",
+				// },
+				// {
+				// 	tituloElemento: "de modo",
+				// 	url: "ejemplo",
+				// },
+				// {
+				// 	tituloElemento: "de cantidad",
+				// 	url: "ejemplo",
+				// },
+				// {
+				// 	tituloElemento: "de duda",
+				// 	url: "ejemplo",
+				// },
 			],
 		},
 		{
@@ -168,6 +166,30 @@ const LasPalabras = {
 			Array: {},
 		},
 		{
+			url: "vocabulario-trabajo",
+			ComponenteIndividual: true,
+			componente: VocabularioTrabajo,
+			Array: Trabajo.VocabularioTrabajo,
+		},
+		{
+			url: "adverbios-derivados-de-adjetivos",
+			ComponenteIndividual: true,
+			componente: AdverbiosDerivadosDeAdjetivos,
+			Array: Adverbios.DerivadosAdjetivos,
+		},
+		{
+			url: "adverbios-verdaderos",
+			ComponenteIndividual: true,
+			componente: AdverbiosVerdaderos,
+			Array: Adverbios.AdverbiosVerdaderos,
+		},
+		{
+			url: "vocabulario-de-adverbios",
+			ComponenteIndividual: true,
+			componente: VocabularioDeAdverbios,
+			Array: VocabularioAdverbios.Lista,
+		},
+		{
 			url: "palabras-utiles",
 			ComponenteIndividual: false,
 			Array: PalabrasDeUtilidad.PalabrasUtiles,
@@ -176,18 +198,12 @@ const LasPalabras = {
 			Layout: 3,
 		},
 		{
-			url: "vocabulario-trabajo",
-			ComponenteIndividual: true,
-			componente: VocabularioTrabajo,
-			Array: Trabajo.VocabularioTrabajo,
-		},
-		{
 			url: "animales",
 			ComponenteIndividual: false,
-			Array: Trabajo.VocabularioTrabajo,
+			Array: Animales.VocabularioAnimales,
 			Titulo: "algunos animales",
 			Icono: "paw",
-			Layout: 1,
+			Layout: 3,
 		},
 	],
 };

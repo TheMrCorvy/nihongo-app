@@ -10,7 +10,7 @@ export default function PergaminoHabilitado(props) {
 					id={"buttonToggler-" + props.palabra.Key}
 					className="col-lg-12 mb-0 py-0"
 					style={{
-						borderRadius: "1.4rem",
+						borderRadius: 20,
 						background: props.palabra.background,
 						boxShadow: props.palabra.boxShadow,
 						zIndex: 100,
@@ -51,7 +51,7 @@ export default function PergaminoHabilitado(props) {
 							}}
 						>
 							<h5
-								className="text-center"
+								className="text-center mt-5"
 								style={{
 									lineHeight: "2.5rem",
 								}}

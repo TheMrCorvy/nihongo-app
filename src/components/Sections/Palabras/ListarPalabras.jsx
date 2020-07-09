@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Col, Card } from "reactstrap";
+import { Col, Card, CardBody } from "reactstrap";
 import Clasico from "components/Sections/Palabras/Layouts/Clasico";
 import PergaminoDeshabilitado from "./Layouts/PergaminoDeshabilitado";
 import PergaminoHabilitado from "./Layouts/PergaminoHabilitado";
@@ -16,10 +16,18 @@ function elegirLayout(arrayDePalabras, estiloLayout) {
 				<PergaminoDeshabilitado key={palabra.Key} palabra={palabra} />
 			));
 		case 3:
-			return arrayDePalabras.map((palabra) => (
-				<PergaminoHabilitado key={palabra.Key} palabra={palabra} />
-			));
-
+			if (window.innerWidth < 768) {
+				return arrayDePalabras.map((palabra) => (
+					<PergaminoDeshabilitado
+						key={palabra.Key}
+						palabra={palabra}
+					/>
+				));
+			} else {
+				return arrayDePalabras.map((palabra) => (
+					<PergaminoHabilitado key={palabra.Key} palabra={palabra} />
+				));
+			}
 		default:
 			return arrayDePalabras.map((palabra) => (
 				<Clasico key={palabra.Key} palabra={palabra} />
@@ -62,6 +70,16 @@ export default function ListarPalabras(props) {
 						<h4 className="text-left text-capitalize px-4 pt-2 float-left my-0 title">
 							{props.Titulo}
 						</h4>
+						<CardBody className="mt-5">
+							<p>
+								<strong className="text-info">Nota:</strong> La
+								función de "
+								<strong>
+									toca un Kanji para conocer su lectura
+								</strong>
+								" no está disponible en ésta pantalla.
+							</p>
+						</CardBody>
 					</Card>
 				</Col>
 			)}
