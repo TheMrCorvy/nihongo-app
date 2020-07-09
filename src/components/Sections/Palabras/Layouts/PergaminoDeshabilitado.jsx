@@ -10,7 +10,7 @@ export default function PergaminoDeshabilitado(props) {
 					id={"buttonToggler-" + props.palabra.Key}
 					className="col-lg-12 mb-0 py-0"
 					style={{
-						borderRadius: "1.4rem",
+						borderRadius: 20,
 						background: props.palabra.background,
 						boxShadow: props.palabra.boxShadow,
 						zIndex: 100,
