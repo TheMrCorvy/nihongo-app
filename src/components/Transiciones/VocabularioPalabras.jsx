@@ -134,7 +134,7 @@ export default class VocabularioPalabras extends React.Component {
 						this.renderizarPorCadaSeccion(seccion)
 					)}
 					<h3 className="title text-center col-lg-12 px-0">
-						Todas las Palabras
+						Palabras en General
 					</h3>
 					<Col md="6">
 						<Link
@@ -153,7 +153,7 @@ export default class VocabularioPalabras extends React.Component {
 								}}
 							>
 								<CardBody className="text-white text-capitalize">
-									<span className="title">los verbos</span>
+									<span className="title">verbos</span>
 									<i className="fas fa-chevron-right pl-3"></i>
 									<i
 										className="fas fa-3x fa-skating"
@@ -185,7 +185,7 @@ export default class VocabularioPalabras extends React.Component {
 								}}
 							>
 								<CardBody className="text-white text-capitalize">
-									<span className="title">los adjetivos</span>
+									<span className="title">adjetivos</span>
 									<i className="fas fa-chevron-right pl-3"></i>
 									<i
 										className="fas fa-3x fa-signature"
@@ -217,9 +217,7 @@ export default class VocabularioPalabras extends React.Component {
 								}}
 							>
 								<CardBody className="text-white text-capitalize">
-									<span className="title">
-										los sustantivos
-									</span>
+									<span className="title">sustantivos</span>
 									<i className="fas fa-chevron-right pl-3"></i>
 									<i
 										className="fas fa-3x fa-camera-retro"

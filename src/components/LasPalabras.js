@@ -1,17 +1,35 @@
-//Componentes
-import PalabrasDeUtilidad from "components/Jsons/Secciones de las Palabras/Palabras Utiles.json";
-import Trabajo from "components/Jsons/Secciones de las Palabras/Trabajo.json";
-import Animales from "components/Jsons/Secciones de las Palabras/Animales.json";
-import Adverbios from "components/Jsons/Secciones de las Palabras/Adverbios.json";
-
-//jsons
-import Comidas from "components/Jsons/Secciones de las Palabras/Comida.json";
+//componentes
 import ToOmou from "./Sections/Palabras/ToOmou";
 import VocabularioTrabajo from "./Sections/Palabras/VocabularioTrabajo";
 import AdverbiosDerivadosDeAdjetivos from "./Sections/Palabras/AdverbiosDerivadosDeAdjetivos";
 import AdverbiosVerdaderos from "./Sections/Palabras/AdverbiosVerdaderos";
 import VocabularioDeAdverbios from "components/Sections/Palabras/VocabularioDeAdverbios";
-import Cocina from "components/Jsons/Secciones de las Palabras/Cocina.json";
+
+//jsons
+import PalabrasDeUtilidad from "components/Jsons/Secciones de las Palabras/Palabras Utiles.json";
+import Trabajo from "components/Jsons/Secciones de las Palabras/Trabajo.json";
+import Animales from "components/Jsons/Secciones de las Palabras/Animales.json";
+import Adverbios from "components/Jsons/Secciones de las Palabras/Adverbios.json";
+
+//comida
+import Comidas from "components/Jsons/Secciones de las Palabras/Comida/Comida.json";
+import Cocina from "components/Jsons/Secciones de las Palabras/Comida/Cocina.json";
+import Frutas from "components/Jsons/Secciones de las Palabras/Comida/FrutasYVerduras.json";
+import Bebidas from "components/Jsons/Secciones de las Palabras/Comida/Bebidas.json";
+import Dulces from "components/Jsons/Secciones de las Palabras/Comida/Dulces.json";
+
+//viajes
+import Clima from "components/Jsons/Secciones de las Palabras/Viajes/Clima.json";
+import Lugares from "components/Jsons/Secciones de las Palabras/Viajes/Lugares.json";
+import LugaresJapon from "components/Jsons/Secciones de las Palabras/Viajes/LugaresJapon.json";
+import Transporte from "components/Jsons/Secciones de las Palabras/Viajes/Transporte.json";
+import Vacaciones from "components/Jsons/Secciones de las Palabras/Viajes/Vacaciones.json";
+import VocabularioAeropuerto from "components/Jsons/Secciones de las Palabras/Viajes/VocabularioAeropuerto.json";
+
+//ropa
+import Ropa from "components/Jsons/Secciones de las Palabras/Ropa/Ropa.json";
+import PartesDelCuerpo from "components/Jsons/Secciones de las Palabras/Ropa/PartesDelCuerpo.json";
+import Vestirse from "components/Jsons/Secciones de las Palabras/Ropa/Vestirse.json";
 
 const LasPalabras = {
 	Elementos: [
@@ -28,15 +46,15 @@ const LasPalabras = {
 				},
 				{
 					tituloElemento: "bebida",
-					url: "ejemplo",
+					url: "bebida",
 				},
 				{
 					tituloElemento: "frutas y verduras",
-					url: "ejemplo",
+					url: "frutas-verduras",
 				},
 				{
 					tituloElemento: "dulces",
-					url: "ejemplo",
+					url: "dulces",
 				},
 				{
 					tituloElemento: "cocina",
@@ -53,27 +71,27 @@ const LasPalabras = {
 			elementos: [
 				{
 					tituloElemento: "transporte",
-					url: "ejemplo",
+					url: "transportes",
 				},
 				{
 					tituloElemento: "vocabulario de aeropuerto",
-					url: "ejemplo",
+					url: "vocabulario-aeropuerto",
 				},
 				{
 					tituloElemento: "vacaciones",
-					url: "ejemplo",
+					url: "vacaciones",
 				},
 				{
 					tituloElemento: "lugares y ubicaciones",
-					url: "ejemplo",
+					url: "lugares",
 				},
 				{
 					tituloElemento: "lugares de japón",
-					url: "ejemplo",
+					url: "lugares-japon",
 				},
 				{
 					tituloElemento: "el clima",
-					url: "ejemplo",
+					url: "clima",
 				},
 			],
 		},
@@ -86,15 +104,15 @@ const LasPalabras = {
 			elementos: [
 				{
 					tituloElemento: "partes del cuerpo",
-					url: "ejemplo",
+					url: "partes-del-cuerpo",
 				},
 				{
 					tituloElemento: "ropa",
-					url: "ejemplo",
+					url: "ropa",
 				},
 				{
 					tituloElemento: "vestirse",
-					url: "ejemplo",
+					url: "vestirse",
 				},
 			],
 		},
@@ -185,6 +203,30 @@ const LasPalabras = {
 			Layout: 1,
 		},
 		{
+			url: "bebida",
+			ComponenteIndividual: false,
+			Array: Bebidas.Bebidas,
+			Titulo: "Vocabulario de Bebidas",
+			Icono: "beer",
+			Layout: 1,
+		},
+		{
+			url: "frutas-verduras",
+			ComponenteIndividual: false,
+			Array: Frutas.Verduras,
+			Titulo: "Vocabulario de Comidas: Frutas y Verduras",
+			Icono: "seedling",
+			Layout: 1,
+		},
+		{
+			url: "dulces",
+			ComponenteIndividual: false,
+			Array: Dulces.Dulces,
+			Titulo: "Vocabulario de Comidas: Dulces y Postres",
+			Icono: "cookie-bite",
+			Layout: 1,
+		},
+		{
 			url: "cocina",
 			ComponenteIndividual: false,
 			Array: Cocina.Cocina,
@@ -207,6 +249,78 @@ const LasPalabras = {
 			Titulo: "algunos animales",
 			Icono: "paw",
 			Layout: 3,
+		},
+		{
+			url: "clima",
+			ComponenteIndividual: false,
+			Array: Clima.Clima,
+			Titulo: "El clima",
+			Icono: "cloud-sun-rain",
+			Layout: 1,
+		},
+		{
+			url: "lugares",
+			ComponenteIndividual: false,
+			Array: Lugares.Lugares,
+			Titulo: "ubicaciones de utilidad",
+			Icono: "directions",
+			Layout: 1,
+		},
+		{
+			url: "lugares-japon",
+			ComponenteIndividual: false,
+			Array: LugaresJapon.LugaresJapon,
+			Titulo: "lugares turísticos de japón",
+			Icono: "map-signs",
+			Layout: 1,
+		},
+		{
+			url: "transportes",
+			ComponenteIndividual: false,
+			Array: Transporte.Transportes,
+			Titulo: "Transportes",
+			Icono: "bus",
+			Layout: 1,
+		},
+		{
+			url: "vacaciones",
+			ComponenteIndividual: false,
+			Array: Vacaciones.LugaresParaVacacionar,
+			Titulo: "lugares típicos de vacaciones",
+			Icono: "volleyball-ball",
+			Layout: 1,
+		},
+		{
+			url: "vocabulario-aeropuerto",
+			ComponenteIndividual: false,
+			Array: VocabularioAeropuerto.VocabularioAeropuerto,
+			Titulo: "utilidades para turístas",
+			Icono: "torii-gate",
+			Layout: 1,
+		},
+		{
+			url: "ropa",
+			ComponenteIndividual: false,
+			Array: Ropa.Ropa,
+			Titulo: "ropa",
+			Icono: "mitten",
+			Layout: 1,
+		},
+		{
+			url: "vestirse",
+			ComponenteIndividual: false,
+			Array: Vestirse.Vestirse,
+			Titulo: "verbos para vestirse",
+			Icono: "socks",
+			Layout: 1,
+		},
+		{
+			url: "partes-del-cuerpo",
+			ComponenteIndividual: false,
+			Array: PartesDelCuerpo.PartesDelCuerpo,
+			Titulo: "las partes del cuerpo",
+			Icono: "hand-spock",
+			Layout: 1,
 		},
 	],
 };
