@@ -30,6 +30,7 @@ import VocabularioAeropuerto from "components/Jsons/Secciones de las Palabras/Vi
 import Ropa from "components/Jsons/Secciones de las Palabras/Ropa/Ropa.json";
 import PartesDelCuerpo from "components/Jsons/Secciones de las Palabras/Ropa/PartesDelCuerpo.json";
 import Vestirse from "components/Jsons/Secciones de las Palabras/Ropa/Vestirse.json";
+import Sustantivos from "components/Jsons/Sustantivos.json";
 
 const LasPalabras = {
 	Elementos: [
@@ -193,6 +194,14 @@ const LasPalabras = {
 			ComponenteIndividual: true,
 			componente: VocabularioDeAdverbios,
 			Array: Adverbios.Clasificaciones,
+		},
+		{
+			url: "sustantivos",
+			ComponenteIndividual: false,
+			Array: Sustantivos.Sustantivos,
+			Titulo: "Vocabulario: sustantivos",
+			Icono: "camera-retro",
+			Layout: 1,
 		},
 		{
 			url: "comida",

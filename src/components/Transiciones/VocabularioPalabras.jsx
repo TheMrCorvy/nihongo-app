@@ -202,7 +202,7 @@ export default class VocabularioPalabras extends React.Component {
 					</Col>
 					<Col md="6">
 						<Link
-							to="/sustantivos"
+							to="/vocabulario-palabras/sustantivos"
 							onClick={() => {
 								this.props.scrollTop();
 							}}

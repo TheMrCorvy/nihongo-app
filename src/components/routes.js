@@ -9,7 +9,6 @@ import Particulas from "views/Particulas";
 import VocabularioPalabras from "views/Vocabulario Palabras/VocabularioPalabras";
 import Verbos from "views/Vocabulario Palabras/Verbos";
 import Adjetivos from "views/Vocabulario Palabras/Adjetivos";
-import Sustantivos from "views/Vocabulario Palabras/Sustantivos";
 
 import Grupos from "views/Grupos y Tiempos/Grupos";
 import Tiempos from "views/Grupos y Tiempos/Tiempos";
@@ -68,11 +67,6 @@ const routes = [
 		path: "/adjetivos",
 		nameKey: "Vocabulario Adjetivos",
 		component: Adjetivos,
-	},
-	{
-		path: "/sustantivos",
-		nameKey: "Vocabulario Sustantivos",
-		component: Sustantivos,
 	},
 	{
 		path: "/grupos",
