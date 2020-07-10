@@ -82,7 +82,7 @@ const LasPalabras = {
 					url: "vacaciones",
 				},
 				{
-					tituloElemento: "lugares y ubicaciones",
+					tituloElemento: "la calle",
 					url: "lugares",
 				},
 				{
@@ -262,7 +262,7 @@ const LasPalabras = {
 			url: "lugares",
 			ComponenteIndividual: false,
 			Array: Lugares.Lugares,
-			Titulo: "ubicaciones de utilidad",
+			Titulo: "en la calle",
 			Icono: "directions",
 			Layout: 1,
 		},
