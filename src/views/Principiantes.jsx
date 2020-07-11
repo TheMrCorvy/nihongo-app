@@ -155,8 +155,8 @@ class Principiantes extends React.Component {
 											idioma, y se usa para dar
 											pronunciación a los{" "}
 											<strong>Kanjis</strong>, así como
-											tabién encuentran su uso en forma de
-											las partículas que componen y dan
+											también encuentran su uso en forma
+											de las partículas que componen y dan
 											sentido a las oraciones.
 											<br />Y por el otro lado está la
 											tabla de <strong>Katakana</strong>,
@@ -414,14 +414,14 @@ class Principiantes extends React.Component {
 											basado en el habla y no tenían
 											ninguna forma de escritura.
 											<br />
-											No fue sino hasta que los japoneses
+											{/* No fue sino hasta que los japoneses
 											notaron que el Imperio Chino estaba
 											tan avanzado tecnológicamente, que
 											decidieron comenzar a{" "}
 											<strong>
 												comerciar conocimientos
 											</strong>{" "}
-											con ellos.
+											con ellos. */}
 										</p>
 									</CardBody>
 								</Card>

@@ -9,11 +9,11 @@ export default function TsuChiquita(props) {
 					<Card
 						style={{
 							background: "rgb(17, 113, 239)",
-							borderRadius: ".5rem",
+							borderRadius: "10px",
 						}}
-						className="text-white"
+						className="text-white card-plain"
 					>
-						<CardBody>
+						<CardBody className="px-3">
 							<h5 className="title pt-0">
 								<span id="tsu">つ</span>{" "}
 								<span id="alexbychiquito">Chiquita</span>
@@ -61,11 +61,11 @@ export default function TsuChiquita(props) {
 						style={{
 							background:
 								"linear-gradient(87deg, rgb(251, 99, 64) 0px, rgb(251, 177, 64) 100%)",
-							borderRadius: ".5rem",
+							borderRadius: "10px",
 						}}
-						className="text-white"
+						className="text-white card-plain"
 					>
-						<CardBody>
+						<CardBody className="px-3">
 							<h5 className="title pt-0">
 								<span id="tsu">ツ</span>{" "}
 								<span id="alexbychiquito">Chiquita</span>

@@ -60,11 +60,11 @@ class Home extends React.Component {
 										un poco de
 										<strong> vocabulario básico</strong>,
 										así como una guía de uso para las{" "}
-										<strong>partículas</strong>
-										. <br /> Puedes usar esta app como tu
-										machete para repasar cuando estés
-										comenzando a estudiar este fantástico
-										idioma.
+										<strong>partículas</strong>, entre
+										muchas otras cosas. <br /> Puedes usar
+										esta app como tu machete para repasar
+										cuando estés comenzando a estudiar este
+										fantástico idioma.
 									</p>
 								</Col>
 							</Row>

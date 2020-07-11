@@ -10,18 +10,19 @@ export default function SonidosEspeciales(props) {
 						style={{
 							background:
 								"linear-gradient(87deg, rgb(251, 99, 64) 0px, rgb(251, 177, 64) 100%)",
-							borderRadius: ".5rem",
+							borderRadius: "10px",
 						}}
-						className="text-white"
+						className="text-white card-plain"
 					>
-						<CardBody>
+						<CardBody className="px-3">
 							<h5 className="title pt-0">Sonidos Especiales</h5>
 							<div className="progress-container progress-info pb-4">
 								<Progress max="100" value="100"></Progress>
 							</div>
 							<p>
 								Al haber en la misma palabra un sonido terminado
-								en お y seguido por el sonido う, se produce una
+								en お (sea el propio hiragana お u algún otro) y
+								seguido por el hiragana う, se produce una
 								excepción en la que, en lugar de pronunciar el
 								sonido <strong>U</strong> como seria
 								normalmente, se pronuncia como una{" "}
@@ -46,18 +47,19 @@ export default function SonidosEspeciales(props) {
 							// background:
 							// 	"linear-gradient(87deg, rgb(17, 205, 239) 0px, rgb(17, 113, 239) 100%)",
 							background: "#1171ef",
-							borderRadius: ".5rem",
+							borderRadius: "10px",
 						}}
-						className="text-white"
+						className="text-white card-plain"
 					>
-						<CardBody>
+						<CardBody className="px-3">
 							<h5 className="title pt-0">Sonidos Especiales</h5>
 							<div className="progress-container progress-success pb-4">
 								<Progress max="100" value="100"></Progress>
 							</div>
 							<p>
 								Al haber en la misma palabra un sonido terminado
-								en オ y seguido por el sonido ウ, se produce una
+								en オ (sea el propio katakana オ u algún otro) y
+								seguido por el katakana ウ, se produce una
 								excepción en la que, en lugar de pronunciar el
 								sonido <strong>U</strong> como seria
 								normalmente, se pronuncia como una{" "}

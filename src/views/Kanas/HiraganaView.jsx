@@ -91,8 +91,11 @@ class HiraganaView extends React.Component {
 					</div>
 
 					<section
-						className="container-fluid mb-5 py-3 bg-white"
+						className="container-fluid mb-5 py-3"
 						id="info"
+						style={{
+							background: "#f2f2f2",
+						}}
 					>
 						<Row>
 							<Col md="12">
@@ -102,14 +105,14 @@ class HiraganaView extends React.Component {
 							</Col>
 							<Col md="6">
 								<Card
-									className="text-white"
+									className="text-white card-plain"
 									style={{
 										background:
 											"linear-gradient(87deg,#f5365c 0,#f56036 100%)",
-										borderRadius: ".35rem",
+										borderRadius: "10px",
 									}}
 								>
-									<CardBody>
+									<CardBody className="px-3">
 										<h5 className="title pt-0">
 											¿Cómo se escribe en japonés?
 										</h5>
@@ -135,11 +138,11 @@ class HiraganaView extends React.Component {
 											la regla de que siempre se inicia
 											desde{" "}
 											<strong>
-												arriba a la izquierda
+												arriba a la izquierda{" "}
 											</strong>
 											del caractér, y se dibujan los
 											trazos llendo de{" "}
-											<strong>izquierda a derecha</strong>
+											<strong>izquierda a derecha</strong>{" "}
 											y luego{" "}
 											<strong>de arriba a abajo</strong>.
 										</p>
@@ -150,11 +153,11 @@ class HiraganaView extends React.Component {
 								<Card
 									style={{
 										background: "#1171ef",
-										borderRadius: ".5rem",
+										borderRadius: "10px",
 									}}
-									className="text-white"
+									className="text-white card-plain"
 								>
-									<CardBody>
+									<CardBody className="px-3">
 										<h5 className="title pt-0">
 											Pronunciación
 										</h5>
@@ -215,11 +218,11 @@ class HiraganaView extends React.Component {
 									style={{
 										background:
 											"linear-gradient(87deg,#172b4d 0,#1a174d 100%)",
-										borderRadius: ".5rem",
+										borderRadius: "10px",
 									}}
-									className="text-white"
+									className="text-white card-plain"
 								>
-									<CardBody>
+									<CardBody className="px-3">
 										<h5 className="title pt-0">
 											¿Por qué hay algunos espacios en
 											blanco?
@@ -251,11 +254,11 @@ class HiraganaView extends React.Component {
 									style={{
 										background:
 											"linear-gradient(87deg,#fb6340 0,#fbb140 100%)",
-										borderRadius: ".5rem",
+										borderRadius: "10px",
 									}}
-									className="text-white"
+									className="text-white card-plain"
 								>
-									<CardBody>
+									<CardBody className="px-3">
 										<h5 className="title pt-0">
 											Excepciones
 										</h5>
