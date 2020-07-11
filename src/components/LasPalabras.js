@@ -4,6 +4,7 @@ import VocabularioTrabajo from "./Sections/Palabras/VocabularioTrabajo";
 import AdverbiosDerivadosDeAdjetivos from "./Sections/Palabras/AdverbiosDerivadosDeAdjetivos";
 import AdverbiosVerdaderos from "./Sections/Palabras/AdverbiosVerdaderos";
 import VocabularioDeAdverbios from "components/Sections/Palabras/VocabularioDeAdverbios";
+import Vestirse from "components/Sections/Palabras/Vestirse";
 
 //jsons
 import PalabrasDeUtilidad from "components/Jsons/Secciones de las Palabras/Palabras Utiles.json";
@@ -29,7 +30,7 @@ import VocabularioAeropuerto from "components/Jsons/Secciones de las Palabras/Vi
 //ropa
 import Ropa from "components/Jsons/Secciones de las Palabras/Ropa/Ropa.json";
 import PartesDelCuerpo from "components/Jsons/Secciones de las Palabras/Ropa/PartesDelCuerpo.json";
-import Vestirse from "components/Jsons/Secciones de las Palabras/Ropa/Vestirse.json";
+// import Vestirse from "components/Jsons/Secciones de las Palabras/Ropa/Vestirse.json";
 import Sustantivos from "components/Jsons/Sustantivos.json";
 
 const LasPalabras = {
@@ -196,6 +197,12 @@ const LasPalabras = {
 			Array: Adverbios.Clasificaciones,
 		},
 		{
+			url: "vestirse",
+			ComponenteIndividual: true,
+			componente: Vestirse,
+			Array: {},
+		},
+		{
 			url: "sustantivos",
 			ComponenteIndividual: false,
 			Array: Sustantivos.Sustantivos,
@@ -315,14 +322,14 @@ const LasPalabras = {
 			Icono: "mitten",
 			Layout: 1,
 		},
-		{
-			url: "vestirse",
-			ComponenteIndividual: false,
-			Array: Vestirse.Vestirse,
-			Titulo: "verbos para vestirse",
-			Icono: "socks",
-			Layout: 1,
-		},
+		// {
+		// 	url: "vestirse",
+		// 	ComponenteIndividual: false,
+		// 	Array: Vestirse.Vestirse,
+		// 	Titulo: "verbos para vestirse",
+		// 	Icono: "socks",
+		// 	Layout: 1,
+		// },
 		{
 			url: "partes-del-cuerpo",
 			ComponenteIndividual: false,
