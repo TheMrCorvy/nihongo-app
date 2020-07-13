@@ -12,7 +12,7 @@ import Toki from "./Sections/Construir Frases/Toki";
 const LasFrases = {
 	Elementos: [
 		{
-			titulo: "algunas frases simples",
+			titulo: "frases simples",
 			bgColor:
 				"linear-gradient(87deg, rgb(17, 205, 239) 0px, rgb(17, 113, 239) 100%)",
 			sombra: "rgba(44, 168, 255, 0.6) 0px 5px 25px 0px",
@@ -46,7 +46,7 @@ const LasFrases = {
 			],
 		},
 		{
-			titulo: "más frases simples",
+			titulo: "frases simples 2: el imperio contraataca",
 			bgColor:
 				"linear-gradient(87deg, rgb(245, 96, 54) 0px, rgb(245, 54, 92) 100%)",
 			sombra: "rgba(255, 54, 54, 0.6) 0px 5px 25px 0px",
