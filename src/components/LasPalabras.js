@@ -5,6 +5,7 @@ import AdverbiosDerivadosDeAdjetivos from "./Sections/Palabras/AdverbiosDerivado
 import AdverbiosVerdaderos from "./Sections/Palabras/AdverbiosVerdaderos";
 import VocabularioDeAdverbios from "components/Sections/Palabras/VocabularioDeAdverbios";
 import Vestirse from "components/Sections/Palabras/Vestirse";
+import Favores from "./Sections/Palabras/Favores";
 
 //jsons
 import PalabrasDeUtilidad from "components/Jsons/Secciones de las Palabras/Palabras Utiles.json";
@@ -30,13 +31,48 @@ import VocabularioAeropuerto from "components/Jsons/Secciones de las Palabras/Vi
 //ropa
 import Ropa from "components/Jsons/Secciones de las Palabras/Ropa/Ropa.json";
 import PartesDelCuerpo from "components/Jsons/Secciones de las Palabras/Ropa/PartesDelCuerpo.json";
-// import Vestirse from "components/Jsons/Secciones de las Palabras/Ropa/Vestirse.json";
 import Sustantivos from "components/Jsons/Sustantivos.json";
 
 const LasPalabras = {
 	Elementos: [
 		{
+			titulo: "utilidades",
+			grupo: true,
+			bgColor:
+				"linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
+			sombra: "rgba(94, 114, 228, 0.6) 0px 5px 25px 0px",
+			textColor: "text-white",
+			elementos: [
+				{
+					tituloElemento: "animales",
+					url: "animales",
+					icono: "paw",
+				},
+				{
+					tituloElemento: "los favores",
+					url: "favores",
+					icono: "thumbs-up",
+				},
+				{
+					tituloElemento: "decir, creer, y pensar",
+					url: "decir-creer-pensar",
+					icono: "lightbulb",
+				},
+				{
+					tituloElemento: "palabras útiles",
+					url: "palabras-utiles",
+					icono: "tools",
+				},
+				{
+					tituloElemento: "vocabulario de trabajo",
+					url: "vocabulario-trabajo",
+					icono: "toolbox",
+				},
+			],
+		},
+		{
 			titulo: "comida y bebida",
+			grupo: true,
 			bgColor:
 				"linear-gradient(87deg, rgb(45, 206, 137) 0px, rgb(45, 206, 204) 100%)",
 			sombra: "rgba(45, 206, 137, 0.6) 0px 5px 25px 0px",
@@ -66,6 +102,7 @@ const LasPalabras = {
 		},
 		{
 			titulo: "viajes",
+			grupo: true,
 			bgColor:
 				"linear-gradient(87deg, rgb(17, 205, 239) 0px, rgb(17, 113, 239) 100%)",
 			sombra: "rgba(44, 168, 255, 0.6) 0px 5px 25px 0px",
@@ -75,10 +112,10 @@ const LasPalabras = {
 					tituloElemento: "transporte",
 					url: "transportes",
 				},
-				{
-					tituloElemento: "vocabulario de aeropuerto",
-					url: "vocabulario-aeropuerto",
-				},
+				// {
+				// 	tituloElemento: "vocabulario de aeropuerto",
+				// 	url: "vocabulario-aeropuerto",
+				// },
 				{
 					tituloElemento: "vacaciones",
 					url: "vacaciones",
@@ -87,10 +124,10 @@ const LasPalabras = {
 					tituloElemento: "la calle",
 					url: "lugares",
 				},
-				{
-					tituloElemento: "lugares de japón",
-					url: "lugares-japon",
-				},
+				// {
+				// 	tituloElemento: "lugares de japón",
+				// 	url: "lugares-japon",
+				// },
 				{
 					tituloElemento: "el clima",
 					url: "clima",
@@ -99,6 +136,7 @@ const LasPalabras = {
 		},
 		{
 			titulo: "ropa",
+			grupo: true,
 			bgColor:
 				"linear-gradient(87deg, rgb(247, 165, 153) 0px, rgb(235, 172, 163) 100%)",
 			sombra: "rgba(247, 165, 153, 0.7) 0px 5px 25px 0px",
@@ -120,6 +158,7 @@ const LasPalabras = {
 		},
 		{
 			titulo: "los adverbios",
+			grupo: true,
 			bgColor: "linear-gradient(87deg,#172b4d 0,#1a174d 100%)",
 			sombra: "0px 5px 25px 0px rgba(26, 23, 77, 0.6)",
 			textColor: "text-white",
@@ -135,32 +174,6 @@ const LasPalabras = {
 				{
 					tituloElemento: "clasificación adverbios",
 					url: "vocabulario-de-adverbios",
-				},
-			],
-		},
-		{
-			titulo: "sin grupo",
-			textColor: "text-white",
-			elementos: [
-				{
-					tituloElemento: "animales",
-					url: "animales",
-					icono: "paw",
-				},
-				{
-					tituloElemento: "decir, creer, y pensar",
-					url: "decir-creer-pensar",
-					icono: "lightbulb",
-				},
-				{
-					tituloElemento: "palabras útiles",
-					url: "palabras-utiles",
-					icono: "tools",
-				},
-				{
-					tituloElemento: "vocabulario de trabajo",
-					url: "vocabulario-trabajo",
-					icono: "toolbox",
 				},
 			],
 		},
@@ -202,6 +215,13 @@ const LasPalabras = {
 			componente: Vestirse,
 			Array: {},
 		},
+		{
+			url: "favores",
+			ComponenteIndividual: true,
+			componente: Favores,
+			Array: {},
+		},
+		//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		{
 			url: "sustantivos",
 			ComponenteIndividual: false,
@@ -322,14 +342,6 @@ const LasPalabras = {
 			Icono: "mitten",
 			Layout: 1,
 		},
-		// {
-		// 	url: "vestirse",
-		// 	ComponenteIndividual: false,
-		// 	Array: Vestirse.Vestirse,
-		// 	Titulo: "verbos para vestirse",
-		// 	Icono: "socks",
-		// 	Layout: 1,
-		// },
 		{
 			url: "partes-del-cuerpo",
 			ComponenteIndividual: false,

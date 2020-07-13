@@ -23,7 +23,7 @@ export default class VocabularioPalabras extends React.Component {
 	}
 
 	renderizarPorCadaSeccion = (seccion) => {
-		if (seccion.titulo === "sin grupo") {
+		if (!seccion.grupo) {
 			return seccion.elementos.map((elemento) => (
 				<Col md="6" key={elemento.tituloElemento}>
 					<Link
@@ -89,7 +89,13 @@ export default class VocabularioPalabras extends React.Component {
 							}}
 						>
 							{seccion.elementos.map((elemento) => (
-								<Col md="auto" key={elemento.tituloElemento}>
+								<Col
+									md="auto"
+									key={elemento.tituloElemento}
+									style={{
+										minWidth: elemento.icono && "20rem",
+									}}
+								>
 									<Link
 										to={
 											"/vocabulario-palabras/" +
@@ -112,6 +118,18 @@ export default class VocabularioPalabras extends React.Component {
 													{elemento.tituloElemento}
 												</span>
 												<i className="fas fa-chevron-right pl-3"></i>
+												<i
+													className={
+														"fas fa-3x fa-" +
+														elemento.icono
+													}
+													style={{
+														position: "absolute",
+														top: 10,
+														right: 10,
+														opacity: 0.7,
+													}}
+												></i>
 											</CardBody>
 										</Card>
 									</Link>
