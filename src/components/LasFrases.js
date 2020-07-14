@@ -8,6 +8,7 @@ import UnirPalabras from "./Sections/Construir Frases/UnirPalabras";
 import Comparaciones from "./Sections/Construir Frases/Comparaciones";
 import OracionesSubordinadas from "./Sections/Construir Frases/OracionesSubordinadas";
 import Toki from "./Sections/Construir Frases/Toki";
+import Favores from "./Sections/Construir Frases/Favores";
 
 const LasFrases = {
 	Elementos: [
@@ -24,19 +25,14 @@ const LasFrases = {
 					icono: "id-card",
 				},
 				{
-					titulo: "ubicaciones y preguntas",
-					url: "koko-soko-asoko",
-					icono: "map-marked-alt",
-				},
-				{
 					titulo: "actualmente estoy en...",
 					url: "imasu",
 					icono: "thumbtack",
 				},
 				{
-					titulo: "obligaciones y opcionales",
-					url: "nakerebanarimasen",
-					icono: "exclamation",
+					titulo: "ubicaciones y preguntas",
+					url: "koko-soko-asoko",
+					icono: "map-marked-alt",
 				},
 				{
 					titulo: 'peticiones "por favor"',
@@ -68,14 +64,33 @@ const LasFrases = {
 					icono: "balance-scale",
 				},
 				{
+					titulo: "en el pasado... とき",
+					url: "toki",
+					icono: "clock",
+				},
+			],
+		},
+		{
+			titulo: "frases simples 3: la venganza del jedi",
+			bgColor:
+				"linear-gradient(87deg, rgb(251, 99, 64) 0px, rgb(251, 177, 64) 100%)",
+			sombra: "rgba(251, 99, 64, 0.6) 0px 5px 25px 0px",
+			textColor: "text-white",
+			elementos: [
+				{
+					titulo: 'los "favores"',
+					url: "favores",
+					icono: "thumbs-up",
+				},
+				{
 					titulo: "oraciones subordinadas",
 					url: "oraciones-subordinadas",
 					icono: "user-tag",
 				},
 				{
-					titulo: "en el pasado... とき",
-					url: "toki",
-					icono: "clock",
+					titulo: "obligaciones y opcionales",
+					url: "nakerebanarimasen",
+					icono: "exclamation",
 				},
 			],
 		},
@@ -120,6 +135,10 @@ const LasFrases = {
 		{
 			componente: Jikushoukan,
 			url: "jikushoukan",
+		},
+		{
+			componente: Favores,
+			url: "favores",
 		},
 	],
 };

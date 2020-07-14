@@ -1,94 +1,264 @@
 {
 	"Kanjis": [
 		{
-			"id": 1,
+			"id": 0,
 			"kanji": "手",
 			"codigo_color": "1",
 			"cant_trazos": "4",
-			"tipo_adj": "",
-			"grupo_vrb": "",
-			"tradduccion": "Mano"
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"hiragana": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"katakana": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
+		},
+		{
+			"id": 1,
+			"kanji": "手",
+			"codigo_color": "2",
+			"cant_trazos": "4",
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"hiragana": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"katakana": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
 		},
 		{
 			"id": 2,
 			"kanji": "手",
-			"codigo_color": "2",
+			"codigo_color": "3",
 			"cant_trazos": "4",
-			"tipo_adj": "",
-			"grupo_vrb": "",
-			"tradduccion": "Mano"
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"hiragana": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"katakana": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
 		},
 		{
 			"id": 3,
 			"kanji": "手",
-			"codigo_color": "3",
+			"codigo_color": "4",
 			"cant_trazos": "4",
-			"tipo_adj": "",
-			"grupo_vrb": "",
-			"tradduccion": "Mano"
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"hiragana": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"katakana": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
 		},
 		{
 			"id": 4,
 			"kanji": "手",
-			"codigo_color": "4",
+			"codigo_color": "5",
 			"cant_trazos": "4",
-			"tipo_adj": "",
-			"grupo_vrb": "",
-			"tradduccion": "Mano"
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"hiragana": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"katakana": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
 		},
 		{
 			"id": 5,
 			"kanji": "手",
-			"codigo_color": "5",
+			"codigo_color": "6",
 			"cant_trazos": "4",
-			"tipo_adj": "",
-			"grupo_vrb": "",
-			"tradduccion": "Mano"
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"hiragana": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"katakana": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
 		},
 		{
 			"id": 6,
 			"kanji": "手",
-			"codigo_color": "6",
+			"codigo_color": "7",
 			"cant_trazos": "4",
-			"tipo_adj": "",
-			"grupo_vrb": "",
-			"tradduccion": "Mano"
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"hiragana": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"katakana": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
 		},
 		{
 			"id": 7,
 			"kanji": "手",
-			"codigo_color": "7",
+			"codigo_color": "8",
 			"cant_trazos": "4",
-			"tipo_adj": "",
-			"grupo_vrb": "",
-			"tradduccion": "Mano"
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"hiragana": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"katakana": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
 		},
 		{
 			"id": 8,
 			"kanji": "手",
-			"codigo_color": "8",
+			"codigo_color": "9",
 			"cant_trazos": "4",
-			"tipo_adj": "",
-			"grupo_vrb": "",
-			"tradduccion": "Mano"
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"hiragana": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"katakana": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
 		},
 		{
 			"id": 9,
 			"kanji": "手",
-			"codigo_color": "9",
-			"cant_trazos": "4",
-			"tipo_adj": "",
-			"grupo_vrb": "",
-			"tradduccion": "Mano"
-		},
-		{
-			"id": 10,
-			"kanji": "手",
 			"codigo_color": "10",
 			"cant_trazos": "4",
-			"tipo_adj": "",
-			"grupo_vrb": "",
-			"tradduccion": "Mano"
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"hiragana": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"katakana": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
 		}
 	]
 }

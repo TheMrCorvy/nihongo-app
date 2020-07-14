@@ -5,7 +5,7 @@ import AdverbiosDerivadosDeAdjetivos from "./Sections/Palabras/AdverbiosDerivado
 import AdverbiosVerdaderos from "./Sections/Palabras/AdverbiosVerdaderos";
 import VocabularioDeAdverbios from "components/Sections/Palabras/VocabularioDeAdverbios";
 import Vestirse from "components/Sections/Palabras/Vestirse";
-import Favores from "./Sections/Palabras/Favores";
+import Favores from "./Sections/Construir Frases/Favores";
 
 //jsons
 import PalabrasDeUtilidad from "components/Jsons/Secciones de las Palabras/Palabras Utiles.json";
@@ -49,11 +49,6 @@ const LasPalabras = {
 					icono: "paw",
 				},
 				{
-					tituloElemento: "los favores",
-					url: "favores",
-					icono: "thumbs-up",
-				},
-				{
 					tituloElemento: "decir, creer, y pensar",
 					url: "decir-creer-pensar",
 					icono: "lightbulb",
@@ -67,6 +62,11 @@ const LasPalabras = {
 					tituloElemento: "vocabulario de trabajo",
 					url: "vocabulario-trabajo",
 					icono: "toolbox",
+				},
+				{
+					tituloElemento: 'los "favores"',
+					url: "favores",
+					icono: "thumbs-up",
 				},
 			],
 		},

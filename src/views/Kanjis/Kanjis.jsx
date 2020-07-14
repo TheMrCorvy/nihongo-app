@@ -58,126 +58,67 @@ export default class Kanjis extends React.Component {
 			case "1":
 				return {
 					BgColor: "#fff",
-					JLPT: "N1",
 					TextColor: "black",
 				};
 			case "2":
 				return {
 					BgColor:
 						"linear-gradient(87deg, rgb(45, 206, 137) 0px, rgb(45, 206, 204) 100%)",
-					JLPT: "N2",
 					TextColor: "white",
 				};
 			case "3":
 				return {
 					BgColor: "rgb(45, 206, 137)",
-					JLPT: "N2",
 					TextColor: "white",
 				};
 			case "4":
 				return {
 					BgColor:
 						"linear-gradient(87deg, rgb(17, 205, 239) 0px, rgb(17, 113, 239) 100%)",
-					JLPT: "N3",
 					TextColor: "white",
 				};
 			case "5":
 				return {
 					BgColor: "rgb(17, 113, 239)",
-					JLPT: "N3",
 					TextColor: "white",
 				};
 			case "6":
 				return {
 					BgColor:
 						"linear-gradient(87deg, rgb(94, 114, 228) 0px, rgb(130, 94, 228) 100%)",
-					JLPT: "N3",
 					TextColor: "white",
 				};
 			case "7":
 				return {
 					BgColor:
 						"linear-gradient(87deg, rgb(251, 177, 64) 100%, rgb(251, 99, 64) 0px)",
-					JLPT: "N4",
 					TextColor: "white",
 				};
 			case "8":
 				return {
 					BgColor:
 						"linear-gradient(87deg, rgb(251, 99, 64) 0px, rgb(251, 177, 64) 100%)",
-					JLPT: "N4",
 					TextColor: "white",
 				};
 			case "9":
 				return {
 					BgColor:
 						"linear-gradient(87deg, rgb(245, 54, 92) 0px, rgb(245, 96, 54) 100%)",
-					JLPT: "N4",
 					TextColor: "white",
 				};
 			case "10":
 				return {
 					BgColor:
 						"linear-gradient(87deg, rgb(23, 43, 77) 0px, rgb(26, 23, 77) 100%)",
-					JLPT: "N5",
 					TextColor: "white",
 				};
 			default:
 				return {
 					BgColor: "#fff",
-					JLPT: "Error",
 					TextColor: "black",
 				};
 		}
 	};
-
-	// ResultadosMapeados = () => {
-	// 	if (!this.state.cargando && !this.state.error) {
-	// 		return (
-	// 			<React.Fragment>
-
-	// 			</React.Fragment>
-	// 		);
-	// 	} else if (!this.state.error && this.state.cargando) {
-	// 		setTimeout(() => {
-	// 			this.setState({
-	// 				error: true,
-	// 				cargando: false,
-	// 			});
-	// 		}, 3000);
-	// 		return (
-	// 			<React.Fragment>
-	// 				<Col
-	// 					md="12"
-	// 					className="justify-content-center d-flex align-items-center text-center mb-3"
-	// 				>
-	// 					<Spinner color="info" />
-	// 				</Col>
-	// 				<p className="text-center">Cargando...</p>
-	// 			</React.Fragment>
-	// 		);
-	// 	} else {
-	// 		setTimeout(() => {
-	// 			this.setState({
-	// 				error: false,
-	// 				cargando: false,
-	// 			});
-	// 		}, 3000);
-	// 		return (
-	// 			<React.Fragment>
-	// 				<Col
-	// 					md="12"
-	// 					className="justify-content-center d-flex align-items-center text-center mb-3"
-	// 				>
-	// 					<Spinner color="danger" />
-	// 				</Col>
-	// 				<p className="text-center">
-	// 					Hubo un error, intentando nuevamente...
-	// 				</p>
-	// 			</React.Fragment>
-	// 		);
-	// 	}
-	// };
 
 	render() {
 		return (
@@ -265,6 +206,7 @@ export default class Kanjis extends React.Component {
 										<option>Orden Alfabético</option>
 										<option>Cantidad de Trazos</option>
 										<option>Nivel de Examen</option>
+										<option>Color</option>
 									</Input>
 								</FormGroup>
 							</Col>
@@ -292,7 +234,7 @@ export default class Kanjis extends React.Component {
 										>
 											<CardBody className="px-3">
 												<p className="text-center">
-													手
+													{kanji.kanji}
 												</p>
 												<div className="progress-container progress-info pb-4">
 													<Progress
@@ -301,12 +243,8 @@ export default class Kanjis extends React.Component {
 													></Progress>
 												</div>
 												<p className="mb-0">
-													Mano{" "}
-													{
-														this.switch(
-															kanji.codigo_color
-														).JLPT
-													}
+													{kanji.traduccion}{" "}
+													{kanji.jlpt}
 												</p>
 											</CardBody>
 										</Card>
@@ -316,7 +254,7 @@ export default class Kanjis extends React.Component {
 						</Row>
 					</Container>
 					<Row className="justify-content-around">
-						<Col md="12" className="my-5 py-5" id="info">
+						<Col md="12" className="mt-5 py-5" id="info">
 							<p className="text-center">
 								<strong className="text-info">Nota:</strong> Los
 								colores varían según el{" "}

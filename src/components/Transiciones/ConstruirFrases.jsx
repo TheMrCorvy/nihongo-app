@@ -70,14 +70,13 @@ export default class ConstruirFrases extends React.Component {
 												<Card
 													style={{
 														borderRadius: "10px",
-														boxShadow:
-															"rgba(45, 206, 137, 0.6) 0px 5px 25px 0px",
 														background:
 															"rgb(45, 206, 137)",
 														width: "100%",
 													}}
+													className="card-plain"
 												>
-													<CardBody className="text-white">
+													<CardBody className="text-white px-3">
 														<span className="title text-capitalize">
 															{elemento.titulo}
 														</span>
