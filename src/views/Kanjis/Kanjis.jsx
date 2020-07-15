@@ -9,21 +9,26 @@ import {
 	Container,
 	Row,
 	Col,
-	FormGroup,
-	Input,
 } from "reactstrap";
 
 import { Link } from "react-router-dom";
 import BackToTop from "components/Sections/BackToTop";
 
 import ListaKanjis from "components/Jsons/Kanjis.json";
+import LecturasOnKunKanji from "components/Sections/LecturasOnKunKanji";
 
 export default class Kanjis extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			ListaKanjis: ListaKanjis.Kanjis,
+			paginaActual: 1,
+			cantidadPaginas: 0,
+			ultimaPagina: 0,
+			kanjisPorPagina: 25,
 		};
+		this.handleClick = this.handleClick.bind(this);
+		this.handleClickFlechas = this.handleClickFlechas.bind(this);
 	}
 
 	componentDidMount() {
@@ -32,6 +37,24 @@ export default class Kanjis extends React.Component {
 		document.documentElement.classList.remove("nav-open");
 		document.body.style.background = "#000";
 		document.body.style.borderRadius = "20px 20px 0 0";
+
+		const numerosPaginas = [];
+
+		for (
+			let i = 1;
+			i <=
+			Math.ceil(
+				this.state.ListaKanjis.length / this.state.kanjisPorPagina
+			);
+			i++
+		) {
+			numerosPaginas.push(i);
+		}
+
+		this.setState({
+			cantidadPaginas: numerosPaginas,
+			ultimaPagina: numerosPaginas.length,
+		});
 	}
 
 	componentWillUnmount() {
@@ -40,6 +63,253 @@ export default class Kanjis extends React.Component {
 		document.body.style.background = "#fff";
 		document.body.style.borderRadius = "0";
 	}
+
+	handleClick(event) {
+		this.setState({
+			paginaActual: Number(event.target.value),
+		});
+	}
+	handleClickFlechas(evento, accion) {
+		evento.preventDefault();
+
+		if (accion === "menos") {
+			if (this.state.paginaActual - 1 === 0) {
+				console.log("no se puede bajar mas");
+			} else {
+				this.setState({
+					paginaActual: this.state.paginaActual - 1,
+				});
+			}
+		}
+
+		if (accion === "mas") {
+			if (this.state.paginaActual + 1 > this.state.ultimaPagina) {
+				console.log("no se puede subir mas");
+			} else {
+				this.setState({
+					paginaActual: this.state.paginaActual + 1,
+				});
+			}
+		}
+	}
+
+	renderNumerosPaginas = () => {
+		const laPaginaActual = this.state.paginaActual;
+
+		if (laPaginaActual + 1 === this.state.ListaKanjis.length) {
+			//el caso en el que la pagina actual es la anteultima
+
+			return (
+				<React.Fragment>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button className="page-link" value="1">
+							1
+						</button>
+					</li>
+					<li>
+						<p>...</p>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={laPaginaActual - 1}
+						>
+							{laPaginaActual - 1}
+						</button>
+					</li>
+					<li
+						className="page-item active show"
+						onClick={this.handleClick}
+					>
+						<button className="page-link" value={laPaginaActual}>
+							{laPaginaActual}
+						</button>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={laPaginaActual + 1}
+						>
+							{laPaginaActual + 1}
+						</button>
+					</li>
+				</React.Fragment>
+			);
+		} else if (laPaginaActual === this.state.ListaKanjis.length) {
+			//el caso en el que la pagina actual es la última
+
+			return (
+				<React.Fragment>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button className="page-link" value="1">
+							1
+						</button>
+					</li>
+					<li>
+						<p>...</p>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={laPaginaActual - 2}
+						>
+							{laPaginaActual - 2}
+						</button>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={laPaginaActual - 1}
+						>
+							{laPaginaActual - 1}
+						</button>
+					</li>
+					<li
+						className="page-item active show"
+						onClick={this.handleClick}
+					>
+						<button className="page-link" value={laPaginaActual}>
+							{laPaginaActual}
+						</button>
+					</li>
+				</React.Fragment>
+			);
+		} else if (this.state.paginaActual === 1) {
+			//el caso en el que la pagina actual es la primera
+
+			return (
+				<React.Fragment>
+					<li
+						className="page-item active show"
+						onClick={this.handleClick}
+					>
+						<button className="page-link" value={laPaginaActual}>
+							{laPaginaActual}
+						</button>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={laPaginaActual + 1}
+						>
+							{laPaginaActual + 1}
+						</button>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={laPaginaActual + 2}
+						>
+							{laPaginaActual + 2}
+						</button>
+					</li>
+					<li>
+						<p>...</p>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={this.state.ultimaPagina}
+						>
+							{this.state.ultimaPagina}
+						</button>
+					</li>
+				</React.Fragment>
+			);
+		} else if (this.state.paginaActual === 2) {
+			//el caso en el que la pagina actual es la 2
+
+			return (
+				<React.Fragment>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={laPaginaActual - 1}
+						>
+							{laPaginaActual - 1}
+						</button>
+					</li>
+					<li
+						className="page-item active show"
+						onClick={this.handleClick}
+					>
+						<button className="page-link" value={laPaginaActual}>
+							{laPaginaActual}
+						</button>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={laPaginaActual + 1}
+						>
+							{laPaginaActual + 1}
+						</button>
+					</li>
+					<li>
+						<p>...</p>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={this.state.ultimaPagina}
+						>
+							{this.state.ultimaPagina}
+						</button>
+					</li>
+				</React.Fragment>
+			);
+		} else {
+			//el caso en el que la pagina actual no está cerca de ningún extremo
+
+			return (
+				<React.Fragment>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button className="page-link" value="1">
+							1
+						</button>
+					</li>
+					<li>
+						<p>...</p>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={laPaginaActual - 1}
+						>
+							{laPaginaActual - 1}
+						</button>
+					</li>
+					<li
+						className="page-item active show"
+						onClick={this.handleClick}
+					>
+						<button className="page-link" value={laPaginaActual}>
+							{laPaginaActual}
+						</button>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={laPaginaActual + 1}
+						>
+							{laPaginaActual + 1}
+						</button>
+					</li>
+					<li>
+						<p>...</p>
+					</li>
+					<li className="page-item show" onClick={this.handleClick}>
+						<button
+							className="page-link"
+							value={this.state.ultimaPagina}
+						>
+							{this.state.ultimaPagina}
+						</button>
+					</li>
+				</React.Fragment>
+			);
+		}
+	};
 
 	scrollTo = (e, seccion) => {
 		if (seccion === "top") {
@@ -121,6 +391,49 @@ export default class Kanjis extends React.Component {
 	};
 
 	render() {
+		const { ListaKanjis, paginaActual, kanjisPorPagina } = this.state;
+
+		const ultimaPagina = paginaActual * kanjisPorPagina;
+
+		const primeraPagina = ultimaPagina - kanjisPorPagina;
+
+		const kanjisActuales = ListaKanjis.slice(primeraPagina, ultimaPagina);
+
+		const renderKanjis = kanjisActuales.map((kanji, index) => {
+			return (
+				<Link
+					to={"/kanji/" + kanji.id}
+					onClick={(e) => this.scrollTo(e, "top")}
+					key={index}
+				>
+					<div className="mx-2">
+						<Card
+							className="card-plain"
+							style={{
+								borderRadius: ".5rem",
+								background: this.switch(kanji.codigo_color)
+									.BgColor,
+								color: this.switch(kanji.codigo_color)
+									.TextColor,
+							}}
+						>
+							<CardBody className="px-3">
+								<p className="text-center">{kanji.kanji}</p>
+								<div className="progress-container progress-info pb-4">
+									<Progress max="100" value="100"></Progress>
+								</div>
+								<p className="mb-0">
+									<strong>
+										<strong>{kanji.jlpt}</strong>{" "}
+										{kanji.traduccion}
+									</strong>
+								</p>
+							</CardBody>
+						</Card>
+					</div>
+				</Link>
+			);
+		});
 		return (
 			<React.Fragment>
 				<div
@@ -145,8 +458,8 @@ export default class Kanjis extends React.Component {
 					>
 						<i className="fas fa-info-circle fa-2x"></i>
 					</a>
-					<h3 className="title text-danger text-center">
-						Diccionario de Kanjis
+					<h3 className="title text-danger px-3 text-center">
+						Diccionario Básico de Kanjis
 					</h3>
 					<Container>
 						<Row className="justify-content-center">
@@ -157,7 +470,9 @@ export default class Kanjis extends React.Component {
 								<PaginationItem>
 									<PaginationLink
 										href="#pablo"
-										onClick={(e) => e.preventDefault()}
+										onClick={(e) =>
+											this.handleClickFlechas(e, "menos")
+										}
 									>
 										<i
 											className="fas fa-3x fa-chevron-left text-info"
@@ -165,27 +480,13 @@ export default class Kanjis extends React.Component {
 										></i>
 									</PaginationLink>
 								</PaginationItem>
-
-								<PaginationItem className="active show">
-									<PaginationLink>1</PaginationLink>
-								</PaginationItem>
-								<PaginationItem className="show">
-									<PaginationLink>2</PaginationLink>
-								</PaginationItem>
-								<PaginationItem className="show">
-									<PaginationLink>3</PaginationLink>
-								</PaginationItem>
-								<PaginationItem className="show">
-									<PaginationLink>4</PaginationLink>
-								</PaginationItem>
-								<PaginationItem className="show">
-									<PaginationLink>5</PaginationLink>
-								</PaginationItem>
-
+								{this.renderNumerosPaginas()}
 								<PaginationItem>
 									<PaginationLink
 										href="#pablo"
-										onClick={(e) => e.preventDefault()}
+										onClick={(e) =>
+											this.handleClickFlechas(e, "mas")
+										}
 									>
 										<i
 											className="fas fa-3x fa-chevron-right text-info"
@@ -194,63 +495,10 @@ export default class Kanjis extends React.Component {
 									</PaginationLink>
 								</PaginationItem>
 							</Pagination>
-							<Col md="12">
-								<FormGroup>
-									<label htmlFor="exampleFormControlSelect1">
-										Ordenar Por:
-									</label>
-									<Input
-										id="exampleFormControlSelect1"
-										type="select"
-									>
-										<option>Orden Alfabético</option>
-										<option>Cantidad de Trazos</option>
-										<option>Nivel de Examen</option>
-										<option>Color</option>
-									</Input>
-								</FormGroup>
-							</Col>
 							<h5 className="title text-info text-center col-lg-12">
 								Kanjis
 							</h5>
-							{this.state.ListaKanjis.map((kanji) => (
-								<Link
-									to={"/kanji/" + kanji.id}
-									onClick={(e) => this.scrollTo(e, "top")}
-									key={kanji.id}
-								>
-									<div className="mx-2">
-										<Card
-											className="card-plain"
-											style={{
-												borderRadius: ".5rem",
-												background: this.switch(
-													kanji.codigo_color
-												).BgColor,
-												color: this.switch(
-													kanji.codigo_color
-												).TextColor,
-											}}
-										>
-											<CardBody className="px-3">
-												<p className="text-center">
-													{kanji.kanji}
-												</p>
-												<div className="progress-container progress-info pb-4">
-													<Progress
-														max="100"
-														value="100"
-													></Progress>
-												</div>
-												<p className="mb-0">
-													{kanji.traduccion}{" "}
-													{kanji.jlpt}
-												</p>
-											</CardBody>
-										</Card>
-									</div>
-								</Link>
-							))}
+							{renderKanjis}
 						</Row>
 					</Container>
 					<Row className="justify-content-around">
@@ -259,10 +507,11 @@ export default class Kanjis extends React.Component {
 								<strong className="text-info">Nota:</strong> Los
 								colores varían según el{" "}
 								<strong className="text-danger">
-									Nivel de Examen
+									Nivel de Examen JLPT
 								</strong>{" "}
-								al que pertenezcan los Kanjis, siguiendo éste
-								patrón:
+								(el exámen oficial de fluidez y conocimientos
+								del idioma Japonés) al que pertenezcan los
+								Kanjis, obedeciendo el siguiente patrón:
 							</p>
 						</Col>
 						<div className="mx-2">
@@ -396,6 +645,7 @@ export default class Kanjis extends React.Component {
 								</CardBody>
 							</Card>
 						</div>
+						<LecturasOnKunKanji />
 						<BackToTop />
 					</Row>
 				</div>

@@ -160,7 +160,9 @@ export default class Kanji extends React.Component {
 									</h6>
 									<div className="row justify-content-around text-white px-3">
 										<p className="text-center">
-											{this.state.kanji.traduccion}
+											<strong>
+												{this.state.kanji.traduccion}
+											</strong>
 										</p>
 									</div>
 									{this.state.kanji.grupo_verbo && (
