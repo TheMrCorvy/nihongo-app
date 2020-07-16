@@ -1,0 +1,1009 @@
+{
+	"Parte2": [
+		{
+			"id": 27,
+			"kanji": "上",
+			"codigo_color": "1",
+			"cant_trazos": "3",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Encima, Arriba",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "うえ",
+						"romaji": "ue"
+					},
+					{
+						"id": 2,
+						"hiragana": "あ·げる",
+						"romaji": "a·geru"
+					},
+					{
+						"id": 3,
+						"hiragana": "の·ぼる",
+						"romaji": "no·boru"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ジョウ",
+						"romaji": "juu"
+					},
+					{
+						"id": 2,
+						"katakana": "ショウ",
+						"romaji": "shuu"
+					},
+					{
+						"id": 3,
+						"katakana": "シャン",
+						"romaji": "shan"
+					}
+				]
+			}
+		},
+		{
+			"id": 28,
+			"kanji": "下",
+			"codigo_color": "1",
+			"cant_trazos": "3",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Debajo, Abajo, Descender, Dar, Inferior",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "した",
+						"romaji": "shita"
+					},
+					{
+						"id": 2,
+						"hiragana": "しも",
+						"romaji": "shimo"
+					},
+					{
+						"id": 3,
+						"hiragana": "もと",
+						"romaji": "moto"
+					},
+					{
+						"id": 4,
+						"hiragana": "さ·げる",
+						"romaji": "sa·geru"
+					},
+					{
+						"id": 5,
+						"hiragana": "くだ·さい",
+						"romaji": "kuda·sai"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "カ",
+						"romaji": "ka"
+					},
+					{
+						"id": 2,
+						"katakana": "ゲ",
+						"romaji": "ge"
+					}
+				]
+			}
+		},
+		{
+			"id": 29,
+			"kanji": "中",
+			"codigo_color": "1",
+			"cant_trazos": "4",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Dentro, En medio, Centro",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "なか",
+						"romaji": "naka"
+					},
+					{
+						"id": 2,
+						"hiragana": "うち",
+						"romaji": "uchi"
+					},
+					{
+						"id": 3,
+						"hiragana": "あた·る",
+						"romaji": "ata·ru"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "チュウ",
+						"romaji": "chuu"
+					}
+				]
+			}
+		},
+		{
+			"id": 30,
+			"kanji": "半",
+			"codigo_color": "1",
+			"cant_trazos": "5",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Mitad, Medio, Semi-, Parte de",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "なか·ば",
+						"romaji": "naka·ba"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ハン",
+						"romaji": "han"
+					}
+				]
+			}
+		},
+		{
+			"id": 31,
+			"kanji": "年",
+			"codigo_color": "1",
+			"cant_trazos": "6",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Años",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "とし",
+						"romaji": "toshi"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ネン",
+						"romaji": "nen"
+					}
+				]
+			}
+		},
+		{
+			"id": 32,
+			"kanji": "今",
+			"codigo_color": "1",
+			"cant_trazos": "4",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Ahora",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "いま",
+						"romaji": "ima"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "コン",
+						"romaji": "kon"
+					},
+					{
+						"id": 2,
+						"katakana": "キン",
+						"romaji": "kin"
+					}
+				]
+			}
+		},
+		{
+			"id": 33,
+			"kanji": "休",
+			"codigo_color": "1",
+			"cant_trazos": "6",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Descanzar, Dormir, Retirarse",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "やす",
+						"romaji": "yasu"
+					},
+					{
+						"id": 2,
+						"hiragana": "やす·む",
+						"romaji": "yasu·mu"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "キュウ",
+						"romaji": "kyuu"
+					}
+				]
+			}
+		},
+		{
+			"id": 34,
+			"kanji": "入",
+			"codigo_color": "1",
+			"cant_trazos": "2",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Entrar",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "い·る",
+						"romaji": "i·ru"
+					},
+					{
+						"id": 2,
+						"hiragana": "はい·る",
+						"romaji": "hai·ru"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ニュウ",
+						"romaji": "nyuu"
+					},
+					{
+						"id": 2,
+						"katakana": "ジュ",
+						"romaji": "ju"
+					}
+				]
+			}
+		},
+		{
+			"id": 35,
+			"kanji": "円",
+			"codigo_color": "1",
+			"cant_trazos": "4",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Círculo, Redondo, Yenes (dinero de Japón)",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "まる",
+						"romaji": "maru"
+					},
+					{
+						"id": 2,
+						"hiragana": "まる·い",
+						"romaji": "maru·i"
+					},
+					{
+						"id": 3,
+						"hiragana": "まど",
+						"romaji": "mado"
+					},
+					{
+						"id": 4,
+						"hiragana": "まど·か",
+						"romaji": "mado·ka"
+					},
+					{
+						"id": 5,
+						"hiragana": "まろ·やか",
+						"romaji": "maru·yaka"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "エン",
+						"romaji": "en"
+					}
+				]
+			}
+		},
+		{
+			"id": 36,
+			"kanji": "出",
+			"codigo_color": "1",
+			"cant_trazos": "5",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Salida, Salir, Sacar, Extraer",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "で·る",
+						"romaji": "de·ru"
+					},
+					{
+						"id": 2,
+						"hiragana": "だ·す",
+						"romaji": "da·su"
+					},
+					{
+						"id": 3,
+						"hiragana": "い·でる",
+						"romaji": "i·deru"
+					},
+					{
+						"id": 4,
+						"hiragana": "い·だす",
+						"romaji": "i·dasu"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "シュツ",
+						"romaji": "shutsu"
+					},
+					{
+						"id": 2,
+						"katakana": "スイ",
+						"romaji": "sui"
+					}
+				]
+			}
+		},
+		{
+			"id": 37,
+			"kanji": "分",
+			"codigo_color": "1",
+			"cant_trazos": "4",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Minutos, Fracción, Saber",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "わか·る",
+						"romaji": "waka·ru"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ブン",
+						"romaji": "bun"
+					},
+					{
+						"id": 2,
+						"katakana": "フン",
+						"romaji": "fun"
+					},
+					{
+						"id": 3,
+						"katakana": "ブ",
+						"romaji": "bu"
+					},
+					{
+						"id": 4,
+						"katakana": "プン",
+						"romaji": "pun"
+					}
+				]
+			}
+		},
+		{
+			"id": 38,
+			"kanji": "時",
+			"codigo_color": "1",
+			"cant_trazos": "10",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Tiempo, Horas",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "とき",
+						"romaji": "toki"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ジ",
+						"romaji": "ji"
+					}
+				]
+			}
+		},
+		{
+			"id": 39,
+			"kanji": "前",
+			"codigo_color": "1",
+			"cant_trazos": "9",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Adelante, Antes",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "まえ",
+						"romaji": "mae"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ゼン",
+						"romaji": "zen"
+					}
+				]
+			}
+		},
+		{
+			"id": 40,
+			"kanji": "後",
+			"codigo_color": "1",
+			"cant_trazos": "9",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Atrás, Después",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "うしろ",
+						"romaji": "ushiro"
+					},
+					{
+						"id": 2,
+						"hiragana": "あと",
+						"romaji": "ato"
+					},
+					{
+						"id": 3,
+						"hiragana": "おく·れる",
+						"romaji": "oku·reru"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ゴ",
+						"romaji": "go"
+					},
+					{
+						"id": 2,
+						"katakana": "ゴ",
+						"romaji": "go"
+					},
+					{
+						"id": 3,
+						"katakana": "コウ",
+						"romaji": "kou"
+					}
+				]
+			}
+		},
+		{
+			"id": 41,
+			"kanji": "右",
+			"codigo_color": "1",
+			"cant_trazos": "5",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Derecha",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "みぎ",
+						"romaji": "migi"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ウ",
+						"romaji": "u"
+					},
+					{
+						"id": 2,
+						"katakana": "ユウ",
+						"romaji": "yuu"
+					}
+				]
+			}
+		},
+		{
+			"id": 42,
+			"kanji": "左",
+			"codigo_color": "1",
+			"cant_trazos": "5",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Izquierda",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "ひだり",
+						"romaji": "hidari"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "サ",
+						"romaji": "sa"
+					},
+					{
+						"id": 2,
+						"katakana": "シャ",
+						"romaji": "sha"
+					}
+				]
+			}
+		},
+		{
+			"id": 43,
+			"kanji": "書",
+			"codigo_color": "1",
+			"cant_trazos": "10",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "1",
+			"jlpt": "N1",
+			"traduccion": "Escribir",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "か·く",
+						"romaji": "ka·ku"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ショ",
+						"romaji": "sho"
+					}
+				]
+			}
+		},
+		{
+			"id": 44,
+			"kanji": "本",
+			"codigo_color": "1",
+			"cant_trazos": "5",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Libro, Raíz, Origen",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "もと",
+						"romaji": "moto"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ホン",
+						"romaji": "hon"
+					}
+				]
+			}
+		},
+		{
+			"id": 45,
+			"kanji": "来",
+			"codigo_color": "1",
+			"cant_trazos": "7",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "3",
+			"jlpt": "N1",
+			"traduccion": "Venir",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "くる",
+						"romaji": "kuru"
+					},
+					{
+						"id": 2,
+						"hiragana": "きた·る",
+						"romaji": "kita·ru"
+					},
+					{
+						"id": 3,
+						"hiragana": "き·たす",
+						"romaji": "ki·tasu"
+					},
+					{
+						"id": 4,
+						"hiragana": "き",
+						"romaji": "ki"
+					},
+					{
+						"id": 5,
+						"hiragana": "こ",
+						"romaji": "ko"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ライ",
+						"romaji": "ui"
+					},
+					{
+						"id": 2,
+						"katakana": "タイ",
+						"romaji": "tai"
+					}
+				]
+			}
+		},
+		{
+			"id": 46,
+			"kanji": "北",
+			"codigo_color": "1",
+			"cant_trazos": "5",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Norte",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "きた",
+						"romaji": "kita"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ホク",
+						"romaji": "hoku"
+					}
+				]
+			}
+		},
+		{
+			"id": 47,
+			"kanji": "南",
+			"codigo_color": "1",
+			"cant_trazos": "9",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Sur",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "みなみ",
+						"romaji": "minami"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ナン",
+						"romaji": "nan"
+					},
+					{
+						"id": 2,
+						"katakana": "ナ",
+						"romaji": "na"
+					}
+				]
+			}
+		},
+		{
+			"id": 48,
+			"kanji": "東",
+			"codigo_color": "1",
+			"cant_trazos": "8",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Este",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "ひがし",
+						"romaji": "higashi"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "トウ",
+						"romaji": "tou"
+					}
+				]
+			}
+		},
+		{
+			"id": 49,
+			"kanji": "西",
+			"codigo_color": "1",
+			"cant_trazos": "6",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Oeste",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "にし",
+						"romaji": "nashi"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "セイ",
+						"romaji": "sei"
+					},
+					{
+						"id": 2,
+						"katakana": "サイ",
+						"romaji": "sai"
+					},
+					{
+						"id": 3,
+						"katakana": "ス",
+						"romaji": "su"
+					}
+				]
+			}
+		},
+		{
+			"id": 50,
+			"kanji": "友",
+			"codigo_color": "1",
+			"cant_trazos": "6",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Amigo",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "とも",
+						"romaji": "tomo"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ユウ",
+						"romaji": "yuu"
+					}
+				]
+			}
+		},
+		{
+			"id": 51,
+			"kanji": "達",
+			"codigo_color": "1",
+			"cant_trazos": "6",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Amigo, Alcanzar",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "だち",
+						"romaji": "dachi"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "タツ",
+						"romaji": "tatsu"
+					}
+				]
+			}
+		},
+		{
+			"id": 52,
+			"kanji": "名",
+			"codigo_color": "1",
+			"cant_trazos": "6",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Nombre, Reputación",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "な",
+						"romaji": "na"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "メイ",
+						"romaji": "mei"
+					},
+					{
+						"id": 2,
+						"katakana": "ミョウ",
+						"romaji": "myou"
+					}
+				]
+			}
+		},
+		{
+			"id": 53,
+			"kanji": "国",
+			"codigo_color": "1",
+			"cant_trazos": "6",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "País",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "くに",
+						"romaji": "kuni"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "コク",
+						"romaji": "koku"
+					}
+				]
+			}
+		},
+		{
+			"id": 54,
+			"kanji": "外",
+			"codigo_color": "1",
+			"cant_trazos": "5",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Afuera, Exterior",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "そと",
+						"romaji": "soto"
+					},
+					{
+						"id": 2,
+						"hiragana": "ほか",
+						"romaji": "hoka"
+					},
+					{
+						"id": 3,
+						"hiragana": "はず·す",
+						"romaji": "hazu·su"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ガイ",
+						"romaji": "gai"
+					},
+					{
+						"id": 2,
+						"katakana": "ゲ",
+						"romaji": "ge"
+					}
+				]
+			}
+		},
+		{
+			"id": 55,
+			"kanji": "大",
+			"codigo_color": "1",
+			"cant_trazos": "3",
+			"tipo_adjetivo": "い (i)",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Grande, Mucho",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "おお·きい",
+						"romaji": "oo·kii"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ダイ",
+						"romaji": "dai"
+					},
+					{
+						"id": 2,
+						"katakana": "タイ",
+						"romaji": "tai"
+					}
+				]
+			}
+		},
+		{
+			"id": 56,
+			"kanji": "小",
+			"codigo_color": "1",
+			"cant_trazos": "3",
+			"tipo_adjetivo": "い (i)",
+			"grupo_verbo": "",
+			"jlpt": "N1",
+			"traduccion": "Pequeño, Poco",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "ちい·さい",
+						"romaji": "chii·sai"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ショウ",
+						"romaji": "shou"
+					}
+				]
+			}
+		}
+	]
+}

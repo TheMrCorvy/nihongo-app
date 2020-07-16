@@ -1,7 +1,8 @@
 import React from "react";
 import { Row, Col, Card, CardBody, UncontrolledTooltip } from "reactstrap";
 
-import Kanjis from "components/Jsons/Kanjis";
+import LecturasOnKunKanji from "components/Sections/LecturasOnKunKanji";
+import LosKanjis from "components/LosKanjis";
 
 export default class Kanji extends React.Component {
 	constructor(props) {
@@ -9,7 +10,7 @@ export default class Kanji extends React.Component {
 		this.state = {
 			cargando: true,
 			error: false,
-			kanji: Kanjis.Kanjis[this.props.match.params.idKanji],
+			kanji: LosKanjis[this.props.match.params.idKanji],
 			distancia: "10rem",
 		};
 	}
@@ -39,14 +40,14 @@ export default class Kanji extends React.Component {
 		return (
 			<React.Fragment>
 				<div
-					className="wrapper container-fluid"
+					className="wrapper container-fluid pb-4"
 					style={{
 						background: "#f2f2f2",
 						borderRadius: "20px 20px 0 0",
 						minHeight: "100vh",
 					}}
 				>
-					<Row className="justify-content-center mb-5">
+					<Row className="justify-content-center">
 						<Col md="12">
 							<Card
 								style={{
@@ -61,7 +62,6 @@ export default class Kanji extends React.Component {
 										className="text-white text-center title mb-0"
 										style={{
 											fontSize: "9rem",
-											fontFamily: "Sawarabi Gothic",
 										}}
 									>
 										{this.state.kanji.kanji}
@@ -72,7 +72,6 @@ export default class Kanji extends React.Component {
 												left: this.state.distancia,
 												fontSize: "15rem",
 												opacity: 0.1,
-												fontFamily: "Sawarabi Gothic",
 											}}
 										>
 											{this.state.kanji.kanji}
@@ -81,16 +80,14 @@ export default class Kanji extends React.Component {
 									<h4 className="title text-white text-center pt-0 my-0">
 										Lecturas
 									</h4>
-									<h6 className="title text-white text-center">
-										Hiragana
-									</h6>
+									<h4 className="title text-white text-center">
+										訓読み Kun’yomi
+									</h4>
 									<div
 										className="row justify-content-around text-white pt-3 px-4"
-										style={{
-											fontFamily: "Sawarabi Gothic",
-										}}
+										style={{}}
 									>
-										{this.state.kanji.lecturas.hiragana.map(
+										{this.state.kanji.lecturas.kun.map(
 											(hiragana) => (
 												<React.Fragment
 													key={hiragana.id}
@@ -101,6 +98,7 @@ export default class Kanji extends React.Component {
 															"hiragana-" +
 															hiragana.id
 														}
+														className="px-3"
 													>
 														{hiragana.hiragana}
 													</p>
@@ -118,16 +116,14 @@ export default class Kanji extends React.Component {
 											)
 										)}
 									</div>
-									<h6 className="title text-white text-center">
-										Katakana
-									</h6>
+									<h4 className="title text-white text-center">
+										音読み On’yomi
+									</h4>
 									<div
 										className="row justify-content-around text-white pt-3 px-4"
-										style={{
-											fontFamily: "Sawarabi Gothic",
-										}}
+										style={{}}
 									>
-										{this.state.kanji.lecturas.katakana.map(
+										{this.state.kanji.lecturas.on.map(
 											(katakana) => (
 												<React.Fragment
 													key={katakana.id}
@@ -138,6 +134,7 @@ export default class Kanji extends React.Component {
 															"katakana-" +
 															katakana.id
 														}
+														className="px-3"
 													>
 														{katakana.katakana}
 													</p>
@@ -166,14 +163,14 @@ export default class Kanji extends React.Component {
 										</p>
 									</div>
 									{this.state.kanji.grupo_verbo && (
-										<h6 className="title text-white px-3">
-											Grupo de verbo:{" "}
+										<h6 className="title text-center text-white px-3">
+											Grupo de verbo: Grupo{" "}
 											{this.state.kanji.grupo_verbo}
 										</h6>
 									)}
 									{this.state.kanji.tipo_adjetivo && (
-										<h6 className="title text-white px-3">
-											Tipo de Adjetivo:{" "}
+										<h6 className="title text-center text-white px-3">
+											Tipo de Adjetivo: Adjetivo{" "}
 											{this.state.kanji.tipo_adjetivo}
 										</h6>
 									)}
@@ -191,7 +188,7 @@ export default class Kanji extends React.Component {
 							</Card>
 						</Col>
 						<Col md="12">
-							<p className="text-center mb-5">
+							<p className="text-center">
 								<strong className="text-info">Nota:</strong>{" "}
 								Puedes tocar en los Hiragana y Katakana para ver
 								las lecturas en{" "}
@@ -200,6 +197,7 @@ export default class Kanji extends React.Component {
 							</p>
 						</Col>
 					</Row>
+					<LecturasOnKunKanji />
 				</div>
 			</React.Fragment>
 		);

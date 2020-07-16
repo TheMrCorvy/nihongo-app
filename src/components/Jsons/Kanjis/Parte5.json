@@ -1,0 +1,56 @@
+{
+	"Parte5": [
+		{
+			"id": 8,
+			"kanji": "手",
+			"codigo_color": "9",
+			"cant_trazos": "4",
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
+		},
+		{
+			"id": 9,
+			"kanji": "手",
+			"codigo_color": "10",
+			"cant_trazos": "4",
+			"tipo_adjetivo": "nakei",
+			"grupo_verbo": "2",
+			"jlpt": "N1",
+			"traduccion": "Mano",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "algo",
+						"romaji": "algo"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "algo con mucho texto",
+						"romaji": "algo con mucho texto"
+					}
+				]
+			}
+		}
+	]
+}

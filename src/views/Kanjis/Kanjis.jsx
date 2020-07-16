@@ -14,14 +14,14 @@ import {
 import { Link } from "react-router-dom";
 import BackToTop from "components/Sections/BackToTop";
 
-import ListaKanjis from "components/Jsons/Kanjis.json";
 import LecturasOnKunKanji from "components/Sections/LecturasOnKunKanji";
+import LosKanjis from "components/LosKanjis";
 
 export default class Kanjis extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			ListaKanjis: ListaKanjis.Kanjis,
+			ListaKanjis: LosKanjis,
 			paginaActual: 1,
 			cantidadPaginas: 0,
 			ultimaPagina: 0,
