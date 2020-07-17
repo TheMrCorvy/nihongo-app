@@ -3,7 +3,7 @@ import { Card, CardBody, Col } from "reactstrap";
 
 export default function LecturasOnKunKanji() {
 	return (
-		<Col md="12">
+		<Col md="12" id="info">
 			<Card
 				className="card-plain px-3 bg-white my-5"
 				style={{

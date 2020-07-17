@@ -65,12 +65,16 @@ export default class Kanjis extends React.Component {
 	}
 
 	handleClick(event) {
+		this.scrollTo(event, "top");
+
 		this.setState({
 			paginaActual: Number(event.target.value),
 		});
 	}
 	handleClickFlechas(evento, accion) {
 		evento.preventDefault();
+
+		this.scrollTo(evento, "top");
 
 		if (accion === "menos") {
 			if (this.state.paginaActual - 1 === 0) {
@@ -96,7 +100,7 @@ export default class Kanjis extends React.Component {
 	renderNumerosPaginas = () => {
 		const laPaginaActual = this.state.paginaActual;
 
-		if (laPaginaActual + 1 === this.state.ListaKanjis.length) {
+		if (laPaginaActual + 1 === this.state.ultimaPagina) {
 			//el caso en el que la pagina actual es la anteultima
 
 			return (
@@ -135,7 +139,7 @@ export default class Kanjis extends React.Component {
 					</li>
 				</React.Fragment>
 			);
-		} else if (laPaginaActual === this.state.ListaKanjis.length) {
+		} else if (laPaginaActual === this.state.ultimaPagina) {
 			//el caso en el que la pagina actual es la última
 
 			return (
@@ -401,37 +405,41 @@ export default class Kanjis extends React.Component {
 
 		const renderKanjis = kanjisActuales.map((kanji, index) => {
 			return (
-				<Link
-					to={"/kanji/" + kanji.id}
-					onClick={(e) => this.scrollTo(e, "top")}
-					key={index}
-				>
-					<div className="mx-2">
-						<Card
-							className="card-plain"
-							style={{
-								borderRadius: ".5rem",
-								background: this.switch(kanji.codigo_color)
-									.BgColor,
-								color: this.switch(kanji.codigo_color)
-									.TextColor,
-							}}
-						>
-							<CardBody className="px-3">
-								<p className="text-center">{kanji.kanji}</p>
-								<div className="progress-container progress-info pb-4">
-									<Progress max="100" value="100"></Progress>
-								</div>
-								<p className="mb-0">
-									<strong>
-										<strong>{kanji.jlpt}</strong>{" "}
-										{kanji.traduccion}
-									</strong>
-								</p>
-							</CardBody>
-						</Card>
-					</div>
-				</Link>
+				<Col md="4" key={index}>
+					<Link
+						to={"/kanji/" + kanji.id}
+						onClick={(e) => this.scrollTo(e, "top")}
+					>
+						<div className="mx-2">
+							<Card
+								className="card-plain"
+								style={{
+									borderRadius: ".5rem",
+									background: this.switch(kanji.codigo_color)
+										.BgColor,
+									color: this.switch(kanji.codigo_color)
+										.TextColor,
+								}}
+							>
+								<CardBody className="px-3">
+									<p className="text-center">{kanji.kanji}</p>
+									<div className="progress-container progress-info pb-4">
+										<Progress
+											max="100"
+											value="100"
+										></Progress>
+									</div>
+									<p className="mb-0">
+										<strong>
+											<strong>{kanji.jlpt}</strong>{" "}
+											{kanji.traduccion}
+										</strong>
+									</p>
+								</CardBody>
+							</Card>
+						</div>
+					</Link>
+				</Col>
 			);
 		});
 		return (
@@ -499,10 +507,42 @@ export default class Kanjis extends React.Component {
 								Kanjis
 							</h5>
 							{renderKanjis}
+							<Pagination
+								className="pagination pagination-info mt-5 col-lg-12 justify-content-center pr-0"
+								listClassName="pagination-info row justify-content-around"
+							>
+								<PaginationItem>
+									<PaginationLink
+										href="#pablo"
+										onClick={(e) =>
+											this.handleClickFlechas(e, "menos")
+										}
+									>
+										<i
+											className="fas fa-3x fa-chevron-left text-info"
+											style={{ marginTop: -5 }}
+										></i>
+									</PaginationLink>
+								</PaginationItem>
+								{this.renderNumerosPaginas()}
+								<PaginationItem>
+									<PaginationLink
+										href="#pablo"
+										onClick={(e) =>
+											this.handleClickFlechas(e, "mas")
+										}
+									>
+										<i
+											className="fas fa-3x fa-chevron-right text-info"
+											style={{ marginTop: -5 }}
+										></i>
+									</PaginationLink>
+								</PaginationItem>
+							</Pagination>
 						</Row>
 					</Container>
 					<Row className="justify-content-around">
-						<Col md="12" className="mt-5 py-5" id="info">
+						{/* <Col md="12" className="mt-5 py-5" id="info">
 							<p className="text-center">
 								<strong className="text-info">Nota:</strong> Los
 								colores varían según el{" "}
@@ -644,7 +684,7 @@ export default class Kanjis extends React.Component {
 									<strong className="mb-0">N1</strong>
 								</CardBody>
 							</Card>
-						</div>
+						</div> */}
 						<LecturasOnKunKanji />
 						<BackToTop />
 					</Row>
