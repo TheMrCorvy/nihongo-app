@@ -1,0 +1,996 @@
+{
+	"Parte6": [
+		{
+			"id": 152,
+			"kanji": "習",
+			"codigo_color": "3",
+			"cant_trazos": "11",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Aprender",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "なら·う",
+						"romaji": "nara·u"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "シュウ",
+						"romaji": "shuu"
+					},
+					{
+						"id": 2,
+						"katakana": "ジュ",
+						"romaji": "ju"
+					}
+				]
+			}
+		},
+		{
+			"id": 153,
+			"kanji": "考",
+			"codigo_color": "2",
+			"cant_trazos": "6",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "3",
+			"jlpt": "N4",
+			"traduccion": "Considerar, Pensar",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "かんが·える",
+						"romaji": "kanga·eru"
+					},
+					{
+						"id": 2,
+						"hiragana": "かんが·え",
+						"romaji": "kanga·e"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "コウ",
+						"romaji": "kou"
+					}
+				]
+			}
+		},
+		{
+			"id": 154,
+			"kanji": "者",
+			"codigo_color": "2",
+			"cant_trazos": "8",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Persona, Ejercer, Alguien",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "もの",
+						"romaji": "mono"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "シャ",
+						"romaji": "sha"
+					}
+				]
+			}
+		},
+		{
+			"id": 155,
+			"kanji": "肉",
+			"codigo_color": "2",
+			"cant_trazos": "6",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Carne",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "しし",
+						"romaji": "shishi"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ニク",
+						"romaji": "niku"
+					}
+				]
+			}
+		},
+		{
+			"id": 156,
+			"kanji": "自",
+			"codigo_color": "2",
+			"cant_trazos": "8",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Automático, Por sí mismo",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "みずか·ら",
+						"romaji": "mizuka·ra"
+					},
+					{
+						"id": 2,
+						"hiragana": "おのず·から",
+						"romaji": "onozu·kara"
+					},
+					{
+						"id": 3,
+						"hiragana": "おの·ずと",
+						"romaji": "ono·zuto"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ジ",
+						"romaji": "ji"
+					},
+					{
+						"id": 2,
+						"katakana": "シ",
+						"romaji": "shi"
+					}
+				]
+			}
+		},
+		{
+			"id": 157,
+			"kanji": "色",
+			"codigo_color": "2",
+			"cant_trazos": "6",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Color",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "いろ",
+						"romaji": "iro"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ショク",
+						"romaji": "shoku"
+					},
+					{
+						"id": 2,
+						"katakana": "シキ",
+						"romaji": "shiki"
+					}
+				]
+			}
+		},
+		{
+			"id": 158,
+			"kanji": "花",
+			"codigo_color": "2",
+			"cant_trazos": "7",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Flor",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "はな",
+						"romaji": "hana"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "カ",
+						"romaji": "ka"
+					},
+					{
+						"id": 2,
+						"katakana": "ケ",
+						"romaji": "ke"
+					}
+				]
+			}
+		},
+		{
+			"id": 159,
+			"kanji": "茶",
+			"codigo_color": "2",
+			"cant_trazos": "9",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Té",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "",
+						"romaji": ""
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "チャ",
+						"romaji": "cha"
+					},
+					{
+						"id": 2,
+						"katakana": "サ",
+						"romaji": "sa"
+					}
+				]
+			}
+		},
+		{
+			"id": 160,
+			"kanji": "言",
+			"codigo_color": "2",
+			"cant_trazos": "7",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Decir, Hablar",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "い·う",
+						"romaji": "i·u"
+					},
+					{
+						"id": 2,
+						"hiragana": "こと",
+						"romaji": "koto"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ゲン",
+						"romaji": "gen"
+					},
+					{
+						"id": 2,
+						"katakana": "ゴン",
+						"romaji": "gon"
+					}
+				]
+			}
+		},
+		{
+			"id": 161,
+			"kanji": "言",
+			"codigo_color": "2",
+			"cant_trazos": "9",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Medir, Plan, Esquema",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "はか·る",
+						"romaji": "haka·ru"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ケイ",
+						"romaji": "kei"
+					}
+				]
+			}
+		},
+		{
+			"id": 162,
+			"kanji": "買",
+			"codigo_color": "3",
+			"cant_trazos": "12",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Comprar",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "か·う",
+						"romaji": "ka·u"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "バイ",
+						"romaji": "ba·i"
+					}
+				]
+			}
+		},
+		{
+			"id": 163,
+			"kanji": "赤",
+			"codigo_color": "3",
+			"cant_trazos": "7",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Color rojo",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "あか",
+						"romaji": "aka"
+					},
+					{
+						"id": 2,
+						"hiragana": "あか·い",
+						"romaji": "aka·i"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "セキ",
+						"romaji": "seki"
+					},
+					{
+						"id": 2,
+						"katakana": "シャク",
+						"romaji": "shaku"
+					}
+				]
+			}
+		},
+		{
+			"id": 164,
+			"kanji": "走",
+			"codigo_color": "3",
+			"cant_trazos": "7",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Correr",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "はし·る",
+						"romaji": "hashi·ru"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ソウ",
+						"romaji": "sou"
+					}
+				]
+			}
+		},
+		{
+			"id": 165,
+			"kanji": "起",
+			"codigo_color": "3",
+			"cant_trazos": "10",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Levantarse (despertarse despues de dormir)",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "お·きる",
+						"romaji": "o·kiru"
+					},
+					{
+						"id": 2,
+						"hiragana": "おこ·す",
+						"romaji": "oko·su"
+					},
+					{
+						"id": 3,
+						"hiragana": "た·つ",
+						"romaji": "ta·tsu"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "キ",
+						"romaji": "ki"
+					}
+				]
+			}
+		},
+		{
+			"id": 166,
+			"kanji": "足",
+			"codigo_color": "3",
+			"cant_trazos": "7",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Piernas, Pie, Ser sufuciente",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "あし",
+						"romaji": "ashi"
+					},
+					{
+						"id": 2,
+						"hiragana": "た·る",
+						"romaji": "ta·ru"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ソク",
+						"romaji": "soku"
+					}
+				]
+			}
+		},
+		{
+			"id": 167,
+			"kanji": "近",
+			"codigo_color": "3",
+			"cant_trazos": "7",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Cerca, Pronto",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "ちか·い",
+						"romaji": "ashi"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "キン",
+						"romaji": "kin"
+					},
+					{
+						"id": 2,
+						"katakana": "コン",
+						"romaji": "kon"
+					}
+				]
+			}
+		},
+		{
+			"id": 168,
+			"kanji": "週",
+			"codigo_color": "3",
+			"cant_trazos": "11",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Semana",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "",
+						"romaji": ""
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "シュウ",
+						"romaji": "shuu"
+					}
+				]
+			}
+		},
+		{
+			"id": 169,
+			"kanji": "道",
+			"codigo_color": "3",
+			"cant_trazos": "12",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Camino, Calle, Recorrido, Distrito, Curso",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "みち",
+						"romaji": "michi"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ドウ",
+						"romaji": "dou"
+					},
+					{
+						"id": 2,
+						"katakana": "トウ",
+						"romaji": "tou"
+					}
+				]
+			}
+		},
+		{
+			"id": 170,
+			"kanji": "重",
+			"codigo_color": "3",
+			"cant_trazos": "9",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Pesado, Apilar, Pila de cajas",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "え",
+						"romaji": "e"
+					},
+					{
+						"id": 2,
+						"hiragana": "おも",
+						"romaji": "omo"
+					},
+					{
+						"id": 3,
+						"hiragana": "おも·い",
+						"romaji": "omo·i"
+					},
+					{
+						"id": 4,
+						"hiragana": "かさ·なる",
+						"romaji": "kasa·naru"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ジュウ",
+						"romaji": "juu"
+					},
+					{
+						"id": 2,
+						"katakana": "チョウ",
+						"romaji": "chou"
+					}
+				]
+			}
+		},
+		{
+			"id": 171,
+			"kanji": "銀",
+			"codigo_color": "3",
+			"cant_trazos": "14",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Plata (mineral)",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "しろがね",
+						"romaji": "shirogane"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ギン",
+						"romaji": "gin"
+					}
+				]
+			}
+		},
+		{
+			"id": 172,
+			"kanji": "開",
+			"codigo_color": "3",
+			"cant_trazos": "12",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Abrir",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "ひら·く",
+						"romaji": "hira·ku"
+					},
+					{
+						"id": 2,
+						"hiragana": "あ·く",
+						"romaji": "a·ku"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "カイ",
+						"romaji": "kai"
+					}
+				]
+			}
+		},
+		{
+			"id": 173,
+			"kanji": "集",
+			"codigo_color": "3",
+			"cant_trazos": "12",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Reunión, Encuentro",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "あつ·まる",
+						"romaji": "atsu·maru"
+					},
+					{
+						"id": 2,
+						"hiragana": "つど·う",
+						"romaji": "tsudo·u"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "シュウ",
+						"romaji": "shuu"
+					}
+				]
+			}
+		},
+		{
+			"id": 174,
+			"kanji": "青",
+			"codigo_color": "2",
+			"cant_trazos": "8",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Azul",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "あお·い",
+						"romaji": "ao·i"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "セイ",
+						"romaji": "sei"
+					},
+					{
+						"id": 2,
+						"katakana": "ショウ",
+						"romaji": "shou"
+					}
+				]
+			}
+		},
+		{
+			"id": 175,
+			"kanji": "音",
+			"codigo_color": "2",
+			"cant_trazos": "9",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Ruido, Sonído",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "おと",
+						"romaji": "oto"
+					},
+					{
+						"id": 2,
+						"hiragana": "ね",
+						"romaji": "ne"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "オン",
+						"romaji": "on"
+					},
+					{
+						"id": 2,
+						"katakana": "イン",
+						"romaji": "in"
+					}
+				]
+			}
+		},
+		{
+			"id": 176,
+			"kanji": "風",
+			"codigo_color": "2",
+			"cant_trazos": "9",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Viento, Aire",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "かぜ",
+						"romaji": "kaze"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "フウ",
+						"romaji": "fuu"
+					},
+					{
+						"id": 2,
+						"katakana": "フ",
+						"romaji": "fu"
+					}
+				]
+			}
+		},
+		{
+			"id": 177,
+			"kanji": "飯",
+			"codigo_color": "3",
+			"cant_trazos": "12",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Comida, Arroz cocinado",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "めし",
+						"romaji": "meshi"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ハン",
+						"romaji": "han"
+					}
+				]
+			}
+		},
+		{
+			"id": 178,
+			"kanji": "館",
+			"codigo_color": "3",
+			"cant_trazos": "16",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Edificio, Construcción, Mansión",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "やかた",
+						"romaji": "yakata"
+					},
+					{
+						"id": 2,
+						"hiragana": "たて",
+						"romaji": "tate"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "カン",
+						"romaji": "kan"
+					}
+				]
+			}
+		},
+		{
+			"id": 179,
+			"kanji": "駅",
+			"codigo_color": "3",
+			"cant_trazos": "14",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Estación",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "",
+						"romaji": ""
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "エキ",
+						"romaji": "eki"
+					}
+				]
+			}
+		},
+		{
+			"id": 180,
+			"kanji": "魚",
+			"codigo_color": "3",
+			"cant_trazos": "11",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Pez, Pescado",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "うお",
+						"romaji": "uo"
+					},
+					{
+						"id": 2,
+						"hiragana": "さかな",
+						"romaji": "sakana"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ギョ",
+						"romaji": "gyo"
+					}
+				]
+			}
+		},
+		{
+			"id": 181,
+			"kanji": "魚",
+			"codigo_color": "3",
+			"cant_trazos": "11",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Pájaro, Pollo",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "とり",
+						"romaji": "tori"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "チョウ",
+						"romaji": "chou"
+					}
+				]
+			}
+		},
+		{
+			"id": 182,
+			"kanji": "黒",
+			"codigo_color": "2",
+			"cant_trazos": "11",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Negro",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "くろ",
+						"romaji": "kuro"
+					},
+					{
+						"id": 2,
+						"hiragana": "くろ·い",
+						"romaji": "kuro·i"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "コク",
+						"romaji": "koku"
+					}
+				]
+			}
+		},
+		{
+			"id": 183,
+			"kanji": "白",
+			"codigo_color": "2",
+			"cant_trazos": "5",
+			"tipo_adjetivo": "",
+			"grupo_verbo": "",
+			"jlpt": "N4",
+			"traduccion": "Blanco",
+			"lecturas": {
+				"kun": [
+					{
+						"id": 1,
+						"hiragana": "しろ",
+						"romaji": "shiro"
+					},
+					{
+						"id": 2,
+						"hiragana": "しろ·い",
+						"romaji": "shiro·i"
+					}
+				],
+				"on": [
+					{
+						"id": 1,
+						"katakana": "ハク",
+						"romaji": "haku"
+					},
+					{
+						"id": 2,
+						"katakana": "ビャク",
+						"romaji": "byaku"
+					}
+				]
+			}
+		}
+	]
+}
