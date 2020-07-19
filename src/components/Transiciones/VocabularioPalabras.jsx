@@ -145,7 +145,7 @@ export default class VocabularioPalabras extends React.Component {
 		return (
 			<React.Fragment>
 				<h3 className="title text-center pt-2">
-					Vocabulario de Palabras Generales
+					Vocabulario de Palabras
 				</h3>
 				<Row className="justify-content-around">
 					{LasPalabras.Elementos.map((seccion) =>

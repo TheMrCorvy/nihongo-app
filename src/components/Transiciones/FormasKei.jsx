@@ -164,7 +164,7 @@ export default function FormasKei(props) {
 				</Col>
 				<Col md="6">
 					<Link
-						to="/sustantivos"
+						to="/vocabulario-palabras/sustantivos"
 						onClick={() => {
 							props.scrollTop();
 						}}
