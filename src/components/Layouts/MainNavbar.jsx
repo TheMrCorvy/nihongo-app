@@ -80,15 +80,15 @@ function MainNavbar() {
 						navbar
 					>
 						<Nav navbar>
-							<NavItem>
-								<NavLink href="https://play.google.com/store/apps/details?id=com.google.samples.apps.iosched">
+							{/* <NavItem>
+								<NavLink href="https://play.google.com/store/apps/details?id=xyz.appmaker.jfzeiy">
 									<h5 className="text-capitalize">
 										Valorar App en Google Play
 									</h5>
 								</NavLink>
-							</NavItem>
+							</NavItem> 
 							<NavItem>
-								<NavLink href="https://api.whatsapp.com/send?text=Repasa%20tus%20conocimientos%20de%20Japonés%20fácilmente%20con%20Nihongo%20App&amp;https://material-pwa.herokuapp.com">
+								<NavLink href="https://api.whatsapp.com/send?text=Repasa%20tus%20conocimientos%20de%20Japonés%20fácilmente%20con%20Nihongo%20App%20Básico%20https://play.google.com/store/apps/details?id=xyz.appmaker.jfzeiy">
 									<h5 className="text-capitalize">
 										Comparte esta App en WhatsApp
 									</h5>
@@ -97,7 +97,7 @@ function MainNavbar() {
 							<NavItem>
 								<NavLink
 									href="https://twitter.com/intent/tweet?text=Repasa%20tus%20conocimientos%20de%20Japonés%20fácilmente%20con%20Nihongo%20App
-								amp;url=https://material-pwa.herokuapp.com&amp;hashtags=NihongoApp"
+								%20https://play.google.com/store/apps/details?id=xyz.appmaker.jfzeiy&amp;hashtags=NihongoApp"
 								>
 									<h5 className="text-capitalize">
 										Comparte esta App en Twitter
@@ -106,7 +106,7 @@ function MainNavbar() {
 							</NavItem>
 							<NavItem>
 								<NavLink
-									href="https://www.facebook.com/sharer/sharer.php?uhttps://material-pwa.herokuapp.com"
+									href="https://www.facebook.com/sharer/sharer.php?u=https%3A//play.google.com/store/apps/details?id=xyz.appmaker.jfzeiy"
 									target="_blank"
 								>
 									<h5 className="text-capitalize">
@@ -114,6 +114,7 @@ function MainNavbar() {
 									</h5>
 								</NavLink>
 							</NavItem>
+							*/}
 							<NavItem>
 								<NavLink
 									to="/creditos"
