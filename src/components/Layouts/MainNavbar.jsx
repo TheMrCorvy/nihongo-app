@@ -32,11 +32,12 @@ function MainNavbar() {
 				/>
 			) : null}
 			<Navbar
-				className="fixed-bottom mb-0 py-0 px-4"
+				className="fixed-bottom py-0 px-4"
 				color="danger"
 				expand="lg"
 				style={{
 					background: "linear-gradient(87deg,#f5365c 0,#f56036 100%)",
+					marginBottom: -5,
 				}}
 			>
 				<Container>
