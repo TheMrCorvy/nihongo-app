@@ -128,7 +128,7 @@ class Adjetivos extends React.Component {
 														{ikeyoushi.traduccion}
 													</p>
 												</div>
-												<p className="text-center">
+												{/* <p className="text-center">
 													frase incluyendo el adjetivo
 													(con kanjis)
 												</p>
@@ -139,7 +139,7 @@ class Adjetivos extends React.Component {
 												<p className="text-center">
 													frase incluyendo el adjetivo
 													(con romaji)
-												</p>
+												</p> */}
 
 												<h4 className="title text-warning my-0 pt-0">
 													Tipo: い <small>(I)</small>
@@ -235,7 +235,7 @@ class Adjetivos extends React.Component {
 														{nakeyoushi.traduccion}
 													</p>
 												</div>
-												<p className="text-center">
+												{/* <p className="text-center">
 													frase incluyendo el adjetivo
 													(con kanjis)
 												</p>
@@ -246,7 +246,7 @@ class Adjetivos extends React.Component {
 												<p className="text-center">
 													frase incluyendo el adjetivo
 													(con romaji)
-												</p>
+												</p> */}
 
 												<h4 className="title text-warning my-0 pt-0">
 													Tipo: な <small>(Na)</small>
