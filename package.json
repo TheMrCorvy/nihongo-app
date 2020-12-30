@@ -2,7 +2,7 @@
     "name": "now-ui-kit-react",
     "version": "1.0.0",
     "private": true,
-    "homepage": "TheMrCorvy.github.io/nihongo-app",
+    "homepage": "https://TheMrCorvy.github.io/nihongo-app",
     "dependencies": {
         "gh-pages": "^3.1.0",
         "moment": "2.24.0",
