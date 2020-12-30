@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9957b55a65f04634e3318e2256f0be6",
+    "revision": "c165c0a39b31d9524ecf3a84d7e5789b",
     "url": "TheMrCorvy.github.io/nihongo-app/index.html"
   },
   {
-    "revision": "135b5c4d4e547ca29788",
+    "revision": "d24629b88891caeb74f4",
     "url": "TheMrCorvy.github.io/nihongo-app/static/css/main.5c4eaefb.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "TheMrCorvy.github.io/nihongo-app/static/js/2.6fc280da.chunk.js"
   },
   {
-    "revision": "135b5c4d4e547ca29788",
-    "url": "TheMrCorvy.github.io/nihongo-app/static/js/main.97310fe4.chunk.js"
+    "revision": "d24629b88891caeb74f4",
+    "url": "TheMrCorvy.github.io/nihongo-app/static/js/main.0cd159d5.chunk.js"
   },
   {
     "revision": "cee2c448916bda133a3f",
