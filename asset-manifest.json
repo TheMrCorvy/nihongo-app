@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "TheMrCorvy.github.io/nihongo-app/static/css/main.5c4eaefb.chunk.css",
-    "main.js": "TheMrCorvy.github.io/nihongo-app/static/js/main.0cd159d5.chunk.js",
-    "main.js.map": "TheMrCorvy.github.io/nihongo-app/static/js/main.0cd159d5.chunk.js.map",
-    "runtime~main.js": "TheMrCorvy.github.io/nihongo-app/static/js/runtime~main.b1e91a56.js",
-    "runtime~main.js.map": "TheMrCorvy.github.io/nihongo-app/static/js/runtime~main.b1e91a56.js.map",
-    "static/js/2.6fc280da.chunk.js": "TheMrCorvy.github.io/nihongo-app/static/js/2.6fc280da.chunk.js",
-    "static/js/2.6fc280da.chunk.js.map": "TheMrCorvy.github.io/nihongo-app/static/js/2.6fc280da.chunk.js.map",
-    "index.html": "TheMrCorvy.github.io/nihongo-app/index.html",
-    "precache-manifest.ce0534ff0335ee1fcbb1d4dc459ec005.js": "TheMrCorvy.github.io/nihongo-app/precache-manifest.ce0534ff0335ee1fcbb1d4dc459ec005.js",
-    "service-worker.js": "TheMrCorvy.github.io/nihongo-app/service-worker.js",
-    "static/css/main.5c4eaefb.chunk.css.map": "TheMrCorvy.github.io/nihongo-app/static/css/main.5c4eaefb.chunk.css.map",
-    "static/media/bg-image.png": "TheMrCorvy.github.io/nihongo-app/static/media/bg-image.0e796a31.png",
-    "static/media/now-ui-kit.scss": "TheMrCorvy.github.io/nihongo-app/static/media/nucleo-outline.8ebec31f.woff2"
+    "main.css": "/nihongo-app/static/css/main.f8d1402c.chunk.css",
+    "main.js": "/nihongo-app/static/js/main.12b616ad.chunk.js",
+    "main.js.map": "/nihongo-app/static/js/main.12b616ad.chunk.js.map",
+    "runtime~main.js": "/nihongo-app/static/js/runtime~main.efc68270.js",
+    "runtime~main.js.map": "/nihongo-app/static/js/runtime~main.efc68270.js.map",
+    "static/js/2.20af5534.chunk.js": "/nihongo-app/static/js/2.20af5534.chunk.js",
+    "static/js/2.20af5534.chunk.js.map": "/nihongo-app/static/js/2.20af5534.chunk.js.map",
+    "index.html": "/nihongo-app/index.html",
+    "precache-manifest.c76986917ff078c49b5834d4f1071f76.js": "/nihongo-app/precache-manifest.c76986917ff078c49b5834d4f1071f76.js",
+    "service-worker.js": "/nihongo-app/service-worker.js",
+    "static/css/main.f8d1402c.chunk.css.map": "/nihongo-app/static/css/main.f8d1402c.chunk.css.map",
+    "static/media/bg-image.png": "/nihongo-app/static/media/bg-image.0e796a31.png",
+    "static/media/now-ui-kit.scss": "/nihongo-app/static/media/nucleo-outline.8ebec31f.woff2"
   }
 }
