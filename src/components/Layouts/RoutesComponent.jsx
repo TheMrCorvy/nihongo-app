@@ -7,9 +7,9 @@ export default function RoutesComponent() {
     return (
         <Switch>
             {routes.map((route) => (
-                <Route path={route.path} component={route.component} key={route.nameKey} />
+                <Route exact path={route.path} component={route.component} key={route.nameKey} />
             ))}
-            {/* <Redirect from="/nihongo-app" to="/" /> */}
+            <Redirect from="/nihongo-app" to="/" />
         </Switch>
     );
 }
