@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06eedbabb34dd0bb2db9df9fdc5d4cd3",
+    "revision": "e3e78678fda08315715fb958c6a6fb02",
     "url": "/nihongo-app/index.html"
   },
   {
-    "revision": "8c8aa6d266e245fbda3d",
-    "url": "/nihongo-app/static/css/main.f8d1402c.chunk.css"
+    "revision": "31bfe6c1aaf4bae4dff3",
+    "url": "/nihongo-app/static/css/main.e0c31b98.chunk.css"
   },
   {
-    "revision": "45982e7c04c7482222e5",
-    "url": "/nihongo-app/static/js/2.6fc280da.chunk.js"
+    "revision": "f852fcbd92687f32df4d",
+    "url": "/nihongo-app/static/js/2.98e37902.chunk.js"
   },
   {
-    "revision": "8c8aa6d266e245fbda3d",
-    "url": "/nihongo-app/static/js/main.4404343a.chunk.js"
+    "revision": "31bfe6c1aaf4bae4dff3",
+    "url": "/nihongo-app/static/js/main.5f9e1114.chunk.js"
   },
   {
     "revision": "2a64486d7f881a096d1c",

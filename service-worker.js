@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nihongo-app/precache-manifest.1a106715e8878f5a63821625f8d60196.js"
+  "/nihongo-app/precache-manifest.c4c8da40ce24ab7fb0810c2d7bc5e970.js"
 );
 
 self.addEventListener('message', (event) => {
