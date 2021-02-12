@@ -1,41 +1,46 @@
-import Home from "views/Home";
+import Home from "views/Home"
 
-import HiraganaView from "views/Kanas/HiraganaView";
-import KatakanaView from "views/Kanas/KatakanaView";
+import HiraganaView from "views/Kanas/HiraganaView"
+import KatakanaView from "views/Kanas/KatakanaView"
 
-import Creditos from "views/Creditos";
-import Particulas from "views/Particulas";
+import Creditos from "views/Creditos"
+import Particulas from "views/Particulas"
 
-import VocabularioPalabras from "views/Vocabulario Palabras/VocabularioPalabras";
-import Verbos from "views/Vocabulario Palabras/Verbos";
-import Adjetivos from "views/Vocabulario Palabras/Adjetivos";
+import VocabularioPalabras from "views/Vocabulario Palabras/VocabularioPalabras"
+import Verbos from "views/Vocabulario Palabras/Verbos"
+import Adjetivos from "views/Vocabulario Palabras/Adjetivos"
 
-import Grupos from "views/Grupos y Tiempos/Grupos";
-import Tiempos from "views/Grupos y Tiempos/Tiempos";
+import Grupos from "views/Grupos y Tiempos/Grupos"
+import Tiempos from "views/Grupos y Tiempos/Tiempos"
 
-import Transicion from "views/Transicion";
+import Transicion from "views/Transicion"
 
-import Kanjis from "views/Kanjis/Kanjis";
-import Kanji from "views/Kanjis/Kanji";
+import Kanjis from "views/Kanjis/Kanjis"
+import Kanji from "views/Kanjis/Kanji"
 
-import Numeros from "views/Numeros y Fechas/Numeros";
-import DiasSemana from "views/Numeros y Fechas/DiasSemana";
-import DiasMes from "views/Numeros y Fechas/DiasMes";
-import Horas from "views/Numeros y Fechas/Horas";
+import Numeros from "views/Numeros y Fechas/Numeros"
+import DiasSemana from "views/Numeros y Fechas/DiasSemana"
+import DiasMes from "views/Numeros y Fechas/DiasMes"
+import Horas from "views/Numeros y Fechas/Horas"
 
-import Principiantes from "views/Principiantes";
-import Contadores from "views/Numeros y Fechas/Contadores";
+import Principiantes from "views/Principiantes"
+import Contadores from "views/Numeros y Fechas/Contadores"
 
-import FormasKei from "views/FormasKei";
+import FormasKei from "views/FormasKei"
 
-import UnirAdjetivos from "views/Grupos y Tiempos/UnirAdjetivos";
+import UnirAdjetivos from "views/Grupos y Tiempos/UnirAdjetivos"
 
-import ConstruirFrases from "views/ConstruirFrases";
+import ConstruirFrases from "views/ConstruirFrases"
 
 const routes = [
 	{
 		path: "/",
 		nameKey: "Home",
+		component: Home,
+	},
+	{
+		path: "/nihongo-app",
+		nameKey: "Home Alter",
 		component: Home,
 	},
 	{
@@ -143,5 +148,5 @@ const routes = [
 		nameKey: "Vocabulario de Palabras",
 		component: VocabularioPalabras,
 	},
-];
-export default routes;
+]
+export default routes
